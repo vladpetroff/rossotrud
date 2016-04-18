@@ -1,9 +1,5 @@
 - var nav = {'Главная': 'index.html', 'Внутренняя': 'inner.html'}
 
-ul
-	each linkPath, linkName in nav
-		li: a(href=linkPath) #{linkName}
-
 nav.navbar.navbar-default
 	.navbar-header
 		button(type="button" data-toggle="collapse" data-target="#navbar-collapsed" aria-expanded="false").navbar-toggle.collapsed
@@ -11,6 +7,11 @@ nav.navbar.navbar-default
 			span.icon-bar
 			span.icon-bar
 			span.sr-only Toggle navigation
+
+		a(href="javascript:;").navbar-brand Россотрудничество
+		p.navbar-text
+			a(href="javascript:;").navbar-text
+				i.fa.fa-search
 
 	.collapse.navbar-collapse#navbar-collapsed
 		ul.nav.navbar-nav

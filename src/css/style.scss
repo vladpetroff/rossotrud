@@ -23,6 +23,136 @@
   width:100% !important;
 }
 
+.container{
+  padding-left: 4px;
+  padding-right: 4px;
+}
+//.container-fluid{
+//  padding: 0;
+//}
+
+.readmore{
+  display: block;
+  font-size: 1.14em;
+  line-height: 1em;
+  text-align: right;
+  margin: 10px 12px 0px;
+}
+
+.subscribe{
+  background-color:#424242;
+  padding: 24px;
+}
+
+section{
+  h1{
+    color: $orange;
+    font-size:1.43em;
+    line-height:1em;
+    margin-top: 13px;
+    margin-bottom: 12px;
+  }
+  article {
+    background-color: #fff;
+    margin-bottom: 4px;
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  &.anons{
+    article{
+      figure{
+        width:50%;
+        float:left;
+        img{
+          width:100%;
+          height:130px;
+        }
+        figcaption{
+          font-size: $font-size-small;
+          padding: 10px 8px;
+          background-color: #424242;
+          color:#fff;
+          p{
+            font-size: $font-size-small;
+            opacity: 0.8;
+            line-height: 1em;
+            margin-bottom: 8px;
+            height:24px;
+            overflow: hidden;
+          }
+          time{
+            font-size: $font-size-small;
+            opacity: 0.8;
+            line-height: 1em;
+            font-weight:bold;
+            display: block;
+            margin-bottom: 4px;
+            height:12px;
+            overflow: hidden;
+          }
+        }
+      }
+      .articleText{
+        width:50%;
+        float:left;
+        padding:12px;
+        h2{
+          font-size: $font-size-small;
+          height: 12px;
+          overflow: hidden;
+          opacity: 0.8;
+          line-height: 1em;
+          color: rgba(0, 0, 0, 0.5);
+          margin: 2px 0px 13px;
+        }
+        h3{
+          font-size: $font-size-base;
+          line-height: 1.1em;
+          color: rgba(0, 0, 0, 0.9);
+          margin-top: 13px;
+          margin-bottom: 3px;
+        }
+        h4{
+          opacity: 0.8;
+          font-style:italic;
+          font-size: $font-size-small;
+          line-height: 1em;
+          color: rgba(0, 0, 0, 0.5);
+        }
+      }
+    }
+  }
+  &.news{
+    article{
+      padding: 12px;
+      time{
+        color: $orange;
+        font-size: 1.14em;
+        line-height: 1.3;
+        color: #ff6d00;
+      }
+      h2{
+        margin: 8px 0;
+        font-size: $font-size-small;
+        font-style:italic;
+        line-height: 1em;
+        color: rgba(0, 0, 0, 0.5);
+      }
+      p{
+        color: rgba(0, 0, 0, 0.9);
+        margin-bottom: 13px;
+      }
+      a{
+        display: block;
+        text-align: center;
+      }
+      img{
+        @include img-responsive;
+        display: inline-block;
+      }
+    }
+  }
+}
 
 
 
