@@ -1,0 +1,18 @@
+- var nav = {'Главная': 'index.html', 'Внутренняя': 'inner.html'}
+
+ul
+	each linkPath, linkName in nav
+		li: a(href=linkPath) #{linkName}
+
+nav.navbar.navbar-default
+	.navbar-header
+		button(type="button" data-toggle="collapse" data-target="#navbar-collapsed" aria-expanded="false").navbar-toggle.collapsed
+			span.icon-bar
+			span.icon-bar
+			span.icon-bar
+			span.sr-only Toggle navigation
+
+	.collapse.navbar-collapse#navbar-collapsed
+		ul.nav.navbar-nav
+			each linkPath, linkName in nav
+				li: a(href=linkPath) #{linkName}

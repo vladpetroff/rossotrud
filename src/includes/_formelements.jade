@@ -1,0 +1,75 @@
+.row
+	.col-xs-12
+		form
+			.form-group.row
+				.col-sm-3
+					select.selectpicker(data-style="btn-info")
+						option Mustard
+						option Ketchup
+						option Relish
+				.col-sm-3
+					select.selectpicker(multiple  data-max-options="2" data-style="btn-danger")
+						optgroup(label="Condiments" data-max-options="2")
+							option Mustard
+							option Ketchup
+							option Relish
+						optgroup(label="Breads" data-max-options="2")
+							option Plain
+							option Steamed
+							option Toasted
+				// datetimepicker
+				.col-sm-3
+					.input-group.datetimepicker
+						span.input-group-addon
+							i.fa.fa-calendar
+						input.form-control(type="text" value="19.04.2015 12:38")
+				.col-sm-3
+					.input-group.datepicker
+						span.input-group-addon
+							i.fa.fa-calendar
+						input.form-control(type="text" value="19.04.2015")
+
+			// checkboxes & radiobuttons
+			.form-group
+				.col-sm-3
+					.checkbox
+						input(type="checkbox" id="checkbox1" checked)
+						label(for="checkbox1") Default
+					.checkbox.checkbox-primary
+						input(type="checkbox" id="checkbox2" checked)
+						label(for="checkbox2") Primary
+					.checkbox.checkbox-warning.checkbox-circle
+						input(type="checkbox" id="checkbox3" checked)
+						label(for="checkbox3") Warning circle
+					.checkbox.checkbox-success.checkbox-circle
+						input(type="checkbox" id="checkbox4" checked disabled)
+						label(for="checkbox4") Success disabled
+			.form-group
+				.col-sm-3
+					.radio
+						input(type="radio" id="radio1" checked)
+						label(for="radio1") Default
+					.radio.radio-primary
+						input(type="radio" id="radio2" checked)
+						label(for="radio2") Primary
+					.radio.radio-warning.radio-circle
+						input(type="radio" id="radio3" checked)
+						label(for="radio3") Warning circle
+					.radio.radio-success.radio-circle
+						input(type="radio" id="radio4" checked disabled)
+						label(for="radio4") Success disabled
+			.form-group
+				.col-sm-6
+					.checkbox.checkbox-inline
+						input(type="checkbox" id="checkbox5" checked)
+						label(for="checkbox5") Default
+					.checkbox.checkbox-primary.checkbox-inline
+						input(type="checkbox" id="checkbox6" checked)
+						label(for="checkbox6") Primary
+					.checkbox.checkbox-success.checkbox-circle.checkbox-inline
+						input(type="checkbox" id="checkbox7" checked disabled)
+						label(for="checkbox7") Success disabled
+			.form-group
+				.col-sm-6
+					p.
+						Слайдер-ползунок: <b>€ 10</b> <input id="slider" type="text" class="span2" value="" data-slider-min="10" data-slider-max="1000" data-slider-step="5" data-slider-value="[250,450]"/> <b>€ 1000</b>

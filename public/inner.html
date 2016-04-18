@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inner.html</title>
+    <!-- Элементы форм  http://silviomoreto.github.io/bootstrap-select/-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/css/bootstrap-select.min.css" rel="stylesheet">
+    <!-- Календарь http://eonasdan.github.io/bootstrap-datetimepicker/-->
+    <link href="css/bootstrap-datetimepicker.css" rel="stylesheet"/>
+    <!-- Cлайдеры-ползунки https://github.com/seiyria/bootstrap-slider-->
+    <link href="css/bootstrap-slider.css" rel="stylesheet"/>
+    <!-- Чекбоксы и радио https://github.com/flatlogic/awesome-bootstrap-checkbox-->
+    <link href="css/awesome-bootstrap-checkbox.css" rel="stylesheet"/>
+    <!-- Анимация http://daneden.github.io/animate.css/-->
+    <link href="css/animate.css" rel="stylesheet"/>
+    <!-- bxSlider http://bxslider.com/examples/carousel-dynamic-number-slides-->
+    <link href="css/jquery.bxslider.css" rel="stylesheet"/>
+    <!-- fancybox http://fancyapps.com/fancybox/-->
+    <link href="css/jquery.fancybox.css" rel="stylesheet"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!-- Modern behaviour for old browsers:-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.5/es5-shim.min.js"></script>
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/2014.01.31/classList.min.js"></script>
+    <!-- Элементы форм  http://silviomoreto.github.io/bootstrap-select/-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/js/bootstrap-select.min.js" defer></script>
+    <!-- Календарь-->
+    <script src="js/moment-with-locales.min.js" defer></script>
+    <script src="js/bootstrap-datetimepicker.min.js" defer></script>
+    <!-- Слайдеры-ползунки-->
+    <script src="js/bootstrap-slider.js" defer></script>
+    <!-- bxSlider-->
+    <script src="js/jquery.bxslider.min.js" defer></script>
+    <!-- fancybox-->
+    <script src="js/jquery.fancybox.pack.js" defer></script>
+    <script src="js/main.js" defer></script>
+  </head>
+</html>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-6">
+        <!-- mainmenu-->
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="inner.html">Внутренняя</a></li>
+        </ul>
+        <nav class="navbar navbar-default">
+          <div class="navbar-header">
+            <button type="button" data-toggle="collapse" data-target="#navbar-collapsed" aria-expanded="false" class="navbar-toggle collapsed"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span><span class="sr-only">Toggle navigation</span></button>
+          </div>
+          <div id="navbar-collapsed" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">Главная</a></li>
+              <li><a href="inner.html">Внутренняя</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="col-xs-6">
+        <!-- список-->
+        <ul id="listId" class="list-inline">
+          <li>item1</li>
+          <li>item2</li>
+          <li>item3</li>
+        </ul>
+      </div>
+      <div class="col-xs-12">
+        <div class="test-block well">
+          <input type="text" placeholder="цвет placeholder">
+          <p><strong>Вставка</strong> тегов внутрь текста <a href="http://jade-lang.com/reference/interpolation/" target="_blank">ссылка</a> на пример </p>
+          <p>
+            @include text-owerflow(); - Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, magnam iure sapiente sit quos deserunt quae ipsam. Asperiores ad tenetur odit, at sapiente enim qui amet voluptatum! Officiis, provident, a!
+            
+            
+          </p>@include img-retina($file-1x; $file-2x; $width-1x; $height-1x);
+          @include center-block();
+          <div class="center-block"></div>
+        </div>
+      </div>
+      <div class="col-xs-12">
+        <div class="well">
+          <nav>
+            <ul class="pagination">
+              <li><a href="javascript:;" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+              <li><a href="javascript:;">1</a></li>
+              <li><a href="javascript:;">2</a></li>
+              <li><a href="javascript:;">3</a></li>
+              <li><a href="javascript:;">4</a></li>
+              <li><a href="javascript:;">5</a></li>
+              <li><a href="javascript:;" aria-label="Next"><span aria-hidden="true">&raquo;</span></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <!-- animation-->
+      <div class="col-xs-4">
+        <div class="well">
+          <h4 class="animated bounce">Example animation</h4>
+          <p>
+            Если мы используем анимацию для элемента, мы должны определить изменяемые стили или трансформации в @keyframes
+            
+          </p>
+          <div class="animation-block">
+            <div id="ball" class="img-circle"></div>
+          </div>
+        </div>
+      </div>
+      <!-- transformation-->
+      <div class="col-xs-4">
+        <div class="well">
+          <h4 class="animated fadeOutDown">Example animation</h4>
+          <p>Если мы используем transform для состояния элемента, мы должны определить transition для его начального состояния.</p>
+          <div class="transformation-block">
+            <div id="square"></div>
+          </div>
+        </div>
+      </div>
+      <!-- scrollbar-->
+      <div class="col-xs-4">
+        <div class="well">
+          <div class="scrollbar">
+            <p>Несмотря на непостоянство выработки электроэнергии ВЭС, современные энергосистемы достаточно гибки, имеют существенный запас мощности, их оборудование позволяет автоматически сглаживать возникающие неравномерности в выработке. Существенные проблемы в энергосистеме возможны, когда доля ветроэнергетики и других нерегулируемых ВИЭ начинает превышать 20% мощности энергосистемы. Тогда возникает необходимость ввода дополнительных регулирующих мощностей.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- lightbox-->
+    <div class="well">
+      <div class="row">
+        <div class="col-sm-4 col-xs-6"><a rel="group" href="img/1_b.jpg" class="fancybox"><img src="img/1_s.jpg" alt="" class="img-responsive"></a></div>
+        <div class="col-sm-4 col-xs-6"><a rel="group" href="img/2_b.jpg" class="fancybox"><img src="img/2_s.jpg" alt="" class="img-responsive"></a></div>
+        <div class="col-sm-4 col-xs-6"><a rel="group" href="img/3_b.jpg" class="fancybox"><img src="img/3_s.jpg" alt="" class="img-responsive"></a></div>
+      </div>
+    </div>
+    <!-- form elements-->
+    <div class="well">
+      <div class="row">
+        <div class="col-xs-12">
+          <form>
+            <div class="form-group row">
+              <div class="col-sm-3">
+                <select data-style="btn-info" class="selectpicker">
+                  <option>Mustard</option>
+                  <option>Ketchup</option>
+                  <option>Relish</option>
+                </select>
+              </div>
+              <div class="col-sm-3">
+                <select multiple data-max-options="2" data-style="btn-danger" class="selectpicker">
+                  <optgroup label="Condiments" data-max-options="2">
+                    <option>Mustard</option>
+                    <option>Ketchup</option>
+                    <option>Relish</option>
+                  </optgroup>
+                  <optgroup label="Breads" data-max-options="2">
+                    <option>Plain</option>
+                    <option>Steamed</option>
+                    <option>Toasted</option>
+                  </optgroup>
+                </select>
+              </div>
+              <!-- datetimepicker-->
+              <div class="col-sm-3">
+                <div class="input-group datetimepicker"><span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                  <input type="text" value="19.04.2015 12:38" class="form-control">
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="input-group datepicker"><span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                  <input type="text" value="19.04.2015" class="form-control">
+                </div>
+              </div>
+            </div>
+            <!-- checkboxes & radiobuttons-->
+            <div class="form-group">
+              <div class="col-sm-3">
+                <div class="checkbox">
+                  <input type="checkbox" id="checkbox1" checked>
+                  <label for="checkbox1">Default</label>
+                </div>
+                <div class="checkbox checkbox-primary">
+                  <input type="checkbox" id="checkbox2" checked>
+                  <label for="checkbox2">Primary</label>
+                </div>
+                <div class="checkbox checkbox-warning checkbox-circle">
+                  <input type="checkbox" id="checkbox3" checked>
+                  <label for="checkbox3">Warning circle</label>
+                </div>
+                <div class="checkbox checkbox-success checkbox-circle">
+                  <input type="checkbox" id="checkbox4" checked disabled>
+                  <label for="checkbox4">Success disabled</label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-3">
+                <div class="radio">
+                  <input type="radio" id="radio1" checked>
+                  <label for="radio1">Default</label>
+                </div>
+                <div class="radio radio-primary">
+                  <input type="radio" id="radio2" checked>
+                  <label for="radio2">Primary</label>
+                </div>
+                <div class="radio radio-warning radio-circle">
+                  <input type="radio" id="radio3" checked>
+                  <label for="radio3">Warning circle</label>
+                </div>
+                <div class="radio radio-success radio-circle">
+                  <input type="radio" id="radio4" checked disabled>
+                  <label for="radio4">Success disabled</label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-6">
+                <div class="checkbox checkbox-inline">
+                  <input type="checkbox" id="checkbox5" checked>
+                  <label for="checkbox5">Default</label>
+                </div>
+                <div class="checkbox checkbox-primary checkbox-inline">
+                  <input type="checkbox" id="checkbox6" checked>
+                  <label for="checkbox6">Primary</label>
+                </div>
+                <div class="checkbox checkbox-success checkbox-circle checkbox-inline">
+                  <input type="checkbox" id="checkbox7" checked disabled>
+                  <label for="checkbox7">Success disabled</label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-6">
+                <p>Слайдер-ползунок: <b>€ 10</b> <input id="slider" type="text" class="span2" value="" data-slider-min="10" data-slider-max="1000" data-slider-step="5" data-slider-value="[250,450]"/> <b>€ 1000</b></p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- bxSlider-->
+    <div class="row">
+      <div class="col-xs-12 bxslider">
+        <div class="slide"><img src="http://placehold.it/350x150&amp;text=FooBar1"></div>
+        <div class="slide"><img src="http://placehold.it/350x150&amp;text=FooBar2"></div>
+        <div class="slide"><img src="http://placehold.it/350x150&amp;text=FooBar3"></div>
+        <div class="slide"><img src="http://placehold.it/350x150&amp;text=FooBar4"></div>
+        <div class="slide"><img src="http://placehold.it/350x150&amp;text=FooBar5"></div>
+        <div class="slide"><img src="http://placehold.it/350x150&amp;text=FooBar6"></div>
+        <div class="slide"><img src="http://placehold.it/350x150&amp;text=FooBar7"></div>
+        <div class="slide"><img src="http://placehold.it/350x150&amp;text=FooBar8"></div>
+      </div>
+    </div>
+    <!-- carousel-->
+    <div class="row">
+      <div class="col-xs-12">
+        <div id="myCarousel" class="carousel slide">
+          <!-- Indicators-->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <!-- Carousel items-->
+          <div class="carousel-inner">
+            <div class="active item"><img alt="" src="http://placehold.it/350x150&amp;text=FooBar1" class="img-responsive">
+              <div class="carousel-caption">
+                <h4>First Thumbnail label</h4>
+                <p>Use data attributes to easily control the position of the carousel. data-slide accepts the keywords prev or next, which alters the slide position relative to it's current position. Alternatively, use data-slide-to to pass a raw slide index to the carousel data-slide-to="2", which jump's the slide position to a particular index beginning with 0.</p>
+              </div>
+            </div>
+            <div class="item"><img alt="" src="http://placehold.it/350x150&amp;text=FooBar2" class="img-responsive">
+              <div class="carousel-caption">
+                <h4>carousel(options)</h4>
+                <p>$('.carousel').carousel({interval: 2000})</p>
+                <p>
+                  .carousel('cycle'); .carousel('pause'); .carousel(number); .carousel('prev'); .carousel('next')
+                  
+                </p>
+              </div>
+            </div>
+            <div class="item"><img alt="" src="http://placehold.it/350x150&amp;text=FooBar3" class="img-responsive">
+              <div class="carousel-caption">
+                <h4>Third Thumbnail label</h4>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Carousel nav--><a href="#myCarousel" data-slide="prev" class="carousel-control left"><span class="glyphicon glyphicon-chevron-left"></span></a><a href="#myCarousel" data-slide="next" class="carousel-control right"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Карусель с миниатюрами</h2>
+        <div id="carousel01" class="carousel slide">
+          <!-- Wrapper for slides-->
+          <div class="carousel-inner">
+            <div class="item active"><img src="http://placehold.it/350x150&amp;text=FooBar1" alt=""></div>
+            <div class="item"><img src="http://placehold.it/350x150&amp;text=FooBar2" alt=""></div>
+            <div class="item"><img src="http://placehold.it/350x150&amp;text=FooBar3" alt=""></div>
+            <div class="item"><img src="http://placehold.it/350x150&amp;text=FooBar4" alt=""></div>
+            <div class="item"><img src="http://placehold.it/350x150&amp;text=FooBar5" alt=""></div>
+            <div class="item"><img src="http://placehold.it/350x150&amp;text=FooBar6" alt=""></div>
+          </div>
+          <!-- Controls--><a href="#carousel01" data-slide="prev" class="left carousel-control"><span class="glyphicon glyphicon-chevron-left"></span></a><a href="#carousel01" data-slide="next" class="right carousel-control"><span class="glyphicon glyphicon-chevron-right"></span></a>
+          <!-- Indicators-->
+          <div class="row">
+            <ol class="carousel-indicators">
+              <li data-target="#carousel01" data-slide-to="0" class="col-xs-2 active"><img src="http://placehold.it/350x150&amp;text=FooBar1" alt=""></li>
+              <li data-target="#carousel01" data-slide-to="1" class="col-xs-2"><img src="http://placehold.it/350x150&amp;text=FooBar2" alt=""></li>
+              <li data-target="#carousel01" data-slide-to="2" class="col-xs-2"><img src="http://placehold.it/350x150&amp;text=FooBar3" alt=""></li>
+              <li data-target="#carousel01" data-slide-to="3" class="col-xs-2"><img src="http://placehold.it/350x150&amp;text=FooBar4" alt=""></li>
+              <li data-target="#carousel01" data-slide-to="4" class="col-xs-2"><img src="http://placehold.it/350x150&amp;text=FooBar5" alt=""></li>
+              <li data-target="#carousel01" data-slide-to="5" class="col-xs-2"><img src="http://placehold.it/350x150&amp;text=FooBar6" alt=""></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

@@ -1,0 +1,79 @@
+.row
+	.col-xs-12
+		#myCarousel.carousel.slide
+			// Indicators
+			ol.carousel-indicators
+				li.active(data-target="#myCarousel" data-slide-to="0")
+				li(data-target="#myCarousel" data-slide-to="1")
+				li(data-target="#myCarousel" data-slide-to="2")
+			// Carousel items
+			.carousel-inner
+				.active.item
+					img.img-responsive(alt="" src="http://placehold.it/350x150&text=FooBar1")
+					.carousel-caption
+						h4.
+							First Thumbnail label
+						p.
+							Use data attributes to easily control the position of the carousel. data-slide accepts the keywords prev or next, which alters the slide position relative to it's current position. Alternatively, use data-slide-to to pass a raw slide index to the carousel data-slide-to="2", which jump's the slide position to a particular index beginning with 0.
+				.item
+					img.img-responsive(alt="" src="http://placehold.it/350x150&text=FooBar2")
+					.carousel-caption
+						h4 carousel(options)
+						p.
+							$('.carousel').carousel({interval: 2000})
+						p.
+							.carousel('cycle'); .carousel('pause'); .carousel(number); .carousel('prev'); .carousel('next')
+
+				.item
+					img.img-responsive(alt="" src="http://placehold.it/350x150&text=FooBar3")
+					.carousel-caption
+						h4.
+							Third Thumbnail label
+						p.
+							Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+			// Carousel nav
+			a.carousel-control.left(href="#myCarousel" data-slide="prev")
+				span.glyphicon.glyphicon-chevron-left
+			a.carousel-control.right(href="#myCarousel" data-slide="next")
+				span.glyphicon.glyphicon-chevron-right
+
+.row
+	.col-md-12
+		h2 Карусель с миниатюрами
+		#carousel01.carousel.slide
+			// Wrapper for slides
+			.carousel-inner
+				.item.active
+					img(src="http://placehold.it/350x150&text=FooBar1" alt="")
+				.item
+					img(src="http://placehold.it/350x150&text=FooBar2" alt="")
+				.item
+					img(src="http://placehold.it/350x150&text=FooBar3" alt="")
+				.item
+					img(src="http://placehold.it/350x150&text=FooBar4" alt="")
+				.item
+					img(src="http://placehold.it/350x150&text=FooBar5" alt="")
+				.item
+					img(src="http://placehold.it/350x150&text=FooBar6" alt="")
+
+			// Controls
+			a.left.carousel-control(href="#carousel01" data-slide="prev")
+				span.glyphicon.glyphicon-chevron-left
+			a.right.carousel-control(href="#carousel01" data-slide="next")
+				span.glyphicon.glyphicon-chevron-right
+
+			// Indicators
+			.row
+				ol.carousel-indicators
+					li.col-xs-2.active(data-target="#carousel01" data-slide-to="0")
+						img(src="http://placehold.it/350x150&text=FooBar1" alt="")
+					li.col-xs-2(data-target="#carousel01" data-slide-to="1")
+						img(src="http://placehold.it/350x150&text=FooBar2" alt="")
+					li.col-xs-2(data-target="#carousel01" data-slide-to="2")
+						img(src="http://placehold.it/350x150&text=FooBar3" alt="")
+					li.col-xs-2(data-target="#carousel01" data-slide-to="3")
+						img(src="http://placehold.it/350x150&text=FooBar4" alt="")
+					li.col-xs-2(data-target="#carousel01" data-slide-to="4")
+						img(src="http://placehold.it/350x150&text=FooBar5" alt="")
+					li.col-xs-2(data-target="#carousel01" data-slide-to="5")
+						img(src="http://placehold.it/350x150&text=FooBar6" alt="")

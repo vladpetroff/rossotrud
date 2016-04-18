@@ -1,0 +1,9 @@
+//- Подключение стилей
+mixin styles(file)
+	link(href="./css/#{file}", rel="stylesheet") 
+
+//- Создание списков
+mixin list(id, ...items)
+	ul.list-inline(id=id)
+		each item in items
+			li= item

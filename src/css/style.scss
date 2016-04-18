@@ -1,0 +1,139 @@
+@import "../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+
+/* http://htmlbook.ru/blog/polzovatelskie-skrollbary-v-webkit */
+.scrollbar{
+  p{
+    max-height:150px;
+    overflow-y: auto;
+  }
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.4);
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.4);
+  }
+}
+
+.bootstrap-select{
+  width:100% !important;
+}
+
+
+
+
+
+.test-block{
+  input{
+    @include placeholder(#cad);
+  }
+  p{
+    @include text-overflow();
+  }
+  div.center-block{
+    @include center-block();
+    width:110px;
+    height:31px;
+    @include img-retina('../img/easy_logo-1x.png', '../img/easy_logo-2x.png', 31px, 110px);
+  }
+}
+
+.transformation-block{
+  @include center-block();
+  height:150px;
+  #square{
+    width:50px;
+    height:50px;
+    background-color: cyan;
+    transition: all 1s ease-in 0.5s;
+    &:hover{
+      background-color: blue;
+      opacity:0;
+      transform :translate(10px, 30%) scale(2.0) rotate(45deg) skew(5deg, 20deg);
+    }
+  }
+}
+
+.animation-block{
+  @include center-block();
+  position: relative;
+  width:50px;
+  height:150px;
+  #ball{
+    width:50px;
+    height:50px;
+    @include gradient-vertical(orange, blue, 0%, 100%);
+    border: 1px solid #000;
+    position: absolute;
+    bottom:20px;
+    &:hover{
+      animation: bounce 1s infinite ease-in-out alternate 0.5s forwards;
+    }
+  }
+}
+
+@keyframes bounce{
+  from {
+    bottom:0;
+    transform: scale(1);
+  }
+  50% {
+    bottom:100px;
+    transform: scale(2);
+    animation-timing-function: ease; // можно задавать для каждого кадра отдельные значения
+  }
+  to {
+    bottom:0;
+    transform: scale(1);
+  }
+}
+
+.carousel#carousel01{
+  margin-bottom: 140px;
+  .carousel-inner{
+    .item{
+      background-color:red;
+      img{
+        width:100%;
+        margin: 0;
+      }
+    }
+  }
+  .carousel-indicators{
+    margin-left: -50%;
+    width:100%;
+    text-align: left;
+    bottom:-130px;
+    li{
+      text-indent: 0px;
+      height:auto;
+      width:16.66666667%;
+      border:none;
+      margin: 0;
+      &:first-child{
+        margin-left: -15px;
+      }
+      &:last-child{
+        margin-right: -15px;
+      }
+      + li{
+        margin-left: 6px;
+      }
+      &.active{
+        background-color: transparent;
+      }
+      img{
+        max-width: 100%;
+        width:100%;
+        margin: 0;
+        height:105px;
+      }
+    }
+  }
+}
+
+
