@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="22px" height="10px" viewBox="0 0 22 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+    <title>584F077F-FB06-4887-930D-D43D125CA9F0</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M1.07587709,1.02963098 C0.522002287,1.03558146 0.174816227,1.46624146 0.303309325,2.00364068 L0.794102784,4.05629585 C0.921300191,4.58827607 1.47378812,5.01440336 2.02660609,5.00809504 L4.07654333,4.98470281 C4.6300387,4.97838677 5.26698846,4.57441498 5.50788593,4.06402581 L6.54082013,1.87554939 C6.77783345,1.37338956 6.51744106,0.971170284 5.96709166,0.977082887 L1.07587709,1.02963098 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-2" y="-2" width="10.3519872" height="8.03114566">
+            <rect x="-1.72342652" y="-1.02298147" width="10.3519872" height="8.03114566" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+        <path d="M12.1215138,1.02548945 C11.5705477,1.02988443 11.3221668,1.43171565 11.5659511,1.92142073 L12.673673,4.14657243 C12.9178103,4.63698664 13.5648834,5.0326975 14.1240682,5.03039633 L16.0229044,5.02258219 C16.5797983,5.02029044 17.1442115,4.58602541 17.2840786,4.05062565 L17.8339634,1.94571225 C17.9735968,1.41120721 17.6299373,0.981549539 17.0891795,0.985863087 L12.1215138,1.02548945 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-2" y="-2" width="10.3928665" height="8.04457542">
+            <rect x="9.47227759" y="-1.01416911" width="10.3928665" height="8.04457542" fill="white"></rect>
+            <use xlink:href="#path-3" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="1440" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.54">
+        <g id="1440_rsc_v2_000_main_page" transform="translate(-1212.000000, -11.000000)">
+            <g id="top_menu">
+                <g id="content" transform="translate(34.000000, 4.000000)">
+                    <g id="special" transform="translate(1177.000000, 0.000000)">
+                        <g id="ic_glasses">
+                            <rect id="24x24" x="0" y="0" width="24" height="24"></rect>
+                            <g id="Group-2" transform="translate(3.000000, 9.000000)" stroke="#000000">
+                                <use id="left_gl" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+                                <use id="right_gl" mask="url(#mask-4)" stroke-width="4" xlink:href="#path-3"></use>
+                                <path d="M7.09204102,2.01672363 L10.9855347,1.9744873" id="mid" stroke-width="2"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

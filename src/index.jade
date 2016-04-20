@@ -3,6 +3,11 @@ extends includes/template
 block title
 	title mainpage
 
+
+block prepend css
+	// Чекбоксы и радио https://github.com/flatlogic/awesome-bootstrap-checkbox
+	+styles('awesome-bootstrap-checkbox.css')
+
 //block prepend scripts
 //	script(src="./js/menu.js" defer)
 
@@ -17,86 +22,71 @@ block content
 				.row
 					.col-xs-12
 						article
-							figure
+							.articleImg
 								a(href="anonsDetail.html")
-									img(src="./img/1_b.jpg", alt="")
-								figcaption
-									p Таджикистан, РЦНК #[br]в Душанбе
-									time 28 января, 18:00
+									img(src="./img/announcements/img_01.jpg", alt="")
 							.articleText
-								h2
-								h3 Писатель горечи и гнева. Художественные чтения
+								h2 Таджикистан, РЦНК в Душанбе
+								time 28 января, 18:00
+								h3 Писатель горечи и гнева
 								h4 К 190-летию М. Е. Салтыкова-Щедрина
 
 					.col-xs-12
 						article
-							figure
+							.articleImg
 								a(href="anonsDetail.html")
-									img(src="./img/1_b.jpg", alt="")
-								figcaption
-									p Дания, РЦНК в Копенгагене
-									time 30 января, 12:00
+									img(src="./img/announcements/img_02.jpg", alt="")
 							.articleText
-								h2 На русском языке
+								h2 Дания, РЦНК в Копенгагене #[br] На русском языке
+								time 30 января, 12:00
 								h3 «Азбука хорошего поведения». Спектакль Ульяновского театра им. И. А. Гончарова
-								h4
 
 					.col-xs-12
 						article
-							figure
+							.articleImg
 								a(href="anonsDetail.html")
-									img(src="./img/1_b.jpg", alt="")
-								figcaption
-									p Дания, РЦНК в Копенгагене
-									time 30 января, 19:00
+									img(src="./img/announcements/img_03.jpg", alt="")
 							.articleText
-								h2 На русском языке
+								h2 Дания, РЦНК в Копенгагене #[br] На русском языке
+								time 30 января, 19:00
 								h3 «Другой человек». Спектакль Ульяновского театра им. И. А. Гончарова
-								h4
 
 					.col-xs-12
 						article
-							figure
+							.articleImg
 								a(href="anonsDetail.html")
-									img(src="./img/1_b.jpg", alt="")
-								figcaption
-									p Таджикистан, РЦНК #[br]в Душанбе
-									time 1 февраля, 19:00
+									img(src="./img/announcements/img_04.jpg", alt="")
 							.articleText
-								h2 На русском языке
+								h2 Таджикистан, РЦНК в Душанбе #[br]На русском языке
+								time 1 февраля, 19:00
 								h3 Концерт классической музыки в исполнении учащихся РССШИИ имени М. Атоева
 								h4 К 5-летию подписания Соглашения об учреждении культурно-информационных центров России и Таджикистана
 
 					.col-xs-12
 						article
-							figure
+							.articleImg
 								a(href="anonsDetail.html")
-									img(src="./img/1_b.jpg", alt="")
-								figcaption
-									p Дания, РЦНК в Копенгагене
-									time 30 января, 12:00
+									img(src="./img/announcements/img_05.jpg", alt="")
 							.articleText
-								h2 На русском языке
+								h2 Дания, РЦНК в Копенгагене
+								time 3–12 февраля
 								h3 Выставка картин Николая Дулько, художника из Твери
 								h4 К 190-летию М. Е. Салтыкова-Щедрина
 
 					.col-xs-12
 						article
-							figure
+							.articleImg
 								a(href="anonsDetail.html")
-									img(src="./img/1_b.jpg", alt="")
-								figcaption
-									p Южная Осетия, РЦНК в Цхинвале
-									time 5–9 февраля
+									img(src="./img/announcements/img_06.jpg", alt="")
 							.articleText
-								h2
+								h2 Южная Осетия, РЦНК в Цхинвале
+								time 5–9 февраля
 								h3 Выставка «Россия — мировая научная держава»
-								h4 К 190-летию М. Е. Салтыкова-Щедрина
+								h4 Ко Дню Российской науки
 
 				.row
 					.col-xs-12
 						p: a.readmore Все анонсы
-
 
 			section.news.col-sm-6.col-xs-12
 				h1 Новости
@@ -113,13 +103,13 @@ block content
 								h2 Развитие деловых связей
 								p В РЦНК в Нью-Дели прошел круглый стол «БРИКС: эволюция от акронима к глобальному игроку»
 								a(href="newsDetail.html")
-									img(src="./img/1_b.jpg", alt="")
+									img(src="./img/news/2016-02-27/img_01.jpg", alt="")
 
 							.news
 								h2 Образование
 								p Во Франции проходит творческий конкурс для учителей русского языка
 								a(href="newsDetail.html")
-									img(src="./img/1_s.jpg", alt="")
+									img(src="./img/news/2016-02-27/img_02.jpg", alt="")
 
 							.news
 								h2 Перекрестные годы
@@ -136,12 +126,147 @@ block content
 					.col-xs-12
 						p: a.readmore Все новости
 
-	.container.subscribe.visible-xs
-		.row
+
+
+		.row.subscribe.visible-xs
 			.col-xs-12
 				form
-					h2 Подписывайтесь на наши анонсы и новости:
-					.form-group
-						input(type="email", placeholder="Ваша эл. почта").form-control
-					.form-group
-						input(type="submit", value="Подписаться").btn.btn-orange
+					h2 Подписывайтесь #[br.visible-xs]на анонсы и новости:
+					input(type="email", placeholder="Ваша эл. почта").form-control
+					input(type="submit", value="Подписаться").btn.btn-orange
+
+		.row
+			section.projects.col-xs-12
+				h1 Направления деятельности и проекты
+
+				.row
+					.col-sm-3.col-xs-12
+						article
+							a(href="projectDetail.html")
+								img(src="./img/projects/img_01.jpg", alt="")
+							h2 Год российского кино
+							p Culture.ru подготовили каталог киноклассики, выложенной на YouTube в открытом доступе
+
+					.col-sm-3.col-xs-12
+						article
+							a(href="projectDetail.html")
+								img(src="./img/projects/img_02.jpg", alt="")
+							h2 Русский язык
+							p День русского языка
+
+					.col-sm-3.col-xs-12
+						article
+							a(href="projectDetail.html")
+								img(src="./img/projects/img_03.jpg", alt="")
+							h2 Содружество Независимых Государств
+							p 25 лет Содружеству Независимых Государств
+
+					.col-sm-3.col-xs-12
+						article
+							a(href="projectDetail.html")
+								img(src="./img/projects/img_04.jpg", alt="")
+							h2 Год российского кино
+							p Culture.ru подготовили каталог киноклассики, выложенной на YouTube в открытом доступе
+
+					.col-sm-3.col-xs-12
+						article
+							a(href="projectDetail.html")
+								img(src="./img/projects/img_05.jpg", alt="")
+							h2 Год российского кино
+							p Culture.ru подготовили каталог киноклассики, выложенной на YouTube в открытом доступе
+
+					.col-sm-3.col-xs-12
+						article
+							a(href="projectDetail.html")
+								img(src="./img/projects/img_06.jpg", alt="")
+							h2 Год российского кино
+							p Culture.ru подготовили каталог киноклассики, выложенной на YouTube в открытом доступе
+
+					.col-sm-3.col-xs-12
+						article
+							a(href="projectDetail.html")
+								img(src="./img/projects/img_07.jpg", alt="")
+							h2 Год российского кино
+							p Culture.ru подготовили каталог киноклассики, выложенной на YouTube в открытом доступе
+
+					.col-sm-3.col-xs-12
+						article
+							a(href="projectDetail.html")
+								img(src="./img/projects/img_08.jpg", alt="")
+							h2 Год российского кино
+							p Culture.ru подготовили каталог киноклассики, выложенной на YouTube в открытом доступе
+
+				.row
+					.col-xs-12
+						p: a.readmore Все направления деятельности и проекты
+
+
+		.row.grayBlock
+			.col-sm-8.col-xs-12
+				.bannerBlock
+					a(href="javascript:;")
+						//img(src="./img/main_banner_img.jpg", alt="Main banner")
+						picture
+							source(
+								media='(max-width: 480px)',
+								sizes='(max-width: 710px) 100vw, 710px',
+								srcset="\
+									./img/main_banner_img/main_banner_img_kchkjp_ar_16_9,c_fill__c_scale,w_320.png 320w"
+								)
+							img(sizes='(max-width: 908px) 100vw, 908px',
+								srcset='\
+									./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_320.png 320w,\
+									./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_539.png 539w,\
+									./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_705.png 705w,\
+									./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_840.png 840w,\
+									./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_908.png 908w',
+								src='./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_908.png',
+								alt=''
+							)
+
+						.bannerText
+							h2 Приемная кампания — 2016
+							p Получите высшее образование мирового уровня в России
+
+			.col-sm-4.col-xs-12
+				.pollBlock
+					h2 Опрос
+					p Какую специальность Вы хотели бы получить?
+					form.row
+						.col-xs-12
+							.radio
+								input(type="radio" id="radio1" name="poll1" checked)
+								label(for="radio1") Инженер
+							.radio
+								input(type="radio" id="radio2" name="poll1")
+								label(for="radio2") Разработчик ПО
+							.radio
+								input(type="radio" id="radio3" name="poll1")
+								label(for="radio3") Врач
+							.radio
+								input(type="radio" id="radio4" name="poll1")
+								label(for="radio4") Педагог
+							.radio
+								input(type="radio" id="radio5" name="poll1")
+								label(for="radio5") Юрист
+							.radio
+								input(type="radio" id="radio6" name="poll1")
+								label(for="radio6") Маркетолог
+							.radio
+								input(type="radio" id="radio7" name="poll1")
+								label(for="radio7") Проектировщик интерфейсов
+
+		footer.row.visible-xs
+			.col-xs-12
+				h4 Присоединяйтесь к нам #[br]в социальных сетях:
+				.social
+					a(href="javascript:;").fb
+					a(href="javascript:;").vk
+					a(href="javascript:;").inst
+					a(href="javascript:;").tw
+					a(href="javascript:;").yt
+
+					hr
+				p: img(src="./img/icons/ic-copyright-black-24-px.svg", alt="facebook" onerror="this.onerror=null; this.src='./img/icons/ic-copyright-black-24-px.png'")
+
+				p Федеральное агентство по делам Содружества Независимых государств, соотечественников, проживающих за рубежом, и по международному гуманитарному сотрудничеству, 2016

@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mainpage</title>
+    <!-- Чекбоксы и радио https://github.com/flatlogic/awesome-bootstrap-checkbox-->
+    <link href="./css/awesome-bootstrap-checkbox.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|PT+Sans:400,400italic,700,700italic&amp;subset=latin,cyrillic" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet"/>
@@ -20,8 +22,7 @@
 <body>
   <nav class="navbar navbar-default">
     <div class="navbar-header">
-      <button type="button" data-toggle="collapse" data-target="#navbar-collapsed" aria-expanded="false" class="navbar-toggle collapsed"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span><span class="sr-only">Toggle navigation</span></button><a href="javascript:;" class="navbar-brand">Россотрудничество</a>
-      <p class="navbar-text"><a href="javascript:;" class="navbar-text"><i class="fa fa-search"></i></a></p>
+      <button type="button" data-toggle="collapse" data-target="#navbar-collapsed" aria-expanded="false" class="navbar-toggle collapsed"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span><span class="sr-only">Toggle navigation</span></button><a href="./" class="logo"><img src="./img/icons/rs-logo.svg" onerror="this.onerror=null; this.src='./img/icons/rs-logo.png'"></a><a href="javascript:;" class="navbar-brand">Россотрудничество</a><a href="search.html" class="search"><img src="./img/icons/ic-search.svg" onerror="this.onerror=null; this.src='./img/icons/ic-search.png'"></a>
     </div>
     <div id="navbar-collapsed" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
@@ -37,59 +38,41 @@
         <div class="row">
           <div class="col-xs-12">
             <article>
-              <figure><a href="anonsDetail.html"><img src="./img/1_b.jpg" alt=""></a>
-                <figcaption>
-                  <p>Таджикистан, РЦНК <br>в Душанбе</p>
-                  <time>28 января, 18:00</time>
-                </figcaption>
-              </figure>
+              <div class="articleImg"><a href="anonsDetail.html"><img src="./img/announcements/img_01.jpg" alt=""></a></div>
               <div class="articleText">
-                <h2></h2>
-                <h3>Писатель горечи и гнева. Художественные чтения</h3>
+                <h2>Таджикистан, РЦНК в Душанбе</h2>
+                <time>28 января, 18:00</time>
+                <h3>Писатель горечи и гнева</h3>
                 <h4>К 190-летию М. Е. Салтыкова-Щедрина</h4>
               </div>
             </article>
           </div>
           <div class="col-xs-12">
             <article>
-              <figure><a href="anonsDetail.html"><img src="./img/1_b.jpg" alt=""></a>
-                <figcaption>
-                  <p>Дания, РЦНК в Копенгагене</p>
-                  <time>30 января, 12:00</time>
-                </figcaption>
-              </figure>
+              <div class="articleImg"><a href="anonsDetail.html"><img src="./img/announcements/img_02.jpg" alt=""></a></div>
               <div class="articleText">
-                <h2>На русском языке</h2>
+                <h2>Дания, РЦНК в Копенгагене <br> На русском языке</h2>
+                <time>30 января, 12:00</time>
                 <h3>«Азбука хорошего поведения». Спектакль Ульяновского театра им. И. А. Гончарова</h3>
-                <h4></h4>
               </div>
             </article>
           </div>
           <div class="col-xs-12">
             <article>
-              <figure><a href="anonsDetail.html"><img src="./img/1_b.jpg" alt=""></a>
-                <figcaption>
-                  <p>Дания, РЦНК в Копенгагене</p>
-                  <time>30 января, 19:00</time>
-                </figcaption>
-              </figure>
+              <div class="articleImg"><a href="anonsDetail.html"><img src="./img/announcements/img_03.jpg" alt=""></a></div>
               <div class="articleText">
-                <h2>На русском языке</h2>
+                <h2>Дания, РЦНК в Копенгагене <br> На русском языке</h2>
+                <time>30 января, 19:00</time>
                 <h3>«Другой человек». Спектакль Ульяновского театра им. И. А. Гончарова</h3>
-                <h4></h4>
               </div>
             </article>
           </div>
           <div class="col-xs-12">
             <article>
-              <figure><a href="anonsDetail.html"><img src="./img/1_b.jpg" alt=""></a>
-                <figcaption>
-                  <p>Таджикистан, РЦНК <br>в Душанбе</p>
-                  <time>1 февраля, 19:00</time>
-                </figcaption>
-              </figure>
+              <div class="articleImg"><a href="anonsDetail.html"><img src="./img/announcements/img_04.jpg" alt=""></a></div>
               <div class="articleText">
-                <h2>На русском языке</h2>
+                <h2>Таджикистан, РЦНК в Душанбе <br>На русском языке</h2>
+                <time>1 февраля, 19:00</time>
                 <h3>Концерт классической музыки в исполнении учащихся РССШИИ имени М. Атоева</h3>
                 <h4>К 5-летию подписания Соглашения об учреждении культурно-информационных центров России и Таджикистана</h4>
               </div>
@@ -97,14 +80,10 @@
           </div>
           <div class="col-xs-12">
             <article>
-              <figure><a href="anonsDetail.html"><img src="./img/1_b.jpg" alt=""></a>
-                <figcaption>
-                  <p>Дания, РЦНК в Копенгагене</p>
-                  <time>30 января, 12:00</time>
-                </figcaption>
-              </figure>
+              <div class="articleImg"><a href="anonsDetail.html"><img src="./img/announcements/img_05.jpg" alt=""></a></div>
               <div class="articleText">
-                <h2>На русском языке</h2>
+                <h2>Дания, РЦНК в Копенгагене</h2>
+                <time>3–12 февраля</time>
                 <h3>Выставка картин Николая Дулько, художника из Твери</h3>
                 <h4>К 190-летию М. Е. Салтыкова-Щедрина</h4>
               </div>
@@ -112,16 +91,12 @@
           </div>
           <div class="col-xs-12">
             <article>
-              <figure><a href="anonsDetail.html"><img src="./img/1_b.jpg" alt=""></a>
-                <figcaption>
-                  <p>Южная Осетия, РЦНК в Цхинвале</p>
-                  <time>5–9 февраля</time>
-                </figcaption>
-              </figure>
+              <div class="articleImg"><a href="anonsDetail.html"><img src="./img/announcements/img_06.jpg" alt=""></a></div>
               <div class="articleText">
-                <h2></h2>
+                <h2>Южная Осетия, РЦНК в Цхинвале</h2>
+                <time>5–9 февраля</time>
                 <h3>Выставка «Россия — мировая научная держава»</h3>
-                <h4>К 190-летию М. Е. Салтыкова-Щедрина</h4>
+                <h4>Ко Дню Российской науки</h4>
               </div>
             </article>
           </div>
@@ -144,11 +119,11 @@
               </div>
               <div class="news">
                 <h2>Развитие деловых связей</h2>
-                <p>В РЦНК в Нью-Дели прошел круглый стол «БРИКС: эволюция от акронима к глобальному игроку»</p><a href="newsDetail.html"><img src="./img/1_b.jpg" alt=""></a>
+                <p>В РЦНК в Нью-Дели прошел круглый стол «БРИКС: эволюция от акронима к глобальному игроку»</p><a href="newsDetail.html"><img src="./img/news/2016-02-27/img_01.jpg" alt=""></a>
               </div>
               <div class="news">
                 <h2>Образование</h2>
-                <p>Во Франции проходит творческий конкурс для учителей русского языка</p><a href="newsDetail.html"><img src="./img/1_s.jpg" alt=""></a>
+                <p>Во Франции проходит творческий конкурс для учителей русского языка</p><a href="newsDetail.html"><img src="./img/news/2016-02-27/img_02.jpg" alt=""></a>
               </div>
               <div class="news">
                 <h2>Перекрестные годы</h2>
@@ -173,20 +148,135 @@
         </div>
       </section>
     </div>
-  </div>
-  <div class="container subscribe visible-xs">
-    <div class="row">
+    <div class="row subscribe visible-xs">
       <div class="col-xs-12">
         <form>
-          <h2>Подписывайтесь на наши анонсы и новости:</h2>
-          <div class="form-group">
-            <input type="email" placeholder="Ваша эл. почта" class="form-control">
-          </div>
-          <div class="form-group">
-            <input type="submit" value="Подписаться" class="btn btn-orange">
-          </div>
+          <h2>Подписывайтесь <br class="visible-xs">на анонсы и новости:</h2>
+          <input type="email" placeholder="Ваша эл. почта" class="form-control">
+          <input type="submit" value="Подписаться" class="btn btn-orange">
         </form>
       </div>
     </div>
+    <div class="row">
+      <section class="projects col-xs-12">
+        <h1>Направления деятельности и проекты</h1>
+        <div class="row">
+          <div class="col-sm-3 col-xs-12">
+            <article><a href="projectDetail.html"><img src="./img/projects/img_01.jpg" alt=""></a>
+              <h2>Год российского кино</h2>
+              <p>Culture.ru подготовили каталог киноклассики, выложенной на YouTube в открытом доступе</p>
+            </article>
+          </div>
+          <div class="col-sm-3 col-xs-12">
+            <article><a href="projectDetail.html"><img src="./img/projects/img_02.jpg" alt=""></a>
+              <h2>Русский язык</h2>
+              <p>День русского языка</p>
+            </article>
+          </div>
+          <div class="col-sm-3 col-xs-12">
+            <article><a href="projectDetail.html"><img src="./img/projects/img_03.jpg" alt=""></a>
+              <h2>Содружество Независимых Государств</h2>
+              <p>25 лет Содружеству Независимых Государств</p>
+            </article>
+          </div>
+          <div class="col-sm-3 col-xs-12">
+            <article><a href="projectDetail.html"><img src="./img/projects/img_04.jpg" alt=""></a>
+              <h2>Год российского кино</h2>
+              <p>Culture.ru подготовили каталог киноклассики, выложенной на YouTube в открытом доступе</p>
+            </article>
+          </div>
+          <div class="col-sm-3 col-xs-12">
+            <article><a href="projectDetail.html"><img src="./img/projects/img_05.jpg" alt=""></a>
+              <h2>Год российского кино</h2>
+              <p>Culture.ru подготовили каталог киноклассики, выложенной на YouTube в открытом доступе</p>
+            </article>
+          </div>
+          <div class="col-sm-3 col-xs-12">
+            <article><a href="projectDetail.html"><img src="./img/projects/img_06.jpg" alt=""></a>
+              <h2>Год российского кино</h2>
+              <p>Culture.ru подготовили каталог киноклассики, выложенной на YouTube в открытом доступе</p>
+            </article>
+          </div>
+          <div class="col-sm-3 col-xs-12">
+            <article><a href="projectDetail.html"><img src="./img/projects/img_07.jpg" alt=""></a>
+              <h2>Год российского кино</h2>
+              <p>Culture.ru подготовили каталог киноклассики, выложенной на YouTube в открытом доступе</p>
+            </article>
+          </div>
+          <div class="col-sm-3 col-xs-12">
+            <article><a href="projectDetail.html"><img src="./img/projects/img_08.jpg" alt=""></a>
+              <h2>Год российского кино</h2>
+              <p>Culture.ru подготовили каталог киноклассики, выложенной на YouTube в открытом доступе</p>
+            </article>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <p><a class="readmore">Все направления деятельности и проекты</a></p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="row grayBlock">
+      <div class="col-sm-8 col-xs-12">
+        <div class="bannerBlock"><a href="javascript:;">
+            <!--img(src="./img/main_banner_img.jpg", alt="Main banner")-->
+            <picture>
+              <source media="(max-width: 480px)" sizes="(max-width: 710px) 100vw, 710px" srcset="									./img/main_banner_img/main_banner_img_kchkjp_ar_16_9,c_fill__c_scale,w_320.png 320w"><img sizes="(max-width: 908px) 100vw, 908px" srcset="									./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_320.png 320w,									./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_539.png 539w,									./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_705.png 705w,									./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_840.png 840w,									./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_908.png 908w" src="./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_908.png" alt="">
+            </picture>
+            <div class="bannerText">
+              <h2>Приемная кампания — 2016</h2>
+              <p>Получите высшее образование мирового уровня в России</p>
+            </div></a></div>
+      </div>
+      <div class="col-sm-4 col-xs-12">
+        <div class="pollBlock">
+          <h2>Опрос</h2>
+          <p>Какую специальность Вы хотели бы получить?</p>
+          <form class="row">
+            <div class="col-xs-12">
+              <div class="radio">
+                <input type="radio" id="radio1" name="poll1" checked>
+                <label for="radio1">Инженер</label>
+              </div>
+              <div class="radio">
+                <input type="radio" id="radio2" name="poll1">
+                <label for="radio2">Разработчик ПО</label>
+              </div>
+              <div class="radio">
+                <input type="radio" id="radio3" name="poll1">
+                <label for="radio3">Врач</label>
+              </div>
+              <div class="radio">
+                <input type="radio" id="radio4" name="poll1">
+                <label for="radio4">Педагог</label>
+              </div>
+              <div class="radio">
+                <input type="radio" id="radio5" name="poll1">
+                <label for="radio5">Юрист</label>
+              </div>
+              <div class="radio">
+                <input type="radio" id="radio6" name="poll1">
+                <label for="radio6">Маркетолог</label>
+              </div>
+              <div class="radio">
+                <input type="radio" id="radio7" name="poll1">
+                <label for="radio7">Проектировщик интерфейсов</label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer class="row visible-xs">
+      <div class="col-xs-12">
+        <h4>Присоединяйтесь к нам <br>в социальных сетях:</h4>
+        <div class="social"><a href="javascript:;" class="fb"></a><a href="javascript:;" class="vk"></a><a href="javascript:;" class="inst"></a><a href="javascript:;" class="tw"></a><a href="javascript:;" class="yt"></a>
+          <hr>
+        </div>
+        <p><img src="./img/icons/ic-copyright-black-24-px.svg" alt="facebook" onerror="this.onerror=null; this.src='./img/icons/ic-copyright-black-24-px.png'"></p>
+        <p>Федеральное агентство по делам Содружества Независимых государств, соотечественников, проживающих за рубежом, и по международному гуманитарному сотрудничеству, 2016</p>
+      </div>
+    </footer>
   </div>
 </body>
