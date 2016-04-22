@@ -1,0 +1,55 @@
+header.hidden-xs
+	.row
+		.headerRegion.col-xs-12
+			select(data-width="fit").selectpicker
+				option Россия, Москва
+				option Россия, Дмитров
+				option Кахахстан, Алматы
+
+
+			select(data-width="fit").selectpicker.lang
+				option(data-content='<img src="./img/icons/flag/flag-ru.svg" onerror="this.onerror=null; this.src=\'./img/icons/flag/flag-ru.png\'" class="flag"><ins>Русский</ins>')
+				option(data-content='<img src="./img/icons/flag/flag-en.svg" onerror="this.onerror=null; this.src=\'./img/icons/flag/flag-en.png\'" class="flag"><ins>English</ins>')
+				option(data-content='<img src="./img/icons/flag/flag-fr.svg" onerror="this.onerror=null; this.src=\'./img/icons/flag/flag-fr.png\'" class="flag"><ins>Deutch</ins>')
+				option(data-content='<img src="./img/icons/flag/flag-de.svg" onerror="this.onerror=null; this.src=\'./img/icons/flag/flag-de.png\'" class="flag"><ins>Français</ins>')
+				option(data-content='<img src="./img/icons/flag/flag-es.svg" onerror="this.onerror=null; this.src=\'./img/icons/flag/flag-es.png\'" class="flag"><ins>Espaniol</ins>')
+
+			a(href="javascript:;").blindVersion.pull-right
+				span Версия для слабовидящих
+	.row
+		.headerContent.col-xs-12
+			.headerLogo.pull-left
+				a(href="./")
+					img(src="./img/icons/rs-logo.svg", onerror="this.onerror=null; this.src='./img/icons/rs-logo.png'")
+
+			.headerText.pull-left
+				h1 Россотрудничество
+				p.
+					Федеральное агентство по делам Содружества Независимых государств, соотечественников,
+					проживающих за рубежом, и по международному гуманитарному сотрудничеству
+
+			.headerSubscr.pull-left
+				p: em Подписывайтесь:
+				input(type="email", placeholder="Ваша эл.почта").form-control
+				button(type="submit").pull-right.btn.btn-warning: strong OK
+
+			.headerSocial.pull-left
+				p: em Присоединяйтесь
+				.social
+					a(href="javascript:;").fb
+					a(href="javascript:;").vk
+					a(href="javascript:;").inst
+					a(href="javascript:;").yt
+					a(href="javascript:;").tw
+
+			.headerContact.pull-left
+				p: em Обращайтесь
+				h2: a(href="tel:+74993215499") +7 (499) 321-54-99
+				a(href="mailto:rossotr@rs.gov.ru") rossotr@rs.gov.ru
+
+			.headerMap.pull-left
+				p: em Представительства в мире:
+				a(href="javascript:;")
+					img(src="./img/icons/map.svg", onerror="this.onerror=null; this.src='./img/icons/map.png'")
+
+

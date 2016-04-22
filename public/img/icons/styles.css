@@ -1,0 +1,65 @@
+.head1{
+   font-size:60px;
+   line-height:54px;
+   font-weight:normal;
+   font-family: 'Tele2RussiaText-Bold';
+}
+.head2{
+   font-size:42px;
+   line-height:38px;
+   font-weight:normal;
+   font-family: 'Tele2RussiaText-Bold';
+}
+.head3{
+   font-size:24px;
+   line-height:22px;
+   font-weight:normal;
+   font-family: 'Tele2RussiaText-Bold';
+}
+.head4{
+   font-size:15px;
+   line-height:15px;
+   font-weight:bold;
+}
+.head5{
+   font-size:12px;
+   line-height:11px;
+   font-weight:normal;
+   font-family: 'Tele2RussiaText-Bold';
+}
+.head6{
+   font-size:20px;
+   line-height:22px;
+   font-weight:normal;
+   font-family: 'Tele2RussiaText-Bold';
+}
+.head7{
+   font-size:12px;
+   line-height:16px;
+   display:inline-block;
+}
+.head8{
+   font-size:32px;
+   line-height:36px;
+   font-weight:normal;
+   font-family: 'Tele2RussiaText-Bold';
+}
+.cite{
+   font-size:22px;
+   line-height:46px;
+   font-weight:bold;
+}
+.rotate{
+   font-size:16px;
+   line-height:33px;
+   font-weight:bold;
+   font-style:italic;
+}
+.lead{
+   font-size:14px;
+   line-height:20px;
+}
+.link{
+   text-decoration:underline;
+   color:#44acda;
+}

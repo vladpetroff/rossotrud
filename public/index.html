@@ -9,6 +9,8 @@
     <link href="./css/awesome-bootstrap-checkbox.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|PT+Sans:400,400italic,700,700italic&amp;subset=latin,cyrillic" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Элементы форм  http://silviomoreto.github.io/bootstrap-select/-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/css/bootstrap-select.min.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
@@ -16,22 +18,111 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.5/es5-shim.min.js"></script>
     <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/2014.01.31/classList.min.js"></script>
+    <!-- Элементы форм  http://silviomoreto.github.io/bootstrap-select/-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/js/bootstrap-select.min.js" defer></script>
     <script src="./js/main.js" defer></script>
   </head>
 </html>
 <body>
-  <nav class="navbar navbar-default">
-    <div class="navbar-header">
-      <button type="button" data-toggle="collapse" data-target="#navbar-collapsed" aria-expanded="false" class="navbar-toggle collapsed"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span><span class="sr-only">Toggle navigation</span></button><a href="./" class="logo"><img src="./img/icons/rs-logo.svg" onerror="this.onerror=null; this.src='./img/icons/rs-logo.png'"></a><a href="javascript:;" class="navbar-brand">Россотрудничество</a><a href="search.html" class="search"><img src="./img/icons/ic-search.svg" onerror="this.onerror=null; this.src='./img/icons/ic-search.png'"></a>
-    </div>
-    <div id="navbar-collapsed" class="collapse navbar-collapse">
-      <ul class="nav navbar-nav">
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="inner.html">Внутренняя</a></li>
-      </ul>
-    </div>
-  </nav>
   <div class="container">
+    <header class="hidden-xs">
+      <div class="row">
+        <div class="headerRegion col-xs-12">
+          <select data-width="fit" class="selectpicker">
+            <option>Россия, Москва</option>
+            <option>Россия, Дмитров</option>
+            <option>Кахахстан, Алматы</option>
+          </select>
+          <select data-width="fit" class="selectpicker lang">
+            <option data-content="&lt;img src=&quot;./img/icons/flag/flag-ru.svg&quot; onerror=&quot;this.onerror=null; this.src='./img/icons/flag/flag-ru.png'&quot; class=&quot;flag&quot;&gt;&lt;ins&gt;Русский&lt;/ins&gt;"></option>
+            <option data-content="&lt;img src=&quot;./img/icons/flag/flag-en.svg&quot; onerror=&quot;this.onerror=null; this.src='./img/icons/flag/flag-en.png'&quot; class=&quot;flag&quot;&gt;&lt;ins&gt;English&lt;/ins&gt;"></option>
+            <option data-content="&lt;img src=&quot;./img/icons/flag/flag-fr.svg&quot; onerror=&quot;this.onerror=null; this.src='./img/icons/flag/flag-fr.png'&quot; class=&quot;flag&quot;&gt;&lt;ins&gt;Deutch&lt;/ins&gt;"></option>
+            <option data-content="&lt;img src=&quot;./img/icons/flag/flag-de.svg&quot; onerror=&quot;this.onerror=null; this.src='./img/icons/flag/flag-de.png'&quot; class=&quot;flag&quot;&gt;&lt;ins&gt;Français&lt;/ins&gt;"></option>
+            <option data-content="&lt;img src=&quot;./img/icons/flag/flag-es.svg&quot; onerror=&quot;this.onerror=null; this.src='./img/icons/flag/flag-es.png'&quot; class=&quot;flag&quot;&gt;&lt;ins&gt;Espaniol&lt;/ins&gt;"></option>
+          </select><a href="javascript:;" class="blindVersion pull-right"><span>Версия для слабовидящих</span></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="headerContent col-xs-12">
+          <div class="headerLogo pull-left"><a href="./"><img src="./img/icons/rs-logo.svg" onerror="this.onerror=null; this.src='./img/icons/rs-logo.png'"></a></div>
+          <div class="headerText pull-left">
+            <h1>Россотрудничество</h1>
+            <p>
+              Федеральное агентство по делам Содружества Независимых государств, соотечественников,
+              проживающих за рубежом, и по международному гуманитарному сотрудничеству
+              
+            </p>
+          </div>
+          <div class="headerSubscr pull-left">
+            <p><em>Подписывайтесь:</em></p>
+            <input type="email" placeholder="Ваша эл.почта" class="form-control">
+            <button type="submit" class="pull-right btn btn-warning"><strong>OK</strong></button>
+          </div>
+          <div class="headerSocial pull-left">
+            <p><em>Присоединяйтесь</em></p>
+            <div class="social"><a href="javascript:;" class="fb"></a><a href="javascript:;" class="vk"></a><a href="javascript:;" class="inst"></a><a href="javascript:;" class="yt"></a><a href="javascript:;" class="tw"></a></div>
+          </div>
+          <div class="headerContact pull-left">
+            <p><em>Обращайтесь</em></p>
+            <h2><a href="tel:+74993215499">+7 (499) 321-54-99</a></h2><a href="mailto:rossotr@rs.gov.ru">rossotr@rs.gov.ru</a>
+          </div>
+          <div class="headerMap pull-left">
+            <p><em>Представительства в мире:</em></p><a href="javascript:;"><img src="./img/icons/map.svg" onerror="this.onerror=null; this.src='./img/icons/map.png'"></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- phone-menu-->
+    <nav class="navbar navbar-default visible-xs">
+      <div class="navbar-header">
+        <button type="button" data-toggle="collapse" data-target="#navbar-collapsed" aria-expanded="false" class="navbar-toggle collapsed"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span><i class="fa fa-times fa-lg"></i><span class="sr-only">Toggle navigation</span></button><a href="./" class="logo"><img src="./img/icons/rs-logo.svg" onerror="this.onerror=null; this.src='./img/icons/rs-logo.png'"></a><a href="javascript:;" class="navbar-brand">Россотрудничество</a><a href="search.html" class="search"><img src="./img/icons/ic-search.svg" onerror="this.onerror=null; this.src='./img/icons/ic-search.png'"></a>
+      </div>
+      <div id="navbar-collapsed" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="about.html">О Россотрудничестве</a></li>
+          <li class="active"><a href="inner.html">Деятельность</a>
+            <ul>
+              <li><a href="javascript:;">Содействие международному развитию</a></li>
+              <li><a href="javascript:;">Общественная дипломатия</a></li>
+              <li><a href="javascript:;">Продвижение русской культуры</a></li>
+              <li><a href="javascript:;">Поддержка соотечественников</a></li>
+              <li><a href="javascript:;">Укрепление позиций русского языка</a></li>
+              <li><a href="javascript:;">Образование и наука</a></li>
+              <li><a href="javascript:;">Сохранение историко-мемориальных памятников и мест погребения</a></li>
+              <li><a href="javascript:;">Международные связи субъектов РФ</a></li>
+              <li><a href="javascript:;">Интеграция стран СНГ</a></li>
+            </ul>
+          </li>
+          <li><a href="anons.html">Анонсы</a></li>
+          <li><a href="news.html">Новости</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+          <!--each linkPath, linkName in nav-->
+          <!--	li: a(href=linkPath) #{linkName}-->
+        </ul>
+        <p class="represent">Сайты представительств</p>
+        <div class="lang">
+          <p>Язык</p><a class="active"><img src="./img/icons/flag/flag-ru.svg" onerror="this.onerror=null; this.src='./img/icons/flag/flag-ru.png'" class="flag"></a><a><img src="./img/icons/flag/flag-en.svg" onerror="this.onerror=null; this.src='./img/icons/flag/flag-en.png'" class="flag"></a><a><img src="./img/icons/flag/flag-de.svg" onerror="this.onerror=null; this.src='./img/icons/flag/flag-de.png'" class="flag"></a><a><img src="./img/icons/flag/flag-fr.svg" onerror="this.onerror=null; this.src='./img/icons/flag/flag-fr.png'" class="flag"></a><a><img src="./img/icons/flag/flag-es.svg" onerror="this.onerror=null; this.src='./img/icons/flag/flag-es.png'" class="flag"></a>
+        </div>
+      </div>
+    </nav>
+    <!-- desktop-menu-->
+    <nav class="navbar navbar-desktop hidden-xs">
+      <div class="navbar-header">
+        <ul class="nav navbar-nav">
+          <li><a href="about.html">О Россотрудничестве</a></li>
+          <li><a href="inner.html">Деятельность</a></li>
+          <li><a href="anons.html">Анонсы</a></li>
+          <li><a href="news.html">Новости</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </div><a href="javascript:;" class="search"><img src="./img/icons/ic-search.svg" onerror="this.onerror=null; this.src='./img/icons/ic-search.png'"></a>
+      <div class="searchField">
+        <div class="input-group">
+          <input type="text" class="form-control"><span class="input-group-btn">
+            <button type="button" class="btn btn-warning"><img src="./img/icons/ic-search.svg" onerror="this.onerror=null; this.src='./img/icons/ic-search.png'"></button></span>
+        </div>
+      </div>
+    </nav>
     <div class="row">
       <section class="anons col-sm-6 col-xs-12">
         <h1>Анонсы</h1>
@@ -103,7 +194,7 @@
         </div>
         <div class="row">
           <div class="col-xs-12">
-            <p><a class="readmore">Все анонсы</a></p>
+            <p><a href="anons.html" class="readmore">Все анонсы</a></p>
           </div>
         </div>
       </section>
@@ -123,9 +214,9 @@
               </div>
               <div class="news">
                 <h2>Образование</h2>
-                <p>Во Франции проходит творческий конкурс для учителей русского языка</p><a href="newsDetail.html"><img src="./img/news/2016-02-27/img_02.jpg" alt=""></a>
+                <p>Во Франции проходит творческий конкурс для учителей русского языка</p>
               </div>
-              <div class="news">
+              <div class="news"><a href="newsDetail.html"><img src="./img/news/2016-02-27/img_02.jpg" alt=""></a>
                 <h2>Перекрестные годы</h2>
                 <p>В Москве стартовал перекрестный год обменов между СМИ России и Китая</p>
               </div>
@@ -134,16 +225,40 @@
           <div class="col-sm-6 col-xs-12">
             <article>
               <time>Вчера, 26 февраля</time>
+              <div class="news"><a href="newsDetail.html"><img src="./img/news/2016-02-26/img_01.png" alt=""></a></div>
               <div class="news">
                 <h2>Русский язык</h2>
                 <p>В Русе на базе средней школы с изучением европейских языков им. Св. Константина-Кирилла Философа (СОШЕЯ) состоялось заседание национальной комиссии по проведению олимпиады по русскому языку</p>
+              </div>
+              <div class="news"><a href="newsDetail.html"><img src="./img/news/2016-02-26/img_02.png" alt=""></a>
+                <h2>Общество</h2>
+                <p>В Нью-Йорке пройдут художественные выставки, посвященные Юрию Гагарину</p>
+              </div>
+              <div class="news">
+                <h2>Продвижение российской культуры</h2>
+                <p>Россия принимает участие в Международной книжной ярмарке в Каире</p>
+              </div>
+            </article>
+            <article>
+              <time>Вчера, 25 февраля</time>
+              <div class="news">
+                <h2>Образование</h2>
+                <p>РЦНК в Каире развивает деловые связи с египетскими вузами</p>
+              </div>
+              <div class="news">
+                <h2>Общество</h2>
+                <p>Заместитель директора РИСИ Тамара Гузенкова стала почетным членом Евразийского экспертного клуба в Ереване</p>
+              </div>
+              <div class="news">
+                <h2>Тематические встречи</h2>
+                <p>В РЦНК в Афинах обсудили вопросы межправославных греко-российских связей</p>
               </div>
             </article>
           </div>
         </div>
         <div class="row">
           <div class="col-xs-12">
-            <p><a class="readmore">Все новости</a></p>
+            <p><a href="news.html" class="readmore">Все новости</a></p>
           </div>
         </div>
       </section>
@@ -212,71 +327,191 @@
         </div>
         <div class="row">
           <div class="col-xs-12">
-            <p><a class="readmore">Все направления деятельности и проекты</a></p>
+            <p><a href="projects.html" class="readmore">Все направления деятельности и проекты</a></p>
           </div>
         </div>
       </section>
     </div>
-    <div class="row grayBlock">
-      <div class="col-sm-8 col-xs-12">
-        <div class="bannerBlock"><a href="javascript:;">
-            <!--img(src="./img/main_banner_img.jpg", alt="Main banner")-->
-            <picture>
-              <source media="(max-width: 480px)" sizes="(max-width: 710px) 100vw, 710px" srcset="									./img/main_banner_img/main_banner_img_kchkjp_ar_16_9,c_fill__c_scale,w_320.png 320w"><img sizes="(max-width: 908px) 100vw, 908px" srcset="									./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_320.png 320w,									./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_539.png 539w,									./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_705.png 705w,									./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_840.png 840w,									./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_908.png 908w" src="./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_908.png" alt="">
-            </picture>
-            <div class="bannerText">
-              <h2>Приемная кампания — 2016</h2>
-              <p>Получите высшее образование мирового уровня в России</p>
-            </div></a></div>
-      </div>
-      <div class="col-sm-4 col-xs-12">
-        <div class="pollBlock">
-          <h2>Опрос</h2>
-          <p>Какую специальность Вы хотели бы получить?</p>
-          <form class="row">
-            <div class="col-xs-12">
-              <div class="radio">
-                <input type="radio" id="radio1" name="poll1" checked>
-                <label for="radio1">Инженер</label>
+  </div>
+  <div class="grayBlock">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-xs-12">
+          <div class="bannerBlock"><a href="javascript:;">
+              <!--img(src="./img/main_banner_img.jpg", alt="Main banner")-->
+              <picture>
+                <source media="(max-width: 480px)" sizes="(max-width: 710px) 100vw, 710px" srcset="										./img/main_banner_img/main_banner_img_kchkjp_ar_16_9,c_fill__c_scale,w_320.png 320w"><img sizes="(max-width: 908px) 100vw, 908px" srcset="										./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_320.png 320w,										./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_539.png 539w,										./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_705.png 705w,										./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_840.png 840w,										./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_908.png 908w" src="./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_908.png" alt="">
+              </picture>
+              <div class="bannerText">
+                <h2>Приемная кампания — 2016</h2>
+                <p>Получите высшее образование мирового уровня в России</p>
+              </div></a></div>
+        </div>
+        <div class="col-sm-4 col-xs-12">
+          <div class="pollBlock">
+            <h2>Опрос</h2>
+            <p>Какую специальность Вы хотели бы получить?</p>
+            <form class="row">
+              <div class="col-xs-12 poll">
+                <div class="radio">
+                  <input type="radio" id="radio1" name="poll1" checked>
+                  <label for="radio1">Инженер</label>
+                </div>
+                <div class="radio">
+                  <input type="radio" id="radio2" name="poll1">
+                  <label for="radio2">Разработчик ПО</label>
+                </div>
+                <div class="radio">
+                  <input type="radio" id="radio3" name="poll1">
+                  <label for="radio3">Врач</label>
+                </div>
+                <div class="radio">
+                  <input type="radio" id="radio4" name="poll1">
+                  <label for="radio4">Педагог</label>
+                </div>
+                <div class="radio">
+                  <input type="radio" id="radio5" name="poll1">
+                  <label for="radio5">Юрист</label>
+                </div>
+                <div class="radio">
+                  <input type="radio" id="radio6" name="poll1">
+                  <label for="radio6">Маркетолог</label>
+                </div>
+                <div class="radio">
+                  <input type="radio" id="radio7" name="poll1">
+                  <label for="radio7">Проектировщик интерфейсов</label>
+                </div>
               </div>
-              <div class="radio">
-                <input type="radio" id="radio2" name="poll1">
-                <label for="radio2">Разработчик ПО</label>
-              </div>
-              <div class="radio">
-                <input type="radio" id="radio3" name="poll1">
-                <label for="radio3">Врач</label>
-              </div>
-              <div class="radio">
-                <input type="radio" id="radio4" name="poll1">
-                <label for="radio4">Педагог</label>
-              </div>
-              <div class="radio">
-                <input type="radio" id="radio5" name="poll1">
-                <label for="radio5">Юрист</label>
-              </div>
-              <div class="radio">
-                <input type="radio" id="radio6" name="poll1">
-                <label for="radio6">Маркетолог</label>
-              </div>
-              <div class="radio">
-                <input type="radio" id="radio7" name="poll1">
-                <label for="radio7">Проектировщик интерфейсов</label>
-              </div>
-            </div>
-          </form>
+              <div class="col-xs-12 seemore"><a href="javascript:;">Посмотреть все варианты</a></div>
+            </form>
+          </div>
         </div>
       </div>
     </div>
-    <footer class="row visible-xs">
-      <div class="col-xs-12">
-        <h4>Присоединяйтесь к нам <br>в социальных сетях:</h4>
-        <div class="social"><a href="javascript:;" class="fb"></a><a href="javascript:;" class="vk"></a><a href="javascript:;" class="inst"></a><a href="javascript:;" class="tw"></a><a href="javascript:;" class="yt"></a>
+  </div>
+  <footer class="row visible-xs">
+    <div class="col-xs-12">
+      <h4>Присоединяйтесь к нам <br>в социальных сетях:</h4>
+      <div class="social"><a href="javascript:;" class="fb"></a><a href="javascript:;" class="vk"></a><a href="javascript:;" class="inst"></a><a href="javascript:;" class="yt"></a><a href="javascript:;" class="tw"></a>
+        <hr>
+      </div>
+      <p><img src="./img/icons/ic-copyright-black-24-px.svg" alt="facebook" onerror="this.onerror=null; this.src='./img/icons/ic-copyright-black-24-px.png'"></p>
+      <p>Федеральное агентство по делам Содружества Независимых государств, соотечественников, проживающих за рубежом, и по международному гуманитарному сотрудничеству, 2016</p>
+    </div>
+  </footer>
+  <footer class="hidden-xs">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2">
+          <h4>О Россотрудничестве</h4>
+          <ul>
+            <li><a href="javascript:;">Агентство</a></li>
+            <li><a href="javascript:;">Государственные программы</a></li>
+            <li><a href="javascript:;">Структура</a></li>
+            <li><a href="javascript:;">Руководство</a></li>
+            <li><a href="javascript:;">Представительства</a></li>
+            <li><a href="javascript:;">Партнеры</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-2">
+          <h4>Деятельность</h4>
+          <ul>
+            <li><a href="javascript:;">Содействие международному развитию</a></li>
+            <li><a href="javascript:;">Общественная дипломатия</a></li>
+            <li><a href="javascript:;">Продвижение русской культуры</a></li>
+            <li><a href="javascript:;">Поддержка соотечественников</a></li>
+            <li><a href="javascript:;">Укрепление позиций русского языка</a></li>
+            <li><a href="javascript:;">Образование и наука</a></li>
+            <li><a href="javascript:;">Сохранение историко-мемориальных памятников и мест погребения</a></li>
+            <li><a href="javascript:;">Международные связи субъектов РФ</a></li>
+            <li><a href="javascript:;">Интеграция стран СНГ</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-2">
+          <h4>Анонсы</h4>
+          <ul>
+            <li><a href="javascript:;">Кино</a></li>
+            <li><a href="javascript:;">Выставки</a></li>
+            <li><a href="javascript:;">Концерты</a></li>
+            <li><a href="javascript:;">Спектакли</a></li>
+            <li><a href="javascript:;">Конференции</a></li>
+            <li><a href="javascript:;">Семинары</a></li>
+            <li><a href="javascript:;">Конкурсы</a></li>
+            <li><a href="javascript:;">Творческие встречи</a></li>
+            <li><a href="javascript:;">Конференции</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-2">
+          <h4>Новости</h4>
+          <ul>
+            <li><a href="javascript:;">Россия</a></li>
+            <li><a href="javascript:;">СНГ</a></li>
+            <li><a href="javascript:;">Мир</a></li>
+            <li><a href="javascript:;">Образование</a></li>
+            <li><a href="javascript:;">Наука и техника</a></li>
+            <li><a href="javascript:;">Культура</a></li>
+            <li><a href="javascript:;">Общество</a></li>
+            <li><a href="javascript:;">Русский язык</a></li>
+            <li><a href="javascript:;">Народная дипломатия</a></li>
+            <li>
+              <hr>
+            </li>
+            <li><a href="javascript:;">Все темы</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-2">
+          <h4>Контакты</h4>
+          <ul>
+            <li><a href="javascript:;">Центральный аппарат</a></li>
+            <li><a href="javascript:;">Представительства в мире</a></li>
+            <li><a href="javascript:;">Написать обращение</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-2">
+          <h4>Подписывайтесь:</h4>
+          <div class="footerSubscr">
+            <input type="email" placeholder="Ваша эл.почта" class="form-control">
+            <button type="submit" class="pull-right btn btn-warning"><strong>OK</strong></button>
+          </div>
+          <div class="footerSocial">
+            <h4>И присоединяйтесь:</h4>
+            <div class="social"><a href="javascript:;" class="fb"></a><a href="javascript:;" class="vk"></a><a href="javascript:;" class="inst"></a><a href="javascript:;" class="yt"></a><a href="javascript:;" class="tw"></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
           <hr>
         </div>
-        <p><img src="./img/icons/ic-copyright-black-24-px.svg" alt="facebook" onerror="this.onerror=null; this.src='./img/icons/ic-copyright-black-24-px.png'"></p>
-        <p>Федеральное агентство по делам Содружества Независимых государств, соотечественников, проживающих за рубежом, и по международному гуманитарному сотрудничеству, 2016</p>
+        <div class="col-xs-5 footInfo">
+          <div class="block err">
+            <p>Нашли опечатку? <br>
+              Сообщите нам, выделив текст с ошибкой и нажав Ctrl+Enter
+              
+            </p>
+          </div>
+          <div class="block copy">
+            <p>
+              Федеральное агентство по делам Содружества Независимых государств, соотечественников, проживающих за рубежом, и по международному гуманитарному сотрудничеству, 2016
+              
+            </p>
+          </div>
+          <div class="block geo">
+            <p>125009, Москва, ул. Воздвиженка, д. 18/9 <br>
+              Эл. почта: <a href="mailto:rossotr@rs.gov.ru">rossotr@rs.gov.ru</a> <br>
+              <a href="contacts.html">Контактная информация</a>
+              
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-6 col-xs-offset-1 footGov">
+          <div class="row">
+            <div class="col-xs-4 text-center"><a href="javascript:;"><img src="./img/icons/kremlin-ru-logo.svg" alt="facebook" onerror="this.onerror=null; this.src='./img/icons/kremlin-ru-logo.png'"><span>Президент России</span></a></div>
+            <div class="col-xs-4 text-center"><a href="javascript:;"><img src="./img/icons/kremlin-ru-logo.svg" alt="facebook" onerror="this.onerror=null; this.src='./img/icons/kremlin-ru-logo.png'"><span>Правительство Российской Федерации</span></a></div>
+            <div class="col-xs-4 text-center"><a href="javascript:;"><img src="./img/icons/mid-logo.svg" alt="facebook" onerror="this.onerror=null; this.src='./img/icons/mid-logo-logo.png'"><span>Министерство иностранных дел</span></a></div>
+          </div>
+        </div>
       </div>
-    </footer>
-  </div>
+    </div>
+  </footer>
 </body>

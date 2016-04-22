@@ -12,9 +12,9 @@ block prepend css
 //	script(src="./js/menu.js" defer)
 
 block content
-	include includes/_mainmenu
-
 	.container
+		include includes/_header
+		include includes/_mainmenu
 		.row
 			section.anons.col-sm-6.col-xs-12
 				h1 Анонсы
@@ -86,7 +86,7 @@ block content
 
 				.row
 					.col-xs-12
-						p: a.readmore Все анонсы
+						p: a(href="anons.html").readmore Все анонсы
 
 			section.news.col-sm-6.col-xs-12
 				h1 Новости
@@ -108,10 +108,10 @@ block content
 							.news
 								h2 Образование
 								p Во Франции проходит творческий конкурс для учителей русского языка
-								a(href="newsDetail.html")
-									img(src="./img/news/2016-02-27/img_02.jpg", alt="")
 
 							.news
+								a(href="newsDetail.html")
+									img(src="./img/news/2016-02-27/img_02.jpg", alt="")
 								h2 Перекрестные годы
 								p В Москве стартовал перекрестный год обменов между СМИ России и Китая
 
@@ -119,12 +119,39 @@ block content
 						article
 							time Вчера, 26 февраля
 							.news
+								a(href="newsDetail.html")
+									img(src="./img/news/2016-02-26/img_01.png", alt="")
+							.news
 								h2 Русский язык
 								p В Русе на базе средней школы с изучением европейских языков им. Св. Константина-Кирилла Философа (СОШЕЯ) состоялось заседание национальной комиссии по проведению олимпиады по русскому языку
 
+							.news
+								a(href="newsDetail.html")
+									img(src="./img/news/2016-02-26/img_02.png", alt="")
+								h2 Общество
+								p В Нью-Йорке пройдут художественные выставки, посвященные Юрию Гагарину
+
+							.news
+								h2 Продвижение российской культуры
+								p Россия принимает участие в Международной книжной ярмарке в Каире
+
+						article
+							time Вчера, 25 февраля
+							.news
+								h2 Образование
+								p РЦНК в Каире развивает деловые связи с египетскими вузами
+
+							.news
+								h2 Общество
+								p Заместитель директора РИСИ Тамара Гузенкова стала почетным членом Евразийского экспертного клуба в Ереване
+
+							.news
+								h2 Тематические встречи
+								p В РЦНК в Афинах обсудили вопросы межправославных греко-российских связей
+
 				.row
 					.col-xs-12
-						p: a.readmore Все новости
+						p: a(href="news.html").readmore Все новости
 
 
 
@@ -198,75 +225,67 @@ block content
 
 				.row
 					.col-xs-12
-						p: a.readmore Все направления деятельности и проекты
+						p: a(href="projects.html").readmore Все направления деятельности и проекты
 
 
-		.row.grayBlock
-			.col-sm-8.col-xs-12
-				.bannerBlock
-					a(href="javascript:;")
-						//img(src="./img/main_banner_img.jpg", alt="Main banner")
-						picture
-							source(
-								media='(max-width: 480px)',
-								sizes='(max-width: 710px) 100vw, 710px',
-								srcset="\
-									./img/main_banner_img/main_banner_img_kchkjp_ar_16_9,c_fill__c_scale,w_320.png 320w"
+	.grayBlock
+		.container
+			.row
+				.col-sm-8.col-xs-12
+					.bannerBlock
+						a(href="javascript:;")
+							//img(src="./img/main_banner_img.jpg", alt="Main banner")
+							picture
+								source(
+									media='(max-width: 480px)',
+									sizes='(max-width: 710px) 100vw, 710px',
+									srcset="\
+										./img/main_banner_img/main_banner_img_kchkjp_ar_16_9,c_fill__c_scale,w_320.png 320w"
+									)
+								img(sizes='(max-width: 908px) 100vw, 908px',
+									srcset='\
+										./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_320.png 320w,\
+										./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_539.png 539w,\
+										./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_705.png 705w,\
+										./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_840.png 840w,\
+										./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_908.png 908w',
+									src='./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_908.png',
+									alt=''
 								)
-							img(sizes='(max-width: 908px) 100vw, 908px',
-								srcset='\
-									./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_320.png 320w,\
-									./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_539.png 539w,\
-									./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_705.png 705w,\
-									./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_840.png 840w,\
-									./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_908.png 908w',
-								src='./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_908.png',
-								alt=''
-							)
 
-						.bannerText
-							h2 Приемная кампания — 2016
-							p Получите высшее образование мирового уровня в России
+							.bannerText
+								h2 Приемная кампания — 2016
+								p Получите высшее образование мирового уровня в России
 
-			.col-sm-4.col-xs-12
-				.pollBlock
-					h2 Опрос
-					p Какую специальность Вы хотели бы получить?
-					form.row
-						.col-xs-12
-							.radio
-								input(type="radio" id="radio1" name="poll1" checked)
-								label(for="radio1") Инженер
-							.radio
-								input(type="radio" id="radio2" name="poll1")
-								label(for="radio2") Разработчик ПО
-							.radio
-								input(type="radio" id="radio3" name="poll1")
-								label(for="radio3") Врач
-							.radio
-								input(type="radio" id="radio4" name="poll1")
-								label(for="radio4") Педагог
-							.radio
-								input(type="radio" id="radio5" name="poll1")
-								label(for="radio5") Юрист
-							.radio
-								input(type="radio" id="radio6" name="poll1")
-								label(for="radio6") Маркетолог
-							.radio
-								input(type="radio" id="radio7" name="poll1")
-								label(for="radio7") Проектировщик интерфейсов
+				.col-sm-4.col-xs-12
+					.pollBlock
+						h2 Опрос
+						p Какую специальность Вы хотели бы получить?
+						form.row
+							.col-xs-12.poll
+								.radio
+									input(type="radio" id="radio1" name="poll1" checked)
+									label(for="radio1") Инженер
+								.radio
+									input(type="radio" id="radio2" name="poll1")
+									label(for="radio2") Разработчик ПО
+								.radio
+									input(type="radio" id="radio3" name="poll1")
+									label(for="radio3") Врач
+								.radio
+									input(type="radio" id="radio4" name="poll1")
+									label(for="radio4") Педагог
+								.radio
+									input(type="radio" id="radio5" name="poll1")
+									label(for="radio5") Юрист
+								.radio
+									input(type="radio" id="radio6" name="poll1")
+									label(for="radio6") Маркетолог
+								.radio
+									input(type="radio" id="radio7" name="poll1")
+									label(for="radio7") Проектировщик интерфейсов
 
-		footer.row.visible-xs
-			.col-xs-12
-				h4 Присоединяйтесь к нам #[br]в социальных сетях:
-				.social
-					a(href="javascript:;").fb
-					a(href="javascript:;").vk
-					a(href="javascript:;").inst
-					a(href="javascript:;").tw
-					a(href="javascript:;").yt
+							.col-xs-12.seemore
+								a(href="javascript:;") Посмотреть все варианты
 
-					hr
-				p: img(src="./img/icons/ic-copyright-black-24-px.svg", alt="facebook" onerror="this.onerror=null; this.src='./img/icons/ic-copyright-black-24-px.png'")
-
-				p Федеральное агентство по делам Содружества Независимых государств, соотечественников, проживающих за рубежом, и по международному гуманитарному сотрудничеству, 2016
+	include includes/_footer

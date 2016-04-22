@@ -1,0 +1,236 @@
+.textBlock ul{
+  padding-left:0;
+}
+.textBlock ul li{
+  list-style-type:none;
+  padding-left:25px;
+  background:url(/images/li-bg.png) no-repeat left 6px;
+  line-height:18px;
+  margin-bottom:5px;
+}
+
+/* Цветовые решения для каждого раздела */
+.blueColorClass.textBlock ul li{
+  background-image:url(/36/upload/medialibrary/d0d/li-bg-blue.png);
+}
+.yellowColorClass.textBlock ul li{
+  background-image:url(/36/upload/medialibrary/505/li-bg-yellow.png);
+}
+.redColorClass.textBlock ul li{
+  background-image:url(/36/upload/medialibrary/0b3/li-bg-red.png);
+}
+.pinkColorClass.textBlock ul li{
+  background-image:url(/36/upload/medialibrary/b96/li-bg-pink.png);
+}
+.greenColorClass.textBlock ul li{
+  background-image:url(/36/upload/medialibrary/6f6/li-bg-green.png);
+}
+.orangeColorClass.textBlock ul li{
+  background-image:url(/36/upload/medialibrary/826/li-bg-orange.png);
+}
+.violetColorClass.textBlock ul li{
+  background-image:url(/36/upload/medialibrary/a2f/li-bg-violet.png);
+}
+.seablueColorClass.textBlock ul li{
+  background-image:url(/36/upload/medialibrary/4a9/li-bg-seablue.png);
+}
+
+
+a {
+  color:#00A9E3;
+  text-decoration:none;
+}
+a:hover {
+  color:#8CC63F;
+}
+
+.pageTitle img {
+    float: left;
+    margin: -2px 5px 0 0 !important;
+}
+.pageTitle {
+  font-size:13px;
+  line-height:15px;
+  color:#fff;
+  font-family:'Tele2RussiaText-Bold';
+}
+.pageNumber {
+    font-size: 24px;
+}
+.sheetPlace .pageNumber {
+    display: none;
+}
+.leftSide {
+    background: url("/36/upload/medialibrary/21d/leftside.jpg") repeat scroll 0 0 transparent;
+}
+.rightSide {
+    background: url("/36/upload/medialibrary/c4f/rightside.jpg") repeat scroll 0 0 transparent;
+}
+header.bodyhead {
+    background: url("/images/header/header_bg.png") no-repeat scroll center top transparent;
+    clear: both;
+    height: 55px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    width: 1023px;
+}
+header.bodyhead a img {
+    border: medium none;
+}
+header.bodyhead div.headerHowTo {
+    height: 158px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 158px;
+    z-index: 99;
+}
+header.bodyhead div.mainPageDate {
+    font-size: 18px;
+    font-weight: bold;
+    left: 330px;
+    position: absolute;
+    text-shadow: 1px 1px 2px black;
+    top: 15px;
+}
+header.bodyhead div.mainPageDate span {
+    font-weight: normal;
+}
+header.bodyhead div.dateArea {
+    background: url("../img/dateArea.png") no-repeat scroll 0 0 transparent;
+    color: #000000;
+    display: none;
+    font-family: Georgia;
+    font-size: 10px;
+    margin-top: 15px;
+    padding: 5px;
+    width: 66px;
+}
+header.bodyhead div.logo {
+    margin: 5px 0 0 30px;
+    width: 290px;
+}
+header.bodyhead div.header_buttons {
+    height: 18px;
+    margin-top: 8px;
+    padding: 10px;
+}
+
+.header_buttons{
+   width:960px;
+   overflow:hidden;
+}
+.header_buttons p{
+    color: #fff;
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    min-width: 20px;
+    padding-left: 20px;
+    padding-right: 37px;
+    width: auto;
+    margin:0;
+    font-family:'Tele2RussiaText-Regular';
+}
+.header_buttons p span{
+   display:inline-block;
+   width:20px;
+   height:20px;
+   padding-top:5px;
+   float:left;
+}
+.header_buttons a {
+    background-position: left top;
+    background-repeat: no-repeat;
+    color: #1D628C;
+    display: inline-block;
+    float: left;
+    font-size: 11px;
+    height: 18px;
+    line-height: 18px;
+    min-width: 20px;
+    padding-left: 20px;
+    padding-right: 5px;
+    position: relative !important;
+    text-decoration: none;
+    width: auto;
+}
+.header_buttons a:hover {
+    background-position: left bottom;
+}
+.header_buttons a.btn-home {
+    background-image: url("../images/header/home.png");
+}
+.header_buttons a.buttonAutorize {
+    background-image: url("../images/header/login.png");
+}
+.header_buttons a.buttonAutorizeLogout {
+    background-image: url("../images/header/login.png");
+}
+.header_buttons a.btn-comment {
+    background-image: url("../images/header/comments.png");
+}
+.header_buttons a.btn-feedback {
+    background-image: url("../images/header/like.png");
+}
+.header_buttons a.btn-info {
+    background-image: url("../images/header/help.png");
+    padding-right:0 !important;
+}
+.header_buttons a.btn-archive {
+    background-image: url("../images/header/news.png");
+}
+.head {
+    height: 48px;
+    margin: 0 auto;
+    padding-top: 22px;
+    width: 960px;
+}
+
+.head .header_buttons a {
+    background-position: left center;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    display: inline-block;
+    float: left;
+    font-family: 'Tele2RussiaText-Regular';
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    min-width: 20px;
+    padding-left: 25px;
+    padding-right: 37px;
+    position: relative !important;
+    text-decoration: none;
+    width: auto;
+    margin-left:20px;
+}
+.head .header_buttons a.logo {
+    display: inline-block;
+    height: 28px;
+    padding-left: 40px;
+    width: 130px;
+    margin:0;
+}
+.head .header_buttons a.btn-rubrics {
+    background-image: url("../../../images/header/btn-rubrics.png");
+}
+.head .header_buttons a.buttonAutorize {
+    background-image: url("../../../images/header/authButton.png");
+}
+.head .header_buttons a.btn-content {
+    background-image: url("../../../images/header/btn-content.png");
+}
+.head .header_buttons a.btn-pdf {
+    background-image: url("../../../images/header/btn-pdf.png");
+}
+.head .header_buttons a.btn-info {
+    background-image: url("../../../images/header/btn-info.png");
+}
+.head .header_buttons a.btn-archive {
+    background-image: url("../../../images/header/btn-archive.png");
+}

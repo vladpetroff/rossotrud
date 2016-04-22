@@ -1,0 +1,622 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
+
+
+<!--[if !IE]><!-->
+<html> <!--<![endif]-->
+    <title></title>
+    <head>
+        <meta charset="windows-1251">
+        <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=Edge"/><![endif]-->
+        <!--[if IE 7]>ЗВА
+                <meta http-equiv="X-UA-Compatible" content="IE=8"/>
+        <![endif]-->
+        <!--[if gte IE 7]>
+                <meta http-equiv="X-UA-Compatible" content="IE=8"/>
+                <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8"/>
+        <![endif]-->
+        <!--[if gte IE 8]>
+                <meta http-equiv="X-UA-Compatible" content="IE=8"/>
+                <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8"/>
+        <![endif]-->
+        <!--[if IE 8]><meta http-equiv="X-UA-Compatible" content="IE=8"/><![endif]-->
+        <!--[if gte IE 9]><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9"/><![endif]-->
+        <!--[if IE 9]><meta http-equiv="X-UA-Compatible" content="IE=9"/><![endif]-->
+
+
+        <!-- [ff] создаем фиктивные копии всех новых элементов HTML5 для корректного отображения в IE -->
+        <!--[if lt IE 9]>
+                <script src="js/html5.js"></script>
+        <![endif]-->
+
+
+        <!--CSS Plugins-->
+        <link rel="stylesheet" type="text/css" href="css/basic.css">
+        <link rel="stylesheet" type="text/css" href="css/custom.css">
+        <link rel="stylesheet" type="text/css" href="css/jqPlugins/plugins.css">
+        <link rel="stylesheet" type="text/css" href="css/jqPlugins/custom.css">
+        <link rel="stylesheet" type="text/css" href="css/jqPlugins/other.css">
+        <link rel="stylesheet" type="text/css" href="bitrix/templates/books/styles.css">
+        <link rel="stylesheet" type="text/css" href="css/basicSheet.css">
+
+        <!--jq-->
+        <script type="text/javascript" src="js/extras/jquery.min.1.7.js"></script>
+        <script src="lib/sheet.js"></script>
+        <script type="text/javascript" src="js/extras/modernizr.2.5.3.min.js"></script>
+        <script type="text/javascript" src="lib/hash.js"></script>
+
+        <!--framework-->
+        <script type="text/javascript" src="js/framework/underscore.js"></script>
+        <script type="text/javascript" src="js/framework/backbone.js"></script>
+
+        <!--jwplayer-->
+        <script type="text/javascript" src="js/jwplayer/jwplayer.js"></script>
+
+        <!--vendor plugins-->
+        <script type="text/javascript" src="js/jqPlugins/vendor/jquery.jcarousel.js"></script>
+
+        <!--plugins-->
+        <!--vendor plugins-->
+        <script type="text/javascript" src="js/jqPlugins/vendor/jquery.jcarousel.js"></script>
+        <!--plugins-->
+        <script type="text/javascript" src="js/jqPlugins/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="js/jqPlugins/esauiAllSlider.js"></script>
+        <script type="text/javascript" src="js/jqPlugins/esauiAutoSlider.js"></script>
+        <script type="text/javascript" src="js/jqPlugins/esauiOffset.js"></script>
+        <script type="text/javascript" src="js/jqPlugins/esauiPopup.js"></script>
+        <script type="text/javascript" src="js/jqPlugins/textBlock.js"></script>
+        <script type="text/javascript" src="js/jqPlugins/blockStaticMenu.js"></script>
+        <script type="text/javascript" src="js/jqPlugins/blockLead.js"></script>
+        <script type="text/javascript" src="js/jqPlugins/scrollableBlock.js"></script>
+        <script type="text/javascript" src="js/jqPlugins/esauiCaption.js"></script>
+        <script type="text/javascript" src="js/jqPlugins/navAccord.js"></script>
+        <script type="text/javascript" src="js/jqPlugins/esauiRating.js"></script>
+        <script type="text/javascript" src="js/jqPlugins/carouselBlock.js"></script>
+        <script type="text/javascript" src="js/jqPlugins/socialBlock.js"></script>
+        <script type="text/javascript" src="js/jqPlugins/questionsTestBlock.js"></script>
+        <script type="text/javascript" src="js/jqPlugins/vendor/fancybox/jquery.fancybox-1.3.4.js"></script>
+        <link rel="stylesheet" type="text/css" href="js/jqPlugins/vendor/fancybox/jquery.fancybox-1.3.4.css">
+        <script type="text/javascript" src="js/custom.js"></script>
+
+        <!--modules-->
+        <script type="text/javascript" src="js/auth.js"></script>
+        <script type="text/javascript" src="js/comments.js"></script>
+
+        <!--jqueryui-->
+        <script type="text/javascript" src="js/jquery-ui-1.10.2.custom.min.js"></script>
+
+
+        <!--modules-->
+        <script type="text/javascript" src="js/pMethods.js"></script>
+        <script type="text/javascript" src="js/helper.js"></script>
+        <script type="text/javascript" src="js/pages.js"></script>
+        <script type="text/javascript" src="js/pagesSheet.js"></script>
+        <script type="text/javascript" src="js/mainSheet.js"></script>
+
+
+
+    </head>
+    <body class="sheetBody">
+        <div class="esauiPopupOverlay"></div>
+        <div class="liveHelper"></div>
+        <div class="hiddenBlock"></div>
+
+        <header class="headContainer">
+            <div class="head">
+                <div class="rubricsBlock" >
+                    <div class="half">
+                        <h2>Про дела</h2>
+                        <a class="rub rubriks_1122" href="index.html#r1122">Проект</a>
+                        <a class="rub rubriks_1247" href="index.html#r1247">МТ</a>
+                        <a class="rub rubriks_1234" href="index.html#r1234">Из первых рук</a>
+                        <a class="rub rubriks_1164" href="index.html#r1164">Правила жизни</a>
+                        <a class="rub rubriks_1161" href="index.html#r1161">Стратегия</a>
+                        <a class="rub rubriks_1162" href="index.html#r1162">Кейсы</a>
+                        <a class="rub rubriks_1127" href="index.html#r1127">Новое в телекоме</a>
+                        <a class="rub rubriks_1160" href="index.html#r1160">География</a>
+                        <a class="rub rubriks_1213" href="index.html#r1213">Walk the Talk</a>
+                        <a class="rub rubriks_1163" href="index.html#r1163">Соцсети</a>
+                    </div>
+
+                    <div class="half">
+                        <h2>Про жизнь</h2>
+                        <a class="rub rubriks_1165" href="index.html#r1165">Место силы</a>
+                        <a class="rub rubriks_1166" href="index.html#r1166">Один мой день</a>
+                        <a class="rub rubriks_1167" href="index.html#r1167">Всегда со мной</a>
+                        <a class="rub rubriks_1168" href="index.html#r1168">На здоровье</a>
+                        <a class="rub rubriks_1169" href="index.html#r1169">Баланс приоритетов</a>
+                        <a class="rub rubriks_1170" href="index.html#r1170">Стилиссимо</a>
+                        <a class="rub rubriks_1171" href="index.html#r1171">Добрые люди</a>
+                        <a class="rub rubriks_1172" href="index.html#r1172">На полку</a>
+                        <a class="rub rubriks_1173" href="index.html#r1173">Мой любимый город</a>
+                    </div>
+                    <script>
+                        jQuery(function () {
+                            $('.rub').click(function () {
+                                jQuery('.contentContainer').detach();
+                                jQuery('.defaultPopup').detach();
+                                var element = jQuery('<section />', {
+                                    'class': 'contentContainer'
+                                });
+                                jQuery('body').prepend(element);
+                                loadApp();
+                                jQuery('.rubricsBlock').slideUp('slow');
+//                                jQuery('.rubricsBlock').css('height', '0');
+                            });
+                        });
+
+                    </script>
+                </div>
+
+                <div class="header_buttons">
+                    <a class="logo" href="/">
+                        <img src="images/header/logo.png">
+                    </a>
+
+                    <p class="btn-rubrics">Тренды и проекты</p>
+
+                    <a class="btn-content" href="#" title="">содержание</a>
+
+                    <a class="btn-archive rub " href="index.html#r474" title="">архив</a>
+
+                    <a class="btn-pdf" href="pdf.pdf" title="">скачать pdf</a>
+
+                    <a class="btn-info openButton22049" href="#" title="" style="cursor: pointer;">помощь</a>
+
+                </div>
+            </div>  <!-- /head  -->
+        </header>
+        <section class="contentContainer">
+        </section>
+
+
+        <div class="msgPopup msgAlert " id="popupNotAcept"></div>  <!-- /msgPopup -->
+        <div class="msgPopup" id="popupAcept"></div>  <!-- /msgPopup -->
+
+    </body>
+</html>
+
+
+
+
+<!--Вывод номерации страниц-->
+
+<script id="page_number_template" type="text/html">
+    <div class="pageNumber interactiveBlock" style="position:absolute; left:<%= left %>;right:<%= right %>;top:<%= top %>;z-index:<%= zindex %>;">
+        <%= page%>
+    </div>
+</script>
+
+<!--Всплывающее окно с видео контентом-->
+<script id="page_popup_video_adobe_template" type="text/html">
+    <div class="defaultPopup interactiveBlock" uid="<%= uid %>"  ibid="36">
+        <header><%= headerText %></header>
+        <section>
+            <div>
+                <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="swflash.cab" width="<%= width%>" height="<%= height%>">
+                    <param name="movie" value="StrobeMediaPlayback.swf"></param>
+                    <param name="FlashVars" value="src=<%= file%>&poster=<%= image%>"></param>
+                    <param name="wmode" value="opaque"></param>
+                    <param name="allowFullScreen" value="true"></param>
+                    <param name="allowscriptaccess" value="always"></param>
+                    <embed src="StrobeMediaPlayback.swf" type="application/x-shockwave-flash" allowscriptaccess="always" wmode="opaque" allowfullscreen="true" width="<%= width%>" height="<%= height%>" FlashVars="src=<%= file%>&poster=<%= image%>"></embed>
+                </object>
+
+            </div>
+        </section>
+    </div>
+</script>
+
+
+<!--БОКОВОЙ ВЫНОС НОВОЕ В ЖУРНАЛЕ-->
+<script id="page_offset_new_journal_template" type="text/html">
+    <div class="offset_nj interactiveBlock" uid="<%= id %>" ibid="38">
+        <div>
+            <div class="defaultButton"></div>
+        </div>
+        <article>
+            <div style="height:80px;"></div>
+            <% _.each(data,function(v){ %>
+            <div class="article">
+                <a href="/index/<%= v.LANG%>/<%= v.RELEASE%>/#/<%= v.LINK%>"><img width="80" height="80" src="<%= v.PICTURE%>"></a>
+                <p><%= v.TEXT%></p>
+            </div>
+            <% }) %>
+        </article>
+    </div>
+</script>
+
+<!--Всплывающее окно с видео контентом-->
+<script id="page_socialBlock_template" type="text/html">
+    <div class="socialBlock interactiveBlock" uid="<%= uid %>" ibid="67" style="width:<%= width%>px;height:<%= height%>px;left:<%= left%>px;top:<%= top%>px;">
+
+    </div>
+</script>
+
+<!--//  ALL SLIDER ИЗОБРАЖЕНИЙ-->
+<script id="page_img_slider_template" type="text/html">
+    <div class="pageImgSlider interactiveBlock" uid="<%= id %>" id="as_<%= id %>" ibid="34" pid="<%= pid%>">
+
+        <% _.each(dElements,function(val,i){ %>
+        <img class="allSliderDElemets asDelm<%= i%>" src="<%= val%>"/>
+        <% }) %>
+        <header>
+
+        </header>
+
+        <% _.each(imgs,function(img,i){ %>
+        <div>
+            <%if(img.link!='#'){%>
+            <a href="<%= img.link %>">
+                <%}%>
+                <img src="<%= img.src %>"/>
+                <% if(innerHtml[i] && innerHtml[i].text){%>
+                <div class="innerHtml">
+                    <%= innerHtml[i].text%>
+                </div>
+                <%}%>
+                <%if(img.link!='#'){%>
+            </a>
+            <%}%>
+        </div>
+        <% }) %>
+    </div>
+    <% if(lead) {%>
+    <div class="lead">
+        <p> <%= lead %> </p>
+    </div>
+    <% } %>
+</script>
+
+<!--  ALL SLIDER ТЕКСТОВЫЙ-->
+<script id="page_text_slider_template" type="text/html">
+    <div class="pageTxtSlider interactiveBlock" uid="<%= id %>" id="as_<%= id %>" ibid="34">
+        <% _.each(dElements,function(val,i){ %>
+        <img class="allSliderDElemets asDelm<%= i%>" src="<%= val%>"/>
+        <% }) %>
+        <% _.each(texts,function(v){ %>
+        <div><p> <%= v.text %></p></div>
+        <% }) %>
+        <fother class="autor"></fother>
+    </div>
+</script>
+
+
+<script id="page_open_button_template" type="text/html">
+
+    <style>
+        div.<%= class_%> {
+            background: url(<%= openButton.src%>);
+            z-index:500;
+        }
+        <%if(openButtonActive){%>
+                               div.<%= class_%>:hover{
+                                   background: url(<%= openButtonActive%>);
+                               }
+                               div.active<%= uid%>{
+                                   background: url(<%= openButtonActive%>);
+                               }
+                               <%}%>
+        </style>
+
+        <div class="<%= class_ %> " ibid="36" uid="<%= uid%>" style="position:absolute;width:<%= openButton.width%>px;height:<%= openButton.height%>px;left:<%= left %>px;top:<%= top %>px;"></div>
+    <% if(showCountComments){%>
+    <div class="openButtonNumber ob_<%= uid %>" uid="<%= uid %>" style="position: absolute;left:<%= cnLeft%>px;top:<%= cnTop%>px;z-index:100">
+        <%= countComments%>
+    </div>
+    <% } %>
+</script>
+
+<!--Скроллируемый блок-->
+<script id="page_scrollableBlock_template" type="text/html">
+    <div class="scrollableBlock scrollable_block interactiveBlock" uid="<%= uid %>"  ibid="51" style="position: absolute;left:<%= left%>px;top:<%= top%>px;">
+        <header><%= data.headerText%></header>
+        <section>
+            <div><%= data.TEXT.TEXT%></div>
+        </section>
+    </div>
+</script>
+
+<!--  autoSlider Анимация-->
+<script id="page_autoSlider_template" type="text/html">
+    <div class="autoSlider interactiveBlock" uid="<%= uid %>" ibid="40">
+        <% _.each(data.IMG,function(v){ %>
+        <div><img src="<%= v.src %>"/></div>
+        <% }) %>
+    </div>
+</script>
+
+<script id="page_carouselBlock_template" type="text/html">
+    <ul class="carouselBlock" uid="<%= uid %>" ibid="65">
+        <% _.each(data.TEXT,function(item,i){ %>
+        <li>
+            <%if(data.bigImg[i] && data.bigImg[i].src){%>
+            <a rel="example_group" href="<%= data.bigImg[i].src%>">
+                <%= item.TEXT%>
+            </a>
+            <%}else {%>
+            <%= item.TEXT%>
+            <%}%>
+
+
+        </li>
+        <%})%>
+    </ul>
+</script>
+
+
+
+
+
+<!--// АККОРДЕОН SHEET-->
+<script id="page_block_accord_menu_template" type="text/html">
+    <ul class="navAccord interactiveBlock" uid="<%= uid %>" ibid="44" style="width:<%= width%>px;height:<%= height%>px;left:<%= left%>px;top:<%= top%>px;z-index:<%= zindex%>">
+        <% _.each(newData,function(val,i){ %>
+        <li>
+            <div class="ulPm">
+                <div class="navUlIcon">
+                    <img src="<%= val.SECTION_ICON%>" />
+                </div>
+                <%= val.SECTION_NAME%>
+            </div>
+            <ul>
+                <li class="mainPageMenuShadowUp"></li>
+                <% _.each(val.items,function(itm,i){ %>
+
+                <li><a href="/37/index.html#p<%= itm.LINK%>r<%= val.SECTION_ID%>/"><%= itm.TITLE%></a></li>
+                <% if(itm.PICTURE){%>
+                <li class="image"><img src="<%= itm.PICTURE%>" /></li>
+                <%}%>
+                <% }) %>
+                <!--<li class="mainPageMenuShadowDown"></li>-->
+            </ul>
+        </li>
+        <% }) %>
+        <li>
+            <div class="ulPm">
+                <div class="navUlIcon">
+
+                </div>
+                Про дела
+            </div>
+            <ul>
+                <li class="mainPageMenuShadowUp"></li>
+                <% _.each(forOffice,function(itm,i){ %>
+
+                <li><a href="/37/index.html#p<%= itm.LINK%>r<%= itm.SECTION_ID%>/"><%= itm.items[0].TITLE%></a></li>
+                <% if(itm.items[0].PICTURE){%>
+                <li class="image"><img src="<%= itm.items[0].PICTURE%>" /></li>
+                <%}%>
+                <% }) %>
+                <!--<li class="mainPageMenuShadowDown"></li>-->
+            </ul>
+        </li>
+        <li>
+            <div class="ulPm">
+                <div class="navUlIcon">
+
+                </div>
+                Про жизнь
+            </div>
+            <ul>
+                <li class="mainPageMenuShadowUp"></li>
+                <% _.each(forLive,function(itm,i){ %>
+
+                <li><a href="/37/index.html#p<%= itm.LINK%>r<%= itm.SECTION_ID%>/"><%= itm.items[0].TITLE%></a></li>
+                <% if(itm.items[0].PICTURE){%>
+                <li class="image"><img src="<%= itm.items[0].PICTURE%>" /></li>
+                <%}%>
+                <% }) %>
+                <!--<li class="mainPageMenuShadowDown"></li>-->
+            </ul>
+        </li>
+
+    </ul>
+</script>
+
+<!--блок ЛИД с возможность  настройки фоновой плашки и декаративнх эдментов-->
+<script id="page_blockLead_template" type="text/html">
+    <div class="blockLead interactiveBlock" uid="<%= uid %>"  ibid="49">
+        <p><%= data.TEXT.TEXT%></p>
+        <% _.each(dElements,function(val,i){ %>
+        <img class="blockLeadDElements blDelm<%= i%>" src="<%= val%>"/>
+        <% }) %>
+    </div>
+</script>
+
+<!-- Текстовый БЛОК-->
+<script id="page_textBlock_template" type="text/html">
+    <div class="textBlock interactiveBlock" uid="<%= uid %>" ibid="29">
+        <%= data.TEXT.TEXT%>
+    </div>
+</script>
+
+<!--БОКОВОЙ ВЫНОС С ИЗОБРАЖЕНИЕМ-->
+<script id="page_offset_img_template" type="text/html">
+    <div class="offset_img interactiveBlock" uid="<%= id %>" ibid="38">
+        <div>
+            <div class="defaultButton"></div>
+        </div>
+        <article>
+            <div class="offset_slideshow" style="width:<%= img.width %>px; height:<%= img.height %>px;">
+                <div>
+                    <img src="<%= img.src %>" width="<%= img.width %>" height="<%= img.height %>"/>
+                </div>
+            </div>
+        </article>
+    </div>
+</script>
+
+<!--БОКОВОЙ ВЫНОС С ТЕКСТОМ-->
+<script id="page_offset_text_template" type="text/html">
+    <div class="offset_text interactiveBlock" uid="<%= id %>" ibid="38">
+        <div>
+            <div class="defaultButton"></div>
+        </div>
+        <article>
+            <%= text %>
+        </article>
+    </div>
+</script>
+
+
+
+<!--Всплывающее окно с видео контентом-->
+<script id="page_popup_video_template" type="text/html">
+    <div class="defaultPopup interactiveBlock" uid="<%= uid %>"  ibid="36">
+        <header><%= headerText %></header>
+        <section>
+            <div>
+                <div id="video_<%= uid %>"></div>
+            </div>
+        </section>
+    </div>
+</script>
+
+
+<!--Всплывающее окно с html контентом-->
+<script id="page_popup_default_template" type="text/html">
+    <div class="defaultPopup interactiveBlock" uid="<%= uid %>" ibid="36">
+        <header><%= headerText %></header>
+        <section>
+            <div>
+                <% _.each(dElements,function(val,i){ %>
+                <img class="blockLeadDElements blDelm<%= i%>" src="<%= val.src%>"/>
+                <% }) %>
+                <%= html %>
+            </div>
+        </section>
+    </div>
+</script>
+
+<!--Всплывающее окно с слайдшоу контентом-->
+<script id="page_popup_slideshow_template" type="text/html">
+    <div class="defaultPopup interactiveBlock" uid="<%= uid %>" ibid="36">
+        <header><%= headerText %></header>
+        <section>
+            <div>
+                <div class="allSliderPopup" uid="<%= uid %>">
+                    <% _.each(data,function(img){ %>
+                    <div><img src="<%= img.src %>"/></div>
+                    <% }) %>
+                </div>
+            </div>
+        </section>
+    </div>
+</script>
+
+<!--Всплывающее окно с контентом анимации-->
+<script id="page_popup_animations_template" type="text/html">
+    <div class="defaultPopup interactiveBlock" uid="<%= uid %>" ibid="36">
+        <header><%= headerText %></header>
+        <section>
+            <div>
+                <div class="autoSliderPopup" uid="<%= uid %>">
+                    <% _.each(data,function(img){ %>
+                    <div><img src="<%= img.src %>"/></div>
+                    <% }) %>
+                </div>
+            </div>
+        </section>
+    </div>
+</script>
+
+<!--Всплывающее окно с слайдшоу  контентом и анимацией внутри слайда-->
+<script id="page_popup_slideshow_animations_template" type="text/html">
+    <div class="defaultPopup interactiveBlock" uid="<%= uid %>" ibid="36">
+        <header><%= headerText %></header>
+        <section>
+            <div>
+                <div class="allSliderPopup" uid="<%= uid %>">
+                    <% _.each(data,function(sludes){ %>
+                    <div>
+                        <div class="autoSliderPopup" uid="<%= uid %>">
+                            <% _.each(sludes,function(img){ %>
+                            <div><img src="<%= img.src %>"/></div>
+                            <% }) %>
+                        </div>
+                    </div>
+                    <% }) %>
+                </div>
+            </div>
+        </section>
+    </div>
+</script><div class="davUICaption"><div class="up"></div><div class="txt"></div></div>
+
+
+
+
+<!--Построение статического меню-->
+<script id="page_block_static_menu_template" type="text/html">
+    <div class="blockStaticMenu interactiveBlock" uid="<%= uid %>"  ibid="44">
+        <% _.each(data,function(link){ %>
+        <a href="<%= prefix_link%>#<%= link.LINK%>"><%= link.TITLE%></a>
+        <% }) %>
+    </div>
+</script>
+
+<!--Построение статического меню c иконками-->
+<script id="page_block_static_iconmenu_template" type="text/html">
+    <div class="blockStaticMenu interactiveBlock" uid="<%= uid %>"  ibid="44">
+        <% _.each(data,function(link){ %>
+        <%if(Math.floor(link.LINK/2)<1) link.LINK=2 %>
+        <img src="<%= link.PICTURE%>"/><a href="<%= prefix_link%>#/<%= Math.floor(link.LINK/2)%>"><%= link.TITLE%></a>
+        <% }) %>
+    </div>
+</script>
+
+
+
+<!--Вывод заголовков названия разделов -->
+<script id="page_title_template" type="text/html">
+    <div class="pageTitle interactiveBlock" style="position:absolute; left:<%= left %>px;top:<%= top %>px;z-index:<%= zindex %>;">
+        <!--<img src="<%= img_src%>"/>--><%= title%>
+    </div>
+</script>
+
+
+
+
+<script id="page_questionsTestBlock_template"  type="text/html">
+    <div class="questionsTestBlock" uid="<%= uid %>" ibid="71">
+        <ul class="answers">
+            <% _.each(data.answer,function(val,i){%>
+            <li class='li<%= i+1%>'><%= val%></li>
+            <%})%>
+        </ul>
+        <div class="blockActionTest">
+            <div class='questionNumber'>1</div>
+            <ul class="questions">
+                <% _.each(data.questions,function(val,i){%>
+                <li class="<%= i==0? 'active':'' %>"><%= val%></li>
+                <%})%>
+            </ul>
+            <ul class="answerAction">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <div class="button_next">
+                Далее
+            </div>
+            <div class='resultBlock'>
+                <p class='text'>Ваш результат</p>
+                <p class='resultCount'>0</p>
+                <p class='text'>баллов</p>
+                <ul class="result">
+                    <% _.each(data.result,function(val,i){
+                    var split = val.split('//');
+                    counter = split[0].split('-');
+                    %>
+                    <li min='<%= counter[0]%>' max='<%= counter[1]%>'><%= split[1]%></li>
+                    <%})%>
+                </ul>
+            </div>
+        </div>
+    </div>
+</script>

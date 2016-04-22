@@ -1,11 +1,13 @@
-- var nav = {'Главная': 'index.html', 'Внутренняя': 'inner.html'}
+- var nav = {'О Россотрудничестве': 'about.html', 'Деятельность': 'inner.html', 'Анонсы': 'anons.html', 'Новости': 'news.html', 'Контакты': 'contacts.html'}
 
-nav.navbar.navbar-default
+// phone-menu
+nav.navbar.navbar-default.visible-xs
 	.navbar-header
 		button(type="button" data-toggle="collapse" data-target="#navbar-collapsed" aria-expanded="false").navbar-toggle.collapsed
 			span.icon-bar
 			span.icon-bar
 			span.icon-bar
+			i.fa.fa-times.fa-lg
 			span.sr-only Toggle navigation
 
 		a(href="./").logo
@@ -18,5 +20,49 @@ nav.navbar.navbar-default
 
 	.collapse.navbar-collapse#navbar-collapsed
 		ul.nav.navbar-nav
+			li: a(href="about.html") О Россотрудничестве
+			li.active
+				a(href="inner.html") Деятельность
+				ul
+					li: a(href="javascript:;") Содействие международному развитию
+					li: a(href="javascript:;") Общественная дипломатия
+					li: a(href="javascript:;") Продвижение русской культуры
+					li: a(href="javascript:;") Поддержка соотечественников
+					li: a(href="javascript:;") Укрепление позиций русского языка
+					li: a(href="javascript:;") Образование и наука
+					li: a(href="javascript:;") Сохранение историко-мемориальных памятников и мест погребения
+					li: a(href="javascript:;") Международные связи субъектов РФ
+					li: a(href="javascript:;") Интеграция стран СНГ
+			li: a(href="anons.html") Анонсы
+			li: a(href="news.html") Новости
+			li: a(href="contacts.html") Контакты
+			//each linkPath, linkName in nav
+			//	li: a(href=linkPath) #{linkName}
+
+		p.represent Сайты представительств
+
+		.lang
+			p Язык
+			a.active: img(src="./img/icons/flag/flag-ru.svg", onerror="this.onerror=null; this.src='./img/icons/flag/flag-ru.png'").flag
+			a: img(src="./img/icons/flag/flag-en.svg", onerror="this.onerror=null; this.src='./img/icons/flag/flag-en.png'").flag
+			a: img(src="./img/icons/flag/flag-de.svg", onerror="this.onerror=null; this.src='./img/icons/flag/flag-de.png'").flag
+			a: img(src="./img/icons/flag/flag-fr.svg", onerror="this.onerror=null; this.src='./img/icons/flag/flag-fr.png'").flag
+			a: img(src="./img/icons/flag/flag-es.svg", onerror="this.onerror=null; this.src='./img/icons/flag/flag-es.png'").flag
+
+
+
+// desktop-menu
+nav.navbar.navbar-desktop.hidden-xs
+	.navbar-header
+		ul.nav.navbar-nav
 			each linkPath, linkName in nav
 				li: a(href=linkPath) #{linkName}
+
+	a(href="javascript:;").search
+		img(src="./img/icons/ic-search.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search.png'")
+
+	.searchField
+		.input-group
+			input(type="text").form-control
+			span.input-group-btn
+				button(type="button").btn.btn-warning: img(src="./img/icons/ic-search.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search.png'")
