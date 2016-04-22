@@ -6462,11 +6462,11 @@ footer {
         padding-left: 35px;
         margin-bottom: 15px; }
         footer .footInfo .block.err {
-          background-image: url("../img/icons/ic-copyright-black-24-px.svg"); }
+          background-image: url("../img/icons/ic-error-outline-black-24-px.svg"); }
         footer .footInfo .block.copy {
           background-image: url("../img/icons/ic-copyright-black-24-px.svg"); }
         footer .footInfo .block.geo {
-          background-image: url("../img/icons/ic-copyright-black-24-px.svg"); }
+          background-image: url("../img/icons/ic-pin-drop-black-24-px.svg"); }
     footer .footGov a {
       color: inherit;
       display: block;

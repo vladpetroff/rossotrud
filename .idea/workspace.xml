@@ -6,24 +6,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="180f8dba-ce0c-47eb-810f-0b25527b4cfd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/easy_logo-1x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/easy_logo-2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/flag-ru.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/flag-ru.svg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/includes/_animation.jade" afterPath="$PROJECT_DIR$/src/includes/_footer.jade" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/includes/_scrollbar.jade" afterPath="$PROJECT_DIR$/src/includes/_header.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css.map" afterPath="$PROJECT_DIR$/public/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/inner.html" afterPath="$PROJECT_DIR$/public/inner.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/main.js" afterPath="$PROJECT_DIR$/public/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/style.scss" afterPath="$PROJECT_DIR$/src/css/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/includes/_footer.jade" afterPath="$PROJECT_DIR$/src/includes/_footer.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/includes/_header.jade" afterPath="$PROJECT_DIR$/src/includes/_header.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/includes/_mainmenu.jade" afterPath="$PROJECT_DIR$/src/includes/_mainmenu.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/includes/template.jade" afterPath="$PROJECT_DIR$/src/includes/template.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.jade" afterPath="$PROJECT_DIR$/src/index.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/inner.jade" afterPath="$PROJECT_DIR$/src/inner.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/main.js" afterPath="$PROJECT_DIR$/src/js/main.js" />
     </list>
     <ignored path="rossotrud.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,9 +40,9 @@
         <entry file="file://$PROJECT_DIR$/src/includes/_mainmenu.jade">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+              <caret line="67" column="155" selection-start-line="67" selection-start-column="155" selection-end-line="67" selection-end-column="155" />
               <folding>
-                <marker date="1461333273316" expanded="true" signature="1638:1707" placeholder="..." />
+                <marker date="1461337462981" expanded="true" signature="1638:1707" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -60,8 +51,8 @@
       <file leaf-file-name="_header.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/includes/_header.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.709678">
-              <caret line="42" column="35" selection-start-line="30" selection-start-column="6" selection-end-line="42" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -70,8 +61,8 @@
       <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.0">
-              <caret line="291" column="0" selection-start-line="291" selection-start-column="0" selection-end-line="291" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="272" column="23" selection-start-line="272" selection-start-column="23" selection-end-line="272" selection-end-column="23" />
               <folding>
                 <element signature="n#div#1;n#div#0;n#block#2;n#!!top" expanded="false" />
               </folding>
@@ -82,18 +73,18 @@
       <file leaf-file-name="_footer.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/includes/_footer.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.258064">
-              <caret line="112" column="12" selection-start-line="112" selection-start-column="12" selection-end-line="112" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.15">
-              <caret line="560" column="3" selection-start-line="560" selection-start-column="3" selection-end-line="560" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.5169628">
+              <caret line="736" column="73" selection-start-line="736" selection-start-column="73" selection-end-line="736" selection-end-column="73" />
               <folding>
                 <element signature="e#1575#2867#0" expanded="false" />
                 <element signature="e#2876#3612#0" expanded="false" />
@@ -106,13 +97,11 @@
                 <element signature="e#12157#12950#0" expanded="false" />
                 <element signature="e#13645#14069#0" expanded="false" />
                 <element signature="e#14082#14262#0" expanded="false" />
-                <element signature="e#14272#15804#0" expanded="false" />
-                <element signature="e#14367#14682#0" expanded="false" />
-                <element signature="e#15821#16087#0" expanded="false" />
-                <element signature="e#16110#16417#0" expanded="false" />
-                <element signature="e#16435#16780#0" expanded="false" />
-                <element signature="e#16782#17051#0" expanded="false" />
-                <element signature="e#17073#17781#0" expanded="false" />
+                <element signature="e#15824#16090#0" expanded="false" />
+                <element signature="e#16113#16420#0" expanded="false" />
+                <element signature="e#16438#16783#0" expanded="false" />
+                <element signature="e#16785#17054#0" expanded="false" />
+                <element signature="e#17076#17784#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -121,7 +110,7 @@
       <file leaf-file-name="_navbar.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.1333334">
+            <state vertical-scroll-proportion="0.0">
               <caret line="785" column="22" selection-start-line="785" selection-start-column="22" selection-end-line="785" selection-end-column="22" />
               <folding>
                 <element signature="e#14028#16946#0" expanded="false" />
@@ -133,18 +122,18 @@
       <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.379311">
+            <state vertical-scroll-proportion="0.0">
               <caret line="228" column="25" selection-start-line="228" selection-start-column="25" selection-end-line="228" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.90123457">
-              <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -173,14 +162,14 @@
         <option value="$PROJECT_DIR$/src/includes/template.jade" />
         <option value="$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss" />
         <option value="$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_buttons.scss" />
-        <option value="$PROJECT_DIR$/src/includes/_header.jade" />
         <option value="$PROJECT_DIR$/src/index.jade" />
-        <option value="$PROJECT_DIR$/src/includes/_footer.jade" />
-        <option value="$PROJECT_DIR$/src/includes/_mainmenu.jade" />
-        <option value="$PROJECT_DIR$/src/css/style.scss" />
         <option value="$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss" />
         <option value="$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss" />
         <option value="$PROJECT_DIR$/src/js/main.js" />
+        <option value="$PROJECT_DIR$/src/includes/_footer.jade" />
+        <option value="$PROJECT_DIR$/src/includes/_header.jade" />
+        <option value="$PROJECT_DIR$/src/includes/_mainmenu.jade" />
+        <option value="$PROJECT_DIR$/src/css/style.scss" />
       </list>
     </option>
   </component>
@@ -557,7 +546,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="691" height="1047" extended-state="1" />
+    <frame x="-7" y="0" width="691" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40350878" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -596,12 +585,20 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/includes/_mainmenu.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
           <folding>
-            <marker date="1461333273316" expanded="true" signature="1638:1707" placeholder="..." />
+            <marker date="1461337462981" expanded="true" signature="1638:1707" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -640,13 +637,11 @@
             <element signature="e#12157#12950#0" expanded="false" />
             <element signature="e#13645#14069#0" expanded="false" />
             <element signature="e#14082#14262#0" expanded="false" />
-            <element signature="e#14272#15804#0" expanded="false" />
-            <element signature="e#14367#14682#0" expanded="false" />
-            <element signature="e#15821#16087#0" expanded="false" />
-            <element signature="e#16110#16417#0" expanded="false" />
-            <element signature="e#16435#16780#0" expanded="false" />
-            <element signature="e#16782#17051#0" expanded="false" />
-            <element signature="e#17073#17781#0" expanded="false" />
+            <element signature="e#15824#16090#0" expanded="false" />
+            <element signature="e#16113#16420#0" expanded="false" />
+            <element signature="e#16438#16783#0" expanded="false" />
+            <element signature="e#16785#17054#0" expanded="false" />
+            <element signature="e#17076#17784#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -664,7 +659,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <marker date="1461333273316" expanded="true" signature="1638:1707" placeholder="..." />
+            <marker date="1461337462981" expanded="true" signature="1638:1707" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -695,13 +690,11 @@
             <element signature="e#12157#12950#0" expanded="false" />
             <element signature="e#13645#14069#0" expanded="false" />
             <element signature="e#14082#14262#0" expanded="false" />
-            <element signature="e#14272#15804#0" expanded="false" />
-            <element signature="e#14367#14682#0" expanded="false" />
-            <element signature="e#15821#16087#0" expanded="false" />
-            <element signature="e#16110#16417#0" expanded="false" />
-            <element signature="e#16435#16780#0" expanded="false" />
-            <element signature="e#16782#17051#0" expanded="false" />
-            <element signature="e#17073#17781#0" expanded="false" />
+            <element signature="e#15824#16090#0" expanded="false" />
+            <element signature="e#16113#16420#0" expanded="false" />
+            <element signature="e#16438#16783#0" expanded="false" />
+            <element signature="e#16785#17054#0" expanded="false" />
+            <element signature="e#17076#17784#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -729,7 +722,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <marker date="1461333273316" expanded="true" signature="1638:1707" placeholder="..." />
+            <marker date="1461337462981" expanded="true" signature="1638:1707" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -785,13 +778,11 @@
             <element signature="e#12157#12950#0" expanded="false" />
             <element signature="e#13645#14069#0" expanded="false" />
             <element signature="e#14082#14262#0" expanded="false" />
-            <element signature="e#14272#15804#0" expanded="false" />
-            <element signature="e#14367#14682#0" expanded="false" />
-            <element signature="e#15821#16087#0" expanded="false" />
-            <element signature="e#16110#16417#0" expanded="false" />
-            <element signature="e#16435#16780#0" expanded="false" />
-            <element signature="e#16782#17051#0" expanded="false" />
-            <element signature="e#17073#17781#0" expanded="false" />
+            <element signature="e#15824#16090#0" expanded="false" />
+            <element signature="e#16113#16420#0" expanded="false" />
+            <element signature="e#16438#16783#0" expanded="false" />
+            <element signature="e#16785#17054#0" expanded="false" />
+            <element signature="e#17076#17784#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -824,7 +815,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <marker date="1461333273316" expanded="true" signature="1638:1707" placeholder="..." />
+            <marker date="1461337462981" expanded="true" signature="1638:1707" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -887,13 +878,11 @@
             <element signature="e#12157#12950#0" expanded="false" />
             <element signature="e#13645#14069#0" expanded="false" />
             <element signature="e#14082#14262#0" expanded="false" />
-            <element signature="e#14272#15804#0" expanded="false" />
-            <element signature="e#14367#14682#0" expanded="false" />
-            <element signature="e#15821#16087#0" expanded="false" />
-            <element signature="e#16110#16417#0" expanded="false" />
-            <element signature="e#16435#16780#0" expanded="false" />
-            <element signature="e#16782#17051#0" expanded="false" />
-            <element signature="e#17073#17781#0" expanded="false" />
+            <element signature="e#15824#16090#0" expanded="false" />
+            <element signature="e#16113#16420#0" expanded="false" />
+            <element signature="e#16438#16783#0" expanded="false" />
+            <element signature="e#16785#17054#0" expanded="false" />
+            <element signature="e#17076#17784#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -948,7 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.313433">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -993,7 +981,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5054096">
           <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1001,43 +988,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.9773463">
           <caret line="144" column="11" selection-start-line="144" selection-start-column="11" selection-end-line="144" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.0">
-          <caret line="291" column="0" selection-start-line="291" selection-start-column="0" selection-end-line="291" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#block#2;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/includes/_header.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.709678">
-          <caret line="42" column="35" selection-start-line="30" selection-start-column="6" selection-end-line="42" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/includes/_footer.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.258064">
-          <caret line="112" column="12" selection-start-line="112" selection-start-column="12" selection-end-line="112" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/includes/_mainmenu.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
-          <folding>
-            <marker date="1461333273316" expanded="true" signature="1638:1707" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1057,18 +1007,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.379311">
+        <state vertical-scroll-proportion="0.0">
           <caret line="228" column="25" selection-start-line="228" selection-start-column="25" selection-end-line="228" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="785" column="22" selection-start-line="785" selection-start-column="22" selection-end-line="785" selection-end-column="22" />
+          <folding>
+            <element signature="e#14028#16946#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="272" column="23" selection-start-line="272" selection-start-column="23" selection-end-line="272" selection-end-column="23" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#block#2;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/includes/_header.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/includes/_footer.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/includes/_mainmenu.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="67" column="155" selection-start-line="67" selection-start-column="155" selection-end-line="67" selection-end-column="155" />
+          <folding>
+            <marker date="1461337462981" expanded="true" signature="1638:1707" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.15">
-          <caret line="560" column="3" selection-start-line="560" selection-start-column="3" selection-end-line="560" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.5169628">
+          <caret line="736" column="73" selection-start-line="736" selection-start-column="73" selection-end-line="736" selection-end-column="73" />
           <folding>
             <element signature="e#1575#2867#0" expanded="false" />
             <element signature="e#2876#3612#0" expanded="false" />
@@ -1081,32 +1085,12 @@
             <element signature="e#12157#12950#0" expanded="false" />
             <element signature="e#13645#14069#0" expanded="false" />
             <element signature="e#14082#14262#0" expanded="false" />
-            <element signature="e#14272#15804#0" expanded="false" />
-            <element signature="e#14367#14682#0" expanded="false" />
-            <element signature="e#15821#16087#0" expanded="false" />
-            <element signature="e#16110#16417#0" expanded="false" />
-            <element signature="e#16435#16780#0" expanded="false" />
-            <element signature="e#16782#17051#0" expanded="false" />
-            <element signature="e#17073#17781#0" expanded="false" />
+            <element signature="e#15824#16090#0" expanded="false" />
+            <element signature="e#16113#16420#0" expanded="false" />
+            <element signature="e#16438#16783#0" expanded="false" />
+            <element signature="e#16785#17054#0" expanded="false" />
+            <element signature="e#17076#17784#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.1333334">
-          <caret line="785" column="22" selection-start-line="785" selection-start-column="22" selection-end-line="785" selection-end-column="22" />
-          <folding>
-            <element signature="e#14028#16946#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.90123457">
-          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>

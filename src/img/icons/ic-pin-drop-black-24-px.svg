@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="14px" height="20px" viewBox="0 0 14 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+    <title>6324D39B-94FD-4E3B-A67C-F013FE9299E3</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="1440" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.54">
+        <g id="1440_rsc_v2_000_main_page" transform="translate(-39.000000, -3644.000000)">
+            <g id="full_footer_new" transform="translate(0.000000, 3000.000000)">
+                <g id="copyright" transform="translate(34.000000, 642.000000)">
+                    <g id="ic_pin_drop_black_24px">
+                        <g id="Group">
+                            <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+                            <path d="M18,8 C18,4.69 15.31,2 12,2 C8.69,2 6,4.69 6,8 C6,12.5 12,19 12,19 C12,19 18,12.5 18,8 L18,8 Z M10,8 C10,6.9 10.9,6 12,6 C13.1,6 14,6.9 14,8 C14,9.1 13.11,10 12,10 C10.9,10 10,9.1 10,8 L10,8 Z M5,20 L5,22 L19,22 L19,20 L5,20 L5,20 Z" id="Shape" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
