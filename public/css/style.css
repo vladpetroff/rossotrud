@@ -1192,7 +1192,7 @@ h1, .h1 {
   font-size: 40px; }
 
 h2, .h2 {
-  font-size: 30px; }
+  font-size: 32px; }
 
 h3, .h3 {
   font-size: 24px; }
@@ -3826,7 +3826,7 @@ tbody.collapse.in {
   position: relative;
   float: left;
   margin-left: 10px;
-  padding: 9px 10px;
+  padding: 9px 5px;
   margin-top: 11px;
   margin-bottom: 11px;
   background-color: transparent;
@@ -4023,19 +4023,21 @@ tbody.collapse.in {
   .navbar-default .navbar-nav {
     margin: 0px 5px;
     border-top: 1px solid rgba(0, 0, 0, 0.1); }
-    .navbar-default .navbar-nav > li > ul {
+    .navbar-default .navbar-nav ul {
       display: none;
       padding-left: 16px; }
-      .navbar-default .navbar-nav > li > ul li {
-        list-style: none;
-        margin: 12px 0; }
-        .navbar-default .navbar-nav > li > ul li.active a {
-          color: #ff6d00;
-          font-weight: bold; }
-        .navbar-default .navbar-nav > li > ul li a {
-          color: inherit;
-          font-size: 16px;
-          color: rgba(0, 0, 0, 0.9); }
+    .navbar-default .navbar-nav > li > ul > li > ul > li > a {
+      font-size: 14px; }
+    .navbar-default .navbar-nav li > ul > li {
+      list-style: none;
+      margin: 15px 0; }
+      .navbar-default .navbar-nav li > ul > li.active > a {
+        color: #ff6d00;
+        font-weight: bold; }
+      .navbar-default .navbar-nav li > ul > li a {
+        color: inherit;
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.9); }
     .navbar-default .navbar-nav > li > a {
       padding: 10px 0px;
       font-size: 20px;
@@ -4062,11 +4064,11 @@ tbody.collapse.in {
   .navbar-default .navbar-collapse,
   .navbar-default .navbar-form {
     border-color: transparent; }
-  .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  .navbar-default .navbar-nav .open > a, .navbar-default .navbar-nav .open > a:hover, .navbar-default .navbar-nav .open > a:focus {
     color: #000;
     font-weight: bold;
     background-color: transparent; }
-  .navbar-default .navbar-nav > .open > ul {
+  .navbar-default .navbar-nav .open > ul {
     display: block; }
   @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -4658,21 +4660,22 @@ a.thumbnail.active {
 .list-group-item {
   position: relative;
   display: block;
-  padding: 10px 15px;
+  padding: 8px 0px;
   margin-bottom: -1px;
-  background-color: #fff;
-  border: 1px solid #ddd; }
-  .list-group-item:first-child {
-    border-top-right-radius: 4px;
-    border-top-left-radius: 4px; }
-  .list-group-item:last-child {
-    margin-bottom: 0;
-    border-bottom-right-radius: 4px;
-    border-bottom-left-radius: 4px; }
+  font-size: 16px;
+  line-height: 1.3;
+  color: rgba(0, 0, 0, 0.9);
+  background-color: transparent;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 
 a.list-group-item,
 button.list-group-item {
-  color: #555; }
+  color: #555;
+  background-image: url("../img/icons/ic-keyboard-arrow-right-black-24-px.svg");
+  background-repeat: no-repeat;
+  background-position: 98% center;
+  padding-right: 35px; }
   a.list-group-item .list-group-item-heading,
   button.list-group-item .list-group-item-heading {
     color: #333; }
@@ -4680,8 +4683,7 @@ button.list-group-item {
   button.list-group-item:hover,
   button.list-group-item:focus {
     text-decoration: none;
-    color: #555;
-    background-color: #f5f5f5; }
+    color: #555; }
 
 button.list-group-item {
   width: 100%;
@@ -5983,8 +5985,7 @@ section h1 {
   color: #ff6d00;
   font-size: 1.43em;
   line-height: 1em;
-  margin-top: 13px;
-  margin-bottom: 12px; }
+  margin: 12px; }
 
 section article {
   background-color: #fff;
@@ -6095,6 +6096,38 @@ section.projects {
     width: 100%;
     height: 188px; }
 
+section.content {
+  padding: 0px 10px 20px; }
+  section.content h1 {
+    margin: 15px 0 12px; }
+  section.content h2 {
+    margin-top: 12px;
+    margin-bottom: 5px;
+    color: rgba(0, 0, 0, 0.9); }
+  section.content h4 {
+    line-height: 1.3;
+    color: rgba(0, 0, 0, 0.9);
+    margin: 9px 0;
+    font-weight: bold; }
+  section.content p {
+    line-height: 1.4;
+    margin-bottom: 10px; }
+  section.content .list-group {
+    margin-top: 16px; }
+  section.content ul {
+    list-style: none;
+    padding: 0; }
+    section.content ul li {
+      line-height: 1.4;
+      color: rgba(0, 0, 0, 0.9);
+      margin-bottom: 10px;
+      padding-left: 16px;
+      position: relative; }
+      section.content ul li::before {
+        content: '—';
+        position: absolute;
+        left: 0px; }
+
 .grayBlock {
   background-color: #e0e0e0;
   padding-top: 20px;
@@ -6131,6 +6164,59 @@ section.projects {
   margin-bottom: 8px; }
   .pollBlock .poll {
     overflow: hidden; }
+  .pollBlock blockquote {
+    padding: 0;
+    border: 0; }
+    .pollBlock blockquote p {
+      font-size: 20px;
+      line-height: 1.2;
+      color: #000000;
+      margin-top: 25px;
+      margin-bottom: 15px;
+      font-family: "PT Serif", Georgia, "Times New Roman", Times, serif; }
+    .pollBlock blockquote footer {
+      text-align: right;
+      font-style: italic;
+      font-size: 16px;
+      line-height: 1.3;
+      color: rgba(0, 0, 0, 0.5);
+      background: transparent;
+      padding: 0; }
+      .pollBlock blockquote footer:before {
+        content: ''; }
+  .pollBlock table {
+    margin: 0;
+    border-collapse: separate;
+    border-spacing: 5px 10px; }
+    .pollBlock table tbody > tr > th {
+      border: none;
+      line-height: 24px;
+      color: rgba(0, 0, 0, 0.5);
+      text-align: right;
+      width: 40px;
+      font-weight: normal;
+      padding: 2px 8px; }
+    .pollBlock table tbody > tr > td {
+      border: none;
+      font-size: 16px;
+      line-height: 24px;
+      color: rgba(0, 0, 0, 0.9);
+      background-color: #f5f5f5;
+      padding: 2px 0px;
+      position: relative; }
+      .pollBlock table tbody > tr > td span {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        bottom: 0px;
+        z-index: 0;
+        display: inline-block;
+        background-color: #e0e0e0; }
+      .pollBlock table tbody > tr > td p {
+        text-indent: 10px;
+        position: relative;
+        z-index: 1;
+        margin: 0; }
   .pollBlock h2 {
     font-size: 14px;
     line-height: 1.1;
@@ -6143,7 +6229,6 @@ section.projects {
     color: #000000;
     margin-bottom: 10px; }
   .pollBlock .seemore {
-    display: none;
     text-align: right;
     font-size: 16px;
     line-height: 1.3em; }
@@ -6348,8 +6433,7 @@ footer {
       padding: 20px; }
   section h1 {
     font-size: 40px;
-    margin-top: 15px;
-    margin-bottom: 17px;
+    margin: 15px 0px 17px;
     line-height: 1.3; }
   section.anons article {
     padding: 0; }
@@ -6420,6 +6504,11 @@ footer {
     height: 400px;
     padding-left: 20px;
     padding-right: 20px; }
+    .pollBlock .poll {
+      height: 255px;
+      margin: 0; }
+    .pollBlock blockquote p {
+      margin-top: 85px; }
     .pollBlock h2 {
       font-size: 16px; }
     .pollBlock p {

@@ -1,0 +1,30 @@
+extends includes/template
+
+block title
+	title mainpage
+
+
+block prepend css
+	// Чекбоксы и радио https://github.com/flatlogic/awesome-bootstrap-checkbox
+	+styles('awesome-bootstrap-checkbox.css')
+
+block content
+	.container
+		include includes/_header
+		include includes/_mainmenu
+
+		.row
+			.col-sm-6.col-xs-12
+				section.content
+					h1 Государственные программы
+
+					.list-group
+						a(href="about_programs_strategy.html").list-group-item Стратегические коммуникации российского содействия международному развитию
+						a(href="about_programs_sng.html").list-group-item Межгосударственная программа инновационного сотрудничества государств-участников СНГ
+						a(href="about_programs_newGen.html").list-group-item «Новое поколение»: ознакомительные поездки в Россию для молодых представителей политических, общественных, научных и деловых кругов иностранных государств
+						a(href="about_programs_settlers.html").list-group-item Содействие добровольному переселению в Российскую Федерацию соотечественников, проживающих за рубежом
+						a(href="about_programs_extpol.html").list-group-item Внешнеполитическая деятельность
+						a(href="about_programs_rulang.html").list-group-item Русский язык
+
+
+	include includes/_footer

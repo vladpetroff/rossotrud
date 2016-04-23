@@ -76,7 +76,7 @@ const path = {
 
 gulp.task('jade', function () {
 	return gulp.src(path.public.jade)
-		.pipe(debug({title: "jade;"}))
+		//.pipe(debug({title: "jade;"}))
 		.pipe(plumber({
 			errorHandler: notify.onError(function(err) {
 				return {
@@ -109,7 +109,7 @@ gulp.task('sass', function () {
 		.pipe(sass())
 		.pipe(autoprefixer('last 5 versions'))
 		.pipe(sourcemaps.write('.'))  // заполняем sourcemap и кладем в тот же каталог отдельно
-		.pipe(debug({title: "sass:"}))
+		//.pipe(debug({title: "sass:"}))
 		.pipe(gulp.dest(path.public.style))
 });
 
@@ -283,7 +283,7 @@ gulp.task('watch', function() {
 });
 
 gulp.task('default', gulp.series(
-	gulp.parallel('jade', 'assets', 'sass', 'imgcomponents', 'imagemin', 'webpack'),
+	gulp.parallel('jade', 'assets', 'imgcomponents', 'imagemin', 'webpack'),
 	gulp.parallel('watch', 'browserSync')
 	)
 );

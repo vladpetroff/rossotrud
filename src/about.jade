@@ -1,0 +1,33 @@
+extends includes/template
+
+block title
+	title mainpage
+
+
+block prepend css
+	// Чекбоксы и радио https://github.com/flatlogic/awesome-bootstrap-checkbox
+	+styles('awesome-bootstrap-checkbox.css')
+
+block content
+	.container
+		include includes/_header
+		include includes/_mainmenu
+
+		.row
+			.col-sm-6.col-xs-12
+				section.content
+					h1 О Россотрудничестве
+					p Россотрудничество — Федеральное агентство по делам Содружества Независимых Государств, соотечественников, проживающих за рубежом, и по международному гуманитарному сотрудничеству — было создано в сентябре 2008 года в соответствии с Указом Президента Российской Федерации от 6 сентября 2008 года № 1315.
+					p Россотрудничество реализует проекты, нацеленные на укрепление международных связей, тесное сотрудничество в гуманитарной сфере и формирование позитивного имиджа России за рубежом.
+					p Проводимые мероприятия способствуют преодолению культурных барьеров, негативных стереотипов и иных препятствий на пути развития международного сотрудничества.
+					p Россотрудничество представлено в #[a(href="javascript:;") 79 странах мира 92 представительствами].
+
+					.list-group
+						a(href="about_programs.html").list-group-item Государственные программы
+						a(href="about_structure.html").list-group-item Структура
+						a(href="about_manage.html").list-group-item Руководство
+						a(href="about_history.html").list-group-item История
+						a(href="about_partners.html").list-group-item Партнеры
+
+
+	include includes/_footer

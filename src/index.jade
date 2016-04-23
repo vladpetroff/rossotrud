@@ -258,7 +258,7 @@ block content
 								p Получите высшее образование мирового уровня в России
 
 				.col-sm-4.col-xs-12
-					.pollBlock
+					.pollBlock.question
 						h2 Опрос
 						p Какую специальность Вы хотели бы получить?
 						form.row
@@ -287,5 +287,55 @@ block content
 
 							.col-xs-12.seemore
 								a(href="javascript:;") Посмотреть все варианты
+
+					.pollBlock.result
+						h2 Результат опроса
+						p Какую специальность Вы хотели бы получить?
+						.poll
+							table.table
+								tbody
+									tr(data-persent="6%")
+										th 6%
+										td
+											span
+											p Инженер
+									tr(data-persent="52%")
+										th
+										td
+											span
+											p Разработчик ПО
+									tr(data-persent="20%")
+										th
+										td
+											span
+											p Врач
+									tr(data-persent="12%")
+										th
+										td
+											span
+											p Педагог
+									tr(data-persent="10%")
+										th
+										td
+											span
+											p Юрист
+									tr(data-persent="4%")
+										th
+										td
+											span
+											p Маркетолог
+						.seemore
+							a(href="javascript:;") Все варианты
+
+
+					.pollBlock.add
+						h2 Цитата
+						blockquote
+							p В одном просвещении найдем мы спасительное противоядие для всех бедствий человечества!
+							footer Николай Карамзин
+
+
+
+
 
 	include includes/_footer
