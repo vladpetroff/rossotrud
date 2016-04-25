@@ -80,33 +80,37 @@
 
 		// polling
 		var poll = document.querySelector('.pollBlock .poll');
-		var pollString = document.querySelectorAll('.pollBlock .poll table tr');
-		var pollMaxValue = 0;
-		[].forEach.call(pollString, function (elem) {
-			if (parseInt(elem.getAttribute("data-persent")) > pollMaxValue) {
-				pollMaxValue = parseInt(elem.getAttribute("data-persent"));
-			}
-			elem.children[1].children[0].style.width = elem.getAttribute("data-persent");
-			elem.children[0].innerText = elem.getAttribute("data-persent");
-		});
-		document.querySelector('.pollBlock .poll table tr[data-persent="52%"]').children[1].children[0].style.backgroundColor = "#ffd180";
-		//if(parseInt(getComputedStyle(poll).height) >= 260) {
-		//	poll.style.height = "260px";
-		//	poll.nextElementSibling.style.display = 'block';
-		//};
+		if (poll) {
+			var pollString = document.querySelectorAll('.pollBlock .poll table tr');
+			var pollMaxValue = 0;
+			[].forEach.call(pollString, function (elem) {
+				if (parseInt(elem.getAttribute("data-persent")) > pollMaxValue) {
+					pollMaxValue = parseInt(elem.getAttribute("data-persent"));
+				}
+				elem.children[1].children[0].style.width = elem.getAttribute("data-persent");
+				elem.children[0].innerText = elem.getAttribute("data-persent");
+			});
+			document.querySelector('.pollBlock .poll table tr[data-persent="52%"]').children[1].children[0].style.backgroundColor = "#ffd180";
+			//if(parseInt(getComputedStyle(poll).height) >= 260) {
+			//	poll.style.height = "260px";
+			//	poll.nextElementSibling.style.display = 'block';
+			//};
 
-		// search line
-		var searchfield = $('.navbar-desktop .searchField input.form-control');
-		$('.navbar.navbar-desktop .search').click(function () {
-			$('.navbar-desktop .searchField').animate({
+			// search line
+		}
+
+		var searchfield = $('.navbar .searchField input.form-control');
+		$('.navbar .search').click(function () {
+			console.log('click');
+			$('.navbar .searchField').animate({
 				left: '0px'
 			}, 500);
 			return false;
 		});
 		$('.container').click(function (evt) {
-			if ($('.navbar-desktop .searchField').css('display') === 'block') {
+			if ($('.navbar .searchField').css('display') === 'block') {
 				if (evt.target != searchfield[0]) {
-					$('.navbar-desktop .searchField').animate({
+					$('.navbar .searchField').animate({
 						left: '100%'
 					}, 500);
 				}

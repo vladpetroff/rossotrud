@@ -8,8 +8,6 @@ block prepend css
 	// Чекбоксы и радио https://github.com/flatlogic/awesome-bootstrap-checkbox
 	+styles('awesome-bootstrap-checkbox.css')
 
-//block prepend scripts
-//	script(src="./js/menu.js" defer)
 
 block content
 	.container
@@ -86,7 +84,7 @@ block content
 
 				.row
 					.col-xs-12
-						p: a(href="anons.html").readmore Все анонсы
+						p.readmore: a(href="anons.html") Все анонсы
 
 			section.news.col-sm-6.col-xs-12
 				h1 Новости
@@ -151,7 +149,7 @@ block content
 
 				.row
 					.col-xs-12
-						p: a(href="news.html").readmore Все новости
+						p.readmore: a(href="news.html") Все новости
 
 
 
@@ -225,7 +223,7 @@ block content
 
 				.row
 					.col-xs-12
-						p: a(href="projects.html").readmore Все направления деятельности и проекты
+						p.readmore: a(href="projects.html") Все направления деятельности и проекты
 
 
 	.grayBlock

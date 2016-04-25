@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mainpage</title>
-    <!-- Чекбоксы и радио https://github.com/flatlogic/awesome-bootstrap-checkbox-->
-    <link href="./css/awesome-bootstrap-checkbox.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|PT+Sans+Narrow:400,700|PT+Serif:400,400italic,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- Элементы форм  http://silviomoreto.github.io/bootstrap-select/-->
@@ -75,7 +73,15 @@
     <!-- phone-menu-->
     <nav class="navbar navbar-default visible-xs">
       <div class="navbar-header">
-        <button type="button" data-toggle="collapse" data-target="#navbar-collapsed" aria-expanded="false" class="navbar-toggle collapsed"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span><i class="fa fa-times fa-lg"></i><span class="sr-only">Toggle navigation</span></button><a href="./" class="logo"><img src="./img/icons/rs-logo.svg" onerror="this.onerror=null; this.src='./img/icons/rs-logo.png'"></a><a href="javascript:;" class="navbar-brand">Россотрудничество</a><a href="search.html" class="search"><img src="./img/icons/ic-search.svg" onerror="this.onerror=null; this.src='./img/icons/ic-search.png'"></a>
+        <button type="button" data-toggle="collapse" data-target="#navbar-collapsed" aria-expanded="false" class="navbar-toggle collapsed"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span><i class="fa fa-times fa-lg"></i><span class="sr-only">Toggle navigation</span></button><a href="./" class="logo"><img src="./img/icons/rs-logo.svg" onerror="this.onerror=null; this.src='./img/icons/rs-logo.png'"></a><a href="javascript:;" class="navbar-brand">Россотрудничество</a><a href="javascript:;" class="search"><img src="./img/icons/ic-search.svg" onerror="this.onerror=null; this.src='./img/icons/ic-search.png'"></a>
+        <div class="searchField">
+          <div class="input-group">
+            <input type="text" class="form-control"><span class="input-group-btn">
+              <button type="button" class="btn btn-warning"><img src="./img/icons/ic-search-white.svg" onerror="this.onerror=null; this.src='./img/icons/ic-search-white.png'"></button></span>
+          </div>
+        </div>
+        <!--a(href="search.html").search-->
+        <!--	img(src="./img/icons/ic-search.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search.png'")-->
       </div>
       <div id="navbar-collapsed" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">

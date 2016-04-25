@@ -1,0 +1,54 @@
+extends includes/template
+
+block title
+	title mainpage
+
+
+block content
+	.container
+		include includes/_header
+		include includes/_mainmenu
+
+		.row
+
+			section.manage.col-xs-12
+				h1 Руководство
+				article.main
+					a(href="about_manage_detail.html")
+						img(src="./img/manage/glebova.png", alt="Глебова")
+					h2 Любовь Николаевна Глебова
+					.addInfo
+						h3 Руководитель Россотрудничества
+						p Доктор педагогических наук, член-корреспондент Российской академии образования, действительный государственный советник РФ 1 класса
+
+				h2 Заместители руководителя
+				article
+					a(href="about_manage_detail.html")
+						img(src="./img/manage/guzhelya.png", alt="Гужеля")
+					h2 Дмитрий Юрьевич Гужеля
+
+				article
+					a(href="about_manage_detail.html")
+						img(src="./img/manage/zhivihina.png", alt="Живихина")
+					h2 Ирина Борисовна Живихина
+
+				article
+					a(href="about_manage_detail.html")
+						img(src="./img/manage/kruppo.png", alt="Круппо")
+					h2 Сергей Маратович Круппо
+
+				article
+					a(href="about_manage_detail.html")
+						img(src="./img/manage/radkov.png", alt="Радьков")
+					h2 Александр Васильевич Радьков
+
+				article
+					a(href="about_manage_detail.html")
+						img(src="./img/manage/frolov.png", alt="Фролов")
+					h2 Алексей Владимирович Фролов
+
+
+
+
+
+	include includes/_footer
