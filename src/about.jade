@@ -9,8 +9,38 @@ block content
 		include includes/_header
 		include includes/_mainmenu
 
+		nav.navbar.navbar-desktop.hidden-xs
+			.navbar-header
+				ul.nav.navbar-nav
+					li.active
+						a(href="about.html") О Россотрудничестве
+					li
+						a(href="activity.html") Деятельность
+					li
+						a(href="anons.html") Анонсы
+					li
+						a(href="news.html") Новости
+					li
+						a(href="contacts.html") Контакты
+
+			a(href="javascript:;").search
+				img(src="./img/icons/ic-search.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search.png'")
+
+			.searchField
+				.input-group
+					input(type="text").form-control
+					span.input-group-btn
+						button(type="button").btn.btn-warning: img(src="./img/icons/ic-search-white.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search-white.png'")
+
+
 		.row
-			.col-sm-6.col-xs-12
+			aside.col-sm-4.hidden-xs
+				include includes/_sidemenu
+			.col-max-6.col-lg-7.col-sm-8.col-xs-12
+				ol.breadcrumb.hidden-xs
+					li: a(href="./") Главная страница
+					li.active О Россотрудничестве
+
 				section.content
 					h1 О Россотрудничестве
 					p Россотрудничество — Федеральное агентство по делам Содружества Независимых Государств, соотечественников, проживающих за рубежом, и по международному гуманитарному сотрудничеству — было создано в сентябре 2008 года в соответствии с Указом Президента Российской Федерации от 6 сентября 2008 года № 1315.
@@ -18,12 +48,16 @@ block content
 					p Проводимые мероприятия способствуют преодолению культурных барьеров, негативных стереотипов и иных препятствий на пути развития международного сотрудничества.
 					p Россотрудничество представлено в #[a(href="javascript:;") 79 странах мира 92 представительствами].
 
-					.list-group
+					.list-group.visible-xs
 						a(href="about_programs.html").list-group-item Государственные программы
 						a(href="about_structure.html").list-group-item Структура
 						a(href="about_manage.html").list-group-item Руководство
 						a(href="about_history.html").list-group-item История
 						a(href="about_partners.html").list-group-item Партнеры
+
+					.hidden-xs
+						img(src="./img/about/img01.png")
+						h5	Центральный аппарат Россотрудничества на Воздвиженке, 18/9 располагается в здании городской усадьбы Шаховских — Краузе — Осиповских, построенном в 1783 году
 
 
 	include includes/_footer

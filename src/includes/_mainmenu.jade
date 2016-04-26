@@ -24,10 +24,6 @@ nav.navbar.navbar-default.visible-xs
 				span.input-group-btn
 					button(type="button").btn.btn-warning: img(src="./img/icons/ic-search-white.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search-white.png'")
 
-
-		//a(href="search.html").search
-		//	img(src="./img/icons/ic-search.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search.png'")
-
 	.collapse.navbar-collapse#navbar-collapsed
 		ul.nav.navbar-nav
 			li
@@ -75,7 +71,7 @@ nav.navbar.navbar-default.visible-xs
 			//each linkPath, linkName in nav
 			//	li: a(href=linkPath) #{linkName}
 
-		p.represent Сайты представительств
+		p.represent: a(href="represent.html") Сайты представительств
 
 		.lang
 			p Язык
@@ -84,21 +80,3 @@ nav.navbar.navbar-default.visible-xs
 			a: img(src="./img/icons/flag/flag-de.svg", onerror="this.onerror=null; this.src='./img/icons/flag/flag-de.png'").flag
 			a: img(src="./img/icons/flag/flag-fr.svg", onerror="this.onerror=null; this.src='./img/icons/flag/flag-fr.png'").flag
 			a: img(src="./img/icons/flag/flag-es.svg", onerror="this.onerror=null; this.src='./img/icons/flag/flag-es.png'").flag
-
-
-
-// desktop-menu
-nav.navbar.navbar-desktop.hidden-xs
-	.navbar-header
-		ul.nav.navbar-nav
-			each linkPath, linkName in nav
-				li: a(href=linkPath) #{linkName}
-
-	a(href="javascript:;").search
-		img(src="./img/icons/ic-search.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search.png'")
-
-	.searchField
-		.input-group
-			input(type="text").form-control
-			span.input-group-btn
-				button(type="button").btn.btn-warning: img(src="./img/icons/ic-search-white.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search-white.png'")
