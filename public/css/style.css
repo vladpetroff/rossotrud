@@ -2994,10 +2994,15 @@ fieldset[disabled] a.btn {
   .btn-warning .badge {
     color: transparent;
     background-color: #ff6d00; }
-  .btn-warning:hover, .btn-warning:focus, .btn-warning.focus, .btn-warning:active, .btn-warning:active:focus, .btn-warning:active:hover, .btn-warning.active {
+  .btn-warning:hover, .btn-warning:focus, .btn-warning.focus {
     color: #fff;
     background-color: #ff6d00;
     border-color: #ff6d00;
+    outline: none; }
+  .btn-warning:active, .btn-warning:active:focus, .btn-warning:active:hover, .btn-warning.active {
+    color: #fff;
+    background-color: #ed5900;
+    border-color: #ed5900;
     outline: none; }
 
 .btn-danger {
@@ -3760,7 +3765,7 @@ tbody.collapse.in {
 
 .navbar-fixed-top .navbar-collapse,
 .navbar-fixed-bottom .navbar-collapse {
-  max-height: 340px; }
+  max-height: 420px; }
   @media (max-device-width: 480px) and (orientation: landscape) {
     .navbar-fixed-top .navbar-collapse,
     .navbar-fixed-bottom .navbar-collapse {
@@ -3985,7 +3990,7 @@ tbody.collapse.in {
 .navbar-default {
   background-color: #fff;
   border-color: transparent;
-  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   overflow: hidden; }
   .navbar-default .navbar-brand {
     color: #000; }
@@ -4019,23 +4024,27 @@ tbody.collapse.in {
       color: rgba(0, 0, 0, 0.5); }
     .navbar-default .lang a {
       display: inline-block;
-      border-radius: 2px;
+      cursor: pointer;
       margin-bottom: 20px; }
-      .navbar-default .lang a .img {
-        width: 40px;
-        height: 24px; }
+      .navbar-default .lang a img {
+        width: 48px;
+        height: 32px;
+        border: 4px solid transparent; }
       .navbar-default .lang a + a {
         margin-left: 12px; }
-      .navbar-default .lang a.active {
-        background-color: rgba(255, 109, 0, 0.3); }
+      .navbar-default .lang a.active img {
+        border-color: rgba(255, 109, 0, 0.3); }
   .navbar-default .navbar-nav {
-    margin: 0px 5px;
+    margin: 0px 5px 15px;
+    padding-top: 10px;
     border-top: 1px solid rgba(0, 0, 0, 0.1); }
     .navbar-default .navbar-nav ul {
       display: none;
       padding-left: 16px; }
     .navbar-default .navbar-nav a:focus {
       background: none !important; }
+    .navbar-default .navbar-nav a:active {
+      color: #ed5900 !important; }
     .navbar-default .navbar-nav > li > ul > li > ul > li > a {
       font-size: 14px; }
     .navbar-default .navbar-nav li ul li {
@@ -4065,13 +4074,15 @@ tbody.collapse.in {
       color: #ccc;
       background-color: transparent; }
   .navbar-default .navbar-toggle {
-    border-color: transparent; }
-    .navbar-default .navbar-toggle .icon-bar {
+    border-color: transparent;
+    width: 30px; }
+    .navbar-default .navbar-toggle img.menu {
       display: none; }
-    .navbar-default .navbar-toggle.collapsed .icon-bar {
-      display: block;
-      background-color: #333; }
-    .navbar-default .navbar-toggle.collapsed .fa {
+    .navbar-default .navbar-toggle img.closeMenu {
+      display: block; }
+    .navbar-default .navbar-toggle.collapsed img.menu {
+      display: block; }
+    .navbar-default .navbar-toggle.collapsed img.closeMenu {
       display: none; }
   .navbar-default .navbar-collapse,
   .navbar-default .navbar-form {
@@ -4082,6 +4093,8 @@ tbody.collapse.in {
     .navbar-default .navbar-nav .open > a, .navbar-default .navbar-nav .open > a:hover {
       font-weight: bold;
       background-color: transparent; }
+  .navbar-default .navbar-nav .open.active > a {
+    color: #ed5900; }
   .navbar-default .navbar-nav .open > ul {
     display: block; }
   @media (max-width: 767px) {
@@ -4241,6 +4254,7 @@ aside {
     aside .navbar-default .navbar-nav {
       margin: 16px;
       margin-right: 60px;
+      margin-top: 5px;
       border: none; }
       aside .navbar-default .navbar-nav li {
         float: none;
@@ -4259,7 +4273,7 @@ aside {
     display: inline-block;
     font-size: 16px;
     line-height: 1.3; }
-    .breadcrumb > li + li:before {
+    .breadcrumb > li:after {
       content: "⟶ ";
       padding: 0 5px;
       color: #ccc; }
@@ -6029,7 +6043,8 @@ button.close {
   background-color: #424242;
   padding: 24px;
   text-align: center;
-  margin-top: 15px; }
+  margin-top: 22px;
+  margin-bottom: 7px; }
   .subscribe h2 {
     color: #fff;
     font-weight: bold;
@@ -6058,14 +6073,21 @@ section article {
   margin-bottom: 4px;
   border: solid 1px rgba(0, 0, 0, 0.1);
   overflow: hidden; }
-  section article:hover {
-    cursor: pointer; }
+
+section.anons > h2 {
+  font-size: 1.43em;
+  line-height: 1em;
+  margin: 5px 12px 12px; }
 
 section.anons article {
   padding: 12px; }
   section.anons article:hover {
+    cursor: pointer;
     border: solid 1px rgba(255, 109, 0, 0.3);
     background-color: #fff3e0; }
+  section.anons article:active {
+    border: solid 1px rgba(255, 109, 0, 0.3);
+    background-color: #ffe0b2; }
   section.anons article .articleImg {
     display: table-cell;
     vertical-align: top;
@@ -6113,17 +6135,22 @@ section.news h2 {
   margin: 15px 12px 12px; }
 
 section.news article {
-  padding: 6px; }
+  padding: 6px;
+  padding-top: 15px; }
   section.news article .news {
     padding: 6px; }
     section.news article .news:hover {
+      cursor: pointer;
       background-color: #fff3e0; }
+    section.news article .news:active {
+      background-color: #ffe0b2; }
   section.news article time {
-    padding: 6px;
+    display: block;
+    padding: 0 6px;
+    margin-bottom: 5px;
     color: #ff6d00;
     font-size: 16px;
-    line-height: 1.3;
-    color: #ff6d00; }
+    line-height: 1.3; }
   section.news article h2 {
     margin: 8px 0;
     font-size: 12px;
@@ -6134,8 +6161,7 @@ section.news article {
     color: rgba(0, 0, 0, 0.9);
     margin-bottom: 13px; }
   section.news article a {
-    display: block;
-    text-align: center; }
+    display: block; }
   section.news article img {
     display: block;
     max-width: 100%;
@@ -6145,9 +6171,16 @@ section.news article {
 
 section.projects {
   margin-bottom: 22px; }
+  section.projects.block article p {
+    font-size: 16px;
+    line-height: 1.3;
+    margin-top: 5px; }
   section.projects article:hover {
+    cursor: pointer;
     background-color: #fff3e0;
     border: solid 1px rgba(255, 109, 0, 0.3); }
+  section.projects article:active {
+    background-color: #ffe0b2; }
   section.projects article h2 {
     margin: 8px 0;
     font-size: 12px;
@@ -6165,7 +6198,7 @@ section.projects {
     text-align: center; }
   section.projects article img {
     width: 100%;
-    height: 188px; }
+    height: auto; }
 
 section.content {
   padding: 0px 10px 20px; }
@@ -6175,14 +6208,29 @@ section.content {
     margin-top: 12px;
     margin-bottom: 5px;
     color: rgba(0, 0, 0, 0.9); }
+  section.content h3 {
+    font-size: 1.43em;
+    margin-top: 18px;
+    margin-bottom: 14px;
+    color: rgba(0, 0, 0, 0.9); }
   section.content h4 {
     line-height: 1.3;
     color: rgba(0, 0, 0, 0.9);
     margin: 9px 0;
     font-weight: bold; }
+  section.content h5 {
+    text-align: right;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 1.3;
+    margin-bottom: 9px;
+    font-size: 12px; }
   section.content p {
     line-height: 1.4;
     margin-bottom: 10px; }
+  section.content img {
+    display: block;
+    max-width: 100%;
+    height: auto; }
   section.content .list-group {
     margin-top: 16px; }
   section.content ul {
@@ -6202,8 +6250,7 @@ section.content {
 section.manage {
   margin-bottom: 40px; }
   section.manage.detail {
-    padding: 20px;
-    padding-bottom: 10px;
+    padding: 20px 12px;
     margin-bottom: 0; }
     section.manage.detail h2 {
       margin-left: 0;
@@ -6211,9 +6258,9 @@ section.manage {
       color: rgba(0, 0, 0, 0.9); }
     section.manage.detail h3 {
       font-size: 14px;
-      font-weight: bold;
       line-height: 1.4;
-      margin: 7px 0px; }
+      margin: 7px 0px;
+      font-weight: bold; }
     section.manage.detail p {
       line-height: 1.4;
       color: rgba(0, 0, 0, 0.9); }
@@ -6222,6 +6269,13 @@ section.manage {
       background: none;
       border: none;
       padding: 0; }
+      section.manage.detail article:hover {
+        cursor: default;
+        background-color: transparent; }
+      section.manage.detail article:active {
+        background-color: transparent; }
+      section.manage.detail article .addInfo h3 {
+        font-weight: normal; }
       section.manage.detail article img {
         width: 160px;
         height: 160px;
@@ -6242,7 +6296,8 @@ section.manage {
         font-weight: bold;
         line-height: 1.4;
         margin-top: 2px;
-        margin-bottom: 4px; }
+        margin-bottom: 4px;
+        color: rgba(0, 0, 0, 0.5); }
       section.manage.detail article p {
         line-height: 1.4;
         color: rgba(0, 0, 0, 0.5); }
@@ -6257,6 +6312,13 @@ section.manage {
     margin: 15px 12px 12px; }
   section.manage article {
     padding: 12px; }
+    section.manage article:hover {
+      cursor: pointer;
+      background-color: #fff3e0;
+      border-color: rgba(255, 109, 0, 0.3); }
+    section.manage article:active {
+      background-color: #ffe0b2;
+      border-color: rgba(255, 109, 0, 0.3); }
     section.manage article img {
       width: 100px;
       height: 100px;
@@ -6542,6 +6604,7 @@ header .headerContent {
 footer {
   background-color: #424242;
   padding: 16px;
+  padding-bottom: 30px;
   line-height: 1.4;
   color: rgba(255, 255, 255, 0.7); }
   footer.visible-xs {
@@ -6583,6 +6646,10 @@ footer {
       footer .social a.tw:hover {
         background-image: url("../img/icons/social/tw-white-hover.svg"); }
 
+@media (max-width: 768px) {
+  body {
+    padding-top: 70px; } }
+
 @media (min-width: 1200px) {
   .readmore {
     text-align: center; }
@@ -6593,7 +6660,7 @@ footer {
   section h1 {
     font-size: 40px;
     margin: 15px 0px 17px;
-    line-height: 1.3; }
+    line-height: 1.2; }
   section.anons article {
     padding: 0; }
     section.anons article .articleImg {
@@ -6620,21 +6687,28 @@ footer {
     section.anons article .articleText h4 {
       font-size: 14px;
       line-height: 1.1; }
-  section.news article {
-    padding: 12px 8px; }
-    section.news article time {
-      padding: 0px 12px;
-      margin-bottom: 8px;
-      display: inline-block; }
-  section.news .news {
-    padding: 8px 12px; }
-    section.news .news h2 {
-      font-size: 14px;
-      margin-top: 0px;
-      margin-bottom: 6px; }
-    section.news .news p {
-      font-size: 16px;
-      line-height: 1.3; }
+  section.news {
+    margin-bottom: 80px; }
+    section.news h2 {
+      font-size: 2.57em;
+      line-height: 1.1;
+      margin: 20px 0px 25px; }
+    section.news article {
+      padding: 12px 8px; }
+      section.news article time {
+        padding: 0px 12px;
+        margin-bottom: 8px;
+        display: inline-block; }
+    section.news .news {
+      padding: 8px 12px; }
+      section.news .news h2 {
+        font-size: 14px;
+        margin-top: 0px;
+        margin-bottom: 6px; }
+      section.news .news p {
+        font-size: 16px;
+        line-height: 1.3;
+        margin-bottom: 0; }
   section.projects article {
     height: 300px; }
     section.projects article h2 {
@@ -6643,22 +6717,36 @@ footer {
     section.projects article p {
       font-size: 16px;
       line-height: 1.3; }
+    section.projects article img {
+      width: 100%;
+      height: 188px; }
   section.content {
-    margin-bottom: 100px;
+    margin-bottom: 30px;
     padding: 0; }
     section.content h1 {
       font-size: 3.42em;
       margin: 10px 0; }
+    section.content h2 {
+      font-size: 3.71em;
+      line-height: 1.2; }
+    section.content h4 {
+      font-size: 1.71em;
+      line-height: 1.3;
+      font-weight: normal;
+      margin-top: 25px;
+      margin-bottom: 12px; }
     section.content h5 {
-      text-align: right;
-      color: rgba(0, 0, 0, 0.5);
-      line-height: 1.1; }
+      line-height: 1.1;
+      font-size: 14px; }
     section.content p {
       font-size: 18px;
       line-height: 1.6;
       margin-bottom: 15px; }
     section.content img {
       max-width: 100%; }
+    section.content ul li {
+      font-size: 18px;
+      line-height: 1.6; }
     section.content article.card {
       display: table;
       width: 100%;
@@ -6684,6 +6772,81 @@ footer {
         line-height: 1.2;
         display: table-cell;
         vertical-align: middle; }
+  section.manage {
+    margin-bottom: 120px; }
+    section.manage h1 {
+      margin: 15px 0;
+      font-size: 3.43em;
+      line-height: 1.2; }
+    section.manage h2 {
+      margin: 35px 0 25px;
+      font-size: 2.57em;
+      line-height: 1.1; }
+    section.manage.block article {
+      padding: 20px; }
+      section.manage.block article.main {
+        padding: 40px 115px; }
+        section.manage.block article.main img {
+          width: 240px;
+          height: 240px; }
+        section.manage.block article.main h2 {
+          margin-top: 12px;
+          font-size: 2.28em;
+          line-height: 1.3; }
+        section.manage.block article.main h3 {
+          margin-bottom: 16px;
+          font-size: 18px;
+          line-height: 1.3; }
+        section.manage.block article.main p {
+          font-size: 18px;
+          line-height: 1.3; }
+      section.manage.block article img {
+        width: 192px;
+        height: 192px;
+        margin-right: 20px; }
+      section.manage.block article h2 {
+        font-size: 2.28em;
+        line-height: 1.3;
+        margin-top: 56px; }
+    section.manage.detail {
+      padding: 0; }
+      section.manage.detail p {
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 10px; }
+      section.manage.detail h3 {
+        font-size: 1.71em;
+        line-height: 1.3;
+        margin-top: 20px;
+        margin-bottom: 12px;
+        font-weight: normal; }
+      section.manage.detail article .addInfo {
+        padding: 0px 100px; }
+        section.manage.detail article .addInfo h3 {
+          font-size: 1.71em;
+          line-height: 1.2;
+          margin-top: 7px;
+          margin-bottom: 16px;
+          font-weight: normal; }
+        section.manage.detail article .addInfo h4 {
+          font-size: 18px;
+          line-height: 1.3;
+          margin-bottom: 8px; }
+        section.manage.detail article .addInfo p {
+          font-size: 18px;
+          line-height: 1.3; }
+        section.manage.detail article .addInfo hr {
+          margin-top: 25px;
+          margin-bottom: 20px;
+          width: 120px; }
+      section.manage.detail article img {
+        width: 360px;
+        height: 360px; }
+      section.manage.detail article h2 {
+        font-size: 3.43em;
+        line-height: 1.2;
+        margin-top: 26px;
+        margin-bottom: 7px; }
   .bannerBlock {
     height: 400px; }
     .bannerBlock img {
@@ -6765,136 +6928,6 @@ footer {
         height: 90px; }
     footer .footGov span {
       display: block; } }
-
-.test-block input::-moz-placeholder {
-  color: #cad;
-  opacity: 1; }
-
-.test-block input:-ms-input-placeholder {
-  color: #cad; }
-
-.test-block input::-webkit-input-placeholder {
-  color: #cad; }
-
-.test-block p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap; }
-
-.test-block div.center-block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 110px;
-  height: 31px;
-  background-image: url("../img/easy_logo-1x.png"); }
-  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-    .test-block div.center-block {
-      background-image: url("../img/easy_logo-2x.png");
-      background-size: 31px 110px; } }
-
-.transformation-block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 150px; }
-  .transformation-block #square {
-    width: 50px;
-    height: 50px;
-    background-color: cyan;
-    -webkit-transition: all 1s ease-in 0.5s;
-    transition: all 1s ease-in 0.5s; }
-    .transformation-block #square:hover {
-      background-color: blue;
-      opacity: 0;
-      -webkit-transform: translate(10px, 30%) scale(2) rotate(45deg) skew(5deg, 20deg);
-          -ms-transform: translate(10px, 30%) scale(2) rotate(45deg) skew(5deg, 20deg);
-              transform: translate(10px, 30%) scale(2) rotate(45deg) skew(5deg, 20deg); }
-
-.animation-block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  width: 50px;
-  height: 150px; }
-  .animation-block #ball {
-    width: 50px;
-    height: 50px;
-    background-image: -webkit-linear-gradient(top, orange 0%, blue 100%);
-    background-image: linear-gradient(to bottom, orange 0%, blue 100%);
-    background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFA500', endColorstr='#FF0000FF', GradientType=0);
-    border: 1px solid #000;
-    position: absolute;
-    bottom: 20px; }
-    .animation-block #ball:hover {
-      -webkit-animation: bounce 1s infinite ease-in-out alternate 0.5s forwards;
-              animation: bounce 1s infinite ease-in-out alternate 0.5s forwards; }
-
-@-webkit-keyframes bounce {
-  from {
-    bottom: 0;
-    -webkit-transform: scale(1);
-            transform: scale(1); }
-  50% {
-    bottom: 100px;
-    -webkit-transform: scale(2);
-            transform: scale(2);
-    -webkit-animation-timing-function: ease;
-            animation-timing-function: ease; }
-  to {
-    bottom: 0;
-    -webkit-transform: scale(1);
-            transform: scale(1); } }
-
-@keyframes bounce {
-  from {
-    bottom: 0;
-    -webkit-transform: scale(1);
-            transform: scale(1); }
-  50% {
-    bottom: 100px;
-    -webkit-transform: scale(2);
-            transform: scale(2);
-    -webkit-animation-timing-function: ease;
-            animation-timing-function: ease; }
-  to {
-    bottom: 0;
-    -webkit-transform: scale(1);
-            transform: scale(1); } }
-
-.carousel#carousel01 {
-  margin-bottom: 140px; }
-  .carousel#carousel01 .carousel-inner .item {
-    background-color: red; }
-    .carousel#carousel01 .carousel-inner .item img {
-      width: 100%;
-      margin: 0; }
-  .carousel#carousel01 .carousel-indicators {
-    margin-left: -50%;
-    width: 100%;
-    text-align: left;
-    bottom: -130px; }
-    .carousel#carousel01 .carousel-indicators li {
-      text-indent: 0px;
-      height: auto;
-      width: 16.66666667%;
-      border: none;
-      margin: 0; }
-      .carousel#carousel01 .carousel-indicators li:first-child {
-        margin-left: -15px; }
-      .carousel#carousel01 .carousel-indicators li:last-child {
-        margin-right: -15px; }
-      .carousel#carousel01 .carousel-indicators li + li {
-        margin-left: 6px; }
-      .carousel#carousel01 .carousel-indicators li.active {
-        background-color: transparent; }
-      .carousel#carousel01 .carousel-indicators li img {
-        max-width: 100%;
-        width: 100%;
-        margin: 0;
-        height: 105px; }
 
 @media (min-width: 1400px) {
   .col-max-1, .col-max-2, .col-max-3, .col-max-4, .col-max-5, .col-max-6, .col-max-7, .col-max-8, .col-max-9, .col-max-10, .col-max-11, .col-max-12 {

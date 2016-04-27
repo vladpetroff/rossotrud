@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mainpage</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|PT+Sans+Narrow:400,700|PT+Serif:400,400italic,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Элементы форм  http://silviomoreto.github.io/bootstrap-select/-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/css/bootstrap-select.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!-- Modern behaviour for old browsers:-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.5/es5-shim.min.js"></script>
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/2014.01.31/classList.min.js"></script>
+    <!-- Элементы форм  http://silviomoreto.github.io/bootstrap-select/-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/js/bootstrap-select.min.js" defer></script>
+    <script src="./js/main.js" defer></script>
+  </head>
+</html>
+<body>
+  <div class="container">
+    <header class="hidden-xs">
+      <div class="row">
+        <div class="headerRegion col-xs-12">
+          <select data-width="fit" class="selectpicker">
+            <option>Россия, Москва</option>
+            <option>Россия, Дмитров</option>
+            <option>Кахахстан, Алматы</option>
+          </select>
+          <select data-width="fit" class="selectpicker lang">
+            <option data-content="&lt;img src=&quot;./img/icons/flag/flag-ru.svg&quot; onerror=&quot;this.onerror=null; this.src='./img/icons/flag/flag-ru.png'&quot; class=&quot;flag&quot;&gt;&lt;ins&gt;Русский&lt;/ins&gt;"></option>
+            <option data-content="&lt;img src=&quot;./img/icons/flag/flag-en.svg&quot; onerror=&quot;this.onerror=null; this.src='./img/icons/flag/flag-en.png'&quot; class=&quot;flag&quot;&gt;&lt;ins&gt;English&lt;/ins&gt;"></option>
+            <option data-content="&lt;img src=&quot;./img/icons/flag/flag-fr.svg&quot; onerror=&quot;this.onerror=null; this.src='./img/icons/flag/flag-fr.png'&quot; class=&quot;flag&quot;&gt;&lt;ins&gt;Deutch&lt;/ins&gt;"></option>
+            <option data-content="&lt;img src=&quot;./img/icons/flag/flag-de.svg&quot; onerror=&quot;this.onerror=null; this.src='./img/icons/flag/flag-de.png'&quot; class=&quot;flag&quot;&gt;&lt;ins&gt;Français&lt;/ins&gt;"></option>
+            <option data-content="&lt;img src=&quot;./img/icons/flag/flag-es.svg&quot; onerror=&quot;this.onerror=null; this.src='./img/icons/flag/flag-es.png'&quot; class=&quot;flag&quot;&gt;&lt;ins&gt;Espaniol&lt;/ins&gt;"></option>
+          </select><a href="javascript:;" class="blindVersion pull-right"><span>Версия для слабовидящих</span></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="headerContent col-xs-12">
+          <div class="headerLogo pull-left"><a href="./"><img src="./img/icons/rs-logo.svg" onerror="this.onerror=null; this.src='./img/icons/rs-logo.png'"></a></div>
+          <div class="headerText pull-left">
+            <h1>Россотрудничество</h1>
+            <p>
+              Федеральное агентство по делам Содружества Независимых государств, соотечественников,
+              проживающих за рубежом, и по международному гуманитарному сотрудничеству
+              
+            </p>
+          </div>
+          <div class="headerSubscr pull-left">
+            <p><em>Подписывайтесь:</em></p>
+            <input type="email" placeholder="Ваша эл.почта" class="form-control">
+            <button type="submit" class="pull-right btn btn-warning"><strong>OK</strong></button>
+          </div>
+          <div class="headerSocial pull-left">
+            <p><em>Присоединяйтесь</em></p>
+            <div class="social"><a href="javascript:;" class="fb"></a><a href="javascript:;" class="vk"></a><a href="javascript:;" class="inst"></a><a href="javascript:;" class="yt"></a><a href="javascript:;" class="tw"></a></div>
+          </div>
+          <div class="headerContact pull-left">
+            <p><em>Обращайтесь</em></p>
+            <h2><a href="tel:+74993215499">+7 (499) 321-54-99</a></h2><a href="mailto:rossotr@rs.gov.ru">rossotr@rs.gov.ru</a>
+          </div>
+          <div class="headerMap pull-left">
+            <p><em>Представительства в мире:</em></p><a href="javascript:;"><img src="./img/icons/map.svg" onerror="this.onerror=null; this.src='./img/icons/map.png'"></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- phone-menu-->
+    <nav class="navbar navbar-default navbar-fixed-top visible-xs">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" data-toggle="collapse" data-target="#navbar-collapsed" aria-expanded="false" class="navbar-toggle collapsed"><img src="./img/icons/ic-menu.svg" onerror="this.onerror=null; this.src='./img/icons/ic-menu.png'" class="menu"><img src="./img/icons/ic-close-black-24-px.svg" onerror="this.onerror=null; this.src='./img/icons/ic-close-black-24-px.png'" class="closeMenu"><span class="sr-only">Toggle navigation</span></button><a href="./" class="logo"><img src="./img/icons/rs-logo-white.svg" onerror="this.onerror=null; this.src='./img/icons/rs-logo-white.png'"></a><a href="javascript:;" class="navbar-brand">Россотрудничество</a><a href="javascript:;" class="search"><img src="./img/icons/ic-search.svg" onerror="this.onerror=null; this.src='./img/icons/ic-search.png'"></a>
+          <div class="searchField">
+            <div class="input-group">
+              <input type="text" class="form-control"><span class="input-group-btn">
+                <button type="button" class="btn btn-warning"><img src="./img/icons/ic-search-white.svg" onerror="this.onerror=null; this.src='./img/icons/ic-search-white.png'"></button></span>
+            </div>
+          </div>
+        </div>
+        <div id="navbar-collapsed" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="about.html">О Россотрудничестве</a>
+              <ul>
+                <li><a href="about_programs.html">Государственные программы</a>
+                  <ul>
+                    <li><a href="about_programs_strategy.html">Стратегические коммуникации российского содействия международному развитию</a></li>
+                    <li><a href="about_programs_sng.html">Межгосударственная программа инновационного сотрудничества государств-участников СНГ</a></li>
+                    <li><a href="about_programs_newGen.html">«Новое поколение»: ознакомительные поездки в Россию для молодых представителей политических, общественных, научных и деловых кругов иностранных государств</a></li>
+                    <li><a href="about_programs_settlers.html">Содействие добровольному переселению в Российскую Федерацию соотечественников, проживающих за рубежом</a></li>
+                    <li><a href="about_programs_extpol.html">Внешнеполитическая деятельность</a></li>
+                    <li><a href="about_programs_rulang.html">Русский язык</a></li>
+                  </ul>
+                </li>
+                <li><a href="about_structure.html">Структура</a></li>
+                <li><a href="about_manage.html">Руководство</a></li>
+                <li><a href="about_history.html">История</a></li>
+                <li><a href="about_partners.html">Партнеры</a></li>
+              </ul>
+            </li>
+            <li><a href="activity.html">Деятельность</a>
+              <ul>
+                <li><a href="activity_worldSupport.html">Содействие международному развитию</a></li>
+                <li><a href="activity_diplomacy.html">Общественная дипломатия</a></li>
+                <li><a href="activity_russianCulture.html">Продвижение русской культуры
+                    <ul>
+                      <li><a href="activity_russianCulture_.html">25 лет Содружеству Независимых Государств</a></li>
+                      <li><a href="activity_russianCulture_.html">25 лет Содружеству Независимых Государств</a></li>
+                      <li><a href="activity_russianCulture_ruCinema.html">Год российского кино</a></li>
+                      <li><a href="activity_russianCulture_.html">90 лет народной дипломатии</a></li>
+                      <li><a href="activity_russianCulture_.html">50-летие первого выхода человека в открытый космос</a></li>
+                      <li><a href="activity_russianCulture_.html">Посольство мастерства</a></li>
+                      <li><a href="activity_russianCulture_.html">Год литературы</a></li>
+                      <li><a href="activity_russianCulture_.html">Год России в Монако</a></li>
+                      <li><a href="activity_russianCulture_.html">70-летие Победы в Великой Отечественной войне</a></li>
+                      <li><a href="activity_russianCulture_.html">175-летие со дня рождения П. И. Чайковского</a></li>
+                      <li><a href="activity_russianCulture_.html">1000-летие преставления святого равноапостольного князя Владимира — Крестителя Руси</a></li>
+                      <li><a href="activity_russianCulture_.html">День семьи, любви и верности</a></li>
+                      <li><a href="activity_russianCulture_.html">700-летие со дня рождения преподобного Сергия Радонежского</a></li>
+                      <li><a href="activity_russianCulture_.html">200-летие со дня рождения М. Ю. Лермонтова</a></li>
+                      <li><a href="activity_russianCulture_.html">Дружба Народов</a></li>
+                      <li><a href="activity_russianCulture_.html">100-летие начала Первой мировой войны</a></li>
+                      <li><a href="activity_russianCulture_.html">Фотовыставка «Гран-при по-русски»</a></li>
+                      <li><a href="activity_russianCulture_.html">Год России в Нидерландах и Нидерландов в России</a></li>
+                      <li><a href="activity_russianCulture_.html">Год Германии в России и России в Германии</a></li>
+                      <li><a href="activity_russianCulture_.html">Год Испании в России и России в Испании</a></li>
+                      <li><a href="activity_russianCulture_.html">Год России в Италии</a></li>
+                      <li><a href="activity_russianCulture_.html">Год китайского языка в России</a></li>
+                      <li><a href="activity_russianCulture_.html">Год России во Франции и Год Франции в России</a></li>
+                      <li><a href="activity_russianCulture_.html">Год Болгарии в России</a></li>
+                    </ul></a></li>
+                <li><a href="activity_comrades.html">Поддержка соотечественников</a></li>
+                <li><a href="activity_rulangSupport.html">Укрепление позиций русского языка</a></li>
+                <li><a href="activity_education.html">Образование и наука</a></li>
+                <li><a href="activity_cemetery.html">Сохранение историко-мемориальных памятников и мест погребения</a></li>
+                <li><a href="activity_relations.html">Международные связи субъектов РФ</a></li>
+                <li><a href="activity_sng.html">Интеграция стран СНГ</a></li>
+              </ul>
+            </li>
+            <li><a href="anons.html">Анонсы</a></li>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+          <p class="represent"><a href="represent.html">Сайты представительств</a></p>
+          <div class="lang">
+            <p>Язык</p><a class="active"><img src="./img/icons/flag/flag_ru.png" class="flag"></a><a><img src="./img/icons/flag/flag_en.png" class="flag"></a><a><img src="./img/icons/flag/flag_de.png" class="flag"></a><a><img src="./img/icons/flag/flag_fr.png" class="flag"></a><a><img src="./img/icons/flag/flag_es.png" class="flag"></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <nav class="navbar navbar-desktop hidden-xs">
+      <div class="navbar-header">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="about.html">О Россотрудничестве</a></li>
+          <li><a href="activity.html">Деятельность</a></li>
+          <li><a href="anons.html">Анонсы</a></li>
+          <li><a href="news.html">Новости</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </div><a href="javascript:;" class="search"><img src="./img/icons/ic-search.svg" onerror="this.onerror=null; this.src='./img/icons/ic-search.png'"></a>
+      <div class="searchField">
+        <div class="input-group">
+          <input type="text" class="form-control"><span class="input-group-btn">
+            <button type="button" class="btn btn-warning"><img src="./img/icons/ic-search-white.svg" onerror="this.onerror=null; this.src='./img/icons/ic-search-white.png'"></button></span>
+        </div>
+      </div>
+    </nav>
+    <div class="row">
+      <aside class="col-sm-4 hidden-xs">
+        <nav class="navbar navbar-default">
+          <ul class="nav navbar-nav">
+            <li><a href="about.html">О Россотрудничестве</a>
+              <ul>
+                <li><a href="about_programs.html">Государственные программы</a>
+                  <ul>
+                    <li><a href="about_programs_strategy.html">Стратегические коммуникации российского содействия международному развитию</a></li>
+                    <li><a href="about_programs_sng.html">Межгосударственная программа инновационного сотрудничества государств-участников СНГ</a></li>
+                    <li><a href="about_programs_newGen.html">«Новое поколение»: ознакомительные поездки в Россию для молодых представителей политических, общественных, научных и деловых кругов иностранных государств</a></li>
+                    <li><a href="about_programs_settlers.html">Содействие добровольному переселению в Российскую Федерацию соотечественников, проживающих за рубежом</a></li>
+                    <li><a href="about_programs_extpol.html">Внешнеполитическая деятельность</a></li>
+                    <li><a href="about_programs_rulang.html">Русский язык</a></li>
+                  </ul>
+                </li>
+                <li><a href="about_structure.html">Структура</a></li>
+                <li><a href="about_manage.html">Руководство</a></li>
+                <li><a href="about_history.html">История</a></li>
+                <li><a href="about_partners.html">Партнеры</a></li>
+              </ul>
+            </li>
+            <li><a href="activity.html">Деятельность</a>
+              <ul>
+                <li><a href="activity_worldSupport.html">Содействие международному развитию</a></li>
+                <li><a href="activity_diplomacy.html">Общественная дипломатия</a></li>
+                <li><a href="activity_russianCulture.html">Продвижение русской культуры
+                    <ul>
+                      <li><a href="activity_russianCulture_.html">25 лет Содружеству Независимых Государств</a></li>
+                      <li><a href="activity_russianCulture_.html">25 лет Содружеству Независимых Государств</a></li>
+                      <li><a href="activity_russianCulture_ruCinema.html">Год российского кино</a></li>
+                      <li><a href="activity_russianCulture_.html">90 лет народной дипломатии</a></li>
+                      <li><a href="activity_russianCulture_.html">50-летие первого выхода человека в открытый космос</a></li>
+                      <li><a href="activity_russianCulture_.html">Посольство мастерства</a></li>
+                      <li><a href="activity_russianCulture_.html">Год литературы</a></li>
+                      <li><a href="activity_russianCulture_.html">Год России в Монако</a></li>
+                      <li><a href="activity_russianCulture_.html">70-летие Победы в Великой Отечественной войне</a></li>
+                      <li><a href="activity_russianCulture_.html">175-летие со дня рождения П. И. Чайковского</a></li>
+                      <li><a href="activity_russianCulture_.html">1000-летие преставления святого равноапостольного князя Владимира — Крестителя Руси</a></li>
+                      <li><a href="activity_russianCulture_.html">День семьи, любви и верности</a></li>
+                      <li><a href="activity_russianCulture_.html">700-летие со дня рождения преподобного Сергия Радонежского</a></li>
+                      <li><a href="activity_russianCulture_.html">200-летие со дня рождения М. Ю. Лермонтова</a></li>
+                      <li><a href="activity_russianCulture_.html">Дружба Народов</a></li>
+                      <li><a href="activity_russianCulture_.html">100-летие начала Первой мировой войны</a></li>
+                      <li><a href="activity_russianCulture_.html">Фотовыставка «Гран-при по-русски»</a></li>
+                      <li><a href="activity_russianCulture_.html">Год России в Нидерландах и Нидерландов в России</a></li>
+                      <li><a href="activity_russianCulture_.html">Год Германии в России и России в Германии</a></li>
+                      <li><a href="activity_russianCulture_.html">Год Испании в России и России в Испании</a></li>
+                      <li><a href="activity_russianCulture_.html">Год России в Италии</a></li>
+                      <li><a href="activity_russianCulture_.html">Год китайского языка в России</a></li>
+                      <li><a href="activity_russianCulture_.html">Год России во Франции и Год Франции в России</a></li>
+                      <li><a href="activity_russianCulture_.html">Год Болгарии в России</a></li>
+                    </ul></a></li>
+                <li><a href="activity_comrades.html">Поддержка соотечественников</a></li>
+                <li><a href="activity_rulangSupport.html">Укрепление позиций русского языка</a></li>
+                <li><a href="activity_education.html">Образование и наука</a></li>
+                <li><a href="activity_cemetery.html">Сохранение историко-мемориальных памятников и мест погребения</a></li>
+                <li><a href="activity_relations.html">Международные связи субъектов РФ</a></li>
+                <li><a href="activity_sng.html">Интеграция стран СНГ</a></li>
+              </ul>
+            </li>
+            <li><a href="anons.html">Анонсы</a></li>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <div class="col-max-6 col-lg-7 col-sm-8 col-xs-12">
+        <ol class="breadcrumb hidden-xs">
+          <li><a href="./">Главная страница</a></li>
+        </ol>
+        <section class="content">
+          <h1>Продвижение русской культуры</h1><img src="./img/activity/img_03.png">
+          <h5>Михаил Врубель. Царевна-Лебедь. 1900. <br>Холст, масло. 142,5 × 93,5 см <br>Государственная Третьяковская галерея, Москва</h5>
+          <p>Уникальность культуры каждого народа является не только его отличительным знаком, но и составляет феномен культурного многообразия человеческой цивилизации в целом. Культура России также является неотъемлемой ее частью.</p>
+          <p>Россия — страна, обладающая огромным культурным наследием и многовековыми культурными традициями. Исторические и географические особенности нашей страны способствовали тому, что Россия развивалась как государство, где сосуществовали и развивались множество культур, взаимодополняя друг друга. Именно эта характерная черта делает русскую культуру притягательной для иностранцев, которые на протяжении не одного столетия пытаются постичь загадочную «русскую душу».</p>
+          <p>Достижения России в области литературы, музыки, балета, театра, изобразительного искусства признаны во всем мире.</p>
+          <p>Русская литература является не только отражением эстетических, нравственных и духовных ценностей своего народа, но отличается глубоким психологизмом в изображении человеческих характеров. Произведения А. С. Пушкина, Ф. М. Достоевского, Л. Н. Толстого, А. П. Чехова, С. А. Есенина давно стали достоянием мировой литературы.</p>
+          <p>Русская классическая музыка дала миру такие имена, как П. И. Чайковский, М. И. Глинка, С. В. Рахманинов, И. Ф. Стравинский, С. С. Прокофьев, Д. Д. Шостакович.</p>
+          <p>Русское изобразительное искусство прославили многие художники, среди них В. А. Серов, В. И. Суриков, В. М. Васнецов, А. А. Иванов, К. З. Малевич, М. З. Шагал. Их картины — всегда желанные участники международных вернисажей.</p>
+          <p>Во всем мире заслуженным авторитетом и признанием пользуются русская театральная и балетная школа. По «системе К. С. Станиславского» работают многие театральные и киноактеры. В России работают театры, имеющие мировую славу, такие как Мариинский театр, Большой и Малый театры. Русский балет прославили Г. С. Уланова, М. М. Плисецкая, Р. Х. Нуриев, М. Н. Барышников. «Русские сезоны», а затем и «Русский балет» Сергея Дягилева неизменно собирали полные залы и были одним из крупнейших событий в мире культуры. В мировую историю оперы вписаны такие имена, как Ф. И. Шаляпин, С. Я. Лемешев, Г. П. Вишневская.</p>
+          <p>Российский кинематограф с момента возникновения был связан с историческими процессами, происходящими в стране и в мире в целом. Многие киноленты получали мировые награды, такие как Премия Академии кинематографических искусств и наук («Оскар»), награды Каннского международного кинофестиваля.  Классиками мирового кино стали фильмы С. М. Эйзенштейна «Броненосец „Потемкин“», Г. В. Александрова «Веселые ребята», И. А. Пырьева «Свинарка и пастух», С. Ф. Бондарчука «Война и мир», М. К. Калатозова «Летят журавли», А. А. Тарковского «Солярис», В. В. Меньшова «Москва слезам не верит», Н. С. Михалкова «Утомленные солнцем», П. С. Лунгина «Остров», А. К. Котта «Брестская крепость».</p>
+          <p>Одним из направлений деятельности Россотрудничества является представление культурного наследия России за ее пределами, а также содействие международному сотрудничеству в сфере культуры.</p>
+          <p>Россотрудничество поддерживает и реализует международные проекты в области культуры и искусства в соответствии <a href="javascript:;">с Основными направлениями политики Российской Федерации в сфере международного культурно-гуманитарного сотрудничества</a>.</p>
+          <p>Агентство имеет 93 представительства в 80 странах мира, двери которых открыты для всех, кто активно интересуется Россией и российской культурой. На базе российских центров науки и культуры регулярно проходят различные мероприятия, направленные на популяризацию культуры народов России: концерты российских фольклорных, музыкальных и танцевальных коллективов; творческие встречи с известными российскими деятелями культуры; выставки современных художников; тематические фотовыставки архивных материалов российских музеев; кинопоказы последних достижений отечественной кинематографии; спектакли российских театров для взрослой и детской аудитории.</p>
+          <p>Россотрудничество принимает активное участие в Перекрестных годах России с зарубежными странами, а также проводит серии мероприятий за рубежом, приуроченных к памятным датам российской истории.</p>
+          <h3>Проекты в области продвижения русской культуры</h3>
+          <div class="list-group visible-xs"><a href="activity_russianCulture_.html" class="list-group-item">25 лет Содружеству Независимых Государств</a><a href="activity_russianCulture_ruCinema.html" class="list-group-item">Год российского кино</a><a href="activity_russianCulture_.html" class="list-group-item">90 лет народной дипломатии</a><a href="activity_russianCulture_.html" class="list-group-item">50-летие первого выхода человека в открытый космос</a><a href="activity_russianCulture_.html" class="list-group-item">Посольство мастерства</a><a href="activity_russianCulture_.html" class="list-group-item">Год литературы</a><a href="activity_russianCulture_.html" class="list-group-item">Год России в Монако</a><a href="activity_russianCulture_.html" class="list-group-item">70-летие Победы в Великой Отечественной войне</a><a href="activity_russianCulture_.html" class="list-group-item">175-летие со дня рождения П. И. Чайковского</a><a href="activity_russianCulture_.html" class="list-group-item">1000-летие преставления святого равноапостольного князя Владимира — Крестителя Руси</a><a href="activity_russianCulture_.html" class="list-group-item">День семьи, любви и верности</a><a href="activity_russianCulture_.html" class="list-group-item">700-летие со дня рождения преподобного Сергия Радонежского</a><a href="activity_russianCulture_.html" class="list-group-item">200-летие со дня рождения М. Ю. Лермонтова</a><a href="activity_russianCulture_.html" class="list-group-item">Дружба Народов</a><a href="activity_russianCulture_.html" class="list-group-item">100-летие начала Первой мировой войны</a><a href="activity_russianCulture_.html" class="list-group-item">Фотовыставка «Гран-при по-русски»</a><a href="activity_russianCulture_.html" class="list-group-item">Год России в Нидерландах и Нидерландов в России</a><a href="activity_russianCulture_.html" class="list-group-item">Год Германии в России и России в Германии</a><a href="activity_russianCulture_.html" class="list-group-item">Год Испании в России и России в Испании</a><a href="activity_russianCulture_.html" class="list-group-item">Год России в Италии</a><a href="activity_russianCulture_.html" class="list-group-item">Год китайского языка в России</a><a href="activity_russianCulture_.html" class="list-group-item">Год России во Франции и Год Франции в России</a><a href="activity_russianCulture_.html" class="list-group-item">Год Болгарии в России</a></div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <footer class="row visible-xs">
+    <div class="col-xs-12">
+      <h4>Присоединяйтесь к нам <br>в социальных сетях:</h4>
+      <div class="social"><a href="javascript:;" class="fb"></a><a href="javascript:;" class="vk"></a><a href="javascript:;" class="inst"></a><a href="javascript:;" class="yt"></a><a href="javascript:;" class="tw"></a>
+        <hr>
+      </div>
+      <p><img src="./img/icons/ic-copyright-black-24-px.svg" alt="facebook" onerror="this.onerror=null; this.src='./img/icons/ic-copyright-black-24-px.png'"></p>
+      <p>Федеральное агентство по делам Содружества Независимых государств, соотечественников, проживающих за рубежом, и по международному гуманитарному сотрудничеству, 2016</p>
+    </div>
+  </footer>
+  <footer class="hidden-xs">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2">
+          <h4>О Россотрудничестве</h4>
+          <ul>
+            <li><a href="about.html">Агентство</a></li>
+            <li><a href="about_programs.html">Государственные программы</a></li>
+            <li><a href="about_structure.html">Структура</a></li>
+            <li><a href="about_manage.html">Руководство</a></li>
+            <li><a href="about_history.html">История</a></li>
+            <li><a href="about_partners.html">Партнеры</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-2">
+          <h4>Деятельность</h4>
+          <ul>
+            <li><a href="javascript:;">Содействие международному развитию</a></li>
+            <li><a href="javascript:;">Общественная дипломатия</a></li>
+            <li><a href="javascript:;">Продвижение русской культуры</a></li>
+            <li><a href="javascript:;">Поддержка соотечественников</a></li>
+            <li><a href="javascript:;">Укрепление позиций русского языка</a></li>
+            <li><a href="javascript:;">Образование и наука</a></li>
+            <li><a href="javascript:;">Сохранение историко-мемориальных памятников и мест погребения</a></li>
+            <li><a href="javascript:;">Международные связи субъектов РФ</a></li>
+            <li><a href="javascript:;">Интеграция стран СНГ</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-2">
+          <h4>Анонсы</h4>
+          <ul>
+            <li><a href="javascript:;">Кино</a></li>
+            <li><a href="javascript:;">Выставки</a></li>
+            <li><a href="javascript:;">Концерты</a></li>
+            <li><a href="javascript:;">Спектакли</a></li>
+            <li><a href="javascript:;">Конференции</a></li>
+            <li><a href="javascript:;">Семинары</a></li>
+            <li><a href="javascript:;">Конкурсы</a></li>
+            <li><a href="javascript:;">Творческие встречи</a></li>
+            <li><a href="javascript:;">Конференции</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-2">
+          <h4>Новости</h4>
+          <ul>
+            <li><a href="javascript:;">Россия</a></li>
+            <li><a href="javascript:;">СНГ</a></li>
+            <li><a href="javascript:;">Мир</a></li>
+            <li><a href="javascript:;">Образование</a></li>
+            <li><a href="javascript:;">Наука и техника</a></li>
+            <li><a href="javascript:;">Культура</a></li>
+            <li><a href="javascript:;">Общество</a></li>
+            <li><a href="javascript:;">Русский язык</a></li>
+            <li><a href="javascript:;">Народная дипломатия</a></li>
+            <li>
+              <hr>
+            </li>
+            <li><a href="javascript:;">Все темы</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-2">
+          <h4>Контакты</h4>
+          <ul>
+            <li><a href="javascript:;">Центральный аппарат</a></li>
+            <li><a href="javascript:;">Представительства в мире</a></li>
+            <li><a href="javascript:;">Написать обращение</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-2">
+          <h4>Подписывайтесь:</h4>
+          <div class="footerSubscr">
+            <input type="email" placeholder="Ваша эл.почта" class="form-control">
+            <button type="submit" class="pull-right btn btn-warning"><strong>OK</strong></button>
+          </div>
+          <div class="footerSocial">
+            <h4>И присоединяйтесь:</h4>
+            <div class="social"><a href="javascript:;" class="fb"></a><a href="javascript:;" class="vk"></a><a href="javascript:;" class="inst"></a><a href="javascript:;" class="yt"></a><a href="javascript:;" class="tw"></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <hr>
+        </div>
+        <div class="col-xs-5 footInfo">
+          <div class="block err">
+            <p>Нашли опечатку? <br>
+              Сообщите нам, выделив текст с ошибкой и нажав Ctrl+Enter
+              
+            </p>
+          </div>
+          <div class="block copy">
+            <p>
+              Федеральное агентство по делам Содружества Независимых государств, соотечественников, проживающих за рубежом, и по международному гуманитарному сотрудничеству, 2016
+              
+            </p>
+          </div>
+          <div class="block geo">
+            <p>125009, Москва, ул. Воздвиженка, д. 18/9 <br>
+              Эл. почта: <a href="mailto:rossotr@rs.gov.ru">rossotr@rs.gov.ru</a> <br>
+              <a href="contacts.html">Контактная информация</a>
+              
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-6 col-xs-offset-1 footGov">
+          <div class="row">
+            <div class="col-xs-4 text-center"><a href="javascript:;"><img src="./img/icons/kremlin-ru-logo.svg" alt="facebook" onerror="this.onerror=null; this.src='./img/icons/kremlin-ru-logo.png'"><span>Президент России</span></a></div>
+            <div class="col-xs-4 text-center"><a href="javascript:;"><img src="./img/icons/govenrment-logo.svg" alt="facebook" onerror="this.onerror=null; this.src='./img/icons/govenrment-logo.png'"><span>Правительство Российской Федерации</span></a></div>
+            <div class="col-xs-4 text-center"><a href="javascript:;"><img src="./img/icons/mid-logo.svg" alt="facebook" onerror="this.onerror=null; this.src='./img/icons/mid-logo-logo.png'"><span>Министерство иностранных дел</span></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>

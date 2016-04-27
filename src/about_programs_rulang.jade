@@ -9,8 +9,40 @@ block content
 		include includes/_header
 		include includes/_mainmenu
 
+		nav.navbar.navbar-desktop.hidden-xs
+			.navbar-header
+				ul.nav.navbar-nav
+					li.open
+						a(href="about.html") О Россотрудничестве
+					li
+						a(href="activity.html") Деятельность
+					li
+						a(href="anons.html") Анонсы
+					li
+						a(href="news.html") Новости
+					li
+						a(href="contacts.html") Контакты
+
+			a(href="javascript:;").search
+				img(src="./img/icons/ic-search.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search.png'")
+
+			.searchField
+				.input-group
+					input(type="text").form-control
+					span.input-group-btn
+						button(type="button").btn.btn-warning: img(src="./img/icons/ic-search-white.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search-white.png'")
+
+
 		.row
-			.col-sm-6.col-xs-12
+			aside.col-sm-4.hidden-xs
+				nav.navbar.navbar-default
+					include includes/_sidemenu
+			.col-max-6.col-sm-7.col-xs-12
+				ol.breadcrumb.hidden-xs
+					li: a(href="./") Главная страница
+					li: a(href="about.html") О Россотрудничестве
+					li: a(href="about_programs.html") Государственные программы
+
 				section.content
 					h1 Русский язык
 					p Государственные заказчики программы «Русский язык» — Минобрнауки России и Россотрудничество.

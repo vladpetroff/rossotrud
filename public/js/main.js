@@ -56,7 +56,19 @@
 	;$(function () {
 
 		// clickable anons-block
-		$("section").on("click", "article", function () {
+		$("section.anons").on("click", "article", function () {
+			window.location = $(this).find("a").attr('href');
+		});
+		// clickable news-block
+		$("section.news").on("click", ".news", function () {
+			window.location = $(this).find("a").attr('href');
+		});
+		// clickable projects-block
+		$("section.projects").on("click", "article", function () {
+			window.location = $(this).find("a").attr('href');
+		});
+		// clickable manage-block
+		$("section.manage.block").on("click", "article", function () {
 			window.location = $(this).find("a").attr('href');
 		});
 
