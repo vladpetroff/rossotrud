@@ -1,0 +1,812 @@
+extends includes/template
+
+block title
+	title contacts
+
+
+block content
+	.container
+		include includes/_header
+
+		// phone-menu
+		nav.navbar.navbar-default.navbar-fixed-top.visible-xs
+			.container
+				.navbar-header
+					button(type="button" data-toggle="collapse" data-target="#navbar-collapsed" aria-expanded="false").navbar-toggle.collapsed
+						img(src="./img/icons/ic-menu.svg", onerror="this.onerror=null; this.src='./img/icons/ic-menu.png'").menu
+						img(src="./img/icons/ic-close-black-24-px.svg", onerror="this.onerror=null; this.src='./img/icons/ic-close-black-24-px.png'").closeMenu
+						span.sr-only Toggle navigation
+
+					a(href="./").logo
+						img(src="./img/icons/rs-logo-white.svg", onerror="this.onerror=null; this.src='./img/icons/rs-logo-white.png'")
+
+					a(href="javascript:;").navbar-brand Россотрудничество
+
+					a(href="javascript:;").search
+						img(src="./img/icons/ic-search.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search.png'")
+
+					.searchField
+						.input-group
+							input(type="text").form-control
+							span.input-group-btn
+								button(type="button").btn.btn-warning: img(src="./img/icons/ic-search-white.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search-white.png'")
+
+				.collapse.navbar-collapse#navbar-collapsed
+					ul.nav.navbar-nav
+						li
+							a(href="about.html") О Россотрудничестве
+							ul
+								li
+									a(href="about_programs.html") Государственные программы
+									ul
+										li: a(href="about_programs_strategy.html") Стратегические коммуникации российского содействия международному развитию
+										li: a(href="about_programs_sng.html") Межгосударственная программа инновационного сотрудничества государств-участников СНГ
+										li: a(href="about_programs_newGen.html") «Новое поколение»: ознакомительные поездки в Россию для молодых представителей политических, общественных, научных и деловых кругов иностранных государств
+										li: a(href="about_programs_settlers.html") Содействие добровольному переселению в Российскую Федерацию соотечественников, проживающих за рубежом
+										li: a(href="about_programs_extpol.html") Внешнеполитическая деятельность
+										li: a(href="about_programs_rulang.html") Русский язык
+
+								li: a(href="about_structure.html") Структура
+								li: a(href="about_manage.html") Руководство
+								li: a(href="about_history.html") История
+								li: a(href="about_partners.html") Партнеры
+						li
+							a(href="activity.html") Деятельность
+							ul
+								li: a(href="activity_worldSupport.html") Содействие международному развитию
+								li: a(href="activity_diplomacy.html") Общественная дипломатия
+								li
+									a(href="activity_russianCulture.html") Продвижение русской культуры
+									ul
+										li: a(href="activity_russianCulture_.html") 25 лет Содружеству Независимых Государств
+										li: a(href="activity_russianCulture_.html") 25 лет Содружеству Независимых Государств
+										li: a(href="activity_russianCulture_ruCinema.html") Год российского кино
+										li: a(href="activity_russianCulture_.html") 90 лет народной дипломатии
+										li: a(href="activity_russianCulture_.html") 50-летие первого выхода человека в открытый космос
+										li: a(href="activity_russianCulture_.html") Посольство мастерства
+										li: a(href="activity_russianCulture_.html") Год литературы
+										li: a(href="activity_russianCulture_.html") Год России в Монако
+										li: a(href="activity_russianCulture_.html") 70-летие Победы в Великой Отечественной войне
+										li: a(href="activity_russianCulture_.html") 175-летие со дня рождения П. И. Чайковского
+										li: a(href="activity_russianCulture_.html") 1000-летие преставления святого равноапостольного князя Владимира — Крестителя Руси
+										li: a(href="activity_russianCulture_.html") День семьи, любви и верности
+										li: a(href="activity_russianCulture_.html") 700-летие со дня рождения преподобного Сергия Радонежского
+										li: a(href="activity_russianCulture_.html") 200-летие со дня рождения М. Ю. Лермонтова
+										li: a(href="activity_russianCulture_.html") Дружба Народов
+										li: a(href="activity_russianCulture_.html") 100-летие начала Первой мировой войны
+										li: a(href="activity_russianCulture_.html") Фотовыставка «Гран-при по-русски»
+										li: a(href="activity_russianCulture_.html") Год России в Нидерландах и Нидерландов в России
+										li: a(href="activity_russianCulture_.html") Год Германии в России и России в Германии
+										li: a(href="activity_russianCulture_.html") Год Испании в России и России в Испании
+										li: a(href="activity_russianCulture_.html") Год России в Италии
+										li: a(href="activity_russianCulture_.html") Год китайского языка в России
+										li: a(href="activity_russianCulture_.html") Год России во Франции и Год Франции в России
+										li: a(href="activity_russianCulture_.html") Год Болгарии в России
+
+								li: a(href="activity_comrades.html") Поддержка соотечественников
+								li: a(href="activity_rulangSupport.html") Укрепление позиций русского языка
+								li: a(href="activity_education.html") Образование и наука
+								li: a(href="activity_cemetery.html") Сохранение историко-мемориальных памятников и мест погребения
+								li: a(href="activity_relations.html") Международные связи субъектов РФ
+								li: a(href="activity_sng.html") Интеграция стран СНГ
+						li: a(href="anons.html") Анонсы
+						li: a(href="news.html") Новости
+						li.open.active
+							a(href="contacts.html") Контакты
+							ul
+								li: a(href="contacts_center.html") Центральный аппарат
+								li: a(href="contacts_inworld.html") Представительства в мире
+								li: a(href="contacts_callback.html") Написать обращение
+
+					p.represent: a(href="represent.html") Сайты представительств
+
+					.lang
+						p Язык
+						a.active: img(src="./img/icons/flag/flag_ru.png").flag
+						a: img(src="./img/icons/flag/flag_en.png").flag
+						a: img(src="./img/icons/flag/flag_de.png").flag
+						a: img(src="./img/icons/flag/flag_fr.png").flag
+						a: img(src="./img/icons/flag/flag_es.png").flag
+
+		nav.navbar.navbar-desktop.hidden-xs
+			.navbar-header
+				ul.nav.navbar-nav
+					li: a(href="about.html") О Россотрудничестве
+					li: a(href="activity.html") Деятельность
+					li: a(href="anons.html") Анонсы
+					li: a(href="news.html") Новости
+					li.active: a(href="contacts.html") Контакты
+
+			a(href="javascript:;").search
+				img(src="./img/icons/ic-search.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search.png'")
+
+			.searchField
+				.input-group
+					input(type="text").form-control
+					span.input-group-btn
+						button(type="button").btn.btn-warning: img(src="./img/icons/ic-search-white.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search-white.png'")
+
+		.row
+			aside.col-sm-3.hidden-xs
+				nav.navbar.navbar-default
+					ul.nav.navbar-nav
+						li
+							a(href="about.html") О Россотрудничестве
+							ul
+								li
+									a(href="about_programs.html") Государственные программы
+									ul
+										li: a(href="about_programs_strategy.html") Стратегические коммуникации российского содействия международному развитию
+										li: a(href="about_programs_sng.html") Межгосударственная программа инновационного сотрудничества государств-участников СНГ
+										li: a(href="about_programs_newGen.html") «Новое поколение»: ознакомительные поездки в Россию для молодых представителей политических, общественных, научных и деловых кругов иностранных государств
+										li: a(href="about_programs_settlers.html") Содействие добровольному переселению в Российскую Федерацию соотечественников, проживающих за рубежом
+										li: a(href="about_programs_extpol.html") Внешнеполитическая деятельность
+										li: a(href="about_programs_rulang.html") Русский язык
+
+								li: a(href="about_structure.html") Структура
+								li: a(href="about_manage.html") Руководство
+								li: a(href="about_history.html") История
+								li: a(href="about_partners.html") Партнеры
+						li
+							a(href="activity.html") Деятельность
+							ul
+								li: a(href="activity_worldSupport.html") Содействие международному развитию
+								li: a(href="activity_diplomacy.html") Общественная дипломатия
+								li
+									a(href="activity_russianCulture.html") Продвижение русской культуры
+									ul
+										li: a(href="activity_russianCulture_.html") 25 лет Содружеству Независимых Государств
+										li: a(href="activity_russianCulture_.html") 25 лет Содружеству Независимых Государств
+										li: a(href="activity_russianCulture_ruCinema.html") Год российского кино
+										li: a(href="activity_russianCulture_.html") 90 лет народной дипломатии
+										li: a(href="activity_russianCulture_.html") 50-летие первого выхода человека в открытый космос
+										li: a(href="activity_russianCulture_.html") Посольство мастерства
+										li: a(href="activity_russianCulture_.html") Год литературы
+										li: a(href="activity_russianCulture_.html") Год России в Монако
+										li: a(href="activity_russianCulture_.html") 70-летие Победы в Великой Отечественной войне
+										li: a(href="activity_russianCulture_.html") 175-летие со дня рождения П. И. Чайковского
+										li: a(href="activity_russianCulture_.html") 1000-летие преставления святого равноапостольного князя Владимира — Крестителя Руси
+										li: a(href="activity_russianCulture_.html") День семьи, любви и верности
+										li: a(href="activity_russianCulture_.html") 700-летие со дня рождения преподобного Сергия Радонежского
+										li: a(href="activity_russianCulture_.html") 200-летие со дня рождения М. Ю. Лермонтова
+										li: a(href="activity_russianCulture_.html") Дружба Народов
+										li: a(href="activity_russianCulture_.html") 100-летие начала Первой мировой войны
+										li: a(href="activity_russianCulture_.html") Фотовыставка «Гран-при по-русски»
+										li: a(href="activity_russianCulture_.html") Год России в Нидерландах и Нидерландов в России
+										li: a(href="activity_russianCulture_.html") Год Германии в России и России в Германии
+										li: a(href="activity_russianCulture_.html") Год Испании в России и России в Испании
+										li: a(href="activity_russianCulture_.html") Год России в Италии
+										li: a(href="activity_russianCulture_.html") Год китайского языка в России
+										li: a(href="activity_russianCulture_.html") Год России во Франции и Год Франции в России
+										li: a(href="activity_russianCulture_.html") Год Болгарии в России
+
+								li: a(href="activity_comrades.html") Поддержка соотечественников
+								li: a(href="activity_rulangSupport.html") Укрепление позиций русского языка
+								li: a(href="activity_education.html") Образование и наука
+								li: a(href="activity_cemetery.html") Сохранение историко-мемориальных памятников и мест погребения
+								li: a(href="activity_relations.html") Международные связи субъектов РФ
+								li: a(href="activity_sng.html") Интеграция стран СНГ
+						li: a(href="anons.html") Анонсы
+						li: a(href="news.html") Новости
+						li.open.active
+							a(href="contacts.html") Контакты
+							ul
+								li: a(href="contacts_center.html") Центральный аппарат
+								li: a(href="contacts_inworld.html") Представительства в мире
+								li: a(href="contacts_callback.html") Написать обращение
+
+
+
+
+
+			.contacts.col-sm-9.col-xs-12
+				ol.breadcrumb.hidden-xs
+					li: a(href="./") Главная страница
+
+				h1 Контакты
+
+				// Nav tabs
+				ul.nav.nav-tabs(role='tablist')
+					li.active(role='presentation')
+						a(href='#contList', aria-controls='home', role='tab', data-toggle='tab') Список
+					li(role='presentation')
+						a(href='#contMap', aria-controls='profile', role='tab', data-toggle='tab') Карта
+
+				// Tab panes
+				.tab-content
+					#contList.tab-pane.row.active(role='tabpanel')
+						.col-xs-12
+							h2 Центральный аппарат
+						.col-xs-12
+							.media
+								.media-left
+									p.media-object
+										img(src="./img/icons/flag/flag_ru.png")
+								.media-body
+									h4.media-heading Россия
+									a(href="javascript:;") Офис в Москве на Воздвиженке
+									a(href="javascript:;") Офис в Москве на Мещанской улице
+
+						.col-xs-12
+							h2 Зарубежные представительства
+							h3 Страны СНГ, Абхазия и Южная Осетия
+						.col-sm-4.col-xs-12
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Абхазия
+									a(href="javascript:;") Российский центр науки и культуры в Сухуме
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Азербайджан
+									a(href="javascript:;") Российский информационно-культурный центр в Баку
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Армения
+									a(href="javascript:;") Российский центр науки и культуры в Ереване
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Белоруссия
+									a(href="javascript:;") Отделение Российского центра науки и культуры в Бресте
+									a(href="javascript:;") Российский центр науки и культуры в Минске
+
+						.col-sm-4.col-xs-12
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Казахстан
+									a(href="javascript:;") Российский центр науки и культуры в Астане
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Киргизия
+									a(href="javascript:;") Российский центр науки и культуры в Бишкеке
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Молдавия
+									a(href="javascript:;") Российский центр науки и культуры в Кишиневе
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Таджикистан
+									a(href="javascript:;") Российский центр науки и культуры в Душанбе
+									h4.media-heading Туркмения
+									//a(href="javascript:;") Российский центр науки и культуры в Душанбе
+
+						.col-sm-4.col-xs-12
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Узбекистан
+									a(href="javascript:;") Российский центр науки и культуры в Ташкенте
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Украина
+									a(href="javascript:;") Представительство в Одессе
+									a(href="javascript:;") Российский центр науки и культуры в Киеве
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Южная Осетия
+									a(href="javascript:;") Цхинвале
+
+						.col-xs-12
+							h2 Европа
+						.col-sm-4.col-xs-12
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Австрия
+									a(href="javascript:;") Российский центр науки и культуры в Вене
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Албания
+									a(href="javascript:;") Представительство в Тиране
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Бельгия
+									a(href="javascript:;") Российский центр науки и культуры в Брюсселе
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Болгария
+									a(href="javascript:;") Российский культурно-информационный центр в Софии
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Великобритания
+									a(href="javascript:;") Представительство в Лондоне
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Венгрия
+									a(href="javascript:;") Российский центр науки и культуры в Будапеште
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Германия
+									a(href="javascript:;") Российский центр науки и культуры в Берлине
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Греция
+									a(href="javascript:;") Российский центр науки и культуры в Афинах
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Дания
+									a(href="javascript:;") Российский центр науки и культуры в Копенгагене
+
+						.col-sm-4.col-xs-12
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Испания
+									a(href="javascript:;") Российский центр науки и культуры в Мадриде
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Италия
+									a(href="javascript:;") Российский центр науки и культуры в Риме
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Кипр
+									a(href="javascript:;") Российский центр науки и культуры в Никосии
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Люксембург
+									a(href="javascript:;") Российский центр науки и культуры в Люксембурге
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Мальта
+									a(href="javascript:;") Российский центр науки и культуры в Валлетте
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Польша
+									a(href="javascript:;") Российский центр науки и культуры в Варшаве
+									a(href="javascript:;") Отделение Российского центра науки и культуры в Гданьске
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Португалия
+									a(href="javascript:;") Представительство в Лиссабоне
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Румыния
+									a(href="javascript:;") Российский центр науки и культуры в Бухаресте
+
+
+						.col-sm-4.col-xs-12
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Сербия
+									a(href="javascript:;") Российский центр науки и культуры в Белграде
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Словакия
+									a(href="javascript:;") Российский центр науки и культуры в Братиславе
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Словения
+									a(href="javascript:;") Российский центр науки и культуры в Любляне
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Финляндия
+									a(href="javascript:;") Российский центр науки и культуры в Хельсинки
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Франция
+									a(href="javascript:;") Российский центр науки и культуры в Париже
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Хорватия
+									a(href="javascript:;") Представительство в Загребе
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Черногория
+									a(href="javascript:;") Представительство в Подгорице
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Чехия
+									a(href="javascript:;") Российский центр науки и культуры в Праге
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Швейцария
+									a(href="javascript:;") Представительство в Берне
+
+
+						.col-xs-12
+							h2 Азия
+						.col-sm-4.col-xs-12
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Афганистан
+									a(href="javascript:;") Представитель (в составе Посольства) в Кабуле
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Бангладеш
+									a(href="javascript:;") Российский центр науки и культуры в Дакке
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Вьетнам
+									a(href="javascript:;") Российский центр науки и культуры в Ханое
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Израиль
+									a(href="javascript:;") Российский культурный центр в Тель-Авиве
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Индия
+									a(href="javascript:;") Российский центр науки и культуры в Нью-Дели
+									a(href="javascript:;") Отделение Российского центра науки и культуры в Калькутте
+									a(href="javascript:;") Отделение Российского центра науки и культуры в Мумбаи
+									a(href="javascript:;") Отделение Российского центра науки и культуры в Тривандруме
+									a(href="javascript:;") Отделение Российского центра науки и культуры в Ченнаи
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Индонезия
+									a(href="javascript:;") Российский центр науки и культуры в Джакарте
+
+
+
+						.col-sm-4.col-xs-12
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Иордания
+									a(href="javascript:;") Российский центр науки и культуры в Аммане
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Камбоджа
+									a(href="javascript:;") Российский центр науки и культуры в Пномпене
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Китай
+									a(href="javascript:;") Российский культурный центр в Пекине
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Лаос
+									a(href="javascript:;") Российский центр науки и культуры во Вьентьяне
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Ливан
+									a(href="javascript:;") Российский центр науки и культуры в Бейруте
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Малайзия
+									a(href="javascript:;") Российский центр науки и культуры в Куала-Лумпуре
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Монголия
+									a(href="javascript:;") Российский центр науки и культуры в Улан-Баторе
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Непал
+									a(href="javascript:;") Российский центр науки и культуры в Катманду
+
+
+						.col-sm-4.col-xs-12
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading ОАЭ
+									a(href="javascript:;") Представительство в Абу-Даби
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Пакистан
+									a(href="javascript:;") Российский центр науки и культуры в Карачи
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Палестина
+									a(href="javascript:;") Российский центр науки и культуры в Вифлееме
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Республика Корея
+									a(href="javascript:;") Представительство в Сеуле
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Сирия
+									a(href="javascript:;") Российский центр науки и культуры в Дамаске
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Турция
+									a(href="javascript:;") Российский центр науки и культуры в Анкаре
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Шри-Ланка
+									a(href="javascript:;") Российский центр науки и культуры в Коломбо
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Япония
+									a(href="javascript:;") Представительство в Токио
+
+
+						.col-xs-12
+							h2 Америка
+						.col-sm-4.col-xs-12
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Аргентина
+									a(href="javascript:;") Российский центр науки и культуры в Буэнос-Айресе
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Бразилия
+									a(href="javascript:;") Представительство в Бразилиа
+									a(href="javascript:;") Представительство в Сан-Паулу
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Венесуэла
+									a(href="javascript:;") Российский центр науки и культуры в Каракасе
+
+						.col-sm-4.col-xs-12
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Канада
+									a(href="javascript:;") Представительство в Оттаве
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Куба
+									a(href="javascript:;") Представительство в Гаване
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Мексика
+									a(href="javascript:;") Представительство в Мехико
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Никарагуа
+									a(href="javascript:;") Представительство в Манагуа
+
+						.col-sm-4.col-xs-12
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Перу
+									a(href="javascript:;") Российский центр науки и культуры в Лиме
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading США
+									a(href="javascript:;") Российский центр науки и культуры в Вашингтоне
+									a(href="javascript:;") Представительство в Нью-Йорке
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Чили
+									a(href="javascript:;") Российский центр науки и культуры в Сантьяго
+
+
+						.col-xs-12
+							h2 Африка
+						.col-sm-4.col-xs-12
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Египет
+									a(href="javascript:;") Российский центр науки и культуры в Александрии
+									a(href="javascript:;") Российский центр науки и культуры в Каире
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Замбия
+									a(href="javascript:;") Российский центр науки и культуры в Лусаке
+
+						.col-sm-4.col-xs-12
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Марокко
+									a(href="javascript:;") Российский центр науки и культуры в Рабате
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Республика Конго
+									a(href="javascript:;") Российский центр науки и культуры в Браззавиле
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Тунис
+									a(href="javascript:;") Российский центр науки и культуры в Тунисе
+
+						.col-sm-4.col-xs-12
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading Эфиопия
+									a(href="javascript:;") Российский центр науки и культуры в Аддис-Абебе
+
+							.media
+								.media-left
+									p.media-object
+								.media-body
+									h4.media-heading ЮАР
+									a(href="javascript:;") Представительство в Претории
+
+
+					#contMap.tab-pane(role='tabpanel')
+						#map(style="width: 100%; height: auto")
+							script(type='text/javascript', charset='utf-8', async='', src='https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=5Cgm_8FyJhKoftIc8n6wPlriV5LERDW2&width=100%&height=560&lang=ru_RU&sourceType=constructor&scroll=true')
+
+	include includes/_footer

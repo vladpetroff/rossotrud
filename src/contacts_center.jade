@@ -1,0 +1,312 @@
+extends includes/template
+
+block title
+	title Центральный аппарат
+
+
+block content
+	.container
+		include includes/_header
+
+		// phone-menu
+		nav.navbar.navbar-default.navbar-fixed-top.visible-xs
+			.container
+				.navbar-header
+					button(type="button" data-toggle="collapse" data-target="#navbar-collapsed" aria-expanded="false").navbar-toggle.collapsed
+						img(src="./img/icons/ic-menu.svg", onerror="this.onerror=null; this.src='./img/icons/ic-menu.png'").menu
+						img(src="./img/icons/ic-close-black-24-px.svg", onerror="this.onerror=null; this.src='./img/icons/ic-close-black-24-px.png'").closeMenu
+						span.sr-only Toggle navigation
+
+					a(href="./").logo
+						img(src="./img/icons/rs-logo-white.svg", onerror="this.onerror=null; this.src='./img/icons/rs-logo-white.png'")
+
+					a(href="javascript:;").navbar-brand Россотрудничество
+
+					a(href="javascript:;").search
+						img(src="./img/icons/ic-search.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search.png'")
+
+					.searchField
+						.input-group
+							input(type="text").form-control
+							span.input-group-btn
+								button(type="button").btn.btn-warning: img(src="./img/icons/ic-search-white.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search-white.png'")
+
+				.collapse.navbar-collapse#navbar-collapsed
+					ul.nav.navbar-nav
+						li
+							a(href="about.html") О Россотрудничестве
+							ul
+								li
+									a(href="about_programs.html") Государственные программы
+									ul
+										li: a(href="about_programs_strategy.html") Стратегические коммуникации российского содействия международному развитию
+										li: a(href="about_programs_sng.html") Межгосударственная программа инновационного сотрудничества государств-участников СНГ
+										li: a(href="about_programs_newGen.html") «Новое поколение»: ознакомительные поездки в Россию для молодых представителей политических, общественных, научных и деловых кругов иностранных государств
+										li: a(href="about_programs_settlers.html") Содействие добровольному переселению в Российскую Федерацию соотечественников, проживающих за рубежом
+										li: a(href="about_programs_extpol.html") Внешнеполитическая деятельность
+										li: a(href="about_programs_rulang.html") Русский язык
+
+								li: a(href="about_structure.html") Структура
+								li: a(href="about_manage.html") Руководство
+								li: a(href="about_history.html") История
+								li: a(href="about_partners.html") Партнеры
+						li
+							a(href="activity.html") Деятельность
+							ul
+								li: a(href="activity_worldSupport.html") Содействие международному развитию
+								li: a(href="activity_diplomacy.html") Общественная дипломатия
+								li
+									a(href="activity_russianCulture.html") Продвижение русской культуры
+									ul
+										li: a(href="activity_russianCulture_.html") 25 лет Содружеству Независимых Государств
+										li: a(href="activity_russianCulture_.html") 25 лет Содружеству Независимых Государств
+										li: a(href="activity_russianCulture_ruCinema.html") Год российского кино
+										li: a(href="activity_russianCulture_.html") 90 лет народной дипломатии
+										li: a(href="activity_russianCulture_.html") 50-летие первого выхода человека в открытый космос
+										li: a(href="activity_russianCulture_.html") Посольство мастерства
+										li: a(href="activity_russianCulture_.html") Год литературы
+										li: a(href="activity_russianCulture_.html") Год России в Монако
+										li: a(href="activity_russianCulture_.html") 70-летие Победы в Великой Отечественной войне
+										li: a(href="activity_russianCulture_.html") 175-летие со дня рождения П. И. Чайковского
+										li: a(href="activity_russianCulture_.html") 1000-летие преставления святого равноапостольного князя Владимира — Крестителя Руси
+										li: a(href="activity_russianCulture_.html") День семьи, любви и верности
+										li: a(href="activity_russianCulture_.html") 700-летие со дня рождения преподобного Сергия Радонежского
+										li: a(href="activity_russianCulture_.html") 200-летие со дня рождения М. Ю. Лермонтова
+										li: a(href="activity_russianCulture_.html") Дружба Народов
+										li: a(href="activity_russianCulture_.html") 100-летие начала Первой мировой войны
+										li: a(href="activity_russianCulture_.html") Фотовыставка «Гран-при по-русски»
+										li: a(href="activity_russianCulture_.html") Год России в Нидерландах и Нидерландов в России
+										li: a(href="activity_russianCulture_.html") Год Германии в России и России в Германии
+										li: a(href="activity_russianCulture_.html") Год Испании в России и России в Испании
+										li: a(href="activity_russianCulture_.html") Год России в Италии
+										li: a(href="activity_russianCulture_.html") Год китайского языка в России
+										li: a(href="activity_russianCulture_.html") Год России во Франции и Год Франции в России
+										li: a(href="activity_russianCulture_.html") Год Болгарии в России
+
+								li: a(href="activity_comrades.html") Поддержка соотечественников
+								li: a(href="activity_rulangSupport.html") Укрепление позиций русского языка
+								li: a(href="activity_education.html") Образование и наука
+								li: a(href="activity_cemetery.html") Сохранение историко-мемориальных памятников и мест погребения
+								li: a(href="activity_relations.html") Международные связи субъектов РФ
+								li: a(href="activity_sng.html") Интеграция стран СНГ
+						li: a(href="anons.html") Анонсы
+						li: a(href="news.html") Новости
+						li.open
+							a(href="contacts.html") Контакты
+							ul
+								li.active: a(href="contacts_center.html") Центральный аппарат
+								li: a(href="contacts_inworld.html") Представительства в мире
+								li: a(href="contacts_callback.html") Написать обращение
+
+					p.represent: a(href="represent.html") Сайты представительств
+
+					.lang
+						p Язык
+						a.active: img(src="./img/icons/flag/flag_ru.png").flag
+						a: img(src="./img/icons/flag/flag_en.png").flag
+						a: img(src="./img/icons/flag/flag_de.png").flag
+						a: img(src="./img/icons/flag/flag_fr.png").flag
+						a: img(src="./img/icons/flag/flag_es.png").flag
+
+		nav.navbar.navbar-desktop.hidden-xs
+			.navbar-header
+				ul.nav.navbar-nav
+					li: a(href="about.html") О Россотрудничестве
+					li: a(href="activity.html") Деятельность
+					li: a(href="anons.html") Анонсы
+					li: a(href="news.html") Новости
+					li.active: a(href="contacts.html") Контакты
+
+			a(href="javascript:;").search
+				img(src="./img/icons/ic-search.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search.png'")
+
+			.searchField
+				.input-group
+					input(type="text").form-control
+					span.input-group-btn
+						button(type="button").btn.btn-warning: img(src="./img/icons/ic-search-white.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search-white.png'")
+
+		.row
+			aside.col-sm-4.hidden-xs
+				nav.navbar.navbar-default
+					ul.nav.navbar-nav
+						li
+							a(href="about.html") О Россотрудничестве
+							ul
+								li
+									a(href="about_programs.html") Государственные программы
+									ul
+										li: a(href="about_programs_strategy.html") Стратегические коммуникации российского содействия международному развитию
+										li: a(href="about_programs_sng.html") Межгосударственная программа инновационного сотрудничества государств-участников СНГ
+										li: a(href="about_programs_newGen.html") «Новое поколение»: ознакомительные поездки в Россию для молодых представителей политических, общественных, научных и деловых кругов иностранных государств
+										li: a(href="about_programs_settlers.html") Содействие добровольному переселению в Российскую Федерацию соотечественников, проживающих за рубежом
+										li: a(href="about_programs_extpol.html") Внешнеполитическая деятельность
+										li: a(href="about_programs_rulang.html") Русский язык
+
+								li: a(href="about_structure.html") Структура
+								li: a(href="about_manage.html") Руководство
+								li: a(href="about_history.html") История
+								li: a(href="about_partners.html") Партнеры
+						li
+							a(href="activity.html") Деятельность
+							ul
+								li: a(href="activity_worldSupport.html") Содействие международному развитию
+								li: a(href="activity_diplomacy.html") Общественная дипломатия
+								li
+									a(href="activity_russianCulture.html") Продвижение русской культуры
+									ul
+										li: a(href="activity_russianCulture_.html") 25 лет Содружеству Независимых Государств
+										li: a(href="activity_russianCulture_.html") 25 лет Содружеству Независимых Государств
+										li: a(href="activity_russianCulture_ruCinema.html") Год российского кино
+										li: a(href="activity_russianCulture_.html") 90 лет народной дипломатии
+										li: a(href="activity_russianCulture_.html") 50-летие первого выхода человека в открытый космос
+										li: a(href="activity_russianCulture_.html") Посольство мастерства
+										li: a(href="activity_russianCulture_.html") Год литературы
+										li: a(href="activity_russianCulture_.html") Год России в Монако
+										li: a(href="activity_russianCulture_.html") 70-летие Победы в Великой Отечественной войне
+										li: a(href="activity_russianCulture_.html") 175-летие со дня рождения П. И. Чайковского
+										li: a(href="activity_russianCulture_.html") 1000-летие преставления святого равноапостольного князя Владимира — Крестителя Руси
+										li: a(href="activity_russianCulture_.html") День семьи, любви и верности
+										li: a(href="activity_russianCulture_.html") 700-летие со дня рождения преподобного Сергия Радонежского
+										li: a(href="activity_russianCulture_.html") 200-летие со дня рождения М. Ю. Лермонтова
+										li: a(href="activity_russianCulture_.html") Дружба Народов
+										li: a(href="activity_russianCulture_.html") 100-летие начала Первой мировой войны
+										li: a(href="activity_russianCulture_.html") Фотовыставка «Гран-при по-русски»
+										li: a(href="activity_russianCulture_.html") Год России в Нидерландах и Нидерландов в России
+										li: a(href="activity_russianCulture_.html") Год Германии в России и России в Германии
+										li: a(href="activity_russianCulture_.html") Год Испании в России и России в Испании
+										li: a(href="activity_russianCulture_.html") Год России в Италии
+										li: a(href="activity_russianCulture_.html") Год китайского языка в России
+										li: a(href="activity_russianCulture_.html") Год России во Франции и Год Франции в России
+										li: a(href="activity_russianCulture_.html") Год Болгарии в России
+
+								li: a(href="activity_comrades.html") Поддержка соотечественников
+								li: a(href="activity_rulangSupport.html") Укрепление позиций русского языка
+								li: a(href="activity_education.html") Образование и наука
+								li: a(href="activity_cemetery.html") Сохранение историко-мемориальных памятников и мест погребения
+								li: a(href="activity_relations.html") Международные связи субъектов РФ
+								li: a(href="activity_sng.html") Интеграция стран СНГ
+						li: a(href="anons.html") Анонсы
+						li: a(href="news.html") Новости
+						li.open
+							a(href="contacts.html") Контакты
+							ul
+								li.active: a(href="contacts_center.html") Центральный аппарат
+								li: a(href="contacts_inworld.html") Представительства в мире
+								li: a(href="contacts_callback.html") Написать обращение
+
+
+
+
+
+			.col-sm-8.col-xs-12
+				ol.breadcrumb.hidden-xs
+					li: a(href="./") Главная страница
+					li: a(href="contacts.html") Контакты
+
+				section.content
+					h1 Центральный аппарат
+					h3 Почтовый адрес
+					p 125009 Россия, Москва, ул. Воздвиженка, 18/9 #[br]Электронная почта: #[a(href="mailto:rossotr@rs.gov.ru") rossotr@rs.gov.ru]
+					h3 Офис в Москве на Воздвиженке
+
+					.row
+						.col-max-9.col-sm-8.col-xs-12
+							.map
+								script(type='text/javascript', charset='utf-8', async='', src='https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=3QB8SBCEBl1VHDRZ6fT9U88EUYYpWycA&width=100\%&height=452&lang=ru_RU&sourceType=constructor&scroll=true')
+
+							h4 Руководство
+							table.table.table-contacts
+								tr
+									td Приемная Руководителя Россотрудничества Л. Н. Глебовой
+									td +7 (495) 690-12-45 #[br] +7 (495) 609-92-48 (факс)
+								tr
+									td Приемная заместителя Руководителя И. Б. Живихиной
+									td +7 (499) 321-54-14
+								tr
+									td Приемная заместителя Руководителя С. М. Круппо
+									td +7 (499) 321-54-95
+								tr
+									td Приемная заместителя Руководителя А. В. Фролова
+									td +7 (499) 321-54-60
+
+							h4 Управления
+							table.table.table-contacts
+								tr
+									td Управление по делам Содружества Независимых Государств
+									td +7 (499) 321-54-25
+								tr
+									td Управление российских центров науки и культуры (РЦНК) и страновых программ
+									td +7 (499) 321-54-64
+								tr
+									td Управление стратегического планирования и кадрового развития
+									td +7 (499) 321-54-15
+								tr
+									td Управление обеспечения деятельности
+									td +7 (499) 321-54-81
+								tr
+									td Управление содействия международному развитию (СМР) и взаимодействию с международными организациями
+									td +7 (499) 321-54-30
+								tr
+									td Управление социальной политики и кадров
+									td +7 (499) 321-54-51
+								tr
+									td Финансово-экономическое управление
+									td +7 (499) 321-54-66
+								tr
+									td Пресс-служба
+									td +7 (495) 697-6020
+								tr
+									td Отдел документационного обеспечения и архива (для справок по документам)
+									td +7 (495) 690-13-92 #[br]+7 (495) 609-92-42 (факс)
+								tr
+									td Отдел кадров, для справок по кадровым вопросам
+									td +7 (499) 321-54-51 #[br]#[a(href="mailto:otdelkadrov@rs.gov.ru") otdelkadrov@rs.gov.ru]
+								tr
+									td Справки по обращениям граждан
+									td +7 (499) 321-54-70
+
+
+
+
+						.col-max-3.col-sm-4.col-xs-12
+							img(src="./img/contacts/img01.jpg" alt="Россия, Москва, ул. Воздвиженка, 18/9").img-responsive
+							p Россия, Москва, ул. Воздвиженка, 18/9
+
+					h3 Офис в Москве на Мещанской улице
+					.row
+						.col-max-9.col-sm-8.col-xs-12
+							.map
+								script(type='text/javascript', charset='utf-8', async='', src='https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=X7p0w_h_9O2urg3Qb0I6mwZ1jRr1ajlh&width=100\%&height=452&lang=ru_RU&sourceType=constructor&scroll=true')
+
+							h4 Руководство
+							table.table.table-contacts
+								tr
+									td Приемная заместителя Руководителя Д. Ю. Гужели
+									td +7 (499) 321-52-74
+								tr
+									td Приемная заместителя Руководителя А. В. Радькова
+									td +7 (499) 321-54-78 #[br]+7 (495) 204-86-57 (факс)
+
+							h4 Управления
+							table.table.table-contacts
+								tr
+									td Управление гуманитарного сотрудничества и молодежной политики
+									td +7 (499) 321-54-08
+								tr
+									td Управление сотрудничества в сфере образования и науки
+									td +7 (495) 204-86-61
+								tr
+									td Управление по делам соотечественников и развитию общественной дипломати
+									td +7 (499) 321-52-80
+
+
+
+						.col-max-3.col-sm-4.col-xs-12
+							img(src="./img/contacts/img01.jpg" alt="Россия, Москва, ул. Воздвиженка, 18/9").img-responsive
+							p Россия, Москва, ул. Мещанская, 17, стр. 1
+
+
+
+
+	include includes/_footer

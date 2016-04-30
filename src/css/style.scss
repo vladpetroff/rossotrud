@@ -71,7 +71,73 @@
   }
 }
 
-
+.contacts{
+  margin-bottom: 150px;
+  .breadcrumb{
+    margin-left: 100px;
+  }
+  > h1{
+    margin-left: 100px;
+    font-size:3.4em;
+    color:$orange;
+    margin-bottom: 23px;
+  }
+  .nav-tabs {
+    > li:first-child{
+      margin-left: 100px;
+    }
+  }
+  .tab-content{
+    h2{
+      font-size:2.57em;
+      line-height: 1.1;
+      margin-bottom: 14px;
+      margin-top: 25px;
+    }
+    h3{
+      font-size:2em;
+      line-height: 1.1;
+      margin-bottom: 14px;
+      margin-top: 23px;
+    }
+    #map{
+      max-height:560px;
+    }
+    .media{
+      margin-bottom: 15px;
+      margin-top:0px;
+      .media-left{
+        margin-right: 12px;
+        .media-object{
+          width:20px;
+          min-height:12px;
+          margin-left: 3px;
+          margin-top: 5px;
+          box-shadow: 0 1px 6px rgba(0,0,0,0.4);
+          img{
+            width:100%;
+            display: block;
+          }
+        }
+      }
+    }
+    .media-body{
+      h4{
+        font-weight: bold;
+        line-height: 1.3;
+        font-size:$font-size-large;
+        margin-top: 0;
+        margin-bottom: 6px;
+      }
+      a{
+        display: block;
+        font-size:$font-size-large;
+        line-height: 1.1;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
 
 section{
   h1{
@@ -882,10 +948,15 @@ footer{
     }
     h1{
       font-size:$font-size-h1;
-      margin: 15px 0px 17px;
+      margin: 15px 0px 21px;
       line-height: 1.2;
     }
     &.anons{
+      h2 {
+        font-size: 2.57em;
+        line-height: 1.1;
+        margin: 0px 0px 25px;
+      }
       article{
         padding: 0;
         .articleImg{
@@ -954,6 +1025,22 @@ footer{
       }
     }
     &.projects{
+      &.block{
+        margin-bottom: 120px;
+        h2{
+          font-size:2.57em;
+          margin-bottom: 29px;
+          line-height: 1.1;
+        }
+        article{
+          p{
+            font-size:1.43em;
+            line-height: 1.2;
+            padding: 16px 16px 0px;
+            margin-top: 0;
+          }
+        }
+      }
       article{
         height:300px;
         h2{
@@ -971,15 +1058,21 @@ footer{
       }
     }
     &.content{
-      margin-bottom: 30px;
+      margin-bottom: 70px;
       padding: 0;
       h1{
         font-size:3.42em;
-        margin: 10px 0;
+        margin: 10px 0 21px;
       }
       h2{
         font-size:3.71em;
         line-height: 1.2;
+      }
+      h3{
+        font-size:2.57em;
+        line-height: 1.1;
+        margin-top: 14px;
+        margin-bottom: 22px;
       }
       h4{
         font-size:1.71em;
@@ -991,14 +1084,16 @@ footer{
       h5{
         line-height: 1.1;
         font-size:$font-size-h5;
+        margin-bottom: 19px;
       }
       p{
         font-size:$font-size-large;
-        line-height: 1.6;
+        line-height: 1.3;
         margin-bottom: 15px;
       }
       img{
         max-width:100%;
+        margin-bottom: 12px;
       }
       ul{
         li{
@@ -1373,4 +1468,139 @@ footer{
     margin-left: 91.66667%; }
   .col-max-offset-12 {
     margin-left: 100%; } 
+}
+
+
+
+/* ---- Isotope layout ---- */
+.grid .grid-item {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #0D8;
+  border: 2px solid #333;
+  border-color: rgba(0, 0, 0, 0.7);
+}
+.grid .grid-item--width2 {
+  width: 200px;
+}
+.grid .grid-item--height2 {
+  height: 200px;
+}
+/* ---- Isotope layout-fluid ---- */
+.grid-fluid .grid-item,
+.grid-fluid .grid-sizer {
+  width: 20%;
+  /* 5 columns, percentage width */
+}
+.grid-fluid .grid-item {
+  float: left;
+  height: 100px;
+  background: #0D8;
+  border: 2px solid #333;
+  border-color: rgba(0, 0, 0, 0.7);
+}
+.grid-fluid .grid-item--width2 {
+  width: 40%;
+}
+.grid-fluid .grid-item--height2 {
+  height: 200px;
+}
+
+/* ---- Isotope layout image-fluid ---- */
+/* needs imagesloaded.pkgd.min.js
+http://imagesloaded.desandro.com/*/
+.grid-img-fluid .grid-sizer,
+.grid-img-fluid .grid-item {
+  width: 33.333%;
+}
+.grid-img-fluid .grid-item {
+  float: left;
+}
+.grid-img-fluid .grid-item img {
+  display: block;
+  max-width: 100%;
+}
+/* ---- Isotope Sorting ---- */
+.element-item {
+  position: relative;
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  padding: 10px;
+  background: #888;
+  color: #262524;
+}
+.element-item > * {
+  margin: 0;
+  padding: 0;
+}
+.element-item .name {
+  position: absolute;
+  left: 10px;
+  top: 60px;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 12px;
+  font-weight: normal;
+}
+.element-item .symbol {
+  position: absolute;
+  left: 10px;
+  top: 0px;
+  font-size: 42px;
+  font-weight: bold;
+  color: white;
+}
+.element-item .number {
+  position: absolute;
+  right: 8px;
+  top: 5px;
+}
+.element-item .weight {
+  position: absolute;
+  left: 10px;
+  top: 76px;
+  font-size: 12px;
+}
+.element-item.alkali {
+  background: #F00;
+  background: #ff0000;
+}
+.element-item.alkaline-earth {
+  background: #F80;
+  background: #ff9900;
+}
+.element-item.lanthanoid {
+  background: #FF0;
+  background: #ccff00;
+}
+.element-item.actinoid {
+  background: #0F0;
+  background: #33ff00;
+}
+.element-item.transition {
+  background: #0F8;
+  background: #00ff66;
+}
+.element-item.post-transition {
+  background: #0FF;
+  background: #00ffff;
+}
+.element-item.metalloid {
+  background: #08F;
+  background: #0066ff;
+}
+.element-item.diatomic {
+  background: #00F;
+  background: #3300ff;
+}
+.element-item.halogen {
+  background: #F0F;
+  background: #cc00ff;
+}
+.element-item.noble-gas {
+  background: #F08;
+  background: #ff0099;
 }
