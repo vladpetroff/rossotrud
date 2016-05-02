@@ -1,7 +1,7 @@
 extends includes/template
 
 block title
-	title mainpage
+	title Написать обращение
 
 
 block content
@@ -33,7 +33,7 @@ block content
 
 				.collapse.navbar-collapse#navbar-collapsed
 					ul.nav.navbar-nav
-						li.open
+						li
 							a(href="about.html") О Россотрудничестве
 							ul
 								li
@@ -46,7 +46,7 @@ block content
 										li: a(href="about_programs_extpol.html") Внешнеполитическая деятельность
 										li: a(href="about_programs_rulang.html") Русский язык
 
-								li.active: a(href="about_structure.html") Структура
+								li: a(href="about_structure.html") Структура
 								li: a(href="about_manage.html") Руководство
 								li: a(href="about_history.html") История
 								li: a(href="about_partners.html") Партнеры
@@ -91,12 +91,12 @@ block content
 								li: a(href="activity_sng.html") Интеграция стран СНГ
 						li: a(href="anons.html") Анонсы
 						li: a(href="news.html") Новости
-						li
+						li.open
 							a(href="contacts.html") Контакты
 							ul
 								li: a(href="contacts_center.html") Центральный аппарат
 								li: a(href="contacts_inworld.html") Представительства в мире
-								li: a(href="contacts_callback.html") Написать обращение
+								li.active: a(href="contacts_callback.html") Написать обращение
 
 					p.represent: a(href="represent.html") Сайты представительств
 
@@ -111,11 +111,11 @@ block content
 		nav.navbar.navbar-desktop.hidden-xs
 			.navbar-header
 				ul.nav.navbar-nav
-					li.open: a(href="about.html") О Россотрудничестве
+					li: a(href="about.html") О Россотрудничестве
 					li: a(href="activity.html") Деятельность
 					li: a(href="anons.html") Анонсы
 					li: a(href="news.html") Новости
-					li: a(href="contacts.html") Контакты
+					li.active: a(href="contacts.html") Контакты
 
 			a(href="javascript:;").search
 				img(src="./img/icons/ic-search.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search.png'")
@@ -130,7 +130,7 @@ block content
 			aside.col-sm-4.hidden-xs
 				nav.navbar.navbar-default
 					ul.nav.navbar-nav
-						li.open
+						li
 							a(href="about.html") О Россотрудничестве
 							ul
 								li
@@ -143,7 +143,7 @@ block content
 										li: a(href="about_programs_extpol.html") Внешнеполитическая деятельность
 										li: a(href="about_programs_rulang.html") Русский язык
 
-								li.active: a(href="about_structure.html") Структура
+								li: a(href="about_structure.html") Структура
 								li: a(href="about_manage.html") Руководство
 								li: a(href="about_history.html") История
 								li: a(href="about_partners.html") Партнеры
@@ -188,30 +188,77 @@ block content
 								li: a(href="activity_sng.html") Интеграция стран СНГ
 						li: a(href="anons.html") Анонсы
 						li: a(href="news.html") Новости
-						li
+						li.open
 							a(href="contacts.html") Контакты
 							ul
 								li: a(href="contacts_center.html") Центральный аппарат
 								li: a(href="contacts_inworld.html") Представительства в мире
-								li: a(href="contacts_callback.html") Написать обращение
+								li.active: a(href="contacts_callback.html") Написать обращение
 
 
-			.col-max-6.col-sm-7.col-xs-12
+
+
+
+			.col-sm-8.col-xs-12
+
 				ol.breadcrumb.hidden-xs
 					li: a(href="./") Главная страница
-					li: a(href="about.html") О Россотрудничестве
+					li: a(href="contacts.html") Контакты
 
-				section.content
-					h1 Структура
-					h4 Управление гуманитарного сотрудничества и молодежной политики
-					p Основная деятельность УГСиМП — содействие развитию культурных, молодежных и иных гуманитарных связей с иностранными государствами, содействие продвижению и популяризации российского историко-культурного наследия и отечественной культуры за рубежом, реализация программы краткосрочных ознакомительных поездок в Российскую Федерацию молодых представителей политических, общественных, научных и деловых кругов иностранных государств «Новое поколение», а также работа с инициативным проектами российских и зарубежных организаций.
-					h4 Управление обеспечения деятельности
-					h4 Управление по делам Содружества Независимых Государств
-					h4 Управление по делам соотечественников и развитию общественной дипломатии
-					p Обеспечивает организацию и координацию работы по реализации основных мероприятий Программы работы с соотечественниками, проживающими за рубежом, в части компетенции Россотрудничества. Участвовало в разработке и подготовке проекта Программы на 2015 – 2017 годы. Организует мероприятия по поддержанию и сохранению находящихся за рубежом мест погребения, имеющих для Российской Федерации историко-мемориальное значение. Развивает взаимодействие с российскими и зарубежными неправительственными организациями; координирует деятельность обществ дружбы; содействует поддержанию и развитию международных контактов субъектов Российской Федерации; координирует сотрудничество между породненными городами.
-					h4 Управление РЦНК и страновых программ
-					p Осуществляет оперативное управление деятельностью представительств (РЦНК), совершенствовует формы и методы их деятельности; участвует в подготовке предложений по развитию и оптимизации сети представительств за рубежом, модернизации их деятельности и внедрению лучших практик; контролирует выполнение представительствами планов и анализирует отчёты об их деятельности; содействует реализации на базе РЦНК программ, направленных на развитие региональной и субрегиональной интеграции.
-					h4 Управление содействия международному развитию (СМР) и взаимодействию с международными организациями
-					p Занимается разработкой, согласованием и реализацией среднесрочных и долгосрочных программ в сфере содействия международному развитию (СМР) на двустороннем уровне, а также разработкой механизмов, критериев оценки и мониторингом их реализации; взаимодействием с федеральными органами государственной власти Российской Федерации по вопросам выработки и реализации государственной политики в сфере СМР; осуществляет учет программ официальной помощи развитию в части компетенции Россотрудничества; организует мероприятий по повышению кадрового потенциала в российском СМР; осуществляет информационное сопровождение тематики СМР в России и за рубежом, в том числе с использованием потенциала РЦНК.
+				.row
+					.col-sm-9.col-xs-12
+						section.content.contacts
+							h1 Написать обращение
+
+							form.form-horizontal
+								.form-group
+									label.col-sm-3.control-label(for='formGroupInputSurname') Фамилия
+									.col-sm-9
+										input#formGroupInputSurname.form-control(type='text', placeholder='')
+								.form-group
+									label.col-sm-3.control-label(for='formGroupInputName') Имя
+									.col-sm-9
+										input#formGroupInputName.form-control(type='text', placeholder='')
+								.form-group
+									label.col-sm-3.control-label(for='formGroupInputParentName') Отчество
+									.col-sm-9
+										input#formGroupInputParentName.form-control(type='text', placeholder='')
+								.form-group
+									label.col-sm-3.control-label(for='formGroupInputEmail') Электронная почта
+									.col-sm-9
+										input#formGroupInputEmail.form-control(type='text', placeholder='')
+								.form-group
+									label.col-sm-3.control-label(for='formGroupInputPhone') Контактный телефон
+									.col-sm-9
+										input#formGroupInputPhone.form-control(type='text', placeholder='')
+								.form-group
+									label.col-sm-3.control-label(for='formGroupInputIndex') Почтовый индекс
+									.col-sm-9
+										input#formGroupInputIndex.form-control(type='text', placeholder='')
+								.form-group
+									label.col-sm-3.control-label(for='formGroupInputAddress') Почтосый адрес
+									.col-sm-9
+										input#formGroupInputAddress.form-control(type='text', placeholder='Город, улица, квартира')
+								.form-group
+									label.col-sm-3.control-label(for='formGroupInputTheme') Тема
+									.col-sm-9
+										input#formGroupInputTheme.form-control(type='text', placeholder='Тема Вашего обращения')
+								.form-group
+									label.col-sm-3.control-label(for='formGroupInputTextarea') Обращение
+									.col-sm-9
+										textarea(rows="5").form-control#formGroupInputTextarea
+										p.help-block.pull-right 0/2000
+								.form-group
+									label.col-sm-3.control-label(for='formGroupInputFile') Документ
+									.col-sm-9
+										input#formGroupInputFile.form-control(type='file')
+										p.help-block Вы можете прикрепить к обращению файл размером не более 5 Мб. #[br]Допустимы следующие форматы: avi, bmp, doc, docx, flw, gif, jpg, mkv, mov, mp3, mp4, pcx, pdf, png, pps, ppt, pptx, rtf, tif, txt, xls, xlsx, wma, wmv, wma.
+								.form-group
+									label.col-sm-3.control-label
+									.col-sm-9
+										button(type="submit" disabled).btn.btn-warning Отправить
+
+
+
 
 	include includes/_footer

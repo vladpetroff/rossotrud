@@ -2242,6 +2242,10 @@ table th[class*="col-"] {
         .table-responsive > .table-bordered > tfoot > tr:last-child > td {
           border-bottom: 0; } }
 
+table.table-contacts.fullwidth tbody > tr > td {
+  padding: 8px 0px !important;
+  width: auto !important; }
+
 table.table-contacts tbody > tr > td {
   border: none;
   font-size: 18px;
@@ -2326,6 +2330,8 @@ output {
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s; }
   .form-control:focus {
     border-color: #ff6d00;
+    background-color: #fff;
+    color: #424242;
     outline: 0;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 109, 0, 0.6); }
   .form-control::-moz-placeholder {
@@ -3010,6 +3016,10 @@ fieldset[disabled] a.btn {
     background-color: #ff6d00;
     border-color: #ff6d00;
     outline: none; }
+  .btn-warning[disabled]:hover, .btn-warning[disabled]:focus, .btn-warning[disabled].focus {
+    color: #ff6d00;
+    background-color: transparent;
+    border-color: #ff6d00; }
   .btn-warning:active, .btn-warning:active:focus, .btn-warning:active:hover, .btn-warning.active {
     color: #fff;
     background-color: #ed5900;
@@ -6074,54 +6084,61 @@ button.close {
     border: solid 1px rgba(255, 255, 255, 0.1);
     margin-bottom: 10px; }
 
-.contacts {
-  margin-bottom: 150px; }
-  .contacts .breadcrumb {
-    margin-left: 100px; }
-  .contacts > h1 {
-    margin-left: 100px;
-    font-size: 3.4em;
-    color: #ff6d00;
-    margin-bottom: 23px; }
-  .contacts .nav-tabs > li:first-child {
-    margin-left: 100px; }
-  .contacts .tab-content h2 {
-    font-size: 2.57em;
-    line-height: 1.1;
-    margin-bottom: 14px;
-    margin-top: 25px; }
-  .contacts .tab-content h3 {
-    font-size: 2em;
-    line-height: 1.1;
-    margin-bottom: 14px;
-    margin-top: 23px; }
-  .contacts .tab-content #map {
-    max-height: 560px; }
-  .contacts .tab-content .media {
-    margin-bottom: 15px;
-    margin-top: 0px; }
-    .contacts .tab-content .media .media-left {
-      margin-right: 12px; }
-      .contacts .tab-content .media .media-left .media-object {
-        width: 20px;
-        min-height: 12px;
-        margin-left: 3px;
-        margin-top: 5px;
-        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4); }
-        .contacts .tab-content .media .media-left .media-object img {
-          width: 100%;
-          display: block; }
-  .contacts .tab-content .media-body h4 {
-    font-weight: bold;
-    line-height: 1.3;
-    font-size: 18px;
-    margin-top: 0;
-    margin-bottom: 6px; }
-  .contacts .tab-content .media-body a {
-    display: block;
-    font-size: 18px;
-    line-height: 1.1;
-    margin-bottom: 10px; }
+.contacts > .hidden-xs .breadcrumb {
+  margin-left: 100px; }
+
+.contacts > .hidden-xs > h1 {
+  margin-left: 100px;
+  font-size: 3.4em;
+  color: #ff6d00;
+  margin-bottom: 23px; }
+
+.contacts .nav-tabs > li:first-child {
+  margin-left: 100px; }
+
+.contacts .tab-content h2 {
+  font-size: 2.57em;
+  line-height: 1.1;
+  margin-bottom: 14px;
+  margin-top: 25px; }
+
+.contacts .tab-content h3 {
+  font-size: 16px;
+  line-height: 1.3;
+  margin-bottom: 7px;
+  margin-top: 9px;
+  font-weight: bold; }
+
+.contacts .tab-content #map {
+  max-height: 560px; }
+
+.contacts .tab-content .media {
+  margin-bottom: 15px;
+  margin-top: 0px; }
+  .contacts .tab-content .media .media-left {
+    margin-right: 12px; }
+    .contacts .tab-content .media .media-left .media-object {
+      width: 20px;
+      min-height: 12px;
+      margin-left: 3px;
+      margin-top: 5px;
+      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4); }
+      .contacts .tab-content .media .media-left .media-object img {
+        width: 100%;
+        display: block; }
+
+.contacts .tab-content .media-body h4 {
+  font-weight: bold;
+  line-height: 1.3;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 6px; }
+
+.contacts .tab-content .media-body a {
+  display: block;
+  font-size: 18px;
+  line-height: 1.1;
+  margin-bottom: 10px; }
 
 section h1 {
   color: #ff6d00;
@@ -6263,6 +6280,72 @@ section.projects {
 
 section.content {
   padding: 0px 10px 20px; }
+  section.content.contacts > .hidden-xs .breadcrumb {
+    margin-left: 100px; }
+  section.content.contacts > .hidden-xs > h1 {
+    margin-left: 100px;
+    font-size: 3.4em;
+    color: #ff6d00;
+    margin-bottom: 23px; }
+  section.content.contacts .nav-tabs > li {
+    margin: 0;
+    padding: 0; }
+  section.content.contacts .nav-tabs > li:before {
+    display: none; }
+  section.content.contacts .nav-tabs > li:first-child {
+    margin-left: 100px; }
+  section.content.contacts .tab-content h2 {
+    font-size: 2.57em;
+    line-height: 1.1;
+    margin-bottom: 14px;
+    margin-top: 25px; }
+  section.content.contacts .tab-content h3 {
+    font-size: 16px;
+    line-height: 1.3;
+    margin-bottom: 7px;
+    margin-top: 9px;
+    font-weight: bold; }
+  section.content.contacts .tab-content #map {
+    max-height: 560px; }
+  section.content.contacts .tab-content .media {
+    margin-bottom: 8px;
+    margin-top: 0px; }
+    section.content.contacts .tab-content .media .media-left {
+      margin-right: 12px; }
+      section.content.contacts .tab-content .media .media-left .media-object {
+        width: 20px;
+        min-height: 12px;
+        margin-left: 3px;
+        margin-top: 5px;
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4); }
+        section.content.contacts .tab-content .media .media-left .media-object img {
+          width: 100%;
+          display: block; }
+  section.content.contacts .tab-content .media-body h4 {
+    font-size: 14px;
+    line-height: 1.1;
+    margin-bottom: 4px;
+    margin-top: 5px;
+    font-weight: bold; }
+  section.content.contacts .tab-content .media-body a {
+    display: block;
+    font-size: 14px;
+    line-height: 1.1;
+    margin-bottom: 0px; }
+  section.content.contacts h1 {
+    font-size: 1.43em;
+    line-height: 1em;
+    margin: 15px 0px 12px; }
+  section.content.contacts h3 {
+    font-size: 16px;
+    line-height: 1.3;
+    margin: 9px 0;
+    font-weight: bold; }
+  section.content.contacts h4 {
+    font-size: 14px;
+    line-height: 1.4;
+    margin: 9px 0;
+    font-weight: bold; }
   section.content h1 {
     margin: 15px 0 12px; }
   section.content h2 {
@@ -6288,10 +6371,19 @@ section.content {
   section.content p {
     line-height: 1.4;
     margin-bottom: 10px; }
+  section.content form.form-horizontal .control-label {
+    text-align: left; }
+  section.content form .form-group label {
+    font-weight: normal; }
+  section.content form .help-block {
+    font-size: 12px;
+    line-height: 1.3;
+    color: rgba(0, 0, 0, 0.5); }
   section.content img {
     display: block;
     max-width: 100%;
-    height: auto; }
+    height: auto;
+    margin-bottom: 10px; }
   section.content .list-group {
     margin-top: 16px; }
   section.content ul {
@@ -6709,11 +6801,20 @@ footer {
 
 @media (max-width: 768px) {
   body {
-    padding-top: 70px; } }
+    padding-top: 70px; }
+  section.content form .form-group {
+    margin-bottom: 9px; }
+    section.content form .form-group .form-control {
+      padding: 10px 8px;
+      height: 36px; }
+    section.content form .form-group textarea.form-control {
+      height: auto; } }
 
 @media (min-width: 1200px) {
   .readmore {
     text-align: center; }
+  .contacts {
+    margin-bottom: 150px; }
   section article {
     margin-bottom: 16px; }
     section article .articleText {
@@ -6799,6 +6900,40 @@ footer {
   section.content {
     margin-bottom: 70px;
     padding: 0; }
+    section.content.contacts .map {
+      margin-bottom: 20px; }
+    section.content.contacts h1 {
+      font-size: 3.42em;
+      margin: 10px 0 21px; }
+    section.content.contacts h3 {
+      font-size: 2.57em;
+      line-height: 1.1;
+      margin-top: 14px;
+      margin-bottom: 22px;
+      font-weight: normal; }
+    section.content.contacts h4 {
+      font-size: 1.71em;
+      line-height: 1.3;
+      font-weight: normal;
+      margin-top: 25px;
+      margin-bottom: 12px; }
+    section.content.contacts .tab-content h3 {
+      font-size: 2em;
+      line-height: 1.1;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      font-weight: normal; }
+    section.content.contacts .tab-content .media {
+      margin-bottom: 18px; }
+    section.content.contacts .tab-content .media-body h4 {
+      font-size: 18px;
+      line-height: 1.3;
+      margin-top: 0px;
+      margin-bottom: 6px; }
+    section.content.contacts .tab-content .media-body a {
+      font-size: 18px;
+      line-height: 1.1;
+      margin-bottom: 8px; }
     section.content h1 {
       font-size: 3.42em;
       margin: 10px 0 21px; }
@@ -7013,6 +7148,21 @@ footer {
       display: block; } }
 
 @media (min-width: 1400px) {
+  header .headerContent .pull-left + .pull-left {
+    margin-left: 40px; }
+  header .headerContent .pull-left.headerText {
+    width: 350px; }
+    header .headerContent .pull-left.headerText h1 {
+      font-size: 2.57em;
+      letter-spacing: 1.8px; }
+  header .headerContent .pull-left.headerLogo a img {
+    width: 80px;
+    height: 80px; }
+  header .headerContent .pull-left.headerContact a {
+    font-size: 20px;
+    line-height: 1.2; }
+  header .headerContent .pull-left p {
+    font-size: 16px; }
   .col-max-1, .col-max-2, .col-max-3, .col-max-4, .col-max-5, .col-max-6, .col-max-7, .col-max-8, .col-max-9, .col-max-10, .col-max-11, .col-max-12 {
     float: left; }
   .col-max-1 {

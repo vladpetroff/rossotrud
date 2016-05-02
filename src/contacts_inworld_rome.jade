@@ -1,7 +1,7 @@
 extends includes/template
 
 block title
-	title mainpage
+	title Контакты в Риме
 
 
 block content
@@ -33,7 +33,7 @@ block content
 
 				.collapse.navbar-collapse#navbar-collapsed
 					ul.nav.navbar-nav
-						li.open
+						li
 							a(href="about.html") О Россотрудничестве
 							ul
 								li
@@ -46,7 +46,7 @@ block content
 										li: a(href="about_programs_extpol.html") Внешнеполитическая деятельность
 										li: a(href="about_programs_rulang.html") Русский язык
 
-								li.active: a(href="about_structure.html") Структура
+								li: a(href="about_structure.html") Структура
 								li: a(href="about_manage.html") Руководство
 								li: a(href="about_history.html") История
 								li: a(href="about_partners.html") Партнеры
@@ -91,11 +91,11 @@ block content
 								li: a(href="activity_sng.html") Интеграция стран СНГ
 						li: a(href="anons.html") Анонсы
 						li: a(href="news.html") Новости
-						li
+						li.open
 							a(href="contacts.html") Контакты
 							ul
 								li: a(href="contacts_center.html") Центральный аппарат
-								li: a(href="contacts_inworld.html") Представительства в мире
+								li.open: a(href="contacts_inworld.html") Представительства в мире
 								li: a(href="contacts_callback.html") Написать обращение
 
 					p.represent: a(href="represent.html") Сайты представительств
@@ -111,11 +111,11 @@ block content
 		nav.navbar.navbar-desktop.hidden-xs
 			.navbar-header
 				ul.nav.navbar-nav
-					li.open: a(href="about.html") О Россотрудничестве
+					li: a(href="about.html") О Россотрудничестве
 					li: a(href="activity.html") Деятельность
 					li: a(href="anons.html") Анонсы
 					li: a(href="news.html") Новости
-					li: a(href="contacts.html") Контакты
+					li.open: a(href="contacts.html") Контакты
 
 			a(href="javascript:;").search
 				img(src="./img/icons/ic-search.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search.png'")
@@ -130,7 +130,7 @@ block content
 			aside.col-sm-4.hidden-xs
 				nav.navbar.navbar-default
 					ul.nav.navbar-nav
-						li.open
+						li
 							a(href="about.html") О Россотрудничестве
 							ul
 								li
@@ -143,7 +143,7 @@ block content
 										li: a(href="about_programs_extpol.html") Внешнеполитическая деятельность
 										li: a(href="about_programs_rulang.html") Русский язык
 
-								li.active: a(href="about_structure.html") Структура
+								li: a(href="about_structure.html") Структура
 								li: a(href="about_manage.html") Руководство
 								li: a(href="about_history.html") История
 								li: a(href="about_partners.html") Партнеры
@@ -188,30 +188,67 @@ block content
 								li: a(href="activity_sng.html") Интеграция стран СНГ
 						li: a(href="anons.html") Анонсы
 						li: a(href="news.html") Новости
-						li
+						li.open
 							a(href="contacts.html") Контакты
 							ul
 								li: a(href="contacts_center.html") Центральный аппарат
-								li: a(href="contacts_inworld.html") Представительства в мире
+								li.open: a(href="contacts_inworld.html") Представительства в мире
 								li: a(href="contacts_callback.html") Написать обращение
 
 
-			.col-max-6.col-sm-7.col-xs-12
+
+
+
+			.col-sm-8.col-xs-12
+
 				ol.breadcrumb.hidden-xs
 					li: a(href="./") Главная страница
-					li: a(href="about.html") О Россотрудничестве
+					li: a(href="contacts.html") Контакты
+					li: a(href="contacts_inworld.html") Представительства в мире
 
-				section.content
-					h1 Структура
-					h4 Управление гуманитарного сотрудничества и молодежной политики
-					p Основная деятельность УГСиМП — содействие развитию культурных, молодежных и иных гуманитарных связей с иностранными государствами, содействие продвижению и популяризации российского историко-культурного наследия и отечественной культуры за рубежом, реализация программы краткосрочных ознакомительных поездок в Российскую Федерацию молодых представителей политических, общественных, научных и деловых кругов иностранных государств «Новое поколение», а также работа с инициативным проектами российских и зарубежных организаций.
-					h4 Управление обеспечения деятельности
-					h4 Управление по делам Содружества Независимых Государств
-					h4 Управление по делам соотечественников и развитию общественной дипломатии
-					p Обеспечивает организацию и координацию работы по реализации основных мероприятий Программы работы с соотечественниками, проживающими за рубежом, в части компетенции Россотрудничества. Участвовало в разработке и подготовке проекта Программы на 2015 – 2017 годы. Организует мероприятия по поддержанию и сохранению находящихся за рубежом мест погребения, имеющих для Российской Федерации историко-мемориальное значение. Развивает взаимодействие с российскими и зарубежными неправительственными организациями; координирует деятельность обществ дружбы; содействует поддержанию и развитию международных контактов субъектов Российской Федерации; координирует сотрудничество между породненными городами.
-					h4 Управление РЦНК и страновых программ
-					p Осуществляет оперативное управление деятельностью представительств (РЦНК), совершенствовует формы и методы их деятельности; участвует в подготовке предложений по развитию и оптимизации сети представительств за рубежом, модернизации их деятельности и внедрению лучших практик; контролирует выполнение представительствами планов и анализирует отчёты об их деятельности; содействует реализации на базе РЦНК программ, направленных на развитие региональной и субрегиональной интеграции.
-					h4 Управление содействия международному развитию (СМР) и взаимодействию с международными организациями
-					p Занимается разработкой, согласованием и реализацией среднесрочных и долгосрочных программ в сфере содействия международному развитию (СМР) на двустороннем уровне, а также разработкой механизмов, критериев оценки и мониторингом их реализации; взаимодействием с федеральными органами государственной власти Российской Федерации по вопросам выработки и реализации государственной политики в сфере СМР; осуществляет учет программ официальной помощи развитию в части компетенции Россотрудничества; организует мероприятий по повышению кадрового потенциала в российском СМР; осуществляет информационное сопровождение тематики СМР в России и за рубежом, в том числе с использованием потенциала РЦНК.
+				section.content.contacts
+					h1 Российский центр науки #[br] и культуры в Риме
+
+					.row.hidden-xs
+						.col-sm-9.col-xs-12
+							.map
+								script(type='text/javascript', charset='utf-8', async='', src='https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=3QB8SBCEBl1VHDRZ6fT9U88EUYYpWycA&width=100\%&height=452&lang=ru_RU&sourceType=constructor&scroll=true')
+
+							table.table.table-contacts.fullwidth
+								tr
+									td Руководитель
+									td: strong Олег Валентинович Осипов
+								tr
+									td Телефон
+									td +39-06 888-16-333
+								tr
+									td Факс
+									td +39-06 683-00-982
+								tr
+									td Электронная почта
+									td: a(href="mailto:centroculturale@mail.ru") centroculturale@mail.ru
+
+								tr
+									td Сайт
+									td: a(href="ita.rs.gov.ru") ita.rs.gov.ru
+
+
+						.col-sm-3.col-xs-12
+							img(src="./img/contacts/img01.jpg" alt="Россия, Москва, ул. Воздвиженка, 18/9").img-responsive
+							p 00186 Италия, Рим, Пьяцца Бенедетто Каироли, 6
+							p Italia, Piazza Benedetto Cairoli, 6 — 00186 Roma
+
+					.visible-xs
+						img(src="./img/contacts/img01.jpg" alt="Россия, Москва, ул. Воздвиженка, 18/9").img-responsive
+						p 00186 Италия, Рим, Пьяцца Бенедетто Каироли, 6
+						p Italia, Piazza Benedetto Cairoli, 6 — 00186 Roma #[br]#[a(href="javascript:;") Показать на карте]
+
+						p Руководитель #[br] #[strong Олег Валентинович Осипов]
+						p Телефон #[br]+39-06 888-16-333
+						p Факс #[br]+39-06 683-00-982
+						p Электронная почта #[br] #[a(href="mailto:centroculturale@mail.ru") centroculturale@mail.ru]
+						p Сайт #[br] #[a(href="ita.rs.gov.ru") ita.rs.gov.ru]
+
+
 
 	include includes/_footer

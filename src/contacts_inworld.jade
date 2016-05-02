@@ -1,7 +1,7 @@
 extends includes/template
 
 block title
-	title contacts
+	title Центральный аппарат
 
 
 block content
@@ -91,11 +91,11 @@ block content
 								li: a(href="activity_sng.html") Интеграция стран СНГ
 						li: a(href="anons.html") Анонсы
 						li: a(href="news.html") Новости
-						li.open.active
+						li.open
 							a(href="contacts.html") Контакты
 							ul
 								li: a(href="contacts_center.html") Центральный аппарат
-								li: a(href="contacts_inworld.html") Представительства в мире
+								li.active: a(href="contacts_inworld.html") Представительства в мире
 								li: a(href="contacts_callback.html") Написать обращение
 
 					p.represent: a(href="represent.html") Сайты представительств
@@ -115,7 +115,7 @@ block content
 					li: a(href="activity.html") Деятельность
 					li: a(href="anons.html") Анонсы
 					li: a(href="news.html") Новости
-					li.active: a(href="contacts.html") Контакты
+					li.open: a(href="contacts.html") Контакты
 
 			a(href="javascript:;").search
 				img(src="./img/icons/ic-search.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search.png'")
@@ -188,25 +188,27 @@ block content
 								li: a(href="activity_sng.html") Интеграция стран СНГ
 						li: a(href="anons.html") Анонсы
 						li: a(href="news.html") Новости
-						li.open.active
+						li.open
 							a(href="contacts.html") Контакты
 							ul
 								li: a(href="contacts_center.html") Центральный аппарат
-								li: a(href="contacts_inworld.html") Представительства в мире
+								li.active: a(href="contacts_inworld.html") Представительства в мире
 								li: a(href="contacts_callback.html") Написать обращение
 
+			.col-sm-9.col-xs-12
+				section.contacts.content
+					.hidden-xs
+						ol.breadcrumb
+							li: a(href="./") Главная страница
+							li: a(href="contacts.html") Контакты
 
+						h1 Предствительства в мире
 
-
-			.contacts.col-sm-9.col-xs-12
-				.hidden-xs
-					ol.breadcrumb
-						li: a(href="./") Главная страница
-
-					h1 Контакты
+					.visible-xs
+						h1 Предствительства в мире
 
 					// Nav tabs
-					ul.nav.nav-tabs(role='tablist')
+					ul.nav.nav-tabs.hidden-xs(role='tablist')
 						li.active(role='presentation')
 							a(href='#contList', aria-controls='home', role='tab', data-toggle='tab') Список
 						li(role='presentation')
@@ -216,19 +218,6 @@ block content
 					.tab-content
 						#contList.tab-pane.row.active(role='tabpanel')
 							.col-xs-12
-								h2 Центральный аппарат
-							.col-xs-12
-								.media
-									.media-left
-										p.media-object
-											img(src="./img/icons/flag/flag_ru.png")
-									.media-body
-										h4.media-heading Россия
-										a(href="javascript:;") Офис в Москве на Воздвиженке
-										a(href="javascript:;") Офис в Москве на Мещанской улице
-
-							.col-xs-12
-								h2 Зарубежные представительства
 								h3 Страны СНГ, Абхазия и Южная Осетия
 							.col-sm-4.col-xs-12
 								.media
@@ -315,7 +304,7 @@ block content
 										a(href="javascript:;") Цхинвале
 
 							.col-xs-12
-								h2 Европа
+								h3 Европа
 							.col-sm-4.col-xs-12
 								.media
 									.media-left
@@ -393,7 +382,7 @@ block content
 										p.media-object
 									.media-body
 										h4.media-heading Италия
-										a(href="contacts_inworld_rome.html") Российский центр науки и культуры в Риме
+										a(href="javascript:;") Российский центр науки и культуры в Риме
 
 								.media
 									.media-left
@@ -505,7 +494,7 @@ block content
 
 
 							.col-xs-12
-								h2 Азия
+								h3 Азия
 							.col-sm-4.col-xs-12
 								.media
 									.media-left
@@ -672,7 +661,7 @@ block content
 
 
 							.col-xs-12
-								h2 Америка
+								h3 Америка
 							.col-sm-4.col-xs-12
 								.media
 									.media-left
@@ -750,7 +739,7 @@ block content
 
 
 							.col-xs-12
-								h2 Африка
+								h3 Африка
 							.col-sm-4.col-xs-12
 								.media
 									.media-left
@@ -805,16 +794,12 @@ block content
 										a(href="javascript:;") Представительство в Претории
 
 
-						#contMap.tab-pane(role='tabpanel')
+						#contMap.tab-pane.hidden-xs(role='tabpanel')
 							#map(style="width: 100%; height: auto")
 								script(type='text/javascript', charset='utf-8', async='', src='https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=5Cgm_8FyJhKoftIc8n6wPlriV5LERDW2&width=100%&height=560&lang=ru_RU&sourceType=constructor&scroll=true')
 
-				section.content.visible-xs
-					h1 Контакты
 
-					.list-group
-						a(href="contacts_center.html").list-group-item Центральный аппарат
-						a(href="contacts_center.html").list-group-item Представительства в мире
-						a(href="contacts_center.html").list-group-item Написать обращение
+
+
 
 	include includes/_footer

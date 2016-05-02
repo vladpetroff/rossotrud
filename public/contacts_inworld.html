@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contacts</title>
+    <title>Центральный аппарат</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|PT+Sans+Narrow:400,700|PT+Serif:400,400italic,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- Элементы форм  http://silviomoreto.github.io/bootstrap-select/-->
@@ -149,10 +149,10 @@
             </li>
             <li><a href="anons.html">Анонсы</a></li>
             <li><a href="news.html">Новости</a></li>
-            <li class="open active"><a href="contacts.html">Контакты</a>
+            <li class="open"><a href="contacts.html">Контакты</a>
               <ul>
                 <li><a href="contacts_center.html">Центральный аппарат</a></li>
-                <li><a href="contacts_inworld.html">Представительства в мире</a></li>
+                <li class="active"><a href="contacts_inworld.html">Представительства в мире</a></li>
                 <li><a href="contacts_callback.html">Написать обращение</a></li>
               </ul>
             </li>
@@ -171,7 +171,7 @@
           <li><a href="activity.html">Деятельность</a></li>
           <li><a href="anons.html">Анонсы</a></li>
           <li><a href="news.html">Новости</a></li>
-          <li class="active"><a href="contacts.html">Контакты</a></li>
+          <li class="open"><a href="contacts.html">Контакты</a></li>
         </ul>
       </div><a href="javascript:;" class="search"><img src="./img/icons/ic-search.svg" onerror="this.onerror=null; this.src='./img/icons/ic-search.png'"></a>
       <div class="searchField">
@@ -245,24 +245,30 @@
             </li>
             <li><a href="anons.html">Анонсы</a></li>
             <li><a href="news.html">Новости</a></li>
-            <li class="open active"><a href="contacts.html">Контакты</a>
+            <li class="open"><a href="contacts.html">Контакты</a>
               <ul>
                 <li><a href="contacts_center.html">Центральный аппарат</a></li>
-                <li><a href="contacts_inworld.html">Представительства в мире</a></li>
+                <li class="active"><a href="contacts_inworld.html">Представительства в мире</a></li>
                 <li><a href="contacts_callback.html">Написать обращение</a></li>
               </ul>
             </li>
           </ul>
         </nav>
       </aside>
-      <div class="contacts col-sm-9 col-xs-12">
-        <div class="hidden-xs">
-          <ol class="breadcrumb">
-            <li><a href="./">Главная страница</a></li>
-          </ol>
-          <h1>Контакты</h1>
+      <div class="col-sm-9 col-xs-12">
+        <section class="contacts content">
+          <div class="hidden-xs">
+            <ol class="breadcrumb">
+              <li><a href="./">Главная страница</a></li>
+              <li><a href="contacts.html">Контакты</a></li>
+            </ol>
+            <h1>Предствительства в мире</h1>
+          </div>
+          <div class="visible-xs">
+            <h1>Предствительства в мире</h1>
+          </div>
           <!-- Nav tabs-->
-          <ul role="tablist" class="nav nav-tabs">
+          <ul role="tablist" class="nav nav-tabs hidden-xs">
             <li role="presentation" class="active"><a href="#contList" aria-controls="home" role="tab" data-toggle="tab">Список</a></li>
             <li role="presentation"><a href="#contMap" aria-controls="profile" role="tab" data-toggle="tab">Карта</a></li>
           </ul>
@@ -270,20 +276,6 @@
           <div class="tab-content">
             <div id="contList" role="tabpanel" class="tab-pane row active">
               <div class="col-xs-12">
-                <h2>Центральный аппарат</h2>
-              </div>
-              <div class="col-xs-12">
-                <div class="media">
-                  <div class="media-left">
-                    <p class="media-object"><img src="./img/icons/flag/flag_ru.png"></p>
-                  </div>
-                  <div class="media-body">
-                    <h4 class="media-heading">Россия</h4><a href="javascript:;">Офис в Москве на Воздвиженке</a><a href="javascript:;">Офис в Москве на Мещанской улице</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xs-12">
-                <h2>Зарубежные представительства</h2>
                 <h3>Страны СНГ, Абхазия и Южная Осетия</h3>
               </div>
               <div class="col-sm-4 col-xs-12">
@@ -383,7 +375,7 @@
                 </div>
               </div>
               <div class="col-xs-12">
-                <h2>Европа</h2>
+                <h3>Европа</h3>
               </div>
               <div class="col-sm-4 col-xs-12">
                 <div class="media">
@@ -473,7 +465,7 @@
                     <p class="media-object"></p>
                   </div>
                   <div class="media-body">
-                    <h4 class="media-heading">Италия</h4><a href="contacts_inworld_rome.html">Российский центр науки и культуры в Риме</a>
+                    <h4 class="media-heading">Италия</h4><a href="javascript:;">Российский центр науки и культуры в Риме</a>
                   </div>
                 </div>
                 <div class="media">
@@ -600,7 +592,7 @@
                 </div>
               </div>
               <div class="col-xs-12">
-                <h2>Азия</h2>
+                <h3>Азия</h3>
               </div>
               <div class="col-sm-4 col-xs-12">
                 <div class="media">
@@ -785,7 +777,7 @@
                 </div>
               </div>
               <div class="col-xs-12">
-                <h2>Америка</h2>
+                <h3>Америка</h3>
               </div>
               <div class="col-sm-4 col-xs-12">
                 <div class="media">
@@ -874,7 +866,7 @@
                 </div>
               </div>
               <div class="col-xs-12">
-                <h2>Африка</h2>
+                <h3>Африка</h3>
               </div>
               <div class="col-sm-4 col-xs-12">
                 <div class="media">
@@ -939,16 +931,12 @@
                 </div>
               </div>
             </div>
-            <div id="contMap" role="tabpanel" class="tab-pane">
+            <div id="contMap" role="tabpanel" class="tab-pane hidden-xs">
               <div id="map" style="width: 100%; height: auto">
                 <script type="text/javascript" charset="utf-8" async="" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=5Cgm_8FyJhKoftIc8n6wPlriV5LERDW2&amp;width=100%&amp;height=560&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
               </div>
             </div>
           </div>
-        </div>
-        <section class="content visible-xs">
-          <h1>Контакты</h1>
-          <div class="list-group"><a href="contacts_center.html" class="list-group-item">Центральный аппарат</a><a href="contacts_center.html" class="list-group-item">Представительства в мире</a><a href="contacts_center.html" class="list-group-item">Написать обращение</a></div>
         </section>
       </div>
     </div>

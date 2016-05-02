@@ -283,7 +283,7 @@ gulp.task('watch', function() {
 });
 
 gulp.task('default', gulp.series(
-	gulp.parallel('jade', 'assets', 'imgcomponents', 'imagemin', 'webpack'),
+	gulp.parallel('assets', 'imgcomponents', 'imagemin', 'webpack'),
 	gulp.parallel('watch', 'browserSync')
 	)
 );

@@ -7,21 +7,115 @@ block title
 block content
 	.container
 		include includes/_header
-		include includes/_mainmenu
+
+		// phone-menu
+		nav.navbar.navbar-default.navbar-fixed-top.visible-xs
+			.container
+				.navbar-header
+					button(type="button" data-toggle="collapse" data-target="#navbar-collapsed" aria-expanded="false").navbar-toggle.collapsed
+						img(src="./img/icons/ic-menu.svg", onerror="this.onerror=null; this.src='./img/icons/ic-menu.png'").menu
+						img(src="./img/icons/ic-close-black-24-px.svg", onerror="this.onerror=null; this.src='./img/icons/ic-close-black-24-px.png'").closeMenu
+						span.sr-only Toggle navigation
+
+					a(href="./").logo
+						img(src="./img/icons/rs-logo-white.svg", onerror="this.onerror=null; this.src='./img/icons/rs-logo-white.png'")
+
+					a(href="javascript:;").navbar-brand Россотрудничество
+
+					a(href="javascript:;").search
+						img(src="./img/icons/ic-search.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search.png'")
+
+					.searchField
+						.input-group
+							input(type="text").form-control
+							span.input-group-btn
+								button(type="button").btn.btn-warning: img(src="./img/icons/ic-search-white.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search-white.png'")
+
+				.collapse.navbar-collapse#navbar-collapsed
+					ul.nav.navbar-nav
+						li
+							a(href="about.html") О Россотрудничестве
+							ul
+								li
+									a(href="about_programs.html") Государственные программы
+									ul
+										li: a(href="about_programs_strategy.html") Стратегические коммуникации российского содействия международному развитию
+										li: a(href="about_programs_sng.html") Межгосударственная программа инновационного сотрудничества государств-участников СНГ
+										li: a(href="about_programs_newGen.html") «Новое поколение»: ознакомительные поездки в Россию для молодых представителей политических, общественных, научных и деловых кругов иностранных государств
+										li: a(href="about_programs_settlers.html") Содействие добровольному переселению в Российскую Федерацию соотечественников, проживающих за рубежом
+										li: a(href="about_programs_extpol.html") Внешнеполитическая деятельность
+										li: a(href="about_programs_rulang.html") Русский язык
+
+								li: a(href="about_structure.html") Структура
+								li: a(href="about_manage.html") Руководство
+								li: a(href="about_history.html") История
+								li: a(href="about_partners.html") Партнеры
+						li.open
+							a(href="activity.html") Деятельность
+							ul
+								li: a(href="activity_worldSupport.html") Содействие международному развитию
+								li: a(href="activity_diplomacy.html") Общественная дипломатия
+								li.open
+									a(href="activity_russianCulture.html") Продвижение русской культуры
+									ul
+										li: a(href="activity_russianCulture_.html") 25 лет Содружеству Независимых Государств
+										li: a(href="activity_russianCulture_.html") 25 лет Содружеству Независимых Государств
+										li.active: a(href="activity_russianCulture_ruCinema.html") Год российского кино
+										li: a(href="activity_russianCulture_.html") 90 лет народной дипломатии
+										li: a(href="activity_russianCulture_.html") 50-летие первого выхода человека в открытый космос
+										li: a(href="activity_russianCulture_.html") Посольство мастерства
+										li: a(href="activity_russianCulture_.html") Год литературы
+										li: a(href="activity_russianCulture_.html") Год России в Монако
+										li: a(href="activity_russianCulture_.html") 70-летие Победы в Великой Отечественной войне
+										li: a(href="activity_russianCulture_.html") 175-летие со дня рождения П. И. Чайковского
+										li: a(href="activity_russianCulture_.html") 1000-летие преставления святого равноапостольного князя Владимира — Крестителя Руси
+										li: a(href="activity_russianCulture_.html") День семьи, любви и верности
+										li: a(href="activity_russianCulture_.html") 700-летие со дня рождения преподобного Сергия Радонежского
+										li: a(href="activity_russianCulture_.html") 200-летие со дня рождения М. Ю. Лермонтова
+										li: a(href="activity_russianCulture_.html") Дружба Народов
+										li: a(href="activity_russianCulture_.html") 100-летие начала Первой мировой войны
+										li: a(href="activity_russianCulture_.html") Фотовыставка «Гран-при по-русски»
+										li: a(href="activity_russianCulture_.html") Год России в Нидерландах и Нидерландов в России
+										li: a(href="activity_russianCulture_.html") Год Германии в России и России в Германии
+										li: a(href="activity_russianCulture_.html") Год Испании в России и России в Испании
+										li: a(href="activity_russianCulture_.html") Год России в Италии
+										li: a(href="activity_russianCulture_.html") Год китайского языка в России
+										li: a(href="activity_russianCulture_.html") Год России во Франции и Год Франции в России
+										li: a(href="activity_russianCulture_.html") Год Болгарии в России
+
+								li: a(href="activity_comrades.html") Поддержка соотечественников
+								li: a(href="activity_rulangSupport.html") Укрепление позиций русского языка
+								li: a(href="activity_education.html") Образование и наука
+								li: a(href="activity_cemetery.html") Сохранение историко-мемориальных памятников и мест погребения
+								li: a(href="activity_relations.html") Международные связи субъектов РФ
+								li: a(href="activity_sng.html") Интеграция стран СНГ
+						li: a(href="anons.html") Анонсы
+						li: a(href="news.html") Новости
+						li
+							a(href="contacts.html") Контакты
+							ul
+								li: a(href="contacts_center.html") Центральный аппарат
+								li: a(href="contacts_inworld.html") Представительства в мире
+								li: a(href="contacts_callback.html") Написать обращение
+
+					p.represent: a(href="represent.html") Сайты представительств
+
+					.lang
+						p Язык
+						a.active: img(src="./img/icons/flag/flag_ru.png").flag
+						a: img(src="./img/icons/flag/flag_en.png").flag
+						a: img(src="./img/icons/flag/flag_de.png").flag
+						a: img(src="./img/icons/flag/flag_fr.png").flag
+						a: img(src="./img/icons/flag/flag_es.png").flag
 
 		nav.navbar.navbar-desktop.hidden-xs
 			.navbar-header
 				ul.nav.navbar-nav
-					li.active
-						a(href="about.html") О Россотрудничестве
-					li
-						a(href="activity.html") Деятельность
-					li
-						a(href="anons.html") Анонсы
-					li
-						a(href="news.html") Новости
-					li
-						a(href="contacts.html") Контакты
+					li: a(href="about.html") О Россотрудничестве
+					li.open: a(href="activity.html") Деятельность
+					li: a(href="anons.html") Анонсы
+					li: a(href="news.html") Новости
+					li: a(href="contacts.html") Контакты
 
 			a(href="javascript:;").search
 				img(src="./img/icons/ic-search.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search.png'")
@@ -32,11 +126,76 @@ block content
 					span.input-group-btn
 						button(type="button").btn.btn-warning: img(src="./img/icons/ic-search-white.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search-white.png'")
 
-
 		.row
 			aside.col-sm-4.hidden-xs
 				nav.navbar.navbar-default
-					include includes/_sidemenu
+					ul.nav.navbar-nav
+						li
+							a(href="about.html") О Россотрудничестве
+							ul
+								li
+									a(href="about_programs.html") Государственные программы
+									ul
+										li: a(href="about_programs_strategy.html") Стратегические коммуникации российского содействия международному развитию
+										li: a(href="about_programs_sng.html") Межгосударственная программа инновационного сотрудничества государств-участников СНГ
+										li: a(href="about_programs_newGen.html") «Новое поколение»: ознакомительные поездки в Россию для молодых представителей политических, общественных, научных и деловых кругов иностранных государств
+										li: a(href="about_programs_settlers.html") Содействие добровольному переселению в Российскую Федерацию соотечественников, проживающих за рубежом
+										li: a(href="about_programs_extpol.html") Внешнеполитическая деятельность
+										li: a(href="about_programs_rulang.html") Русский язык
+
+								li: a(href="about_structure.html") Структура
+								li: a(href="about_manage.html") Руководство
+								li: a(href="about_history.html") История
+								li: a(href="about_partners.html") Партнеры
+						li.open
+							a(href="activity.html") Деятельность
+							ul
+								li: a(href="activity_worldSupport.html") Содействие международному развитию
+								li: a(href="activity_diplomacy.html") Общественная дипломатия
+								li.open
+									a(href="activity_russianCulture.html") Продвижение русской культуры
+									ul
+										li: a(href="activity_russianCulture_.html") 25 лет Содружеству Независимых Государств
+										li: a(href="activity_russianCulture_.html") 25 лет Содружеству Независимых Государств
+										li.active: a(href="activity_russianCulture_ruCinema.html") Год российского кино
+										li: a(href="activity_russianCulture_.html") 90 лет народной дипломатии
+										li: a(href="activity_russianCulture_.html") 50-летие первого выхода человека в открытый космос
+										li: a(href="activity_russianCulture_.html") Посольство мастерства
+										li: a(href="activity_russianCulture_.html") Год литературы
+										li: a(href="activity_russianCulture_.html") Год России в Монако
+										li: a(href="activity_russianCulture_.html") 70-летие Победы в Великой Отечественной войне
+										li: a(href="activity_russianCulture_.html") 175-летие со дня рождения П. И. Чайковского
+										li: a(href="activity_russianCulture_.html") 1000-летие преставления святого равноапостольного князя Владимира — Крестителя Руси
+										li: a(href="activity_russianCulture_.html") День семьи, любви и верности
+										li: a(href="activity_russianCulture_.html") 700-летие со дня рождения преподобного Сергия Радонежского
+										li: a(href="activity_russianCulture_.html") 200-летие со дня рождения М. Ю. Лермонтова
+										li: a(href="activity_russianCulture_.html") Дружба Народов
+										li: a(href="activity_russianCulture_.html") 100-летие начала Первой мировой войны
+										li: a(href="activity_russianCulture_.html") Фотовыставка «Гран-при по-русски»
+										li: a(href="activity_russianCulture_.html") Год России в Нидерландах и Нидерландов в России
+										li: a(href="activity_russianCulture_.html") Год Германии в России и России в Германии
+										li: a(href="activity_russianCulture_.html") Год Испании в России и России в Испании
+										li: a(href="activity_russianCulture_.html") Год России в Италии
+										li: a(href="activity_russianCulture_.html") Год китайского языка в России
+										li: a(href="activity_russianCulture_.html") Год России во Франции и Год Франции в России
+										li: a(href="activity_russianCulture_.html") Год Болгарии в России
+
+								li: a(href="activity_comrades.html") Поддержка соотечественников
+								li: a(href="activity_rulangSupport.html") Укрепление позиций русского языка
+								li: a(href="activity_education.html") Образование и наука
+								li: a(href="activity_cemetery.html") Сохранение историко-мемориальных памятников и мест погребения
+								li: a(href="activity_relations.html") Международные связи субъектов РФ
+								li: a(href="activity_sng.html") Интеграция стран СНГ
+						li: a(href="anons.html") Анонсы
+						li: a(href="news.html") Новости
+						li
+							a(href="contacts.html") Контакты
+							ul
+								li: a(href="contacts_center.html") Центральный аппарат
+								li: a(href="contacts_inworld.html") Представительства в мире
+								li: a(href="contacts_callback.html") Написать обращение
+
+
 			.col-max-6.col-lg-7.col-sm-8.col-xs-12
 				ol.breadcrumb.hidden-xs
 					li: a(href="./") Главная страница
