@@ -89,6 +89,7 @@ gulp.task('jade', function () {
 			pretty: true
 		}))
 		//.pipe(newer(path.public.jade))
+		.pipe(newer(path.watch.jade))
 		.pipe(gulp.dest(path.public.html))
 });
 

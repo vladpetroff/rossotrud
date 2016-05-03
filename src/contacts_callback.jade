@@ -90,7 +90,19 @@ block content
 								li: a(href="activity_relations.html") Международные связи субъектов РФ
 								li: a(href="activity_sng.html") Интеграция стран СНГ
 						li: a(href="anons.html") Анонсы
-						li: a(href="news.html") Новости
+						li
+							a(href="news.html") Новости
+							ul
+								li: a(href="news_russia.html") Россия
+								li: a(href="news_sng.html") СНГ
+								li: a(href="news_world.html") Мир
+								li: a(href="news_edu.html") Образование
+								li: a(href="news_tech.html") Наука и техника
+								li: a(href="news_culture.html") Культура
+								li: a(href="news_social.html") Общество
+								li: a(href="news_rulang.html") Русский язык
+								li: a(href="news_diplomacy.html") Народная дипломатия
+								li: a(href="news_years.html") Перекрестные годы
 						li.open
 							a(href="contacts.html") Контакты
 							ul
@@ -187,7 +199,19 @@ block content
 								li: a(href="activity_relations.html") Международные связи субъектов РФ
 								li: a(href="activity_sng.html") Интеграция стран СНГ
 						li: a(href="anons.html") Анонсы
-						li: a(href="news.html") Новости
+						li
+							a(href="news.html") Новости
+							ul
+								li: a(href="news_russia.html") Россия
+								li: a(href="news_sng.html") СНГ
+								li: a(href="news_world.html") Мир
+								li: a(href="news_edu.html") Образование
+								li: a(href="news_tech.html") Наука и техника
+								li: a(href="news_culture.html") Культура
+								li: a(href="news_social.html") Общество
+								li: a(href="news_rulang.html") Русский язык
+								li: a(href="news_diplomacy.html") Народная дипломатия
+								li: a(href="news_years.html") Перекрестные годы
 						li.open
 							a(href="contacts.html") Контакты
 							ul
@@ -246,13 +270,21 @@ block content
 								.form-group
 									label.col-sm-3.control-label(for='formGroupInputTextarea') Обращение
 									.col-sm-9
-										textarea(rows="5").form-control#formGroupInputTextarea
+										textarea(rows="5", placeholder="Может содержать не более 2000 знаков").form-control#formGroupInputTextarea
 										p.help-block.pull-right 0/2000
 								.form-group
 									label.col-sm-3.control-label(for='formGroupInputFile') Документ
 									.col-sm-9
-										input#formGroupInputFile.form-control(type='file')
-										p.help-block Вы можете прикрепить к обращению файл размером не более 5 Мб. #[br]Допустимы следующие форматы: avi, bmp, doc, docx, flw, gif, jpg, mkv, mov, mp3, mp4, pcx, pdf, png, pps, ppt, pptx, rtf, tif, txt, xls, xlsx, wma, wmv, wma.
+										button(type="text")#formGroupInputFile.btn.btn-primary Выбрать файл
+										//input#formGroupInputFile.form-control(type='file')
+										p.help-block Вы можете прикрепить к обращению файл размером не более 5 Мб.
+										p.help-block Допустимы следующие форматы: avi, bmp, doc, docx, flw, gif, jpg, mkv, mov, mp3, mp4, pcx, pdf, png, pps, ppt, pptx, rtf, tif, txt, xls, xlsx, wma, wmv, wma.
+								.form-group
+									label.col-sm-3.control-label.hidden-xs
+									.col-sm-9
+										.checkbox.checkbox-warning
+											input(type="checkbox" id="checkbox3" disabled)
+											label(for="checkbox3").control-label Я прочитал и #[a(href="javascript:;") принимаю правила рассмотрения электронных обращений граждан]
 								.form-group
 									label.col-sm-3.control-label
 									.col-sm-9

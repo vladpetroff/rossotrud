@@ -1,7 +1,7 @@
 extends includes/template
 
 block title
-	title mainpage
+	title Новости
 
 
 block content
@@ -33,10 +33,10 @@ block content
 
 				.collapse.navbar-collapse#navbar-collapsed
 					ul.nav.navbar-nav
-						li.open
+						li
 							a(href="about.html") О Россотрудничестве
 							ul
-								li.open.active
+								li
 									a(href="about_programs.html") Государственные программы
 									ul
 										li: a(href="about_programs_strategy.html") Стратегические коммуникации российского содействия международному развитию
@@ -90,7 +90,7 @@ block content
 								li: a(href="activity_relations.html") Международные связи субъектов РФ
 								li: a(href="activity_sng.html") Интеграция стран СНГ
 						li: a(href="anons.html") Анонсы
-						li
+						li.open.active
 							a(href="news.html") Новости
 							ul
 								li: a(href="news_russia.html") Россия
@@ -123,10 +123,10 @@ block content
 		nav.navbar.navbar-desktop.hidden-xs
 			.navbar-header
 				ul.nav.navbar-nav
-					li.open: a(href="about.html") О Россотрудничестве
+					li: a(href="about.html") О Россотрудничестве
 					li: a(href="activity.html") Деятельность
 					li: a(href="anons.html") Анонсы
-					li: a(href="news.html") Новости
+					li.active: a(href="news.html") Новости
 					li: a(href="contacts.html") Контакты
 
 			a(href="javascript:;").search
@@ -142,10 +142,10 @@ block content
 			aside.col-sm-4.hidden-xs
 				nav.navbar.navbar-default
 					ul.nav.navbar-nav
-						li.open
+						li
 							a(href="about.html") О Россотрудничестве
 							ul
-								li.open.active
+								li
 									a(href="about_programs.html") Государственные программы
 									ul
 										li: a(href="about_programs_strategy.html") Стратегические коммуникации российского содействия международному развитию
@@ -199,7 +199,7 @@ block content
 								li: a(href="activity_relations.html") Международные связи субъектов РФ
 								li: a(href="activity_sng.html") Интеграция стран СНГ
 						li: a(href="anons.html") Анонсы
-						li
+						li.open.active
 							a(href="news.html") Новости
 							ul
 								li: a(href="news_russia.html") Россия
@@ -220,53 +220,106 @@ block content
 								li: a(href="contacts_callback.html") Написать обращение
 
 
-			.col-max-6.col-sm-7.col-xs-12
+			.col-sm-6.col-xs-12
 				ol.breadcrumb.hidden-xs
 					li: a(href="./") Главная страница
-					li: a(href="about.html") О Россотрудничестве
 
-				section.content
-					h1 Государственные программы
+				section.news
+					h1 Новости
 
-					article.card.hidden-xs
-						a(href="about_programs_strategy.html")
-							img(src="./img/about/img02.png", alt="")
-						p Стратегические коммуникации российского содействия международному развитию
+					.row
+						.col-sm-6.col-xs-12
+							article
+								time Сегодня, 27 февраля
+								.news
+									h2 Продвижение российской культуры
+									p Россия принимает участие в Международной книжной ярмарке в Каире
 
-					article.card.hidden-xs
-						a(href="about_programs_sng.html")
-							img(src="./img/about/img05.png", alt="")
-						p Межгосударственная программа инновационного сотрудничества государств-участников СНГ
+								.news
+									h2 Развитие деловых связей
+									p В РЦНК в Нью-Дели прошел круглый стол «БРИКС: эволюция от акронима к глобальному игроку»
+									a(href="newsDetail.html")
+										img(src="./img/news/2016-02-27/img_01.jpg", alt="")
 
-					article.card.hidden-xs
-						a(href="about_programs_newGen.html")
-							img(src="./img/about/img04.png", alt="")
-						p «Новое поколение»: ознакомительные поездки в Россию для молодых представителей политических, общественных, научных и деловых кругов иностранных государств
+								.news
+									h2 Образование
+									p Во Франции проходит творческий конкурс для учителей русского языка
 
-					article.card.hidden-xs
-						a(href="about_programs_settlers.html")
-							img(src="./img/about/img03.png", alt="")
-						p Содействие добровольному переселению в Российскую Федерацию соотечественников, проживающих за рубежом
+								.news
+									a(href="newsDetail.html")
+										img(src="./img/news/2016-02-27/img_02.jpg", alt="")
+									h2 Перекрестные годы
+									p В Москве стартовал перекрестный год обменов между СМИ России и Китая
 
-					article.card.hidden-xs
-						a(href="about_programs_extpol.html")
-							img(src="./img/about/img02.png", alt="")
-						p Внешнеполитическая деятельность
+							article
+								time Вчера, 26 февраля
+								.news
+									a(href="newsDetail.html")
+										img(src="./img/news/2016-02-26/img_01.png", alt="")
+								.news
+									h2 Русский язык
+									p В Русе на базе средней школы с изучением европейских языков им. Св. Константина-Кирилла Философа (СОШЕЯ) состоялось заседание национальной комиссии по проведению олимпиады по русскому языку
 
-					article.card.hidden-xs
-						a(href="about_programs_rulang.html")
-							img(src="./img/about/img02.png", alt="")
-						p Русский язык
+								.news
+									a(href="newsDetail.html")
+										img(src="./img/news/2016-02-26/img_02.png", alt="")
+									h2 Общество
+									p В Нью-Йорке пройдут художественные выставки, посвященные Юрию Гагарину
 
+								.news
+									h2 Продвижение российской культуры
+									p Россия принимает участие в Международной книжной ярмарке в Каире
 
+							.row.subscribe.visible-xs
+								.col-xs-12
+									form
+										h2 Подписывайтесь #[br.visible-xs]на анонсы и новости:
+										input(type="email", placeholder="Ваша эл. почта").form-control
+										input(type="submit", value="Подписаться").btn.btn-orange
 
-					.list-group.visible-xs
-						a(href="about_programs_strategy.html").list-group-item Стратегические коммуникации российского содействия международному развитию
-						a(href="about_programs_sng.html").list-group-item Межгосударственная программа инновационного сотрудничества государств-участников СНГ
-						a(href="about_programs_newGen.html").list-group-item «Новое поколение»: ознакомительные поездки в Россию для молодых представителей политических, общественных, научных и деловых кругов иностранных государств
-						a(href="about_programs_settlers.html").list-group-item Содействие добровольному переселению в Российскую Федерацию соотечественников, проживающих за рубежом
-						a(href="about_programs_extpol.html").list-group-item Внешнеполитическая деятельность
-						a(href="about_programs_rulang.html").list-group-item Русский язык
+						.col-sm-6.col-xs-12
+							article
+								time 25 февраля
+								.news
+									h2 Образование
+									p РЦНК в Каире развивает деловые связи с египетскими вузами
+
+							article
+								time 24 февраля
+								.news
+									a(href="newsDetail.html")
+										img(src="./img/news/2016-02-26/img_01.png", alt="")
+								.news
+									h2 Русский язык
+									p В Русе на базе средней школы с изучением европейских языков им. Св. Константина-Кирилла Философа (СОШЕЯ) состоялось заседание национальной комиссии по проведению олимпиады по русскому языку
+
+								.news
+									a(href="newsDetail.html")
+										img(src="./img/news/2016-02-26/img_02.png", alt="")
+									h2 Общество
+									p В Нью-Йорке пройдут художественные выставки, посвященные Юрию Гагарину
+
+								.news
+									h2 Продвижение российской культуры
+									p Россия принимает участие в Международной книжной ярмарке в Каире
+
+							article
+								time 23 февраля
+								.news
+									h2 Образование
+									p РЦНК в Каире развивает деловые связи с египетскими вузами
+
+								.news
+									h2 Общество
+									p Заместитель директора РИСИ Тамара Гузенкова стала почетным членом Евразийского экспертного клуба в Ереване
+
+								.news
+									h2 Тематические встречи
+									p В РЦНК в Афинах обсудили вопросы межправославных греко-российских связей
+
+					.row
+						.col-xs-12
+							p.readmore.dotted: a(href="news.html") Другие новости
 
 
 	include includes/_footer

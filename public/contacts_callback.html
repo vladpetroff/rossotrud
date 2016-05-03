@@ -9,6 +9,8 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- Элементы форм  http://silviomoreto.github.io/bootstrap-select/-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/css/bootstrap-select.min.css" rel="stylesheet">
+    <!-- Чекбоксы и радио https://github.com/flatlogic/awesome-bootstrap-checkbox-->
+    <link href="./css/awesome-bootstrap-checkbox.css" rel="stylesheet"/>
     <link href="./css/style.css" rel="stylesheet"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
@@ -148,7 +150,20 @@
               </ul>
             </li>
             <li><a href="anons.html">Анонсы</a></li>
-            <li><a href="news.html">Новости</a></li>
+            <li><a href="news.html">Новости</a>
+              <ul>
+                <li><a href="news_russia.html">Россия</a></li>
+                <li><a href="news_sng.html">СНГ</a></li>
+                <li><a href="news_world.html">Мир</a></li>
+                <li><a href="news_edu.html">Образование</a></li>
+                <li><a href="news_tech.html">Наука и техника</a></li>
+                <li><a href="news_culture.html">Культура</a></li>
+                <li><a href="news_social.html">Общество</a></li>
+                <li><a href="news_rulang.html">Русский язык</a></li>
+                <li><a href="news_diplomacy.html">Народная дипломатия</a></li>
+                <li><a href="news_years.html">Перекрестные годы</a></li>
+              </ul>
+            </li>
             <li class="open"><a href="contacts.html">Контакты</a>
               <ul>
                 <li><a href="contacts_center.html">Центральный аппарат</a></li>
@@ -244,7 +259,20 @@
               </ul>
             </li>
             <li><a href="anons.html">Анонсы</a></li>
-            <li><a href="news.html">Новости</a></li>
+            <li><a href="news.html">Новости</a>
+              <ul>
+                <li><a href="news_russia.html">Россия</a></li>
+                <li><a href="news_sng.html">СНГ</a></li>
+                <li><a href="news_world.html">Мир</a></li>
+                <li><a href="news_edu.html">Образование</a></li>
+                <li><a href="news_tech.html">Наука и техника</a></li>
+                <li><a href="news_culture.html">Культура</a></li>
+                <li><a href="news_social.html">Общество</a></li>
+                <li><a href="news_rulang.html">Русский язык</a></li>
+                <li><a href="news_diplomacy.html">Народная дипломатия</a></li>
+                <li><a href="news_years.html">Перекрестные годы</a></li>
+              </ul>
+            </li>
             <li class="open"><a href="contacts.html">Контакты</a>
               <ul>
                 <li><a href="contacts_center.html">Центральный аппарат</a></li>
@@ -316,15 +344,26 @@
                 <div class="form-group">
                   <label for="formGroupInputTextarea" class="col-sm-3 control-label">Обращение</label>
                   <div class="col-sm-9">
-                    <textarea rows="5" id="formGroupInputTextarea" class="form-control"></textarea>
+                    <textarea rows="5" placeholder="Может содержать не более 2000 знаков" id="formGroupInputTextarea" class="form-control"></textarea>
                     <p class="help-block pull-right">0/2000</p>
                   </div>
                 </div>
                 <div class="form-group">
                   <label for="formGroupInputFile" class="col-sm-3 control-label">Документ</label>
                   <div class="col-sm-9">
-                    <input id="formGroupInputFile" type="file" class="form-control">
-                    <p class="help-block">Вы можете прикрепить к обращению файл размером не более 5 Мб. <br>Допустимы следующие форматы: avi, bmp, doc, docx, flw, gif, jpg, mkv, mov, mp3, mp4, pcx, pdf, png, pps, ppt, pptx, rtf, tif, txt, xls, xlsx, wma, wmv, wma.</p>
+                    <button type="text" id="formGroupInputFile" class="btn btn-primary">Выбрать файл</button>
+                    <!--input#formGroupInputFile.form-control(type='file')-->
+                    <p class="help-block">Вы можете прикрепить к обращению файл размером не более 5 Мб.</p>
+                    <p class="help-block">Допустимы следующие форматы: avi, bmp, doc, docx, flw, gif, jpg, mkv, mov, mp3, mp4, pcx, pdf, png, pps, ppt, pptx, rtf, tif, txt, xls, xlsx, wma, wmv, wma.</p>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-3 control-label hidden-xs"></label>
+                  <div class="col-sm-9">
+                    <div class="checkbox checkbox-warning">
+                      <input type="checkbox" id="checkbox3" disabled>
+                      <label for="checkbox3" class="control-label">Я прочитал и <a href="javascript:;">принимаю правила рассмотрения электронных обращений граждан</a></label>
+                    </div>
                   </div>
                 </div>
                 <div class="form-group">
