@@ -71,6 +71,10 @@
 		$("section.manage.block").on("click", "article", function () {
 			window.location = $(this).find("a").attr('href');
 		});
+		// clickable programs-block
+		$("section.programs").on("click", "article", function () {
+			window.location = $(this).find("a").attr('href');
+		});
 
 		// select lang
 		$('.navbar-default .lang').on('click', 'a', function () {
