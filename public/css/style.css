@@ -6057,6 +6057,12 @@ button.close {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.4); }
 
+.mosaic > .col-sm-6:nth-child(odd) {
+  float: left; }
+
+.mosaic > .col-sm-6:nth-child(even) {
+  float: right; }
+
 .checkbox.checkbox-warning label {
   padding-left: 10px; }
 
@@ -6731,6 +6737,31 @@ div.subscribe {
         color: rgba(0, 0, 0, 0.4); }
       .newsBlock .list-group .list-group-item:first-child {
         border: none; }
+  .newsBlock.anonsBlock h1 {
+    font-size: 18px;
+    font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .newsBlock.anonsBlock h2 {
+    margin-bottom: 12px; }
+  .newsBlock.anonsBlock p {
+    font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .newsBlock.anonsBlock .side h2 {
+    font-size: 18px;
+    line-height: 1.1;
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #424242;
+    font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .newsBlock.anonsBlock .side h3 {
+    font-size: 16px;
+    line-height: 1.3;
+    color: #424242;
+    font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .newsBlock.anonsBlock .side p {
+    font-size: 14px;
+    line-height: 1.1;
+    color: rgba(0, 0, 0, 0.5); }
+  .newsBlock.anonsBlock .side a {
+    margin-bottom: 20px; }
 
 .grayBlock {
   background-color: #e0e0e0;
@@ -7088,6 +7119,23 @@ footer {
     section.anons article .articleText h4 {
       font-size: 14px;
       line-height: 1.1; }
+  section.anons.inner {
+    margin-bottom: 80px; }
+    section.anons.inner article .articleText h2 {
+      line-height: 1.3;
+      width: 225px; }
+    section.anons.inner article .articleText h3 {
+      font-size: 20px;
+      line-height: 1.2;
+      margin-top: 33px; }
+    section.anons.inner article .articleText h4 {
+      font-size: 16px;
+      line-height: 1.3; }
+    section.anons.inner article .articleText time {
+      line-height: 1.3; }
+    section.anons.inner article .articleImg img {
+      width: 212px;
+      height: 224px; }
   section.news {
     margin-bottom: 80px; }
     section.news h2 {
@@ -7482,6 +7530,29 @@ footer {
           color: rgba(0, 0, 0, 0.4); }
         .newsBlock .list-group .list-group-item:first-child {
           border: none; }
+    .newsBlock.anonsBlock h1 {
+      font-size: 40px;
+      line-height: 1.1;
+      margin-bottom: 19px; }
+    .newsBlock.anonsBlock h2 {
+      margin-top: 0;
+      margin-bottom: 30px;
+      line-height: 35px; }
+    .newsBlock.anonsBlock p {
+      font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    .newsBlock.anonsBlock .side h2 {
+      font-size: 32px;
+      line-height: 35px;
+      margin-top: 0;
+      margin-bottom: 30px; }
+    .newsBlock.anonsBlock .side h3 {
+      font-size: 18px; }
+    .newsBlock.anonsBlock .side p {
+      font-size: 16px;
+      line-height: 1.3;
+      color: #424242; }
+    .newsBlock.anonsBlock .side a {
+      margin-bottom: 20px; }
   .bannerBlock {
     height: 400px; }
     .bannerBlock img {

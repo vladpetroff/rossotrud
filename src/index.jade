@@ -91,8 +91,31 @@ block content
 								li: a(href="activity_cemetery.html") Сохранение историко-мемориальных памятников и мест погребения
 								li: a(href="activity_relations.html") Международные связи субъектов РФ
 								li: a(href="activity_sng.html") Интеграция стран СНГ
-						li: a(href="anons.html") Анонсы
-						li: a(href="news.html") Новости
+						li
+							a(href="anons.html") Анонсы
+							ul
+								li: a(href="anons_detail.html") Кино
+								li: a(href="anons_detail.html") Выставки
+								li: a(href="anons_detail.html") Концерты
+								li: a(href="anons_detail.html") Спектакли
+								li: a(href="anons_detail.html") Конференции
+								li: a(href="anons_detail.html") Семинары
+								li: a(href="anons_detail.html") Конкурсы
+								li: a(href="anons_detail.html") Творческие встречи
+								li: a(href="anons_detail.html") Конференции
+						li
+							a(href="news.html") Новости
+							ul
+								li: a(href="news_russia.html") Россия
+								li: a(href="news_sng.html") СНГ
+								li: a(href="news_world.html") Мир
+								li: a(href="news_edu.html") Образование
+								li: a(href="news_tech.html") Наука и техника
+								li: a(href="news_culture.html") Культура
+								li: a(href="news_social.html") Общество
+								li: a(href="news_rulang.html") Русский язык
+								li: a(href="news_diplomacy.html") Народная дипломатия
+								li: a(href="news_years.html") Перекрестные годы
 						li
 							a(href="contacts.html") Контакты
 							ul
@@ -211,7 +234,7 @@ block content
 			section.news.col-sm-6.col-xs-12
 				h1 Новости
 
-				.row
+				.row.mosaic
 					.col-sm-6.col-xs-12
 						article
 							time Сегодня, 27 февраля
@@ -255,8 +278,9 @@ block content
 								h2 Продвижение российской культуры
 								p Россия принимает участие в Международной книжной ярмарке в Каире
 
+					.col-sm-6.col-xs-12
 						article
-							time Вчера, 25 февраля
+							time 25 февраля
 							.news
 								h2 Образование
 								p РЦНК в Каире развивает деловые связи с египетскими вузами
@@ -269,6 +293,15 @@ block content
 								h2 Тематические встречи
 								p В РЦНК в Афинах обсудили вопросы межправославных греко-российских связей
 
+					.col-sm-6.col-xs-12
+						article
+							time 24 февраля
+							.news
+								a(href="newsDetail.html")
+									img(src="./img/news/2016-02-26/img_01.png", alt="")
+							.news
+								h2 Русский язык
+								p В Русе на базе средней школы с изучением европейских языков им. Св. Константина-Кирилла Философа (СОШЕЯ) состоялось заседание национальной комиссии по проведению олимпиады по русскому языку
 				.row
 					.col-xs-12
 						p.readmore: a(href="news.html") Все новости

@@ -89,7 +89,18 @@ block content
 								li: a(href="activity_cemetery.html") Сохранение историко-мемориальных памятников и мест погребения
 								li: a(href="activity_relations.html") Международные связи субъектов РФ
 								li: a(href="activity_sng.html") Интеграция стран СНГ
-						li.active: a(href="anons.html") Анонсы
+						li.active.open
+							a(href="anons.html") Анонсы
+							ul
+								li: a(href="anons_detail.html") Кино
+								li: a(href="anons_detail.html") Выставки
+								li: a(href="anons_detail.html") Концерты
+								li: a(href="anons_detail.html") Спектакли
+								li: a(href="anons_detail.html") Конференции
+								li: a(href="anons_detail.html") Семинары
+								li: a(href="anons_detail.html") Конкурсы
+								li: a(href="anons_detail.html") Творческие встречи
+								li: a(href="anons_detail.html") Конференции
 						li
 							a(href="news.html") Новости
 							ul
@@ -198,7 +209,18 @@ block content
 								li: a(href="activity_cemetery.html") Сохранение историко-мемориальных памятников и мест погребения
 								li: a(href="activity_relations.html") Международные связи субъектов РФ
 								li: a(href="activity_sng.html") Интеграция стран СНГ
-						li.active: a(href="anons.html") Анонсы
+						li.active.open
+							a(href="anons.html") Анонсы
+							ul
+								li: a(href="anons_detail.html") Кино
+								li: a(href="anons_detail.html") Выставки
+								li: a(href="anons_detail.html") Концерты
+								li: a(href="anons_detail.html") Спектакли
+								li: a(href="anons_detail.html") Конференции
+								li: a(href="anons_detail.html") Семинары
+								li: a(href="anons_detail.html") Конкурсы
+								li: a(href="anons_detail.html") Творческие встречи
+								li: a(href="anons_detail.html") Конференции
 						li
 							a(href="news.html") Новости
 							ul
@@ -224,11 +246,11 @@ block content
 				ol.breadcrumb.hidden-xs
 					li: a(href="./") Главная страница
 
-				section.anons
+				section.anons.inner
 					h1 Анонсы
 
 					.row
-						.col-sm-6.col-xs-12
+						.col-xs-12
 							article
 								.articleImg
 									a(href="anonsDetail.html")
@@ -239,7 +261,7 @@ block content
 									h3 Писатель горечи и гнева
 									h4 К 190-летию М. Е. Салтыкова-Щедрина
 
-						.col-sm-6.col-xs-12
+						.col-xs-12
 							article
 								.articleImg
 									a(href="anonsDetail.html")
@@ -249,7 +271,7 @@ block content
 									time 30 января, 12:00
 									h3 «Азбука хорошего поведения». Спектакль Ульяновского театра им. И. А. Гончарова
 
-						.col-sm-6.col-xs-12
+						.col-xs-12
 							article
 								.articleImg
 									a(href="anonsDetail.html")
@@ -259,7 +281,7 @@ block content
 									time 30 января, 19:00
 									h3 «Другой человек». Спектакль Ульяновского театра им. И. А. Гончарова
 
-						.col-sm-6.col-xs-12
+						.col-xs-12
 							article
 								.articleImg
 									a(href="anonsDetail.html")
@@ -270,7 +292,7 @@ block content
 									h3 Концерт классической музыки в исполнении учащихся РССШИИ имени М. Атоева
 									h4 К 5-летию подписания Соглашения об учреждении культурно-информационных центров России и Таджикистана
 
-						.col-sm-6.col-xs-12
+						.col-xs-12
 							article
 								.articleImg
 									a(href="anonsDetail.html")
@@ -281,7 +303,7 @@ block content
 									h3 Писатель горечи и гнева
 									h4 К 190-летию М. Е. Салтыкова-Щедрина
 
-						.col-sm-6.col-xs-12
+						.col-xs-12
 							article
 								.articleImg
 									a(href="anonsDetail.html")
@@ -291,7 +313,7 @@ block content
 									time 30 января, 12:00
 									h3 «Азбука хорошего поведения». Спектакль Ульяновского театра им. И. А. Гончарова
 
-						.col-sm-6.col-xs-12
+						.col-xs-12
 							article
 								.articleImg
 									a(href="anonsDetail.html")
@@ -301,7 +323,7 @@ block content
 									time 30 января, 19:00
 									h3 «Другой человек». Спектакль Ульяновского театра им. И. А. Гончарова
 
-						.col-sm-6.col-xs-12
+						.col-xs-12
 							article
 								.articleImg
 									a(href="anonsDetail.html")
@@ -312,7 +334,7 @@ block content
 									h3 Концерт классической музыки в исполнении учащихся РССШИИ имени М. Атоева
 									h4 К 5-летию подписания Соглашения об учреждении культурно-информационных центров России и Таджикистана
 
-						.col-sm-6.col-xs-12
+						.col-xs-12
 							article
 								.articleImg
 									a(href="anonsDetail.html")
@@ -323,7 +345,7 @@ block content
 									h3 Писатель горечи и гнева
 									h4 К 190-летию М. Е. Салтыкова-Щедрина
 
-						.col-sm-6.col-xs-12
+						.col-xs-12
 							article
 								.articleImg
 									a(href="anonsDetail.html")
@@ -340,7 +362,7 @@ block content
 									input(type="email", placeholder="Ваша эл. почта").form-control
 									input(type="submit", value="Подписаться").btn.btn-orange
 
-						.col-sm-6.col-xs-12
+						.col-xs-12
 							article
 								.articleImg
 									a(href="anonsDetail.html")
@@ -350,7 +372,7 @@ block content
 									time 30 января, 19:00
 									h3 «Другой человек». Спектакль Ульяновского театра им. И. А. Гончарова
 
-						.col-sm-6.col-xs-12
+						.col-xs-12
 							article
 								.articleImg
 									a(href="anonsDetail.html")
@@ -361,7 +383,7 @@ block content
 									h3 Концерт классической музыки в исполнении учащихся РССШИИ имени М. Атоева
 									h4 К 5-летию подписания Соглашения об учреждении культурно-информационных центров России и Таджикистана
 
-						.col-sm-6.col-xs-12
+						.col-xs-12
 							article
 								.articleImg
 									a(href="anonsDetail.html")
@@ -371,7 +393,7 @@ block content
 									time 30 января, 19:00
 									h3 «Другой человек». Спектакль Ульяновского театра им. И. А. Гончарова
 
-						.col-sm-6.col-xs-12
+						.col-xs-12
 							article
 								.articleImg
 									a(href="anonsDetail.html")

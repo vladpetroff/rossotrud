@@ -1,7 +1,7 @@
 extends includes/template
 
 block title
-	title mainpage
+	title Анонс
 
 
 block content
@@ -33,7 +33,7 @@ block content
 
 				.collapse.navbar-collapse#navbar-collapsed
 					ul.nav.navbar-nav
-						li.open
+						li
 							a(href="about.html") О Россотрудничестве
 							ul
 								li
@@ -47,7 +47,7 @@ block content
 										li: a(href="about_programs_rulang.html") Русский язык
 
 								li: a(href="about_structure.html") Структура
-								li.active: a(href="about_manage.html") Руководство
+								li: a(href="about_manage.html") Руководство
 								li: a(href="about_history.html") История
 								li: a(href="about_partners.html") Партнеры
 						li
@@ -89,7 +89,7 @@ block content
 								li: a(href="activity_cemetery.html") Сохранение историко-мемориальных памятников и мест погребения
 								li: a(href="activity_relations.html") Международные связи субъектов РФ
 								li: a(href="activity_sng.html") Интеграция стран СНГ
-						li
+						li.open
 							a(href="anons.html") Анонсы
 							ul
 								li: a(href="anons_detail.html") Кино
@@ -134,9 +134,9 @@ block content
 		nav.navbar.navbar-desktop.hidden-xs
 			.navbar-header
 				ul.nav.navbar-nav
-					li.open: a(href="about.html") О Россотрудничестве
+					li: a(href="about.html") О Россотрудничестве
 					li: a(href="activity.html") Деятельность
-					li: a(href="anons.html") Анонсы
+					li.open: a(href="anons.html") Анонсы
 					li: a(href="news.html") Новости
 					li: a(href="contacts.html") Контакты
 
@@ -150,10 +150,10 @@ block content
 						button(type="button").btn.btn-warning: img(src="./img/icons/ic-search-white.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search-white.png'")
 
 		.row
-			aside.col-sm-4.hidden-xs
+			aside.col-sm-3.hidden-xs
 				nav.navbar.navbar-default
 					ul.nav.navbar-nav
-						li.open
+						li
 							a(href="about.html") О Россотрудничестве
 							ul
 								li
@@ -167,7 +167,7 @@ block content
 										li: a(href="about_programs_rulang.html") Русский язык
 
 								li: a(href="about_structure.html") Структура
-								li.active: a(href="about_manage.html") Руководство
+								li: a(href="about_manage.html") Руководство
 								li: a(href="about_history.html") История
 								li: a(href="about_partners.html") Партнеры
 						li
@@ -209,7 +209,7 @@ block content
 								li: a(href="activity_cemetery.html") Сохранение историко-мемориальных памятников и мест погребения
 								li: a(href="activity_relations.html") Международные связи субъектов РФ
 								li: a(href="activity_sng.html") Интеграция стран СНГ
-						li
+						li.open
 							a(href="anons.html") Анонсы
 							ul
 								li: a(href="anons_detail.html") Кино
@@ -242,48 +242,64 @@ block content
 								li: a(href="contacts_callback.html") Написать обращение
 
 
-			.col-max-6.col-sm-7.col-xs-12
-				ol.breadcrumb.hidden-xs
-					li: a(href="./") Главная страница
-					li: a(href="about.html") О Россотрудничестве
+			.col-sm-9.col-xs-12
+				.newsBlock.anonsBlock
+					.row
+						.col-sm-8.col-xs-12.col-sm-offset-1
+							ol.breadcrumb.hidden-xs
+								li: a(href="./") Главная страница
+								li: a(href="anons.html") Анонсы
 
-				section.manage.block
-					h1 Руководство
-					article.main
-						a(href="about_manage_detail.html")
-							img(src="./img/manage/glebova.png", alt="Глебова")
-						h2 Любовь Николаевна Глебова
-						.addInfo
-							h3 Руководитель Россотрудничества
-							p Доктор педагогических наук, член-корреспондент Российской академии образования, действительный государственный советник РФ 1 класса
+							h1 «Полет чайки: от Таганрога до Мадрида». Выставка документальных фотографий о жизни и творчестве А. П. Чехова
 
-					h2 Заместители руководителя
-					article
-						a(href="about_manage_detail.html")
-							img(src="./img/manage/guzhelya.png", alt="Гужеля")
-						h2 Дмитрий Юрьевич #[br]Гужеля
+					.row
+						.col-sm-3.col-sm-push-9
+							.side
+								h2 3-31 мая
+								.map.hidden-xs
+									script(type='text/javascript', charset='utf-8', async='', src='https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=3QB8SBCEBl1VHDRZ6fT9U88EUYYpWycA&width=100\%&height=180&lang=ru_RU&sourceType=constructor&scroll=true')
+								h3 Испания, Высшая Королевская школа драматического искусства (РЕСАД)
+								p 28009 Испания, Мадрид, Авенида де Назарет, 2
+								p Avenida de Nazaret 2. 28009 Madrid, España
+								a(href="javascript:;").visible-xs Посмотреть на карте
 
-					article
-						a(href="about_manage_detail.html")
-							img(src="./img/manage/zhivihina.png", alt="Живихина")
-						h2 Ирина Борисовна #[br]Живихина
-
-					article
-						a(href="about_manage_detail.html")
-							img(src="./img/manage/kruppo.png", alt="Круппо")
-						h2 Сергей Маратович #[br]Круппо
-
-					article
-						a(href="about_manage_detail.html")
-							img(src="./img/manage/radkov.png", alt="Радьков")
-						h2 Александр Васильевич #[br]Радьков
-
-					article
-						a(href="about_manage_detail.html")
-							img(src="./img/manage/frolov.png", alt="Фролов")
-						h2 Алексей Владимирович #[br]Фролов
+						.col-sm-8.col-sm-pull-3.col-xs-12.col-sm-offset-1
+							h2 Год России в Испании
+							img(src="./img/news/2016-02-11/img01.png")
+							h5 А. П. Чехов #[br]#[em Фотография К. Шульца. 1980-е годы]
+							p С 3 по 31 мая в Высшей Королевской школе драматического искусства (РЕСАД) в Мадриде пройдет выставка документальных фотографий «Полет чайки: от Таганрога до Мадрида» о жизни и творчестве русского писателя, прозаика, драматурга Антона Павловича Чехова.
+							p Организаторы — Высшая Королевская школа драматического искусства (РЕСАД), представительство Россотрудничества в Испании и Ассоциация студентов и выпускников российских вузов «Аэлерус».
+							p В выставке примут участие театральные коллективы, студенты театральных вузов, а также представители культурной общественности.
 
 
+					.row
+						.col-sm-8.col-xs-12.col-sm-offset-1
+							.social
+								p
+									span Расскажите друзьям:
+									br.visible-xs
+									br.visible-xs
+									a(href="javascript:;").fb
+									span 24
+									a(href="javascript:;").vk
+									span 103
+									a(href="javascript:;").tw
+									span 2
+
+					.row.newsPaging
+						.hidden-xs
+							.col-sm-3.col-sm-offset-1.prev
+								p Предыдущая
+								a(href="javascript:;") «У войны не женское лицо». #[br]Торжественный вечер
+							.col-sm-3.col-sm-offset-2.next
+								p Следующая
+								a(href="javascript:;") «Дорогами войны». Фотовыставка
+
+						.visible-xs
+							.col-xs-6.prev
+								a(href="javascript:;") Предыдущий анонс
+							.col-xs-6.next
+								a(href="javascript:;") Следующий анонс
 
 
 
