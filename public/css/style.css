@@ -2329,11 +2329,10 @@ output {
   -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s; }
   .form-control:focus {
-    border-color: #ff6d00;
+    border-color: #ff6d00 !important;
     background-color: #fff;
     color: #424242;
-    outline: 0;
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 109, 0, 0.6); }
+    outline: 0; }
   .form-control::-moz-placeholder {
     color: #999;
     opacity: 1; }
@@ -6888,21 +6887,27 @@ header .headerRegion {
 header .headerContent {
   padding-top: 22px;
   padding-bottom: 20px; }
-  header .headerContent .pull-left + .pull-left {
+  header .headerContent .pull-left + .pull-left,
+  header .headerContent .pull-right + .pull-left {
     margin-left: 25px; }
-  header .headerContent .pull-left p {
+  header .headerContent .pull-left p,
+  header .headerContent .pull-right p {
     color: rgba(0, 0, 0, 0.5);
     line-height: 1.1em;
     margin-top: 5px;
     margin-bottom: 10px; }
-  header .headerContent .pull-left.headerLogo a {
+  header .headerContent .pull-left.headerLogo a,
+  header .headerContent .pull-right.headerLogo a {
     display: inline-block; }
-    header .headerContent .pull-left.headerLogo a img {
+    header .headerContent .pull-left.headerLogo a img,
+    header .headerContent .pull-right.headerLogo a img {
       width: 63px;
       height: 63px; }
-  header .headerContent .pull-left.headerText {
+  header .headerContent .pull-left.headerText,
+  header .headerContent .pull-right.headerText {
     width: 290px; }
-    header .headerContent .pull-left.headerText h1 {
+    header .headerContent .pull-left.headerText h1,
+    header .headerContent .pull-right.headerText h1 {
       font-family: "PT Sans Narrow", sans-serif;
       font-weight: bold;
       font-size: 2em;
@@ -6912,16 +6917,20 @@ header .headerContent {
       text-transform: uppercase;
       margin-top: 0;
       margin-bottom: 3px; }
-    header .headerContent .pull-left.headerText p {
+    header .headerContent .pull-left.headerText p,
+    header .headerContent .pull-right.headerText p {
       font-size: 12px;
       line-height: 1.2;
       margin: 0; }
-  header .headerContent .pull-left.headerSubscr {
+  header .headerContent .pull-left.headerSubscr,
+  header .headerContent .pull-right.headerSubscr {
     width: 180px; }
-    header .headerContent .pull-left.headerSubscr .form-control {
+    header .headerContent .pull-left.headerSubscr .form-control,
+    header .headerContent .pull-right.headerSubscr .form-control {
       display: inline-block;
       width: 125px; }
-  header .headerContent .pull-left.headerSocial .social a {
+  header .headerContent .pull-left.headerSocial .social a,
+  header .headerContent .pull-right.headerSocial .social a {
     display: inline-block;
     width: 28px;
     height: 28px;
@@ -6930,36 +6939,50 @@ header .headerContent {
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center; }
-    header .headerContent .pull-left.headerSocial .social a:first-child {
+    header .headerContent .pull-left.headerSocial .social a:first-child,
+    header .headerContent .pull-right.headerSocial .social a:first-child {
       margin-left: 0; }
-    header .headerContent .pull-left.headerSocial .social a.fb {
+    header .headerContent .pull-left.headerSocial .social a.fb,
+    header .headerContent .pull-right.headerSocial .social a.fb {
       background-image: url("../img/icons/social/fb.svg"); }
-      header .headerContent .pull-left.headerSocial .social a.fb:hover {
+      header .headerContent .pull-left.headerSocial .social a.fb:hover,
+      header .headerContent .pull-right.headerSocial .social a.fb:hover {
         background-image: url("../img/icons/social/fb-hover.svg"); }
-    header .headerContent .pull-left.headerSocial .social a.vk {
+    header .headerContent .pull-left.headerSocial .social a.vk,
+    header .headerContent .pull-right.headerSocial .social a.vk {
       background-image: url("../img/icons/social/vk.svg"); }
-      header .headerContent .pull-left.headerSocial .social a.vk:hover {
+      header .headerContent .pull-left.headerSocial .social a.vk:hover,
+      header .headerContent .pull-right.headerSocial .social a.vk:hover {
         background-image: url("../img/icons/social/vk-hover.svg"); }
-    header .headerContent .pull-left.headerSocial .social a.inst {
+    header .headerContent .pull-left.headerSocial .social a.inst,
+    header .headerContent .pull-right.headerSocial .social a.inst {
       background-image: url("../img/icons/social/inst.svg"); }
-      header .headerContent .pull-left.headerSocial .social a.inst:hover {
+      header .headerContent .pull-left.headerSocial .social a.inst:hover,
+      header .headerContent .pull-right.headerSocial .social a.inst:hover {
         background-image: url("../img/icons/social/inst-hover.svg"); }
-    header .headerContent .pull-left.headerSocial .social a.yt {
+    header .headerContent .pull-left.headerSocial .social a.yt,
+    header .headerContent .pull-right.headerSocial .social a.yt {
       background-image: url("../img/icons/social/yt.svg"); }
-      header .headerContent .pull-left.headerSocial .social a.yt:hover {
+      header .headerContent .pull-left.headerSocial .social a.yt:hover,
+      header .headerContent .pull-right.headerSocial .social a.yt:hover {
         background-image: url("../img/icons/social/yt-hover.svg"); }
-    header .headerContent .pull-left.headerSocial .social a.tw {
+    header .headerContent .pull-left.headerSocial .social a.tw,
+    header .headerContent .pull-right.headerSocial .social a.tw {
       background-image: url("../img/icons/social/tw.svg"); }
-      header .headerContent .pull-left.headerSocial .social a.tw:hover {
+      header .headerContent .pull-left.headerSocial .social a.tw:hover,
+      header .headerContent .pull-right.headerSocial .social a.tw:hover {
         background-image: url("../img/icons/social/tw-hover.svg"); }
-  header .headerContent .pull-left.headerContact h2 {
+  header .headerContent .pull-left.headerContact h2,
+  header .headerContent .pull-right.headerContact h2 {
     font-size: 18px;
     line-height: 1.3;
     margin-top: 0;
     margin-bottom: 5px; }
-    header .headerContent .pull-left.headerContact h2 a {
+    header .headerContent .pull-left.headerContact h2 a,
+    header .headerContent .pull-right.headerContact h2 a {
       color: rgba(0, 0, 0, 0.9); }
-  header .headerContent .pull-left.headerContact a {
+  header .headerContent .pull-left.headerContact a,
+  header .headerContent .pull-right.headerContact a {
     font-size: 18px;
     line-height: 1.3; }
 
@@ -7609,6 +7632,19 @@ footer {
   footer {
     padding-top: 26px;
     padding-bottom: 40px; }
+    footer .links a {
+      line-height: 1.1;
+      color: rgba(255, 255, 255, 0.7); }
+      footer .links a:hover {
+        color: rgba(255, 255, 255, 0.87); }
+      footer .links a:focus, footer .links a:active {
+        color: white; }
+    footer .geo a {
+      color: #1a9cff; }
+      footer .geo a:hover {
+        color: rgba(26, 156, 255, 0.87); }
+      footer .geo a:focus, footer .geo a:active {
+        color: rgba(26, 156, 255, 0.7); }
     footer h4 {
       font-weight: bold; }
     footer ul {
@@ -7618,10 +7654,6 @@ footer {
       margin-bottom: 20px; }
       footer ul > li {
         margin-bottom: 15px; }
-        footer ul > li > a {
-          color: #fff;
-          line-height: 1.1;
-          color: rgba(255, 255, 255, 0.7); }
         footer ul > li > hr {
           margin: 0; }
     footer .footerSubscr {

@@ -54,13 +54,6 @@
 	//	}
 	//});
 
-	// isotope
-	//$('.grid').isotope({
-	//	// options
-	//	itemSelector: '.grid-item',
-	//	layoutMode: 'fitRows'
-	//});
-
 	// polling
 	var poll = document.querySelector('.pollBlock .poll');
 	if(poll) {
@@ -78,21 +71,19 @@
 		//	poll.style.height = "260px";
 		//	poll.nextElementSibling.style.display = 'block';
 		//};
-
-		// search line
 	}
 
-	var searchfield = $('.navbar .searchField input.form-control');
+	// search line
 	$('.navbar .search').click(function(){
-		console.log( 'click' );
 		$('.navbar .searchField').animate({
 			left: '0px'
 		}, 500);
+		document.querySelector('.navbar .searchField input.form-control').focus();
 		return false;
 	});
 	$('.container').click(function(evt){
-		if( ($('.navbar .searchField').css('display') === 'block')) {
-			if(evt.target != searchfield[0]) {
+		if( ($('.navbar .searchField').css('left') === '0px')) {
+			if(evt.target.nodeName !== document.querySelector('.navbar .searchField input.form-control').nodeName) {
 				$('.navbar .searchField').animate({
 					left: '100%'
 				}, 500);

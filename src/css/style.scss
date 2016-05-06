@@ -1102,7 +1102,8 @@ header{
   .headerContent{
     padding-top: 22px;
     padding-bottom: 20px;
-    .pull-left{
+    .pull-left,
+    .pull-right{
       + .pull-left{
         margin-left: 25px;
       }
@@ -2115,6 +2116,31 @@ footer{
   footer{
     padding-top: 26px;
     padding-bottom: 40px;
+    .links{
+      a{
+        line-height: 1.1;
+        color: rgba(255, 255, 255, 0.7);
+        &:hover{
+          color: rgba(255, 255, 255, 0.87);
+        }
+        &:focus,
+        &:active{
+          color: rgba(255, 255, 255, 1);
+        }
+      }
+    }
+    .geo{
+      a{
+        color: rgba(26, 156, 255, 1.0);
+        &:hover{
+          color: rgba(26, 156, 255, 0.87);
+        }
+        &:focus,
+        &:active{
+          color: rgba(26, 156, 255, 0.7);
+        }
+      }
+    }
     h4{
       font-weight:bold;
     }
@@ -2125,11 +2151,6 @@ footer{
       margin-bottom: 20px;
       > li{
         margin-bottom: 15px;
-        > a{
-          color:#fff;
-          line-height: 1.1;
-          color: rgba(255, 255, 255, 0.7);
-        }
         > hr{
           margin: 0;
         }
