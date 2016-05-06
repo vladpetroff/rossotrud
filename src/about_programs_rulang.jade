@@ -132,7 +132,11 @@ block content
 						a: img(src="./img/icons/flag/flag_es.png").flag
 
 		nav.navbar.navbar-desktop.hidden-xs
+
 			.navbar-header
+				a(href="javascript:;").hamburger
+					img(src="./img/icons/ic-menu.svg", onerror="this.onerror=null; this.src='./img/icons/ic-menu.png'")
+
 				ul.nav.navbar-nav
 					li.open: a(href="about.html") О Россотрудничестве
 					li: a(href="activity.html") Деятельность

@@ -74,19 +74,46 @@
 	}
 
 	// search line
-	$('.navbar .search').click(function(){
-		$('.navbar .searchField').animate({
+	$('.navbar.navbar-default .search').click(function(){
+		$('.navbar.navbar-default .searchField').animate({
 			left: '0px'
-		}, 500);
-		document.querySelector('.navbar .searchField input.form-control').focus();
+		}, 50);
+		document.querySelector('.navbar.navbar-default .searchField input.form-control').focus();
+		return false;
+	});
+	$('.navbar.navbar-desktop .search').click(function(){
+		console.log( document.body.clientWidth );
+		if(document.body.clientWidth >= 1190 && document.body.clientWidth < 1390) {
+			$('.navbar.navbar-desktop .searchField').animate({
+				left: '80px'
+			}, 50);
+		}
+		if(document.body.clientWidth >= 1390) {
+			$('.navbar.navbar-desktop .searchField').animate({
+				left: '115px'
+			}, 50);
+		}
+		if(document.body.clientWidth < 1190) {
+			$('.navbar.navbar-desktop .searchField').animate({
+				left: '0px'
+			}, 50);
+		}
+		document.querySelector('.navbar.navbar-desktop .searchField input.form-control').focus();
 		return false;
 	});
 	$('.container').click(function(evt){
-		if( ($('.navbar .searchField').css('left') === '0px')) {
-			if(evt.target.nodeName !== document.querySelector('.navbar .searchField input.form-control').nodeName) {
-				$('.navbar .searchField').animate({
+		if( ($('.navbar.navbar-desktop .searchField').css('left') !== '100%')) {
+			if(evt.target.nodeName !== document.querySelector('.navbar.navbar-desktop .searchField input.form-control').nodeName) {
+				$('.navbar.navbar-desktop .searchField').animate({
 					left: '100%'
-				}, 500);
+				}, 50);
+			}
+		}
+		if( ($('.navbar.navbar-default .searchField').css('left') !== '100%')) {
+			if(evt.target.nodeName !== document.querySelector('.navbar.navbar-default .searchField input.form-control').nodeName) {
+				$('.navbar.navbar-default .searchField').animate({
+					left: '100%'
+				}, 50);
 			}
 		}
 	})

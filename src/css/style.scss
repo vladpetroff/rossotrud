@@ -271,6 +271,7 @@ section{
       padding-top: 15px;
       .news{
         padding: 6px;
+        border-radius: 2px;
         &:hover{
           cursor: pointer;
           background-color:$orange-lighter;
@@ -296,7 +297,7 @@ section{
       }
       p{
         color: $gray-darker;
-        margin-bottom: 13px;
+        margin: 0;
       }
       a{
         display: block;
@@ -1048,6 +1049,7 @@ div.subscribe{
           }
           p{
             text-indent: 10px;
+            line-height: 24px;
             position: relative;
             z-index:1;
             margin: 0;
@@ -1242,6 +1244,7 @@ header{
     }
   }
   .dropdown-menu{
+    top:0px;
     margin: 0;
     padding: 0;
     li{
@@ -1521,7 +1524,6 @@ footer{
       article{
         padding: 12px 8px;
         time{
-          padding: 0px 12px;
           margin-bottom: 8px;
           display: inline-block;
         }
@@ -2108,8 +2110,8 @@ footer{
       font-size: $font-size-h4;
     }
     p{
-      font-size: 1.43em;
-      line-height: 1.2;
+      font-size: $font-size-h4;
+      line-height: 24px;
     }
   }
 
