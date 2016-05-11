@@ -132,25 +132,28 @@ block content
 						a: img(src="./img/icons/flag/flag_es.png").flag
 
 		nav.navbar.navbar-desktop.hidden-xs
-			.navbar-header
-				a(href="javascript:;").hamburger
-					img(src="./img/icons/ic-menu.svg", onerror="this.onerror=null; this.src='./img/icons/ic-menu.png'")
+			.container
+				.row
+					.col-xs-12
+						.navbar-header
+							a(href="javascript:;").hamburger
+								img(src="./img/icons/ic-menu.svg", onerror="this.onerror=null; this.src='./img/icons/ic-menu.png'")
 
-				ul.nav.navbar-nav
-					li: a(href="about.html") О Россотрудничестве
-					li: a(href="activity.html") Деятельность
-					li: a(href="anons.html") Анонсы
-					li: a(href="news.html") Новости
-					li.open: a(href="contacts.html") Контакты
+							ul.nav.navbar-nav
+								li: a(href="about.html") О Россотрудничестве
+								li: a(href="activity.html") Деятельность
+								li: a(href="anons.html") Анонсы
+								li: a(href="news.html") Новости
+								li.open: a(href="contacts.html") Контакты
 
-			a(href="javascript:;").search
-				img(src="./img/icons/ic-search.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search.png'")
+						a(href="javascript:;").search
+							img(src="./img/icons/ic-search.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search.png'")
 
-			.searchField
-				.input-group
-					input(type="text").form-control
-					span.input-group-btn
-						button(type="button").btn.btn-warning: img(src="./img/icons/ic-search-white.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search-white.png'")
+						.searchField
+							.input-group
+								input(type="text").form-control
+								span.input-group-btn
+									button(type="button").btn.btn-warning: img(src="./img/icons/ic-search-white.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search-white.png'")
 
 		.row
 			aside.col-sm-4.hidden-xs

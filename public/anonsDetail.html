@@ -20,11 +20,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/2014.01.31/classList.min.js"></script>
     <!-- Элементы форм  http://silviomoreto.github.io/bootstrap-select/-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/js/bootstrap-select.min.js" defer></script>
-    <!-- http://isotope.metafizzy.co/-->
-    <!--script(src="./js/isotope.pkgd.min.js" defer)-->
-    <!-- for Isotope http://imagesloaded.desandro.com/-->
-    <!--script(src="./js/imagesloaded.pkgd.min.js" defer)-->
-    
+    <!-- http://masonry.desandro.com/-->
+    <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js" defer></script>
     <script src="./js/main.js" defer></script>
   </head>
 </html>
@@ -190,19 +187,25 @@
       </div>
     </nav>
     <nav class="navbar navbar-desktop hidden-xs">
-      <div class="navbar-header"><a href="javascript:;" class="hamburger"><img src="./img/icons/ic-menu.svg" onerror="this.onerror=null; this.src='./img/icons/ic-menu.png'"></a>
-        <ul class="nav navbar-nav">
-          <li><a href="about.html">О Россотрудничестве</a></li>
-          <li><a href="activity.html">Деятельность</a></li>
-          <li class="open"><a href="anons.html">Анонсы</a></li>
-          <li><a href="news.html">Новости</a></li>
-          <li><a href="contacts.html">Контакты</a></li>
-        </ul>
-      </div><a href="javascript:;" class="search"><img src="./img/icons/ic-search.svg" onerror="this.onerror=null; this.src='./img/icons/ic-search.png'"></a>
-      <div class="searchField">
-        <div class="input-group">
-          <input type="text" class="form-control"><span class="input-group-btn">
-            <button type="button" class="btn btn-warning"><img src="./img/icons/ic-search-white.svg" onerror="this.onerror=null; this.src='./img/icons/ic-search-white.png'"></button></span>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="navbar-header"><a href="javascript:;" class="hamburger"><img src="./img/icons/ic-menu.svg" onerror="this.onerror=null; this.src='./img/icons/ic-menu.png'"></a>
+              <ul class="nav navbar-nav">
+                <li><a href="about.html">О Россотрудничестве</a></li>
+                <li><a href="activity.html">Деятельность</a></li>
+                <li class="open"><a href="anons.html">Анонсы</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+              </ul>
+            </div><a href="javascript:;" class="search"><img src="./img/icons/ic-search.svg" onerror="this.onerror=null; this.src='./img/icons/ic-search.png'"></a>
+            <div class="searchField">
+              <div class="input-group">
+                <input type="text" class="form-control"><span class="input-group-btn">
+                  <button type="button" class="btn btn-warning"><img src="./img/icons/ic-search-white.svg" onerror="this.onerror=null; this.src='./img/icons/ic-search-white.png'"></button></span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </nav>

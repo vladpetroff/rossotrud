@@ -20,11 +20,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/2014.01.31/classList.min.js"></script>
     <!-- Элементы форм  http://silviomoreto.github.io/bootstrap-select/-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/js/bootstrap-select.min.js" defer></script>
-    <!-- http://isotope.metafizzy.co/-->
-    <!--script(src="./js/isotope.pkgd.min.js" defer)-->
-    <!-- for Isotope http://imagesloaded.desandro.com/-->
-    <!--script(src="./js/imagesloaded.pkgd.min.js" defer)-->
-    
+    <!-- http://masonry.desandro.com/-->
+    <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js" defer></script>
     <script src="./js/main.js" defer></script>
   </head>
 </html>
@@ -187,19 +184,25 @@
       </div>
     </nav>
     <nav class="navbar navbar-desktop hidden-xs">
-      <div class="navbar-header"><a href="javascript:;" class="hamburger"><img src="./img/icons/ic-menu.svg" onerror="this.onerror=null; this.src='./img/icons/ic-menu.png'"></a>
-        <ul class="nav navbar-nav">
-          <li><a href="about.html">О представительстве</a></li>
-          <li><a href="activity.html">Деятельность</a></li>
-          <li><a href="anons.html">Анонсы</a></li>
-          <li><a href="news.html">Новости</a></li>
-          <li><a href="contacts.html">Контакты</a></li>
-        </ul>
-      </div><a href="javascript:;" class="search"><img src="./img/icons/ic-search.svg" onerror="this.onerror=null; this.src='./img/icons/ic-search.png'"></a>
-      <div class="searchField">
-        <div class="input-group">
-          <input type="text" class="form-control"><span class="input-group-btn">
-            <button type="button" class="btn btn-warning"><img src="./img/icons/ic-search-white.svg" onerror="this.onerror=null; this.src='./img/icons/ic-search-white.png'"></button></span>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="navbar-header"><a href="javascript:;" class="hamburger"><img src="./img/icons/ic-menu.svg" onerror="this.onerror=null; this.src='./img/icons/ic-menu.png'"></a>
+              <ul class="nav navbar-nav">
+                <li><a href="about.html">О представительстве</a></li>
+                <li><a href="activity.html">Деятельность</a></li>
+                <li><a href="anons.html">Анонсы</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+              </ul>
+            </div><a href="javascript:;" class="search"><img src="./img/icons/ic-search.svg" onerror="this.onerror=null; this.src='./img/icons/ic-search.png'"></a>
+            <div class="searchField">
+              <div class="input-group">
+                <input type="text" class="form-control"><span class="input-group-btn">
+                  <button type="button" class="btn btn-warning"><img src="./img/icons/ic-search-white.svg" onerror="this.onerror=null; this.src='./img/icons/ic-search-white.png'"></button></span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </nav>
@@ -280,8 +283,8 @@
       </section>
       <section class="news col-sm-6 col-xs-12">
         <h1>Новости</h1>
-        <div class="row mosaic">
-          <div class="col-sm-6 col-xs-12">
+        <div class="row grid">
+          <div class="col-sm-6 col-xs-12 grid-item">
             <article>
               <time>Сегодня, 27 февраля</time>
               <div class="news">
@@ -292,15 +295,20 @@
                 <h2>Развитие деловых связей</h2>
                 <p>В РЦНК в Нью-Дели прошел круглый стол «БРИКС: эволюция от акронима к глобальному игроку»</p>
               </div>
+              <div class="news">
+                <h2>Образование</h2>
+                <p>Во Франции проходит творческий конкурс для учителей русского языка</p>
+              </div>
               <div class="news"><a href="newsDetail.html"><img src="./img/news/2016-02-27/img_02.jpg" alt=""></a>
                 <h2>Перекрестные годы</h2>
                 <p>В Москве стартовал перекрестный год обменов между СМИ России и Китая</p>
               </div>
             </article>
           </div>
-          <div class="col-sm-6 col-xs-12">
+          <div class="col-sm-6 col-xs-12 grid-item">
             <article>
               <time>Вчера, 26 февраля</time>
+              <div class="news"><a href="newsDetail.html"><img src="./img/news/2016-02-26/img_01.png" alt=""></a></div>
               <div class="news">
                 <h2>Русский язык</h2>
                 <p>В Русе на базе средней школы с изучением европейских языков им. Св. Константина-Кирилла Философа (СОШЕЯ) состоялось заседание национальной комиссии по проведению олимпиады по русскому языку</p>
@@ -315,7 +323,7 @@
               </div>
             </article>
           </div>
-          <div class="col-sm-6 col-xs-12">
+          <div class="col-sm-6 col-xs-12 grid-item">
             <article>
               <time>25 февраля</time>
               <div class="news">
@@ -332,7 +340,7 @@
               </div>
             </article>
           </div>
-          <div class="col-sm-6 col-xs-12">
+          <div class="col-sm-6 col-xs-12 grid-item">
             <article>
               <time>24 февраля</time>
               <div class="news"><a href="newsDetail.html"><img src="./img/news/2016-02-26/img_01.png" alt=""></a>
@@ -631,7 +639,7 @@
             <p>Российский центр науки и культуры в Минске, Белоруссия</p>
           </div>
           <div class="block geo">
-            <p>	220002 Минск, ул. Коммунистическая, 86, Дом Москвы <br>Эл. почта: <a href="rcnkminsk@mail.ru">rcnkminsk@mail.ru</a> <br><a href="javascript:;">Контактная информация</a></p>
+            <p>220002 Минск, ул. Коммунистическая, 86, Дом Москвы <br>Эл. почта: <a href="rcnkminsk@mail.ru">rcnkminsk@mail.ru</a> <br><a href="javascript:;">Контактная информация</a></p>
           </div>
         </div>
         <div class="col-xs-4 col-xs-offset-1 footRoss"><a href="index.html"><img src="./img/icons/rs-logo-inv.svg" alt="facebook" onerror="this.onerror=null; this.src='./img/icons/rs-logo-inv.png'" class="pull-left">

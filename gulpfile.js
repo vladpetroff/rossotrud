@@ -52,7 +52,7 @@ const path = {
 	watch: { // Укажем, за изменением каких файлов мы хотим наблюдать
 		html: 'public/*.html',
 		jade: 'src/**/*.jade',
-		//jadeIncl: 'src/includes/*.jade',
+		jadeIncl: 'src/includes/*.jade',
 		scripts: 'src/js/*.js', // только скрипты верхнего уровня
 		sass: [
 			'src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/**/*.scss',
@@ -74,8 +74,15 @@ const path = {
 
 /************************************************/
 
+gulp.task('assets', function () {
+	return gulp.src(path.src.assets, {since: gulp.lastRun('assets')})
+		//.pipe(debug({title: "assets;"}))
+		.pipe(newer(path.src.assets))
+		.pipe(gulp.dest('public'))
+});
+
 gulp.task('jade', function () {
-	return gulp.src(path.public.jade)
+	return gulp.src(path.public.jade, {since: gulp.lastRun('jade')})
 		//.pipe(debug({title: "jade;"}))
 		.pipe(plumber({
 			errorHandler: notify.onError(function(err) {
@@ -89,8 +96,40 @@ gulp.task('jade', function () {
 			pretty: true
 		}))
 		//.pipe(newer(path.public.jade))
-		.pipe(newer(path.watch.jade))
+		//.pipe(newer(path.watch.jade))
 		.pipe(gulp.dest(path.public.html))
+});
+
+gulp.task('jadeAll', function () {
+	return gulp.src(path.public.jade)
+		.pipe(plumber({
+			errorHandler: notify.onError(function(err) {
+				return {
+					title: 'JadeAll',
+					message: err.message
+				};
+			})
+		}))
+		.pipe(jade({
+			pretty: true
+		}))
+		.pipe(gulp.dest(path.public.html))
+});
+
+gulp.task('jadeIncl', function () {
+	return gulp.src(path.watch.jadeIncl)
+		.pipe(plumber({
+			errorHandler: notify.onError(function(err) {
+				return {
+					title: 'JadeIncl',
+					message: err.message
+				};
+			})
+		}))
+		.pipe(jade({
+			pretty: true
+		}))
+		.pipe(gulp.dest(path.watch.jade))
 });
 
 
@@ -217,13 +256,6 @@ gulp.task('webpack', function(callback) {
 		});
 });
 
-gulp.task('assets', function () {
-	return gulp.src(path.src.assets, {since: gulp.lastRun('assets')})
-		//.pipe(debug({title: "assets;"}))
-		.pipe(newer(path.src.assets))
-		.pipe(gulp.dest('public'))
-});
-
 gulp.task('clean', function () {
 	return del([path.clean.includes, path.clean.jsmap, path.clean.map, path.clean.modules, path.clean.imgcomponents]);
 });
@@ -269,7 +301,7 @@ gulp.task('browserSync', function () {
 		open: true,
 		notify: false
 	});
-	browserSync.watch('public/**/*.*').on('change', browserSync.reload);
+	browserSync.watch('src/**/*.*').on('change', browserSync.reload);
 });
 
 /***********************************************/
@@ -278,13 +310,14 @@ gulp.task('watch', function() {
 	gulp.watch(path.watch.sass, gulp.series('sass'));
 	//gulp.watch(path.watch.scripts, gulp.series('scripts'));
 	gulp.watch(path.watch.jade, gulp.series('jade'));
+	gulp.watch(path.watch.jadeIncl, gulp.series('jadeAll'));
 	gulp.watch(path.watch.assets, gulp.series('assets'));
 	gulp.watch(path.watch.img, gulp.series('imagemin'));
 	gulp.watch(path.watch.imgcomponents, gulp.series('imgcomponents'));
 });
 
 gulp.task('default', gulp.series(
-	gulp.parallel('assets', 'imgcomponents', 'imagemin', 'webpack'),
+	gulp.parallel('jade', 'sass', 'assets', 'imgcomponents', 'imagemin', 'webpack'),
 	gulp.parallel('watch', 'browserSync')
 	)
 );

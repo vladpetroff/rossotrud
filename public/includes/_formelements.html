@@ -1,0 +1,103 @@
+
+<div class="row">
+  <div class="col-xs-12">
+    <form>
+      <div class="form-group row">
+        <div class="col-sm-3">
+          <select data-style="btn-info" class="selectpicker">
+            <option>Mustard</option>
+            <option>Ketchup</option>
+            <option>Relish</option>
+          </select>
+        </div>
+        <div class="col-sm-3">
+          <select multiple="multiple" data-max-options="2" data-style="btn-danger" class="selectpicker">
+            <optgroup label="Condiments" data-max-options="2">
+              <option>Mustard</option>
+              <option>Ketchup</option>
+              <option>Relish</option>
+            </optgroup>
+            <optgroup label="Breads" data-max-options="2">
+              <option>Plain</option>
+              <option>Steamed</option>
+              <option>Toasted</option>
+            </optgroup>
+          </select>
+        </div>
+        <!-- datetimepicker-->
+        <div class="col-sm-3">
+          <div class="input-group datetimepicker"><span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+            <input type="text" value="19.04.2015 12:38" class="form-control"/>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="input-group datepicker"><span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+            <input type="text" value="19.04.2015" class="form-control"/>
+          </div>
+        </div>
+      </div>
+      <!-- checkboxes & radiobuttons-->
+      <div class="form-group">
+        <div class="col-sm-3">
+          <div class="checkbox">
+            <input type="checkbox" id="checkbox1" checked="checked"/>
+            <label for="checkbox1">Default</label>
+          </div>
+          <div class="checkbox checkbox-primary">
+            <input type="checkbox" id="checkbox2" checked="checked"/>
+            <label for="checkbox2">Primary</label>
+          </div>
+          <div class="checkbox checkbox-warning checkbox-circle">
+            <input type="checkbox" id="checkbox3" checked="checked"/>
+            <label for="checkbox3">Warning circle</label>
+          </div>
+          <div class="checkbox checkbox-success checkbox-circle">
+            <input type="checkbox" id="checkbox4" checked="checked" disabled="disabled"/>
+            <label for="checkbox4">Success disabled</label>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-3">
+          <div class="radio">
+            <input type="radio" id="radio1" checked="checked"/>
+            <label for="radio1">Default</label>
+          </div>
+          <div class="radio radio-primary">
+            <input type="radio" id="radio2" checked="checked"/>
+            <label for="radio2">Primary</label>
+          </div>
+          <div class="radio radio-warning radio-circle">
+            <input type="radio" id="radio3" checked="checked"/>
+            <label for="radio3">Warning circle</label>
+          </div>
+          <div class="radio radio-success radio-circle">
+            <input type="radio" id="radio4" checked="checked" disabled="disabled"/>
+            <label for="radio4">Success disabled</label>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-6">
+          <div class="checkbox checkbox-inline">
+            <input type="checkbox" id="checkbox5" checked="checked"/>
+            <label for="checkbox5">Default</label>
+          </div>
+          <div class="checkbox checkbox-primary checkbox-inline">
+            <input type="checkbox" id="checkbox6" checked="checked"/>
+            <label for="checkbox6">Primary</label>
+          </div>
+          <div class="checkbox checkbox-success checkbox-circle checkbox-inline">
+            <input type="checkbox" id="checkbox7" checked="checked" disabled="disabled"/>
+            <label for="checkbox7">Success disabled</label>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-6">
+          <p>Слайдер-ползунок: <b>€ 10</b> <input id="slider" type="text" class="span2" value="" data-slider-min="10" data-slider-max="1000" data-slider-step="5" data-slider-value="[250,450]"/> <b>€ 1000</b></p>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

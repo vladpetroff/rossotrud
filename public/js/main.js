@@ -125,6 +125,18 @@
 			//};
 		}
 
+		// fixed desktop navbar
+		var navDesktop = document.querySelector('.navbar.navbar-desktop');
+		var navOffset = navDesktop.offsetTop;
+		window.onscroll = function () {
+			var scrolled = window.pageYOffset || document.documentElement.scrollTop;
+			if (scrolled >= navOffset) {
+				navDesktop.classList.add('fixed-nav');
+			} else {
+				navDesktop.classList.remove('fixed-nav');
+			}
+		};
+
 		// search line
 		$('.navbar.navbar-default .search').click(function () {
 			$('.navbar.navbar-default .searchField').animate({
@@ -169,6 +181,9 @@
 				}
 			}
 		});
+
+		// layout newsBlock
+		$('.grid').masonry();
 	});
 
 /***/ }
