@@ -135,6 +135,8 @@
 			} else {
 				navDesktop.classList.remove('fixed-nav');
 			}
+			console.log(scrolled);
+			console.log(navOffset);
 		};
 		// search line
 		$('.navbar.navbar-default .search').click(function () {
