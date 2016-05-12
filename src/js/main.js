@@ -83,8 +83,7 @@
 		} else {
 			navDesktop.classList.remove('fixed-nav');
 		}
-	}
-
+	};
 	// search line
 	$('.navbar.navbar-default .search').click(function(){
 		$('.navbar.navbar-default .searchField').animate({
