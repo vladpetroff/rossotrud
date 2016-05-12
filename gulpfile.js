@@ -301,7 +301,7 @@ gulp.task('browserSync', function () {
 		open: true,
 		notify: false
 	});
-	browserSync.watch('src/**/*.*').on('change', browserSync.reload);
+	browserSync.watch('public/**/*.*').on('change', browserSync.reload);
 });
 
 /***********************************************/
