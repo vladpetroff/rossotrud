@@ -55,9 +55,6 @@
 
 	;$(function () {
 
-		// layout newsBlock
-		$('.grid').masonry();
-
 		// clickable anons-block
 		$("section.anons").on("click", "article", function () {
 			window.location = $(this).find("a").attr('href');
@@ -186,6 +183,11 @@
 				}
 			}
 		});
+	});
+
+	;$(function () {
+		// layout newsBlock
+		$('.grid').masonry();
 	});
 
 /***/ }
