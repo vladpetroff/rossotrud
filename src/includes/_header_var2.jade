@@ -1,9 +1,28 @@
 header.hidden-xs
 	.row
 		.headerRegion.col-xs-12
-			select(data-width="fit").selectpicker
-				option Белоруссия, Минск
-				option Россия, Москва
+			a(href="javascript:;").repres
+				span.text Белоруссия, Минск
+				span.caret
+
+			.represBlock.row
+				.col-xs-12
+					.media
+						.media-left
+							p.media-object
+								img(src="./img/icons/flag/flag_ru.png")
+						.media-body
+							h4.media-heading Россия
+							a(href="contacts_center.html", data-repres="Россия, Москва") Центральный аппарат в Москве
+
+					.media
+						.media-left
+							p.media-object
+						.media-body
+							h4.media-heading Белоруссия
+							a(href="contacts_inworld_rome.html", data-repres="Белоруссия, Брест") Отделение Российского центра науки и культуры в Бресте
+							a(href="contacts_inworld_rome.html", data-repres="Белоруссия, Минск").selected Российский центр науки и культуры в Минске
+
 
 
 			select(data-width="fit").selectpicker.lang
@@ -15,6 +34,9 @@ header.hidden-xs
 
 			a(href="javascript:;").blindVersion.pull-right
 				span Версия для слабовидящих
+
+			hr
+
 	.row
 		.headerContent.col-xs-12
 			.headerLogo.pull-left

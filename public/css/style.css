@@ -6887,22 +6887,97 @@ div.subscribe {
     font-size: 16px;
     line-height: 1.3em; }
 
-header .headerRegion {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
-  header .headerRegion .flag {
-    width: 20px;
-    height: 12px; }
-  header .headerRegion .blindVersion {
-    padding: 8px 0px 8px 30px;
+header .headerRegion > hr {
+  border-color: rgba(0, 0, 0, 0.1);
+  margin: 0; }
+
+header .headerRegion .flag {
+  width: 20px;
+  height: 12px; }
+
+header .headerRegion .blindVersion {
+  padding: 8px 0px 8px 30px;
+  display: inline-block;
+  line-height: 1.1;
+  color: rgba(0, 0, 0, 0.5);
+  background-image: url("../img/icons/ic-glasses.svg");
+  background-repeat: no-repeat;
+  background-position: left center; }
+  header .headerRegion .blindVersion span {
     display: inline-block;
-    line-height: 1.1;
-    color: rgba(0, 0, 0, 0.5);
-    background-image: url("../img/icons/ic-glasses.svg");
-    background-repeat: no-repeat;
-    background-position: left center; }
-    header .headerRegion .blindVersion span {
-      display: inline-block;
-      border-bottom: 1px dotted rgba(0, 0, 0, 0.3); }
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.3); }
+
+header .headerRegion .repres {
+  padding: 8px 0;
+  display: inline-block;
+  line-height: 1.1;
+  color: rgba(0, 0, 0, 0.5);
+  margin-right: 20px; }
+  header .headerRegion .repres span {
+    display: inline-block;
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.3); }
+  header .headerRegion .repres.open .caret {
+    border-bottom: 4px dashed;
+    border-bottom: 4px solid \9;
+    border-top: none;
+    border-top: none \9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent; }
+
+header .headerRegion .represBlock {
+  padding-left: 6px;
+  padding-right: 6px;
+  display: none;
+  padding-bottom: 30px;
+  position: absolute;
+  z-index: 100;
+  border-radius: 2px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  border: solid 1px rgba(0, 0, 0, 0.12); }
+  header .headerRegion .represBlock .represCloseBtn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+    z-index: 10; }
+  header .headerRegion .represBlock h2 {
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: center;
+    margin-top: 9px;
+    color: rgba(0, 0, 0, 0.87); }
+  header .headerRegion .represBlock h3 {
+    font-size: 16px;
+    line-height: 1.3;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    color: rgba(0, 0, 0, 0.87); }
+  header .headerRegion .represBlock .media {
+    margin-bottom: 12px; }
+    header .headerRegion .represBlock .media + .media {
+      margin-top: 0; }
+    header .headerRegion .represBlock .media .media-left {
+      padding-right: 12px; }
+      header .headerRegion .represBlock .media .media-left .media-object {
+        width: 20px;
+        min-height: 12px;
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4); }
+        header .headerRegion .represBlock .media .media-left .media-object img {
+          width: 100%; }
+    header .headerRegion .represBlock .media .media-body .media-heading {
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 1.1;
+      color: rgba(0, 0, 0, 0.87); }
+    header .headerRegion .represBlock .media .media-body a {
+      display: inline-block; }
+      header .headerRegion .represBlock .media .media-body a + a {
+        margin-top: 4px; }
+    header .headerRegion .represBlock .media .media-body a.selected {
+      color: #000;
+      cursor: default; }
 
 header .headerContent {
   padding-top: 22px;
@@ -7849,6 +7924,11 @@ footer {
     margin-left: 91.66667%; }
   .col-max-offset-12 {
     margin-left: 100%; } }
+
+.var2 header .headerRegion .represBlock {
+  width: 25%;
+  padding-top: 17px;
+  padding-bottom: 19px; }
 
 .var2 header .headerContent .pull-left.headerText h1 {
   font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
