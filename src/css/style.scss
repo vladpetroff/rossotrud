@@ -667,6 +667,7 @@ section{
 
 
 div.subscribe{
+  display: none;
   background-color:$gray-dark;
   padding: 24px;
   text-align: center;
@@ -1421,6 +1422,7 @@ footer{
     &.news, &.anons{
       //margin-bottom: 40px;
       .subscribe{
+        display: block;
         margin-left: -5px;
         margin-right: -5px;
       }

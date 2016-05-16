@@ -6558,6 +6558,7 @@ section.manage {
         color: rgba(0, 0, 0, 0.5); }
 
 div.subscribe {
+  display: none;
   background-color: #424242;
   padding: 24px;
   text-align: center;
@@ -7140,6 +7141,7 @@ footer {
     section.content form .form-group textarea.form-control {
       height: auto; }
   section.news .subscribe, section.anons .subscribe {
+    display: block;
     margin-left: -5px;
     margin-right: -5px; }
   .readmore.dotted {
