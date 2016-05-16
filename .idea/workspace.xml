@@ -9,36 +9,7 @@
     <list default="true" id="180f8dba-ce0c-47eb-810f-0b25527b4cfd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/manage/Zhivihina.png" afterPath="$PROJECT_DIR$/public/img/manage/Zhivihina.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about.html" afterPath="$PROJECT_DIR$/public/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about_manage.html" afterPath="$PROJECT_DIR$/public/about_manage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about_manage_detail.html" afterPath="$PROJECT_DIR$/public/about_manage_detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about_programs.html" afterPath="$PROJECT_DIR$/public/about_programs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about_programs_rulang.html" afterPath="$PROJECT_DIR$/public/about_programs_rulang.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about_programs_strategy.html" afterPath="$PROJECT_DIR$/public/about_programs_strategy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about_structure.html" afterPath="$PROJECT_DIR$/public/about_structure.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/activity.html" afterPath="$PROJECT_DIR$/public/activity.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/activity_russianCulture.html" afterPath="$PROJECT_DIR$/public/activity_russianCulture.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/activity_russianCulture_ruCinema.html" afterPath="$PROJECT_DIR$/public/activity_russianCulture_ruCinema.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/anons.html" afterPath="$PROJECT_DIR$/public/anons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/anonsDetail.html" afterPath="$PROJECT_DIR$/public/anonsDetail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/contacts.html" afterPath="$PROJECT_DIR$/public/contacts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/contacts_callback.html" afterPath="$PROJECT_DIR$/public/contacts_callback.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/contacts_center.html" afterPath="$PROJECT_DIR$/public/contacts_center.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/contacts_inworld.html" afterPath="$PROJECT_DIR$/public/contacts_inworld.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/contacts_inworld_rome.html" afterPath="$PROJECT_DIR$/public/contacts_inworld_rome.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css.map" afterPath="$PROJECT_DIR$/public/css/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index_var2.html" afterPath="$PROJECT_DIR$/public/index_var2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/inner.html" afterPath="$PROJECT_DIR$/public/inner.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/main.js" afterPath="$PROJECT_DIR$/public/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/news.html" afterPath="$PROJECT_DIR$/public/news.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/newsDetail.html" afterPath="$PROJECT_DIR$/public/newsDetail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/anons.jade" afterPath="$PROJECT_DIR$/src/anons.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/style.scss" afterPath="$PROJECT_DIR$/src/css/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/includes/template.jade" afterPath="$PROJECT_DIR$/src/includes/template.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.jade" afterPath="$PROJECT_DIR$/src/index.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/main.js" afterPath="$PROJECT_DIR$/src/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/news.jade" afterPath="$PROJECT_DIR$/src/news.jade" />
     </list>
     <ignored path="rossotrud.iws" />
@@ -98,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jade" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3458084">
-              <caret line="312" column="13" selection-start-line="312" selection-start-column="9" selection-end-line="312" selection-end-column="13" />
+            <state vertical-scroll-proportion="-7.096774">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
               <folding>
                 <element signature="n#section#0;n#div#0;n#div#0;n#block#2;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#block#2;n#!!top" expanded="false" />
@@ -154,11 +125,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="news.jade" pinned="false" current-in-tab="false">
+      <file leaf-file-name="news.jade" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/news.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.064516">
-              <caret line="301" column="32" selection-start-line="301" selection-start-column="32" selection-end-line="301" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.28753993">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
                 <element signature="n#div#3;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
@@ -237,9 +208,9 @@
         <option value="$PROJECT_DIR$/src/js/main.js" />
         <option value="$PROJECT_DIR$/src/includes/template.jade" />
         <option value="$PROJECT_DIR$/src/anons.jade" />
-        <option value="$PROJECT_DIR$/src/news.jade" />
         <option value="$PROJECT_DIR$/src/css/style.scss" />
         <option value="$PROJECT_DIR$/src/index.jade" />
+        <option value="$PROJECT_DIR$/src/news.jade" />
       </list>
     </option>
   </component>
@@ -254,7 +225,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="662" />
+    <option name="width" value="814" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -490,16 +461,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="662" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="814" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3538206" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28249338" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15426695" sideWeight="0.503876" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15098469" sideWeight="0.49612403" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22428884" sideWeight="0.49612403" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -903,18 +874,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/news.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.064516">
-          <caret line="301" column="32" selection-start-line="301" selection-start-column="32" selection-end-line="301" selection-end-column="32" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.8166666">
@@ -952,14 +911,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3458084">
-          <caret line="312" column="13" selection-start-line="312" selection-start-column="9" selection-end-line="312" selection-end-column="13" />
+        <state vertical-scroll-proportion="-7.096774">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding>
             <element signature="n#section#0;n#div#0;n#div#0;n#block#2;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#block#2;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#section#1;n#div#0;n#div#0;n#block#2;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#section#1;n#div#0;n#div#0;n#block#2;n#!!top" expanded="false" />
             <element signature="n#div#3;n#div#0;n#section#1;n#div#0;n#div#0;n#block#2;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/news.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28753993">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
