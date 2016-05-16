@@ -129,6 +129,9 @@
 		var navDesktop = document.querySelector('.navbar.navbar-desktop');
 		var navOffset = navDesktop.offsetTop;
 		window.onscroll = function () {
+			// layout newsBlock
+			$('.grid').masonry();
+
 			var scrolled = window.pageYOffset || document.documentElement.scrollTop;
 			if (scrolled >= navOffset) {
 				navDesktop.classList.add('fixed-nav');
