@@ -140,6 +140,9 @@
 
 
 ;$(function(){
-	// layout newsBlock
-	$('.grid').masonry();
+	setTimeout(function(){
+		// layout newsBlock
+		$('.grid').masonry();
+	}, 1000);
 });
+
