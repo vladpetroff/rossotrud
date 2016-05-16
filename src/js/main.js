@@ -143,6 +143,6 @@
 	setTimeout(function(){
 		// layout newsBlock
 		$('.grid').masonry();
-	}, 1000);
+	}, 200);
 });
 
