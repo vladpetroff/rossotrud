@@ -390,24 +390,7 @@ block content
 				.col-sm-8.col-xs-12
 					.bannerBlock
 						a(href="javascript:;")
-							//img(src="./img/main_banner_img.jpg", alt="Main banner")
-							picture
-								source(
-									media='(max-width: 480px)',
-									sizes='(max-width: 710px) 100vw, 710px',
-									srcset="\
-										./img/main_banner_img/main_banner_img_kchkjp_ar_16_9,c_fill__c_scale,w_320.png 320w"
-									)
-								img(sizes='(max-width: 908px) 100vw, 908px',
-									srcset='\
-										./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_320.png 320w,\
-										./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_539.png 539w,\
-										./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_705.png 705w,\
-										./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_840.png 840w,\
-										./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_908.png 908w',
-									src='./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_908.png',
-									alt=''
-								)
+							img(src="./img/main_banner_img.jpg", alt="Main banner")
 
 							.bannerText
 								h2 Приемная кампания — 2016
@@ -441,7 +424,7 @@ block content
 									input(type="radio" id="radio7" name="poll1")
 									label(for="radio7") Проектировщик интерфейсов
 
-							.col-xs-12.seemore
+							.col-xs-12.seemore.hidden-xs
 								a(href="javascript:;") Посмотреть все варианты
 
 					.pollBlock.result.hidden

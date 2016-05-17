@@ -5,8 +5,11 @@
 
 	// layout newsBlock
 	setTimeout(function(){
-		$('.grid').masonry();
+		if(document.body.clientWidth > 330) {
+			$('.grid').masonry();
+		}
 	}, 200);
+
 
 	// clickable anons-block
 	$("section.anons").on("click", "article", function(){

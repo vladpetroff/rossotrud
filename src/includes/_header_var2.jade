@@ -39,34 +39,36 @@ header.hidden-xs
 
 	.row
 		.headerContent.col-xs-12
-			.headerLogo.pull-left
-				a(href="./")
-					img(src="./img/icons/rs-logo.svg", onerror="this.onerror=null; this.src='./img/icons/rs-logo.png'")
+			.row
+				.col-xs-4
+					.headerLogo.pull-left
+						a(href="./")
+							img(src="./img/icons/rs-logo.svg", onerror="this.onerror=null; this.src='./img/icons/rs-logo.png'")
 
-			.headerText.pull-left
-				h1 Российский центр #[br]науки и культуры
-				p Представительство Россотрудничества в Минске
+					.headerText.pull-left
+						h1 Российский центр #[br]науки и культуры
+						p Представительство Россотрудничества в Минске
 
-			.headerSubscr.pull-left
-				p: em Подписывайтесь:
-				input(type="email", placeholder="Ваша эл.почта").form-control
-				button(type="submit").pull-right.btn.btn-warning: strong OK
+				.headerSubscr.col-xs-2
+					p: em Подписывайтесь:
+					button(type="submit").pull-right.btn.btn-warning: strong OK
+					input(type="email", placeholder="Ваша эл.почта").form-control
 
-			.headerSocial.pull-left
-				p: em Присоединяйтесь
-				.social
-					a(href="javascript:;").fb
-					a(href="javascript:;").vk
-					a(href="javascript:;").inst
+				.headerSocial.col-xs-2
+					p: em Присоединяйтесь
+					.social
+						a(href="javascript:;").fb
+						a(href="javascript:;").vk
+						a(href="javascript:;").inst
 
-			.headerContact.pull-left
-				p: em Обращайтесь
-				h2: a(href="tel:+375173284958") +375-17 328-49-58
-				a(href="mailto:rcnkminsk@mail.ru") rcnkminsk@mail.ru
+				.headerContact.col-xs-2
+					p: em Обращайтесь
+					h2: a(href="tel:+375173284958") +375-17 328-49-58
+					a(href="mailto:rcnkminsk@mail.ru") rcnkminsk@mail.ru
 
-			.headerMap.pull-right
-				p: em Другие представительства:
-				a(href="javascript:;")
-					img(src="./img/icons/map.svg", onerror="this.onerror=null; this.src='./img/icons/map.png'")
+				.headerMap.col-xs-2
+					p: em Другие представительства:
+					a(href="javascript:;")
+						img(src="./img/icons/map.svg", onerror="this.onerror=null; this.src='./img/icons/map.png'")
 
 

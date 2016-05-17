@@ -19,7 +19,7 @@
     <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/2014.01.31/classList.min.js"></script>
     <!-- Элементы форм  http://silviomoreto.github.io/bootstrap-select/-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/js/bootstrap-select.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/js/bootstrap-select.min.js"></script>
     <!-- http://masonry.desandro.com/-->
     <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
     <script src="./js/main.js" defer></script>
@@ -62,26 +62,30 @@
       </div>
       <div class="row">
         <div class="headerContent col-xs-12">
-          <div class="headerLogo pull-left"><a href="./"><img src="./img/icons/rs-logo.svg" onerror="this.onerror=null; this.src='./img/icons/rs-logo.png'"></a></div>
-          <div class="headerText pull-left">
-            <h1>Российский центр <br>науки и культуры</h1>
-            <p>Представительство Россотрудничества в Минске</p>
-          </div>
-          <div class="headerSubscr pull-left">
-            <p><em>Подписывайтесь:</em></p>
-            <input type="email" placeholder="Ваша эл.почта" class="form-control">
-            <button type="submit" class="pull-right btn btn-warning"><strong>OK</strong></button>
-          </div>
-          <div class="headerSocial pull-left">
-            <p><em>Присоединяйтесь</em></p>
-            <div class="social"><a href="javascript:;" class="fb"></a><a href="javascript:;" class="vk"></a><a href="javascript:;" class="inst"></a></div>
-          </div>
-          <div class="headerContact pull-left">
-            <p><em>Обращайтесь</em></p>
-            <h2><a href="tel:+375173284958">+375-17 328-49-58</a></h2><a href="mailto:rcnkminsk@mail.ru">rcnkminsk@mail.ru</a>
-          </div>
-          <div class="headerMap pull-right">
-            <p><em>Другие представительства:</em></p><a href="javascript:;"><img src="./img/icons/map.svg" onerror="this.onerror=null; this.src='./img/icons/map.png'"></a>
+          <div class="row">
+            <div class="col-xs-4">
+              <div class="headerLogo pull-left"><a href="./"><img src="./img/icons/rs-logo.svg" onerror="this.onerror=null; this.src='./img/icons/rs-logo.png'"></a></div>
+              <div class="headerText pull-left">
+                <h1>Российский центр <br>науки и культуры</h1>
+                <p>Представительство Россотрудничества в Минске</p>
+              </div>
+            </div>
+            <div class="headerSubscr col-xs-2">
+              <p><em>Подписывайтесь:</em></p>
+              <button type="submit" class="pull-right btn btn-warning"><strong>OK</strong></button>
+              <input type="email" placeholder="Ваша эл.почта" class="form-control">
+            </div>
+            <div class="headerSocial col-xs-2">
+              <p><em>Присоединяйтесь</em></p>
+              <div class="social"><a href="javascript:;" class="fb"></a><a href="javascript:;" class="vk"></a><a href="javascript:;" class="inst"></a></div>
+            </div>
+            <div class="headerContact col-xs-2">
+              <p><em>Обращайтесь</em></p>
+              <h2><a href="tel:+375173284958">+375-17 328-49-58</a></h2><a href="mailto:rcnkminsk@mail.ru">rcnkminsk@mail.ru</a>
+            </div>
+            <div class="headerMap col-xs-2">
+              <p><em>Другие представительства:</em></p><a href="javascript:;"><img src="./img/icons/map.svg" onerror="this.onerror=null; this.src='./img/icons/map.png'"></a>
+            </div>
           </div>
         </div>
       </div>
@@ -448,11 +452,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-8 col-xs-12">
-          <div class="bannerBlock"><a href="javascript:;">
-              <!--img(src="./img/main_banner_img.jpg", alt="Main banner")-->
-              <picture>
-                <source media="(max-width: 480px)" sizes="(max-width: 710px) 100vw, 710px" srcset="										./img/main_banner_img/main_banner_img_kchkjp_ar_16_9,c_fill__c_scale,w_320.png 320w"><img sizes="(max-width: 908px) 100vw, 908px" srcset="										./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_320.png 320w,										./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_539.png 539w,										./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_705.png 705w,										./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_840.png 840w,										./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_908.png 908w" src="./img/main_banner_img/main_banner_img_kchkjp_c_scale,w_908.png" alt="">
-              </picture>
+          <div class="bannerBlock"><a href="javascript:;"><img src="./img/main_banner_img.jpg" alt="Main banner">
               <div class="bannerText">
                 <h2>Приемная кампания — 2016</h2>
                 <p>Получите высшее образование мирового уровня в России</p>
@@ -493,7 +493,7 @@
                   <label for="radio7">Проектировщик интерфейсов</label>
                 </div>
               </div>
-              <div class="col-xs-12 seemore"><a href="javascript:;">Посмотреть все варианты</a></div>
+              <div class="col-xs-12 seemore hidden-xs"><a href="javascript:;">Посмотреть все варианты</a></div>
             </form>
           </div>
           <div class="pollBlock result hidden">
@@ -566,7 +566,7 @@
   </footer>
   <footer class="hidden-xs">
     <div class="container">
-      <div class="row">
+      <div class="row links">
         <div class="col-sm-2">
           <h4>О Представительстве</h4>
           <ul>
@@ -633,8 +633,8 @@
         <div class="col-sm-2">
           <h4>Подписывайтесь:</h4>
           <div class="footerSubscr">
-            <input type="email" placeholder="Ваша эл.почта" class="form-control">
             <button type="submit" class="pull-right btn btn-warning"><strong>OK</strong></button>
+            <input type="email" placeholder="Ваша эл.почта" class="form-control">
           </div>
           <div class="footerSocial">
             <h4>И присоединяйтесь:</h4>

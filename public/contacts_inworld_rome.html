@@ -19,7 +19,7 @@
     <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/2014.01.31/classList.min.js"></script>
     <!-- Элементы форм  http://silviomoreto.github.io/bootstrap-select/-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/js/bootstrap-select.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/js/bootstrap-select.min.js"></script>
     <!-- http://masonry.desandro.com/-->
     <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
     <script src="./js/main.js" defer></script>
@@ -729,30 +729,34 @@
       </div>
       <div class="row">
         <div class="headerContent col-xs-12">
-          <div class="headerLogo pull-left"><a href="./"><img src="./img/icons/rs-logo.svg" onerror="this.onerror=null; this.src='./img/icons/rs-logo.png'"></a></div>
-          <div class="headerText pull-left">
-            <h1>Россотрудничество</h1>
-            <p>
-              Федеральное агентство по делам Содружества Независимых государств, соотечественников,
-              проживающих за рубежом, и по международному гуманитарному сотрудничеству
-              
-            </p>
-          </div>
-          <div class="headerSubscr pull-left">
-            <p><em>Подписывайтесь:</em></p>
-            <input type="email" placeholder="Ваша эл.почта" class="form-control">
-            <button type="submit" class="pull-right btn btn-warning"><strong>OK</strong></button>
-          </div>
-          <div class="headerSocial pull-left">
-            <p><em>Присоединяйтесь</em></p>
-            <div class="social"><a href="javascript:;" class="fb"></a><a href="javascript:;" class="vk"></a><a href="javascript:;" class="inst"></a><a href="javascript:;" class="yt"></a><a href="javascript:;" class="tw"></a></div>
-          </div>
-          <div class="headerContact pull-left">
-            <p><em>Обращайтесь</em></p>
-            <h2><a href="tel:+74993215499">+7 (499) 321-54-99</a></h2><a href="mailto:rossotr@rs.gov.ru">rossotr@rs.gov.ru</a>
-          </div>
-          <div class="headerMap pull-right">
-            <p><em>Представительства в мире:</em></p><a href="javascript:;"><img src="./img/icons/map.svg" onerror="this.onerror=null; this.src='./img/icons/map.png'"></a>
+          <div class="row">
+            <div class="col-xs-4">
+              <div class="headerLogo pull-left"><a href="./"><img src="./img/icons/rs-logo.svg" onerror="this.onerror=null; this.src='./img/icons/rs-logo.png'"></a></div>
+              <div class="headerText pull-left">
+                <h1>Россотрудничество</h1>
+                <p>
+                  Федеральное агентство по делам Содружества Независимых государств, соотечественников,
+                  проживающих за рубежом, и по международному гуманитарному сотрудничеству
+                  
+                </p>
+              </div>
+            </div>
+            <div class="headerSubscr col-xs-2">
+              <p><em>Подписывайтесь:</em></p>
+              <button type="submit" class="pull-right btn btn-warning"><strong>OK</strong></button>
+              <input type="email" placeholder="Ваша эл.почта" class="form-control">
+            </div>
+            <div class="headerSocial col-xs-2">
+              <p><em>Присоединяйтесь</em></p>
+              <div class="social"><a href="javascript:;" class="fb"></a><a href="javascript:;" class="vk"></a><a href="javascript:;" class="inst"></a><a href="javascript:;" class="yt"></a><a href="javascript:;" class="tw"></a></div>
+            </div>
+            <div class="headerContact col-xs-2">
+              <p><em>Обращайтесь</em></p>
+              <h2><a href="tel:+74993215499">+7 (499) 321-54-99</a></h2><a href="mailto:rossotr@rs.gov.ru">rossotr@rs.gov.ru</a>
+            </div>
+            <div class="headerMap col-xs-2">
+              <p><em>Представительства в мире:</em></p><a href="javascript:;"><img src="./img/icons/map.svg" onerror="this.onerror=null; this.src='./img/icons/map.png'"></a>
+            </div>
           </div>
         </div>
       </div>
@@ -1004,7 +1008,7 @@
           <div class="row hidden-xs">
             <div class="col-sm-9 col-xs-12">
               <div class="map">
-                <script type="text/javascript" charset="utf-8" async="" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=3QB8SBCEBl1VHDRZ6fT9U88EUYYpWycA&amp;width=100%&amp;height=452&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+                <script type="text/javascript" charset="utf-8" async="" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=3QB8SBCEBl1VHDRZ6fT9U88EUYYpWycA&amp;width=100%&amp;height=452&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=false"></script>
               </div>
               <table class="table table-contacts fullwidth">
                 <tr>
@@ -1119,15 +1123,15 @@
           <h4><a href="contacts.html">Контакты</a></h4>
           <ul>
             <li><a href="contacts_center.html">Центральный аппарат</a></li>
-            <li><a href="contacts_inworld.html">Представительства в мире</a></li>
-            <li><a href="contacts_callback">Написать обращение</a></li>
+            <li><a href="contacts_inworld.html" class="open">Представительства в мире</a></li>
+            <li><a href="contacts_callback.html">Написать обращение</a></li>
           </ul>
         </div>
         <div class="col-sm-2">
           <h4>Подписывайтесь:</h4>
           <div class="footerSubscr">
-            <input type="email" placeholder="Ваша эл.почта" class="form-control">
             <button type="submit" class="pull-right btn btn-warning"><strong>OK</strong></button>
+            <input type="email" placeholder="Ваша эл.почта" class="form-control">
           </div>
           <div class="footerSocial">
             <h4>И присоединяйтесь:</h4>
@@ -1162,9 +1166,9 @@
         </div>
         <div class="col-xs-6 col-xs-offset-1 footGov">
           <div class="row">
-            <div class="col-xs-4 text-center"><a href="javascript:;"><img src="./img/icons/kremlin-ru-logo.svg" alt="facebook" onerror="this.onerror=null; this.src='./img/icons/kremlin-ru-logo.png'"><span>Президент России</span></a></div>
-            <div class="col-xs-4 text-center"><a href="javascript:;"><img src="./img/icons/govenrment-logo.svg" alt="facebook" onerror="this.onerror=null; this.src='./img/icons/govenrment-logo.png'"><span>Правительство Российской Федерации</span></a></div>
-            <div class="col-xs-4 text-center"><a href="javascript:;"><img src="./img/icons/mid-logo.svg" alt="facebook" onerror="this.onerror=null; this.src='./img/icons/mid-logo-logo.png'"><span>Министерство иностранных дел</span></a></div>
+            <div class="col-xs-4 text-center"><a href="javascript:;"><img src="./img/icons/kremlin-ru-logo.png" alt=""><span>Президент России</span></a></div>
+            <div class="col-xs-4 text-center"><a href="javascript:;"><img src="./img/icons/govenrment-logo.png" alt=""><span>Правительство Российской Федерации</span></a></div>
+            <div class="col-xs-4 text-center"><a href="javascript:;"><img src="./img/icons/mid-logo.png" alt=""><span>Министерство иностранных дел</span></a></div>
           </div>
         </div>
       </div>

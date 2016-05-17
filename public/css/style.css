@@ -1510,7 +1510,7 @@ pre {
   @media (min-width: 992px) {
     .container {
       width: 960px; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1230px) {
     .container {
       width: 1190px; } }
   @media (min-width: 1400px) {
@@ -1911,7 +1911,7 @@ pre {
   .col-md-offset-12 {
     margin-left: 100%; } }
 
-@media (min-width: 1200px) {
+@media (min-width: 1230px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left; }
   .col-lg-1 {
@@ -2320,19 +2320,21 @@ output {
   height: 29px;
   padding: 6px 12px;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 16px !important;
   color: rgba(0, 0, 0, 0.4);
   background-color: transparent;
   background-image: none;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 2px;
   -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s; }
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  box-shadow: none !important; }
   .form-control:focus {
     border-color: #ff6d00 !important;
     background-color: #fff;
     color: #424242;
-    outline: 0; }
+    outline: 0;
+    box-shadow: none; }
   .form-control::-moz-placeholder {
     color: #999;
     opacity: 1; }
@@ -2783,6 +2785,27 @@ select[multiple].input-lg,
   .form-horizontal .form-group-sm .control-label {
     padding-top: 6px;
     font-size: 12px; } }
+
+@media (max-width: 768px) {
+  section.content form .btn {
+    width: 136px;
+    height: 36px;
+    border-radius: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.5px; }
+    section.content form .btn.btn-primary {
+      border: solid 1px #0066b3;
+      color: #0066b3; }
+      section.content form .btn.btn-primary:hover {
+        color: #fff; }
+      section.content form .btn.btn-primary:focus {
+        color: #fff; }
+      section.content form .btn.btn-primary:active {
+        color: #fff; }
+  section.content form .control-label {
+    margin-bottom: 7px; } }
 
 .btn {
   display: inline-block;
@@ -3647,7 +3670,9 @@ tbody.collapse.in {
       padding: 8px 16px;
       border-bottom: 4px solid transparent; }
       .nav-tabs > li > a:hover {
-        background-color: #fff3e0; }
+        color: #ff6d00; }
+      .nav-tabs > li > a:focus, .nav-tabs > li > a:active {
+        color: #ed5900; }
     .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
       color: #ff6d00;
       background-color: #f5f5f5;
@@ -3813,7 +3838,7 @@ tbody.collapse.in {
 
 .navbar-fixed-top .navbar-collapse,
 .navbar-fixed-bottom .navbar-collapse {
-  max-height: 420px; }
+  max-height: 425px; }
   @media (max-device-width: 480px) and (orientation: landscape) {
     .navbar-fixed-top .navbar-collapse,
     .navbar-fixed-bottom .navbar-collapse {
@@ -4032,13 +4057,23 @@ tbody.collapse.in {
 .navbar-default {
   background-color: #fff;
   border-color: transparent;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: none;
   overflow: hidden; }
+  .navbar-default .container {
+    padding: 0; }
   .navbar-default .navbar-brand {
     color: #000; }
     .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
       color: black;
       background-color: transparent; }
+  .navbar-default.visible-xs a.logo {
+    margin-right: 8px; }
+  .navbar-default.visible-xs .navbar-brand {
+    padding-left: 0; }
+  .navbar-default.visible-xs .navbar-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+  .navbar-default.visible-xs .navbar-nav {
+    border-top: none; }
   .navbar-default .navbar-text {
     color: #777; }
   .navbar-default .represent {
@@ -4073,7 +4108,7 @@ tbody.collapse.in {
         height: 32px;
         border: 4px solid transparent; }
       .navbar-default .lang a + a {
-        margin-left: 12px; }
+        margin-left: 11px; }
       .navbar-default .lang a.active img {
         border-color: rgba(255, 109, 0, 0.3); }
   .navbar-default .navbar-nav {
@@ -4100,7 +4135,7 @@ tbody.collapse.in {
         font-size: 16px;
         color: rgba(0, 0, 0, 0.9); }
         .navbar-default .navbar-nav li ul li a:hover {
-          color: #ed5900; }
+          color: #ff6d00; }
     .navbar-default .navbar-nav > li > a {
       padding: 10px 0px;
       font-size: 20px;
@@ -4156,19 +4191,24 @@ tbody.collapse.in {
     top: 0px;
     bottom: 0px;
     left: 100%;
-    right: 0px; }
+    right: 10px; }
     .navbar-default .searchField .input-group {
       height: 36px;
-      margin: 9px 0;
+      margin: 8px 0;
       border: 1px solid #ff6d00; }
       .navbar-default .searchField .input-group .form-control {
         height: 36px;
         background: #fff;
         color: rgba(0, 0, 0, 0.9); }
+        .navbar-default .searchField .input-group .form-control:focus, .navbar-default .searchField .input-group .form-control:active {
+          border: none; }
       .navbar-default .searchField .input-group .input-group-btn .btn {
         height: 36px;
         background-color: #ff6d00;
-        color: #fff; }
+        color: #fff;
+        padding: 6px 10px;
+        padding-right: 5px;
+        border-radius: 0px; }
   .navbar-default .navbar-link {
     color: #777; }
     .navbar-default .navbar-link:hover {
@@ -4245,6 +4285,7 @@ tbody.collapse.in {
       color: #444; }
 
 .navbar-desktop {
+  border-radius: 0px;
   position: relative;
   overflow: hidden;
   min-height: 48px;
@@ -4252,7 +4293,8 @@ tbody.collapse.in {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   margin-bottom: 15px; }
   .navbar-desktop > .container {
-    overflow: hidden; }
+    overflow: hidden;
+    padding: 0; }
   .navbar-desktop .navbar-nav > li {
     border-bottom: 3px solid transparent; }
     .navbar-desktop .navbar-nav > li.active {
@@ -4271,6 +4313,12 @@ tbody.collapse.in {
       font-size: 1.43em;
       line-height: 27px;
       color: rgba(0, 0, 0, 0.9); }
+      .navbar-desktop .navbar-nav > li > a:hover {
+        color: #ff6d00; }
+      .navbar-desktop .navbar-nav > li > a:focus {
+        background: none !important; }
+      .navbar-desktop .navbar-nav > li > a:active {
+        color: #ed5900 !important; }
   .navbar-desktop .searchField {
     position: absolute;
     top: 0px;
@@ -4783,13 +4831,14 @@ a.thumbnail.active {
   position: relative;
   display: block;
   padding: 8px 0px;
-  margin-bottom: -1px;
   font-size: 16px;
   line-height: 1.3;
   color: rgba(0, 0, 0, 0.9);
   background-color: transparent;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+  .list-group-item + .list-group-item {
+    border-top: none; }
 
 a.list-group-item,
 button.list-group-item {
@@ -5953,7 +6002,7 @@ button.close {
   .visible-sm-inline-block {
     display: inline-block !important; } }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1229px) {
   .visible-md {
     display: block !important; }
   table.visible-md {
@@ -5964,19 +6013,19 @@ button.close {
   td.visible-md {
     display: table-cell !important; } }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1229px) {
   .visible-md-block {
     display: block !important; } }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1229px) {
   .visible-md-inline {
     display: inline !important; } }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1229px) {
   .visible-md-inline-block {
     display: inline-block !important; } }
 
-@media (min-width: 1200px) {
+@media (min-width: 1230px) {
   .visible-lg {
     display: block !important; }
   table.visible-lg {
@@ -5987,15 +6036,15 @@ button.close {
   td.visible-lg {
     display: table-cell !important; } }
 
-@media (min-width: 1200px) {
+@media (min-width: 1230px) {
   .visible-lg-block {
     display: block !important; } }
 
-@media (min-width: 1200px) {
+@media (min-width: 1230px) {
   .visible-lg-inline {
     display: inline !important; } }
 
-@media (min-width: 1200px) {
+@media (min-width: 1230px) {
   .visible-lg-inline-block {
     display: inline-block !important; } }
 
@@ -6007,11 +6056,11 @@ button.close {
   .hidden-sm {
     display: none !important; } }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1229px) {
   .hidden-md {
     display: none !important; } }
 
-@media (min-width: 1200px) {
+@media (min-width: 1230px) {
   .hidden-lg {
     display: none !important; } }
 
@@ -6276,13 +6325,13 @@ section.news article {
       margin-top: 4px; }
   section.news article time {
     display: block;
-    padding: 0 6px;
+    padding: 0 16px;
     margin-bottom: 5px;
     color: #ff6d00;
     font-size: 16px;
     line-height: 1.3; }
   section.news article h2 {
-    margin: 8px 0;
+    margin: 0px 0 6px;
     font-size: 12px;
     font-style: italic;
     line-height: 1em;
@@ -6312,7 +6361,7 @@ section.projects {
   section.projects article:active {
     background-color: #ffe0b2; }
   section.projects article h2 {
-    margin: 8px 0;
+    margin: 10px 0 6px;
     font-size: 12px;
     font-style: italic;
     line-height: 1em;
@@ -6448,7 +6497,7 @@ section.content {
       line-height: 1.4;
       color: rgba(0, 0, 0, 0.9);
       margin-bottom: 10px;
-      padding-left: 16px;
+      padding-left: 20px;
       position: relative; }
       section.content ul li::before {
         content: '—';
@@ -6487,6 +6536,7 @@ section.manage {
       section.manage.detail article img {
         width: 160px;
         height: 160px;
+        border-radius: 80px;
         display: inline-block;
         float: none; }
       section.manage.detail article h2 {
@@ -6530,6 +6580,7 @@ section.manage {
     section.manage article img {
       width: 100px;
       height: 100px;
+      border-radius: 50px;
       margin-right: 12px;
       display: inline-block;
       float: left; }
@@ -6542,6 +6593,7 @@ section.manage {
       section.manage article.main img {
         width: 160px;
         height: 160px;
+        border-radius: 80px;
         float: none; }
       section.manage article.main h2 {
         font-size: 1.43em;
@@ -6581,7 +6633,7 @@ div.subscribe {
     margin-bottom: 10px; }
 
 .newsBlock {
-  margin: 0px 10px 37px; }
+  margin-bottom: 37px; }
   .newsBlock h1 {
     font-size: 18px;
     line-height: 1.1;
@@ -6625,6 +6677,7 @@ div.subscribe {
     background-color: #eeeeee;
     box-shadow: none;
     border-radius: 0px;
+    border: none;
     background-image: none;
     background-repeat: no-repeat; }
     .newsBlock .well.well-info {
@@ -6751,6 +6804,7 @@ div.subscribe {
       .newsBlock .list-group .list-group-item p {
         line-height: 1.3;
         font-size: 12px;
+        font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
         margin-bottom: 12px;
         color: rgba(0, 0, 0, 0.4); }
       .newsBlock .list-group .list-group-item:first-child {
@@ -6895,6 +6949,9 @@ header .headerRegion .flag {
   width: 20px;
   height: 12px; }
 
+header .headerRegion .selectpicker {
+  display: none; }
+
 header .headerRegion .blindVersion {
   padding: 8px 0px 8px 30px;
   display: inline-block;
@@ -6982,27 +7039,21 @@ header .headerRegion .represBlock {
 header .headerContent {
   padding-top: 22px;
   padding-bottom: 20px; }
-  header .headerContent .pull-left + .pull-left,
-  header .headerContent .pull-right + .pull-left {
-    margin-left: 25px; }
-  header .headerContent .pull-left p,
-  header .headerContent .pull-right p {
+  header .headerContent p {
     color: rgba(0, 0, 0, 0.5);
     line-height: 1.1em;
     margin-top: 5px;
     margin-bottom: 10px; }
-  header .headerContent .pull-left.headerLogo a,
-  header .headerContent .pull-right.headerLogo a {
-    display: inline-block; }
-    header .headerContent .pull-left.headerLogo a img,
-    header .headerContent .pull-right.headerLogo a img {
-      width: 63px;
-      height: 63px; }
-  header .headerContent .pull-left.headerText,
-  header .headerContent .pull-right.headerText {
+  header .headerContent .headerLogo {
+    margin-right: 16px; }
+    header .headerContent .headerLogo a {
+      display: inline-block; }
+      header .headerContent .headerLogo a img {
+        width: 63px;
+        height: 63px; }
+  header .headerContent .headerText {
     width: 290px; }
-    header .headerContent .pull-left.headerText h1,
-    header .headerContent .pull-right.headerText h1 {
+    header .headerContent .headerText h1 {
       font-family: "PT Sans Narrow", sans-serif;
       font-weight: bold;
       font-size: 2em;
@@ -7012,72 +7063,51 @@ header .headerContent {
       text-transform: uppercase;
       margin-top: 0;
       margin-bottom: 3px; }
-    header .headerContent .pull-left.headerText p,
-    header .headerContent .pull-right.headerText p {
+    header .headerContent .headerText p {
       font-size: 12px;
       line-height: 1.2;
       margin: 0; }
-  header .headerContent .pull-left.headerSubscr,
-  header .headerContent .pull-right.headerSubscr {
-    width: 180px; }
-    header .headerContent .pull-left.headerSubscr .form-control,
-    header .headerContent .pull-right.headerSubscr .form-control {
-      display: inline-block;
-      width: 125px; }
-  header .headerContent .pull-left.headerSocial .social a,
-  header .headerContent .pull-right.headerSocial .social a {
+  header .headerContent .headerSubscr .form-control {
+    width: 70%; }
+  header .headerContent .headerSocial .social a {
     display: inline-block;
     width: 28px;
     height: 28px;
-    margin: 0 6px;
+    margin-left: 10px;
     text-indent: -9999px;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center; }
-    header .headerContent .pull-left.headerSocial .social a:first-child,
-    header .headerContent .pull-right.headerSocial .social a:first-child {
+    header .headerContent .headerSocial .social a:first-child {
       margin-left: 0; }
-    header .headerContent .pull-left.headerSocial .social a.fb,
-    header .headerContent .pull-right.headerSocial .social a.fb {
+    header .headerContent .headerSocial .social a.fb {
       background-image: url("../img/icons/social/fb.svg"); }
-      header .headerContent .pull-left.headerSocial .social a.fb:hover,
-      header .headerContent .pull-right.headerSocial .social a.fb:hover {
+      header .headerContent .headerSocial .social a.fb:hover {
         background-image: url("../img/icons/social/fb-hover.svg"); }
-    header .headerContent .pull-left.headerSocial .social a.vk,
-    header .headerContent .pull-right.headerSocial .social a.vk {
+    header .headerContent .headerSocial .social a.vk {
       background-image: url("../img/icons/social/vk.svg"); }
-      header .headerContent .pull-left.headerSocial .social a.vk:hover,
-      header .headerContent .pull-right.headerSocial .social a.vk:hover {
+      header .headerContent .headerSocial .social a.vk:hover {
         background-image: url("../img/icons/social/vk-hover.svg"); }
-    header .headerContent .pull-left.headerSocial .social a.inst,
-    header .headerContent .pull-right.headerSocial .social a.inst {
+    header .headerContent .headerSocial .social a.inst {
       background-image: url("../img/icons/social/inst.svg"); }
-      header .headerContent .pull-left.headerSocial .social a.inst:hover,
-      header .headerContent .pull-right.headerSocial .social a.inst:hover {
+      header .headerContent .headerSocial .social a.inst:hover {
         background-image: url("../img/icons/social/inst-hover.svg"); }
-    header .headerContent .pull-left.headerSocial .social a.yt,
-    header .headerContent .pull-right.headerSocial .social a.yt {
+    header .headerContent .headerSocial .social a.yt {
       background-image: url("../img/icons/social/yt.svg"); }
-      header .headerContent .pull-left.headerSocial .social a.yt:hover,
-      header .headerContent .pull-right.headerSocial .social a.yt:hover {
+      header .headerContent .headerSocial .social a.yt:hover {
         background-image: url("../img/icons/social/yt-hover.svg"); }
-    header .headerContent .pull-left.headerSocial .social a.tw,
-    header .headerContent .pull-right.headerSocial .social a.tw {
+    header .headerContent .headerSocial .social a.tw {
       background-image: url("../img/icons/social/tw.svg"); }
-      header .headerContent .pull-left.headerSocial .social a.tw:hover,
-      header .headerContent .pull-right.headerSocial .social a.tw:hover {
+      header .headerContent .headerSocial .social a.tw:hover {
         background-image: url("../img/icons/social/tw-hover.svg"); }
-  header .headerContent .pull-left.headerContact h2,
-  header .headerContent .pull-right.headerContact h2 {
+  header .headerContent .headerContact h2 {
     font-size: 18px;
     line-height: 1.3;
     margin-top: 0;
     margin-bottom: 5px; }
-    header .headerContent .pull-left.headerContact h2 a,
-    header .headerContent .pull-right.headerContact h2 a {
+    header .headerContent .headerContact h2 a {
       color: rgba(0, 0, 0, 0.9); }
-  header .headerContent .pull-left.headerContact a,
-  header .headerContent .pull-right.headerContact a {
+  header .headerContent .headerContact a {
     font-size: 18px;
     line-height: 1.3; }
 
@@ -7116,7 +7146,7 @@ header .headerContent {
     .bootstrap-select.btn-group .dropdown-menu li ins {
       text-decoration: none; }
   .bootstrap-select.btn-group .btn-default.dropdown-toggle {
-    padding: 7px 5px;
+    padding: 6px 5px;
     background-color: transparent;
     border-color: transparent;
     line-height: 1.1;
@@ -7208,25 +7238,41 @@ footer {
 @media (max-width: 768px) {
   body {
     padding-top: 70px; }
-  section.content form .form-group {
-    margin-bottom: 9px; }
-    section.content form .form-group .form-control {
-      padding: 10px 8px;
-      height: 36px; }
-    section.content form .form-group textarea.form-control {
-      height: auto; }
-  section.news .subscribe, section.anons .subscribe {
-    display: block;
+  section.content {
+    padding-bottom: 40px; }
+    section.content form .form-group {
+      margin-bottom: 9px; }
+      section.content form .form-group .form-control {
+        padding: 10px 8px;
+        height: 36px; }
+      section.content form .form-group textarea.form-control {
+        height: auto; }
+  section.news article time {
+    padding: 0px 6px; }
+  section.news article .news {
+    padding: 16px 6px; }
+  section.projects article h2 {
+    margin-top: 8px;
+    margin-bottom: 7px; }
+  .subscribe {
+    display: block !important;
     margin-left: -5px;
     margin-right: -5px; }
   .readmore.dotted {
     text-align: center; } }
 
-@media (min-width: 1200px) {
+@media (min-width: 1230px) {
   .readmore {
     text-align: center; }
   .contacts {
     margin-bottom: 150px; }
+    .contacts .tab-content h3 {
+      font-size: 28px;
+      line-height: 1.1;
+      color: rgba(0, 0, 0, 0.87);
+      margin-top: 23px;
+      margin-bottom: 15px;
+      font-weight: normal; }
   section article {
     margin-bottom: 16px; }
     section article .articleText {
@@ -7271,7 +7317,6 @@ footer {
       line-height: 1.3;
       width: 225px; }
     section.anons.inner article .articleText h3 {
-      font-size: 20px;
       line-height: 1.2;
       margin-top: 33px; }
     section.anons.inner article .articleText h4 {
@@ -7404,7 +7449,7 @@ footer {
       section.content article.card:hover {
         border: solid 1px rgba(255, 109, 0, 0.3);
         background-color: #fff3e0; }
-      section.content article.card:focus {
+      section.content article.card:focus, section.content article.card:active {
         border: solid 1px rgba(255, 109, 0, 0.3);
         background-color: #ffe0b2; }
       section.content article.card a {
@@ -7438,7 +7483,8 @@ footer {
         padding: 40px 115px; }
         section.manage.block article.main img {
           width: 240px;
-          height: 240px; }
+          height: 240px;
+          border-radius: 120px; }
         section.manage.block article.main h2 {
           margin-top: 12px;
           font-size: 2.28em;
@@ -7453,13 +7499,15 @@ footer {
       section.manage.block article img {
         width: 192px;
         height: 192px;
+        border-radius: 95px;
         margin-right: 20px; }
       section.manage.block article h2 {
         font-size: 2.28em;
         line-height: 1.3;
         margin-top: 56px; }
     section.manage.detail {
-      padding: 0; }
+      padding: 0;
+      padding-top: 21px; }
       section.manage.detail p {
         font-size: 18px;
         line-height: 1.6;
@@ -7491,7 +7539,8 @@ footer {
           width: 120px; }
       section.manage.detail article img {
         width: 360px;
-        height: 360px; }
+        height: 360px;
+        border-radius: 180px; }
       section.manage.detail article h2 {
         font-size: 3.43em;
         line-height: 1.2;
@@ -7529,25 +7578,28 @@ footer {
       line-height: 1.6;
       font-family: "PT Serif", Georgia, "Times New Roman", Times, serif;
       margin-bottom: 15px; }
+    .newsBlock .sign {
+      margin-top: 25px;
+      margin-bottom: 16px; }
     .newsBlock time {
       display: block;
       font-size: 18px;
       line-height: 1.6;
-      color: rgba(0, 0, 0, 0.5);
+      color: rgba(0, 0, 0, 0.38);
       margin-top: 12px;
       margin-bottom: 25px; }
     .newsBlock .well {
-      padding: 30px 30px 20px 90px;
+      padding: 30px 105px 20px 100px;
       margin: 25px 0px;
       background-color: #eeeeee;
       box-shadow: none;
       background-image: url("../img/icons/ic-file-download.svg");
       background-repeat: no-repeat;
-      background-position: 25px 30px; }
+      background-position: 28px 30px; }
       .newsBlock .well.well-info {
         background-color: #f0f4c3;
         background-image: url("../img/icons/ic-info-outline.svg");
-        background-position: 17px 30px;
+        background-position: 22px 30px;
         border-color: transparent; }
         .newsBlock .well.well-info p {
           font-size: 18px;
@@ -7592,7 +7644,7 @@ footer {
         width: 24px;
         height: 24px;
         position: absolute;
-        top: 0px;
+        top: 15px;
         background-position: center;
         background-repeat: no-repeat; }
     .newsBlock .newsPaging .prev a::before {
@@ -7733,9 +7785,20 @@ footer {
   footer {
     padding-top: 26px;
     padding-bottom: 40px; }
+    footer .links h4 a {
+      color: #fff; }
     footer .links a {
       line-height: 1.1;
       color: rgba(255, 255, 255, 0.7); }
+      footer .links a.open {
+        font-weight: bold; }
+      footer .links a.active {
+        color: #ff6d00;
+        font-weight: bold; }
+        footer .links a.active:hover {
+          color: #ff6d00; }
+        footer .links a.active:active, footer .links a.active:focus {
+          color: #ed5900; }
       footer .links a:hover {
         color: rgba(255, 255, 255, 0.87); }
       footer .links a:focus, footer .links a:active {
@@ -7758,11 +7821,11 @@ footer {
         footer ul > li > hr {
           margin: 0; }
     footer .footerSubscr {
-      width: 180px;
+      width: 100%;
       margin-bottom: 45px; }
       footer .footerSubscr .form-control {
         display: inline-block;
-        width: 125px;
+        width: 127px;
         border: solid 1px rgba(255, 255, 255, 0.1);
         color: rgba(255, 255, 255, 0.3); }
     footer .footerSocial .social a {
@@ -7781,31 +7844,34 @@ footer {
           background-image: url("../img/icons/ic-copyright-black-24-px.svg"); }
         footer .footInfo .block.geo {
           background-image: url("../img/icons/ic-pin-drop-black-24-px.svg"); }
+    footer .footGov img {
+      margin-bottom: 15px; }
     footer .footGov a {
-      color: inherit;
-      display: block;
-      margin-top: 20px; }
-      footer .footGov a img {
-        margin-bottom: 15px;
-        height: 90px; }
+      color: rgba(255, 255, 255, 0.7); }
+      footer .footGov a:hover {
+        color: rgba(255, 255, 255, 0.87); }
+      footer .footGov a:focus, footer .footGov a:active {
+        color: white; }
     footer .footGov span {
       display: block; } }
 
 @media (min-width: 1400px) {
-  header .headerContent .pull-left + .pull-left {
-    margin-left: 40px; }
-  header .headerContent .pull-left.headerText {
+  header .headerContent .headerText {
     width: 350px; }
-    header .headerContent .pull-left.headerText h1 {
+    header .headerContent .headerText h1 {
       font-size: 2.57em;
       letter-spacing: 1.8px; }
-  header .headerContent .pull-left.headerLogo a img {
+  header .headerContent .headerSocial .social a {
+    margin-left: 12px; }
+  header .headerContent .headerLogo a img {
     width: 80px;
     height: 80px; }
-  header .headerContent .pull-left.headerContact a {
+  header .headerContent .headerSubscr .form-control {
+    width: 75%; }
+  header .headerContent .headerContact a {
     font-size: 20px;
     line-height: 1.2; }
-  header .headerContent .pull-left p {
+  header .headerContent p {
     font-size: 16px; }
   section.anons article .articleImg img {
     width: 212px;
@@ -7820,6 +7886,16 @@ footer {
   section.anons article .articleText h4 {
     font-size: 16px;
     line-height: 1.3; }
+  section.anons article .articleText time {
+    line-height: 1.3; }
+  section.anons.inner article .articleText h3 {
+    font-size: 20px; }
+  section.content p {
+    line-height: 1.6; }
+  .newsBlock .newsPaging a {
+    width: 308px; }
+  footer .footerSubscr .form-control {
+    width: 160px; }
   .col-max-1, .col-max-2, .col-max-3, .col-max-4, .col-max-5, .col-max-6, .col-max-7, .col-max-8, .col-max-9, .col-max-10, .col-max-11, .col-max-12 {
     float: left; }
   .col-max-1 {
@@ -7930,7 +8006,7 @@ footer {
   padding-top: 17px;
   padding-bottom: 19px; }
 
-.var2 header .headerContent .pull-left.headerText h1 {
+.var2 header .headerContent .headerText h1 {
   font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 32px;
@@ -7939,16 +8015,8 @@ footer {
   letter-spacing: normal;
   margin-bottom: 11px; }
 
-.var2 header .headerContent .pull-left.headerText p {
+.var2 header .headerContent .headerText p {
   font-size: 14px;
   line-height: 1.1; }
-
-@media (min-width: 1200px) {
-  .var2 header .headerContent .pull-left + .pull-left {
-    margin-left: 41px; } }
-
-@media (min-width: 1400px) {
-  .var2 header .headerContent .pull-left + .pull-left {
-    margin-left: 55px; } }
 
 /*# sourceMappingURL=style.css.map */

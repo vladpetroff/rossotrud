@@ -19,7 +19,7 @@
     <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/2014.01.31/classList.min.js"></script>
     <!-- Элементы форм  http://silviomoreto.github.io/bootstrap-select/-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/js/bootstrap-select.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/js/bootstrap-select.min.js"></script>
     <!-- http://masonry.desandro.com/-->
     <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
     <script src="./js/main.js" defer></script>
@@ -729,30 +729,34 @@
       </div>
       <div class="row">
         <div class="headerContent col-xs-12">
-          <div class="headerLogo pull-left"><a href="./"><img src="./img/icons/rs-logo.svg" onerror="this.onerror=null; this.src='./img/icons/rs-logo.png'"></a></div>
-          <div class="headerText pull-left">
-            <h1>Россотрудничество</h1>
-            <p>
-              Федеральное агентство по делам Содружества Независимых государств, соотечественников,
-              проживающих за рубежом, и по международному гуманитарному сотрудничеству
-              
-            </p>
-          </div>
-          <div class="headerSubscr pull-left">
-            <p><em>Подписывайтесь:</em></p>
-            <input type="email" placeholder="Ваша эл.почта" class="form-control">
-            <button type="submit" class="pull-right btn btn-warning"><strong>OK</strong></button>
-          </div>
-          <div class="headerSocial pull-left">
-            <p><em>Присоединяйтесь</em></p>
-            <div class="social"><a href="javascript:;" class="fb"></a><a href="javascript:;" class="vk"></a><a href="javascript:;" class="inst"></a><a href="javascript:;" class="yt"></a><a href="javascript:;" class="tw"></a></div>
-          </div>
-          <div class="headerContact pull-left">
-            <p><em>Обращайтесь</em></p>
-            <h2><a href="tel:+74993215499">+7 (499) 321-54-99</a></h2><a href="mailto:rossotr@rs.gov.ru">rossotr@rs.gov.ru</a>
-          </div>
-          <div class="headerMap pull-right">
-            <p><em>Представительства в мире:</em></p><a href="javascript:;"><img src="./img/icons/map.svg" onerror="this.onerror=null; this.src='./img/icons/map.png'"></a>
+          <div class="row">
+            <div class="col-xs-4">
+              <div class="headerLogo pull-left"><a href="./"><img src="./img/icons/rs-logo.svg" onerror="this.onerror=null; this.src='./img/icons/rs-logo.png'"></a></div>
+              <div class="headerText pull-left">
+                <h1>Россотрудничество</h1>
+                <p>
+                  Федеральное агентство по делам Содружества Независимых государств, соотечественников,
+                  проживающих за рубежом, и по международному гуманитарному сотрудничеству
+                  
+                </p>
+              </div>
+            </div>
+            <div class="headerSubscr col-xs-2">
+              <p><em>Подписывайтесь:</em></p>
+              <button type="submit" class="pull-right btn btn-warning"><strong>OK</strong></button>
+              <input type="email" placeholder="Ваша эл.почта" class="form-control">
+            </div>
+            <div class="headerSocial col-xs-2">
+              <p><em>Присоединяйтесь</em></p>
+              <div class="social"><a href="javascript:;" class="fb"></a><a href="javascript:;" class="vk"></a><a href="javascript:;" class="inst"></a><a href="javascript:;" class="yt"></a><a href="javascript:;" class="tw"></a></div>
+            </div>
+            <div class="headerContact col-xs-2">
+              <p><em>Обращайтесь</em></p>
+              <h2><a href="tel:+74993215499">+7 (499) 321-54-99</a></h2><a href="mailto:rossotr@rs.gov.ru">rossotr@rs.gov.ru</a>
+            </div>
+            <div class="headerMap col-xs-2">
+              <p><em>Представительства в мире:</em></p><a href="javascript:;"><img src="./img/icons/map.svg" onerror="this.onerror=null; this.src='./img/icons/map.png'"></a>
+            </div>
           </div>
         </div>
       </div>
@@ -1000,22 +1004,21 @@
                 <li><a href="anons.html">Анонсы</a></li>
               </ol>
               <h1>«Полет чайки: от Таганрога до Мадрида». Выставка документальных фотографий о жизни и творчестве А. П. Чехова</h1>
+              <h2 class="visible-xs">Год России в Испании</h2>
             </div>
           </div>
           <div class="row">
             <div class="col-sm-3 col-sm-push-9">
               <div class="side">
                 <h2>3-31 мая</h2>
-                <div class="map hidden-xs">
-                  <script type="text/javascript" charset="utf-8" async="" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=3QB8SBCEBl1VHDRZ6fT9U88EUYYpWycA&amp;width=100%&amp;height=180&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
-                </div>
+                <div class="map hidden-xs"><a href="https://yandex.ru/maps/213/moscow/?um=constructor%3A3QB8SBCEBl1VHDRZ6fT9U88EUYYpWycA&amp;source=constructor" target="_blank"><img src="img/contacts/img02.jpg" alt="Go to map"></a></div>
                 <h3>Испания, Высшая Королевская школа драматического искусства (РЕСАД)</h3>
                 <p>28009 Испания, Мадрид, Авенида де Назарет, 2</p>
                 <p>Avenida de Nazaret 2. 28009 Madrid, España</p><a href="javascript:;" class="visible-xs">Посмотреть на карте</a>
               </div>
             </div>
             <div class="col-sm-8 col-sm-pull-3 col-xs-12 col-sm-offset-1">
-              <h2>Год России в Испании</h2><img src="./img/news/2016-02-11/img01.png">
+              <h2 class="hidden-xs">Год России в Испании</h2><img src="./img/news/2016-02-11/img01.png">
               <h5>А. П. Чехов <br><em>Фотография К. Шульца. 1980-е годы</em></h5>
               <p>С 3 по 31 мая в Высшей Королевской школе драматического искусства (РЕСАД) в Мадриде пройдет выставка документальных фотографий «Полет чайки: от Таганрога до Мадрида» о жизни и творчестве русского писателя, прозаика, драматурга Антона Павловича Чехова.</p>
               <p>Организаторы — Высшая Королевская школа драматического искусства (РЕСАД), представительство Россотрудничества в Испании и Ассоциация студентов и выпускников российских вузов «Аэлерус».</p>
@@ -1031,12 +1034,10 @@
           </div>
           <div class="row newsPaging">
             <div class="hidden-xs">
-              <div class="col-sm-3 col-sm-offset-1 prev">
-                <p>Предыдущая</p><a href="javascript:;">«У войны не женское лицо». <br>Торжественный вечер</a>
-              </div>
-              <div class="col-sm-3 col-sm-offset-2 next">
-                <p>Следующая</p><a href="javascript:;">«Дорогами войны». Фотовыставка</a>
-              </div>
+              <div class="col-sm-4 col-sm-offset-1 prev"><a href="javascript:;">
+                  <p>Предыдущий анонс</p><span>«У войны не женское лицо». <br>Торжественный вечер</span></a></div>
+              <div class="col-sm-4 next"><a href="javascript:;">
+                  <p>Следующий анонс</p><span>«Дорогами войны». Фотовыставка</span></a></div>
             </div>
             <div class="visible-xs">
               <div class="col-xs-6 prev"><a href="javascript:;">Предыдущий анонс</a></div>
@@ -1084,7 +1085,7 @@
           </ul>
         </div>
         <div class="col-sm-2">
-          <h4><a href="anons.html">Анонсы</a></h4>
+          <h4><a href="anons.html" class="active">Анонсы</a></h4>
           <ul>
             <li><a href="javascript:;">Кино</a></li>
             <li><a href="javascript:;">Выставки</a></li>
@@ -1120,14 +1121,14 @@
           <ul>
             <li><a href="contacts_center.html">Центральный аппарат</a></li>
             <li><a href="contacts_inworld.html">Представительства в мире</a></li>
-            <li><a href="contacts_callback">Написать обращение</a></li>
+            <li><a href="contacts_callback.html">Написать обращение</a></li>
           </ul>
         </div>
         <div class="col-sm-2">
           <h4>Подписывайтесь:</h4>
           <div class="footerSubscr">
-            <input type="email" placeholder="Ваша эл.почта" class="form-control">
             <button type="submit" class="pull-right btn btn-warning"><strong>OK</strong></button>
+            <input type="email" placeholder="Ваша эл.почта" class="form-control">
           </div>
           <div class="footerSocial">
             <h4>И присоединяйтесь:</h4>
@@ -1162,9 +1163,9 @@
         </div>
         <div class="col-xs-6 col-xs-offset-1 footGov">
           <div class="row">
-            <div class="col-xs-4 text-center"><a href="javascript:;"><img src="./img/icons/kremlin-ru-logo.svg" alt="facebook" onerror="this.onerror=null; this.src='./img/icons/kremlin-ru-logo.png'"><span>Президент России</span></a></div>
-            <div class="col-xs-4 text-center"><a href="javascript:;"><img src="./img/icons/govenrment-logo.svg" alt="facebook" onerror="this.onerror=null; this.src='./img/icons/govenrment-logo.png'"><span>Правительство Российской Федерации</span></a></div>
-            <div class="col-xs-4 text-center"><a href="javascript:;"><img src="./img/icons/mid-logo.svg" alt="facebook" onerror="this.onerror=null; this.src='./img/icons/mid-logo-logo.png'"><span>Министерство иностранных дел</span></a></div>
+            <div class="col-xs-4 text-center"><a href="javascript:;"><img src="./img/icons/kremlin-ru-logo.png" alt=""><span>Президент России</span></a></div>
+            <div class="col-xs-4 text-center"><a href="javascript:;"><img src="./img/icons/govenrment-logo.png" alt=""><span>Правительство Российской Федерации</span></a></div>
+            <div class="col-xs-4 text-center"><a href="javascript:;"><img src="./img/icons/mid-logo.png" alt=""><span>Министерство иностранных дел</span></a></div>
           </div>
         </div>
       </div>

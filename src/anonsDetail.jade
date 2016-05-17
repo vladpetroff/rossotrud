@@ -253,20 +253,21 @@ block content
 								li: a(href="anons.html") Анонсы
 
 							h1 «Полет чайки: от Таганрога до Мадрида». Выставка документальных фотографий о жизни и творчестве А. П. Чехова
-
+							h2.visible-xs Год России в Испании
 					.row
 						.col-sm-3.col-sm-push-9
 							.side
 								h2 3-31 мая
 								.map.hidden-xs
-									script(type='text/javascript', charset='utf-8', async='', src='https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=3QB8SBCEBl1VHDRZ6fT9U88EUYYpWycA&width=100\%&height=180&lang=ru_RU&sourceType=constructor&scroll=true')
+									a(href="https://yandex.ru/maps/213/moscow/?um=constructor%3A3QB8SBCEBl1VHDRZ6fT9U88EUYYpWycA&source=constructor", target="_blank")
+										img(src="img/contacts/img02.jpg" alt="Go to map")
 								h3 Испания, Высшая Королевская школа драматического искусства (РЕСАД)
 								p 28009 Испания, Мадрид, Авенида де Назарет, 2
 								p Avenida de Nazaret 2. 28009 Madrid, España
 								a(href="javascript:;").visible-xs Посмотреть на карте
 
 						.col-sm-8.col-sm-pull-3.col-xs-12.col-sm-offset-1
-							h2 Год России в Испании
+							h2.hidden-xs Год России в Испании
 							img(src="./img/news/2016-02-11/img01.png")
 							h5 А. П. Чехов #[br]#[em Фотография К. Шульца. 1980-е годы]
 							p С 3 по 31 мая в Высшей Королевской школе драматического искусства (РЕСАД) в Мадриде пройдет выставка документальных фотографий «Полет чайки: от Таганрога до Мадрида» о жизни и творчестве русского писателя, прозаика, драматурга Антона Павловича Чехова.
@@ -290,12 +291,14 @@ block content
 
 					.row.newsPaging
 						.hidden-xs
-							.col-sm-3.col-sm-offset-1.prev
-								p Предыдущая
-								a(href="javascript:;") «У войны не женское лицо». #[br]Торжественный вечер
-							.col-sm-3.col-sm-offset-2.next
-								p Следующая
-								a(href="javascript:;") «Дорогами войны». Фотовыставка
+							.col-sm-4.col-sm-offset-1.prev
+								a(href="javascript:;")
+									p Предыдущий анонс
+									span «У войны не женское лицо». #[br]Торжественный вечер
+							.col-sm-4.next
+								a(href="javascript:;")
+									p Следующий анонс
+									span «Дорогами войны». Фотовыставка
 
 						.visible-xs
 							.col-xs-6.prev
@@ -305,4 +308,130 @@ block content
 
 
 
-	include includes/_footer
+	footer.row.visible-xs
+		.col-xs-12
+			h4 Присоединяйтесь к нам #[br]в социальных сетях:
+			.social
+				a(href="javascript:;").fb
+				a(href="javascript:;").vk
+				a(href="javascript:;").inst
+				a(href="javascript:;").yt
+				a(href="javascript:;").tw
+
+				hr
+			p: img(src="./img/icons/ic-copyright-black-24-px.svg", alt="facebook" onerror="this.onerror=null; this.src='./img/icons/ic-copyright-black-24-px.png'")
+
+			p Федеральное агентство по делам Содружества Независимых государств, соотечественников, проживающих за рубежом, и по международному гуманитарному сотрудничеству, 2016
+
+
+	footer.hidden-xs
+		.container
+			.row.links
+				.col-sm-2
+					h4: a(href="about.html") О Россотрудничестве
+					ul
+						li: a(href="about_programs.html") Государственные программы
+						li: a(href="about_structure.html") Структура
+						li: a(href="about_manage.html") Руководство
+						li: a(href="javascript:;") История
+
+				.col-sm-2
+					h4: a(href="activity.html") Деятельность
+					ul
+						li: a(href="javascript:;") Содействие международному развитию
+						li: a(href="javascript:;") Общественная дипломатия
+						li: a(href="activity_russianCulture.html") Продвижение русской культуры
+						li: a(href="javascript:;") Поддержка соотечественников
+						li: a(href="javascript:;") Укрепление позиций русского языка
+						li: a(href="javascript:;") Образование и наука
+						li: a(href="javascript:;") Сохранение историко-мемориальных памятников и мест погребения
+						li: a(href="javascript:;") Международные связи субъектов РФ
+						li: a(href="javascript:;") Интеграция стран СНГ
+
+				.col-sm-2
+					h4: a(href="anons.html").active Анонсы
+					ul
+						li: a(href="javascript:;") Кино
+						li: a(href="javascript:;") Выставки
+						li: a(href="javascript:;") Концерты
+						li: a(href="javascript:;") Спектакли
+						li: a(href="javascript:;") Конференции
+						li: a(href="javascript:;") Семинары
+						li: a(href="javascript:;") Конкурсы
+						li: a(href="javascript:;") Творческие встречи
+						li: a(href="javascript:;") Конференции
+
+				.col-sm-2
+					h4: a(href="news.html") Новости
+					ul
+						li: a(href="javascript:;") Россия
+						li: a(href="javascript:;") СНГ
+						li: a(href="javascript:;") Мир
+						li: a(href="javascript:;") Образование
+						li: a(href="javascript:;") Наука и техника
+						li: a(href="javascript:;") Культура
+						li: a(href="javascript:;") Общество
+						li: a(href="javascript:;") Русский язык
+						li: a(href="javascript:;") Народная дипломатия
+						li: hr
+						li: a(href="javascript:;") Все темы
+
+				.col-sm-2
+					h4: a(href="contacts.html") Контакты
+					ul
+						li: a(href="contacts_center.html") Центральный аппарат
+						li: a(href="contacts_inworld.html") Представительства в мире
+						li: a(href="contacts_callback.html") Написать обращение
+
+				.col-sm-2
+					h4 Подписывайтесь:
+					.footerSubscr
+						button(type="submit").pull-right.btn.btn-warning: strong OK
+						input(type="email", placeholder="Ваша эл.почта").form-control
+
+					.footerSocial
+						h4 И присоединяйтесь:
+						.social
+							a(href="javascript:;").fb
+							a(href="javascript:;").vk
+							a(href="javascript:;").inst
+							a(href="javascript:;").yt
+							a(href="javascript:;").tw
+
+			.row
+				.col-xs-12
+					hr
+				.col-xs-5.footInfo
+					.block.err
+						p.
+							Нашли опечатку? #[br]
+							Сообщите нам, выделив текст с ошибкой и нажав Ctrl+Enter
+
+					.block.copy
+						p.
+							Федеральное агентство по делам Содружества Независимых государств, соотечественников, проживающих за рубежом, и по международному гуманитарному сотрудничеству, 2016
+
+					.block.geo
+						p.
+							125009, Москва, ул. Воздвиженка, д. 18/9 #[br]
+							Эл. почта: #[a(href="mailto:rossotr@rs.gov.ru") rossotr@rs.gov.ru] #[br]
+							#[a(href="contacts.html") Контактная информация]
+
+				.col-xs-6.col-xs-offset-1.footGov
+					.row
+						.col-xs-4.text-center
+							a(href="javascript:;")
+								img(src="./img/icons/kremlin-ru-logo.png", alt="")
+								span Президент России
+
+						.col-xs-4.text-center
+							a(href="javascript:;")
+								img(src="./img/icons/govenrment-logo.png", alt="")
+								span Правительство Российской Федерации
+
+						.col-xs-4.text-center
+							a(href="javascript:;")
+								img(src="./img/icons/mid-logo.png", alt="")
+								span Министерство иностранных дел
+
+
