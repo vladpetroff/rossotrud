@@ -89,10 +89,13 @@
 		var scrolled = window.pageYOffset || document.documentElement.scrollTop;
 		if(scrolled >= navOffset) {
 			navDesktop.classList.add('fixed-nav');
+			$('.navbar-desktop .navbarLine').addClass('container');
 		} else {
 			navDesktop.classList.remove('fixed-nav');
+			$('.navbar-desktop .navbarLine').removeClass('container');
 		}
 	};
+
 	// search line
 	$('.navbar.navbar-default .search').click(function(){
 		$('.navbar.navbar-default .searchField').animate({
@@ -103,7 +106,7 @@
 	});
 	$('.navbar.navbar-desktop .search').click(function(){
 		$('.navbar.navbar-desktop .searchField').animate({
-			left: '18px'
+			left: '0px'
 		}, 50);
 		//console.log( document.body.clientWidth );
 		//if(document.body.clientWidth >= 1190 && document.body.clientWidth < 1390) {

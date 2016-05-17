@@ -3773,7 +3773,7 @@ tbody.collapse.in {
     line-height: 18px;
     height: 18px;
     width: 18px;
-    margin: 18px 16px; }
+    margin: 18px 20px; }
     .navbar a.search img {
       width: 100%;
       height: auto;
@@ -4187,15 +4187,20 @@ tbody.collapse.in {
       color: #ccc;
       background-color: transparent; } }
   .navbar-default .searchField {
+    overflow: hidden;
     position: absolute;
     top: 0px;
     bottom: 0px;
     left: 100%;
-    right: 10px; }
+    right: 13px; }
     .navbar-default .searchField .input-group {
       height: 36px;
       margin: 8px 0;
-      border: 1px solid #ff6d00; }
+      border: 1px solid #ff6d00;
+      border-top-right-radius: 2px;
+      border-bottom-right-radius: 2px;
+      border-top-left-radius: 2px;
+      border-bottom-left-radius: 2px; }
       .navbar-default .searchField .input-group .form-control {
         height: 36px;
         background: #fff;
@@ -4294,7 +4299,9 @@ tbody.collapse.in {
   margin-bottom: 15px; }
   .navbar-desktop > .container {
     overflow: hidden;
-    padding: 0; }
+    padding: 0;
+    border-left: 4px solid #f5f5f5;
+    border-right: 4px solid #f5f5f5; }
   .navbar-desktop .navbar-nav > li {
     border-bottom: 3px solid transparent; }
     .navbar-desktop .navbar-nav > li.active {
@@ -4319,17 +4326,21 @@ tbody.collapse.in {
         background: none !important; }
       .navbar-desktop .navbar-nav > li > a:active {
         color: #ed5900 !important; }
+  .navbar-desktop .navbarLine .col-xs-12 {
+    padding: 0; }
   .navbar-desktop .searchField {
+    overflow: hidden;
     position: absolute;
     top: 0px;
     bottom: 0px;
     left: 100%;
-    right: 9px; }
+    right: 0px; }
     .navbar-desktop .searchField .input-group {
       height: 36px;
       margin: 9px 0;
       border: 1px solid #ff6d00;
-      border-radius: 2px; }
+      border-radius: 2px;
+      margin-left: 2px; }
       .navbar-desktop .searchField .input-group .form-control {
         height: 36px;
         background: #fff;
