@@ -4205,6 +4205,7 @@ tbody.collapse.in {
       border-top-left-radius: 2px;
       border-bottom-left-radius: 2px; }
       .navbar-default .searchField .input-group .form-control {
+        border: none;
         height: 36px;
         background: #fff;
         color: rgba(0, 0, 0, 0.9); }
