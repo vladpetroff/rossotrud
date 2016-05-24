@@ -3773,7 +3773,7 @@ tbody.collapse.in {
     line-height: 18px;
     height: 18px;
     width: 18px;
-    margin: 18px 20px; }
+    margin: 19px 16px auto; }
     .navbar a.search img {
       width: 100%;
       height: auto;
@@ -3872,7 +3872,9 @@ tbody.collapse.in {
 
 .navbar-fixed-top {
   top: 0;
-  border-width: 0 0 1px; }
+  border-width: 0 0 1px;
+  width: 100%;
+  max-width: 100%; }
 
 .navbar-fixed-bottom {
   bottom: 0;
@@ -4188,11 +4190,12 @@ tbody.collapse.in {
       background-color: transparent; } }
   .navbar-default .searchField {
     overflow: hidden;
+    display: none;
     position: absolute;
     top: 0px;
     bottom: 0px;
-    left: 100%;
-    right: 13px; }
+    left: 0;
+    right: 0px; }
     .navbar-default .searchField .input-group {
       height: 36px;
       margin: 8px 0;
@@ -4326,14 +4329,17 @@ tbody.collapse.in {
         background: none !important; }
       .navbar-desktop .navbar-nav > li > a:active {
         color: #ed5900 !important; }
+  .navbar-desktop .navbarLine.container {
+    position: relative; }
   .navbar-desktop .navbarLine .col-xs-12 {
     padding: 0; }
   .navbar-desktop .searchField {
     overflow: hidden;
+    display: none;
     position: absolute;
     top: 0px;
     bottom: 0px;
-    left: 100%;
+    left: 0;
     right: 0px; }
     .navbar-desktop .searchField .input-group {
       height: 36px;
@@ -4368,6 +4374,10 @@ aside {
           color: #ed5900; }
         aside .navbar-default .navbar-nav li a {
           line-height: 1.4; }
+
+@media (max-width: 768px) {
+  .navbar a.search {
+    margin: 18px 7px auto; } }
 
 .breadcrumb {
   padding: 8px 0px;

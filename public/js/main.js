@@ -148,51 +148,57 @@
 
 		// search line
 		$('.navbar.navbar-default .search').click(function () {
-			$('.navbar.navbar-default .searchField').animate({
-				left: '0px'
-			}, 50);
+			$('.navbar.navbar-default .searchField').toggle();
 			document.querySelector('.navbar.navbar-default .searchField input.form-control').focus();
 			return false;
 		});
 		$('.navbar.navbar-desktop .search').click(function () {
-			$('.navbar.navbar-desktop .searchField').animate({
-				left: '0px'
-			}, 50);
-			//console.log( document.body.clientWidth );
-			//if(document.body.clientWidth >= 1190 && document.body.clientWidth < 1390) {
-			//	$('.navbar.navbar-desktop .searchField').animate({
-			//		left: '80px'
-			//	}, 50);
-			//}
-			//if(document.body.clientWidth >= 1390) {
-			//	$('.navbar.navbar-desktop .searchField').animate({
-			//		left: '115px'
-			//	}, 50);
-			//}
-			//if(document.body.clientWidth < 1190) {
-			//	$('.navbar.navbar-desktop .searchField').animate({
-			//		left: '0px'
-			//	}, 50);
-			//}
+			$('.navbar.navbar-desktop .searchField').toggle();
 			document.querySelector('.navbar.navbar-desktop .searchField input.form-control').focus();
 			return false;
 		});
 		$('body').click(function (evt) {
-			if ($('.navbar.navbar-desktop .searchField').css('left') !== '100%') {
+			if ($('.navbar.navbar-desktop .searchField').css('display') !== 'none') {
 				if (evt.target.nodeName !== document.querySelector('.navbar.navbar-desktop .searchField input.form-control').nodeName) {
-					$('.navbar.navbar-desktop .searchField').animate({
-						left: '100%'
-					}, 50);
+					$('.navbar.navbar-desktop .searchField').toggle();
 				}
 			}
-			if ($('.navbar.navbar-default .searchField').css('left') !== '100%') {
+			if ($('.navbar.navbar-default .searchField').css('display') !== 'none') {
 				if (evt.target.nodeName !== document.querySelector('.navbar.navbar-default .searchField input.form-control').nodeName) {
-					$('.navbar.navbar-default .searchField').animate({
-						left: '100%'
-					}, 50);
+					$('.navbar.navbar-default .searchField').toggle();
 				}
 			}
 		});
+		//$('.navbar.navbar-default .search').click(function(){
+		//	$('.navbar.navbar-default .searchField').animate({
+		//		left: '0px'
+		//	}, 50);
+		//	document.querySelector('.navbar.navbar-default .searchField input.form-control').focus();
+		//	return false;
+		//});
+		//$('.navbar.navbar-desktop .search').click(function(){
+		//	$('.navbar.navbar-desktop .searchField').animate({
+		//		left: '0px'
+		//	}, 50);
+		//	document.querySelector('.navbar.navbar-desktop .searchField input.form-control').focus();
+		//	return false;
+		//});
+		//$('body').click(function(evt){
+		//	if( ($('.navbar.navbar-desktop .searchField').css('left') !== '100%')) {
+		//		if(evt.target.nodeName !== document.querySelector('.navbar.navbar-desktop .searchField input.form-control').nodeName) {
+		//			$('.navbar.navbar-desktop .searchField').animate({
+		//				left: '100%'
+		//			}, 50);
+		//		}
+		//	}
+		//	if( ($('.navbar.navbar-default .searchField').css('left') !== '100%')) {
+		//		if(evt.target.nodeName !== document.querySelector('.navbar.navbar-default .searchField input.form-control').nodeName) {
+		//			$('.navbar.navbar-default .searchField').animate({
+		//				left: '100%'
+		//			}, 50);
+		//		}
+		//	}
+		//});
 
 		// show/hide representative block
 		$('.headerRegion .repres').click(function () {
