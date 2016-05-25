@@ -2,264 +2,19 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/css/style.scss" line="177" />
-    <bookmark url="file://$PROJECT_DIR$/src/css/style.scss" line="1593" />
-    <bookmark url="file://$PROJECT_DIR$/src/css/style.scss" line="2649" />
-    <bookmark url="file://$PROJECT_DIR$/src/css/style.scss" line="1512" />
+    <bookmark url="file://$PROJECT_DIR$/src/css/style.scss" line="1597" />
+    <bookmark url="file://$PROJECT_DIR$/src/css/style.scss" line="2653" />
+    <bookmark url="file://$PROJECT_DIR$/src/css/style.scss" line="1516" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="180f8dba-ce0c-47eb-810f-0b25527b4cfd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/fb-active.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/fb-active.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/fb-active@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/fb-active@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/fb-hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/fb-hover.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/fb-hover@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/fb-hover@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/fb-white-active.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/fb-white-active.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/fb-white-active@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/fb-white-active@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/fb-white-hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/fb-white-hover.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/fb-white-hover@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/fb-white-hover@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/fb-white@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/fb-white@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/fb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/fb.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/fb@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/fb@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/ic-search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/ic-search.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/ic-search@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/ic-search@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/inst-active.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/inst-active.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/inst-active@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/inst-active@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/inst-hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/inst-hover.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/inst-hover@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/inst-hover@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/inst-white-active.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/inst-white-active.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/inst-white-active@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/inst-white-active@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/inst-white-hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/inst-white-hover.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/inst-white-hover@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/inst-white-hover@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/inst-white@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/inst-white@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/inst.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/inst.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/inst@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/inst@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/radio-off-disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/radio-off-disabled.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/radio-off-disabled@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/radio-off-disabled@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/radio-off.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/radio-off.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/radio-off@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/radio-off@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/radio-on-disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/radio-on-disabled.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/radio-on-disabled@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/radio-on-disabled@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/radio-on.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/radio-on.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/radio-on@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/radio-on@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/tw-active.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/tw-active.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/tw-active@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/tw-active@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/tw-hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/tw-hover.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/tw-hover@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/tw-hover@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/tw-white-active.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/tw-white-active.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/tw-white-active@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/tw-white-active@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/tw-white-hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/tw-white-hover.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/tw-white-hover@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/tw-white-hover@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/tw-white@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/tw-white@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/tw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/tw.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/tw@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/tw@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/vk-active.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/vk-active.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/vk-active@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/vk-active@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/vk-hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/vk-hover.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/vk-hover@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/vk-hover@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/vk-white-active.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/vk-white-active.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/vk-white-active@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/vk-white-active@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/vk-white-hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/vk-white-hover.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/vk-white-hover@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/vk-white-hover@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/vk-white@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/vk-white@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/vk.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/vk.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/vk@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/vk@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/yt-active.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/yt-active.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/yt-active@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/yt-active@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/yt-hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/yt-hover.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/yt-hover@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/yt-hover@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/yt-white-active.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/yt-white-active.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/yt-white-active@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/yt-white-active@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/yt-white-hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/yt-white-hover.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/yt-white-hover@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/yt-white-hover@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/yt-white@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/yt-white@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/yt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/yt.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/yt@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/icons/social/yt@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/fb-active.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/fb-active.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/fb-active@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/fb-active@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/fb-hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/fb-hover.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/fb-hover@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/fb-hover@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/fb-white-active.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/fb-white-active.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/fb-white-active@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/fb-white-active@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/fb-white-hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/fb-white-hover.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/fb-white-hover@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/fb-white-hover@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/fb-white@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/fb-white@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/fb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/fb.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/fb@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/fb@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/ic-search.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/ic-search.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/ic-search@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/ic-search@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/inst-active.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/inst-active.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/inst-active@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/inst-active@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/inst-hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/inst-hover.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/inst-hover@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/inst-hover@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/inst-white-active.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/inst-white-active.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/inst-white-active@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/inst-white-active@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/inst-white-hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/inst-white-hover.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/inst-white-hover@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/inst-white-hover@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/inst-white@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/inst-white@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/inst.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/inst.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/inst@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/inst@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/tw-active.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/tw-active.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/tw-active@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/tw-active@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/tw-hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/tw-hover.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/tw-hover@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/tw-hover@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/tw-white-active.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/tw-white-active.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/tw-white-active@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/tw-white-active@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/tw-white-hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/tw-white-hover.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/tw-white-hover@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/tw-white-hover@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/tw-white@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/tw-white@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/tw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/tw.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/tw@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/tw@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/vk-active.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/vk-active.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/vk-active@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/vk-active@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/vk-hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/vk-hover.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/vk-hover@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/vk-hover@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/vk-white-active.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/vk-white-active.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/vk-white-active@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/vk-white-active@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/vk-white-hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/vk-white-hover.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/vk-white-hover@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/vk-white-hover@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/vk-white@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/vk-white@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/vk.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/vk.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/vk@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/vk@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/yt-active.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/yt-hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/yt-hover.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/yt-white-active.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/yt-white-active.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/yt-white-hover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/yt-white-hover.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/yt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/icons/social/yt.svg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/icons/social/tw-white.png" afterPath="$PROJECT_DIR$/public/img/icons/social/tw-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/icons/social/yt-white.png" afterPath="$PROJECT_DIR$/public/img/icons/social/yt-white.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/manage/Zhivihina.png" afterPath="$PROJECT_DIR$/public/img/manage/Zhivihina.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/social/tw-white.png" afterPath="$PROJECT_DIR$/src/img/icons/social/tw-white.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/social/yt-white.png" afterPath="$PROJECT_DIR$/src/img/icons/social/yt-white.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/anons.html" afterPath="$PROJECT_DIR$/public/anons.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css.map" afterPath="$PROJECT_DIR$/public/css/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/icons/social/fb-white.svg" afterPath="$PROJECT_DIR$/public/img/icons/social/fb-white.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/icons/social/inst-white.svg" afterPath="$PROJECT_DIR$/public/img/icons/social/inst-white.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/icons/social/vk-white.svg" afterPath="$PROJECT_DIR$/public/img/icons/social/vk-white.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/anons.jade" afterPath="$PROJECT_DIR$/src/anons.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss" afterPath="$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/main.js" afterPath="$PROJECT_DIR$/public/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/style.scss" afterPath="$PROJECT_DIR$/src/css/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/social/fb-white.svg" afterPath="$PROJECT_DIR$/src/img/icons/social/fb-white.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/social/inst-white.svg" afterPath="$PROJECT_DIR$/src/img/icons/social/inst-white.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/social/tw-white.svg" afterPath="$PROJECT_DIR$/src/img/icons/social/tw-white.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/social/vk-white.svg" afterPath="$PROJECT_DIR$/src/img/icons/social/vk-white.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/img/icons/social/yt-white.svg" afterPath="$PROJECT_DIR$/src/img/icons/social/yt-white.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/includes/template.jade" afterPath="$PROJECT_DIR$/src/includes/template.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/main.js" afterPath="$PROJECT_DIR$/src/js/main.js" />
     </list>
     <ignored path="rossotrud.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -281,11 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.scss" pinned="true" current-in-tab="false">
+      <file leaf-file-name="style.scss" pinned="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.6166667">
-              <caret line="1539" column="9" selection-start-line="1539" selection-start-column="9" selection-end-line="1539" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.4608">
+              <caret line="273" column="26" selection-start-line="273" selection-start-column="26" selection-end-line="273" selection-end-column="26" />
               <folding>
                 <element signature="e#656#1381#0" expanded="false" />
                 <element signature="e#1770#3042#0" expanded="false" />
@@ -293,26 +48,17 @@
                 <element signature="e#2040#3040#0" expanded="false" />
                 <element signature="e#2347#2723#0" expanded="false" />
                 <element signature="e#3397#4900#0" expanded="false" />
-                <element signature="e#6955#8976#0" expanded="false" />
-                <element signature="e#7199#7397#0" expanded="false" />
-                <element signature="e#7416#8614#0" expanded="false" />
-                <element signature="e#9583#9958#0" expanded="false" />
-                <element signature="e#19451#19528#0" expanded="false" />
-                <element signature="e#19542#20064#0" expanded="false" />
-                <element signature="e#20646#21606#0" expanded="false" />
-                <element signature="e#31814#32028#0" expanded="false" />
-                <element signature="e#51407#51901#0" expanded="false" />
+                <element signature="e#7048#9069#0" expanded="false" />
+                <element signature="e#7292#7490#0" expanded="false" />
+                <element signature="e#7509#8707#0" expanded="false" />
+                <element signature="e#9676#10051#0" expanded="false" />
+                <element signature="e#19544#19621#0" expanded="false" />
+                <element signature="e#19635#20157#0" expanded="false" />
+                <element signature="e#20739#21699#0" expanded="false" />
+                <element signature="e#31907#32121#0" expanded="false" />
+                <element signature="e#33005#34488#0" expanded="false" />
+                <element signature="e#51500#51994#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_forms.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.586207">
-              <caret line="131" column="22" selection-start-line="131" selection-start-column="22" selection-end-line="131" selection-end-column="22" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -320,20 +66,8 @@
       <file leaf-file-name="_navbar.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0">
-              <caret line="760" column="0" selection-start-line="760" selection-start-column="0" selection-end-line="760" selection-end-column="0" />
-              <folding>
-                <element signature="e#16070#18988#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.jade" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/includes/template.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16241299">
-              <caret line="7" column="89" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="89" />
+            <state vertical-scroll-proportion="-3.9833333">
+              <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -342,8 +76,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="109" column="11" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="11" />
+            <state vertical-scroll-proportion="-12.83871">
+              <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -352,8 +86,8 @@
       <file leaf-file-name="_variables.scss" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.45">
-              <caret line="207" column="51" selection-start-line="207" selection-start-column="51" selection-end-line="207" selection-end-column="51" />
+            <state vertical-scroll-proportion="-3.4666667">
+              <caret line="394" column="38" selection-start-line="394" selection-start-column="38" selection-end-line="394" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -423,14 +157,14 @@
         <option value="$PROJECT_DIR$/src/index_var2.jade" />
         <option value="$PROJECT_DIR$/src/news.jade" />
         <option value="$PROJECT_DIR$/src/newsDetail.jade" />
-        <option value="$PROJECT_DIR$/src/js/main.js" />
-        <option value="$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss" />
-        <option value="$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss" />
         <option value="$PROJECT_DIR$/src/anons.jade" />
-        <option value="$PROJECT_DIR$/src/css/style.scss" />
         <option value="$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss" />
         <option value="$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_forms.scss" />
         <option value="$PROJECT_DIR$/src/includes/template.jade" />
+        <option value="$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss" />
+        <option value="$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss" />
+        <option value="$PROJECT_DIR$/src/js/main.js" />
+        <option value="$PROJECT_DIR$/src/css/style.scss" />
       </list>
     </option>
   </component>
@@ -445,7 +179,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="904" />
+    <option name="width" value="856" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -681,17 +415,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="904" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="856" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3127962" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24812031" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15426695" sideWeight="0.503876" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33150986" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22100656" sideWeight="0.49612403" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22100656" sideWeight="0.49612403" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -972,14 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contacts_callback.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="153" column="0" selection-start-line="135" selection-start-column="8" selection-end-line="153" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/contacts_center.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1045,14 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="109" column="11" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/includes/_footer.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1069,53 +787,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0">
-          <caret line="760" column="0" selection-start-line="760" selection-start-column="0" selection-end-line="760" selection-end-column="0" />
-          <folding>
-            <element signature="e#16070#18988#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.45">
-          <caret line="207" column="51" selection-start-line="207" selection-start-column="51" selection-end-line="207" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/anons.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.83871">
           <caret line="292" column="134" selection-start-line="292" selection-start-column="134" selection-end-line="292" selection-end-column="134" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6166667">
-          <caret line="1539" column="9" selection-start-line="1539" selection-start-column="9" selection-end-line="1539" selection-end-column="9" />
-          <folding>
-            <element signature="e#656#1381#0" expanded="false" />
-            <element signature="e#1770#3042#0" expanded="false" />
-            <element signature="e#1966#2025#0" expanded="false" />
-            <element signature="e#2040#3040#0" expanded="false" />
-            <element signature="e#2347#2723#0" expanded="false" />
-            <element signature="e#3397#4900#0" expanded="false" />
-            <element signature="e#6955#8976#0" expanded="false" />
-            <element signature="e#7199#7397#0" expanded="false" />
-            <element signature="e#7416#8614#0" expanded="false" />
-            <element signature="e#9583#9958#0" expanded="false" />
-            <element signature="e#19451#19528#0" expanded="false" />
-            <element signature="e#19542#20064#0" expanded="false" />
-            <element signature="e#20646#21606#0" expanded="false" />
-            <element signature="e#31814#32028#0" expanded="false" />
-            <element signature="e#51407#51901#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1137,9 +813,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/includes/template.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16241299">
-          <caret line="7" column="89" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="89" />
+        <state vertical-scroll-proportion="0.35036495">
+          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contacts_callback.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="136" column="19" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.4666667">
+          <caret line="394" column="38" selection-start-line="394" selection-start-column="38" selection-end-line="394" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9833333">
+          <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.83871">
+          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4608">
+          <caret line="273" column="26" selection-start-line="273" selection-start-column="26" selection-end-line="273" selection-end-column="26" />
+          <folding>
+            <element signature="e#656#1381#0" expanded="false" />
+            <element signature="e#1770#3042#0" expanded="false" />
+            <element signature="e#1966#2025#0" expanded="false" />
+            <element signature="e#2040#3040#0" expanded="false" />
+            <element signature="e#2347#2723#0" expanded="false" />
+            <element signature="e#3397#4900#0" expanded="false" />
+            <element signature="e#7048#9069#0" expanded="false" />
+            <element signature="e#7292#7490#0" expanded="false" />
+            <element signature="e#7509#8707#0" expanded="false" />
+            <element signature="e#9676#10051#0" expanded="false" />
+            <element signature="e#19544#19621#0" expanded="false" />
+            <element signature="e#19635#20157#0" expanded="false" />
+            <element signature="e#20739#21699#0" expanded="false" />
+            <element signature="e#31907#32121#0" expanded="false" />
+            <element signature="e#33005#34488#0" expanded="false" />
+            <element signature="e#51500#51994#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

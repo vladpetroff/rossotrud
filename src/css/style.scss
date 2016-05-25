@@ -269,12 +269,16 @@ section{
       .news{
         padding: 16px;
         border-radius: 2px;
+        background-color:#fff;
         &:hover{
           cursor: pointer;
           background-color:$orange-lighter;
         }
         &:active{
           background-color: $orange-light;
+        }
+        &:visited{
+          background-color:#fff;
         }
         + .news{
           margin-top: 4px;

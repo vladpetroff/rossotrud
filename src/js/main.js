@@ -96,6 +96,17 @@
 		}
 	};
 
+
+	//collapse menu
+	$('.navbar-default #navbar-collapsed').on('shown.bs.collapse', function () {
+		var docHeight =  document.documentElement.clientHeight;
+		var navLineHeight = document.querySelector('.navbar-default.visible-xs .navbar-header').offsetHeight;
+		var menuHeight = docHeight - navLineHeight;
+		$('.navbar-default #navbar-collapsed').height(menuHeight);
+	});
+
+
+
 	// search line
 	$('.navbar.navbar-default .search').click(function(){
 		$('.navbar.navbar-default .searchField').toggle();
