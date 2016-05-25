@@ -39,8 +39,10 @@
       width:18px;
       height:18px;
       margin-left: -18px;
-      background-color:transparent;
-      border-color: #010101;
+      //background-color:transparent;
+      //border-color: #010101;
+      border:none;
+      background-image: url('../img/icons/form/check-off.svg');
     }
     label::after{
       width:18px;
@@ -56,9 +58,14 @@
       }
       &:checked{
         + label::before{
-          background-color:$orange;
-          border-color: $orange;
-          outline-color: $orange;
+          //background-color:$orange;
+          //border-color: $orange;
+          //outline-color: $orange;
+          border:none;
+          background: url('../img/icons/form/check-on.svg');
+        }
+        + label::after {
+          content: '';
         }
       }
       &:disabled {
@@ -270,15 +277,12 @@ section{
         padding: 16px;
         border-radius: 2px;
         background-color:#fff;
-        //&:hover{
-        //  cursor: pointer;
-        //  background-color:$orange-lighter;
-        //}
+        &:hover{
+          cursor: pointer;
+          background-color:$orange-lighter;
+        }
         &:active{
           background-color: $orange-light;
-        }
-        &:visited{
-          background-color:#fff;
         }
         + .news{
           margin-top: 4px;

@@ -4105,7 +4105,7 @@ tbody.collapse.in {
         height: 24px;
         box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.27); }
       .navbar-default .lang a + a {
-        margin-left: 11px; }
+        margin-left: 8px; }
       .navbar-default .lang a.active img {
         border-color: rgba(255, 109, 0, 0.3); }
   .navbar-default .navbar-nav {
@@ -6150,8 +6150,8 @@ button.close {
   width: 18px;
   height: 18px;
   margin-left: -18px;
-  background-color: transparent;
-  border-color: #010101; }
+  border: none;
+  background-image: url("../img/icons/form/check-off.svg"); }
 
 .checkbox.checkbox-warning label::after {
   width: 18px;
@@ -6165,9 +6165,11 @@ button.close {
   outline: none !important; }
 
 .checkbox.checkbox-warning input[type="checkbox"]:checked + label::before {
-  background-color: #ff6d00;
-  border-color: #ff6d00;
-  outline-color: #ff6d00; }
+  border: none;
+  background: url("../img/icons/form/check-on.svg"); }
+
+.checkbox.checkbox-warning input[type="checkbox"]:checked + label::after {
+  content: ''; }
 
 .checkbox.checkbox-warning input[type="checkbox"]:disabled + label::before {
   opacity: 0.7; }
@@ -6327,10 +6329,11 @@ section.news article {
     padding: 16px;
     border-radius: 2px;
     background-color: #fff; }
+    section.news article .news:hover {
+      cursor: pointer;
+      background-color: #fff3e0; }
     section.news article .news:active {
       background-color: #ffe0b2; }
-    section.news article .news:visited {
-      background-color: #fff; }
     section.news article .news + .news {
       margin-top: 4px; }
   section.news article time {

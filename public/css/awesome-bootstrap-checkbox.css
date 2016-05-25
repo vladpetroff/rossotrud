@@ -99,6 +99,7 @@
 .checkbox-warning input[type="checkbox"]:checked + label::before {
   background-color: #ff6d00;
   border-color: #ff6d00;
+
 }
 .checkbox-warning input[type="checkbox"]:checked + label::after {
   color: #fff;
