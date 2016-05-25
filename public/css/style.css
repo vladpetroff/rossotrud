@@ -6327,9 +6327,6 @@ section.news article {
     padding: 16px;
     border-radius: 2px;
     background-color: #fff; }
-    section.news article .news:hover {
-      cursor: pointer;
-      background-color: #fff3e0; }
     section.news article .news:active {
       background-color: #ffe0b2; }
     section.news article .news:visited {

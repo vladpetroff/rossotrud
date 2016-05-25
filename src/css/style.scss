@@ -270,10 +270,10 @@ section{
         padding: 16px;
         border-radius: 2px;
         background-color:#fff;
-        &:hover{
-          cursor: pointer;
-          background-color:$orange-lighter;
-        }
+        //&:hover{
+        //  cursor: pointer;
+        //  background-color:$orange-lighter;
+        //}
         &:active{
           background-color: $orange-light;
         }
