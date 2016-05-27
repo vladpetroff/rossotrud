@@ -20,7 +20,7 @@ block content
 					a(href="./").logo
 						img(src="./img/icons/rs-logo-white.svg", onerror="this.onerror=null; this.src='./img/icons/rs-logo-white.png'")
 
-					a(href="javascript:;").navbar-brand Россотрудничество
+					a(href="./").navbar-brand Россотрудничество
 
 					a(href="javascript:;").search
 						img(src="./img/icons/ic-search.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search.png'")
@@ -125,11 +125,11 @@ block content
 
 					.lang
 						p Язык
-						a.active: img(src="./img/icons/flag/flag_ru.png").flag
-						a: img(src="./img/icons/flag/flag_en.png").flag
-						a: img(src="./img/icons/flag/flag_de.png").flag
-						a: img(src="./img/icons/flag/flag_fr.png").flag
-						a: img(src="./img/icons/flag/flag_es.png").flag
+						a.active: img(src="./img/icons/flag/flag-ru.png").flag
+						a: img(src="./img/icons/flag/flag-en.png").flag
+						a: img(src="./img/icons/flag/flag-de.png").flag
+						a: img(src="./img/icons/flag/flag-fr.png").flag
+						a: img(src="./img/icons/flag/flag-es.png").flag
 
 		nav.navbar.navbar-desktop.hidden-xs
 			.navbarLine
@@ -153,7 +153,7 @@ block content
 								button(type="button").btn.btn-warning: img(src="./img/icons/ic-search-white.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search-white.png'")
 
 		.row
-			aside.col-sm-4.hidden-xs
+			aside.col-sm-3.hidden-xs
 				nav.navbar.navbar-default
 					ul.nav.navbar-nav
 						li
@@ -245,7 +245,7 @@ block content
 								li: a(href="contacts_callback.html") Написать обращение
 
 
-			.col-max-6.col-lg-7.col-sm-8.col-xs-12
+			.col-max-6.col-lg-7.col-sm-8.col-sm-offset-1.col-xs-12
 				ol.breadcrumb.hidden-xs
 					li: a(href="./") Главная страница
 					li: a(href="activity.html") Направления деятельности
@@ -315,16 +315,15 @@ block content
 				.row
 					section.news.col-xs-12
 						h2 Новости
-						.row
-							.col-sm-6.col-xs-12
+						.row.grid
+							.col-sm-6.col-xs-12.grid-item
 								article
 									time Сегодня, 18 марта
 									.news
 										a(href="newsDetail.html")
 											img(src="./img/news/2016-02-27/img_01.jpg")
-										p Режиссер Владимир Хотиненко: «У меня нет ни одного фильма, который не являлся бы портретом России»
 
-							.col-sm-6.col-xs-12
+							.col-sm-6.col-xs-12.grid-item
 								article
 									time Вчера, 17 марта
 									.news
@@ -332,7 +331,7 @@ block content
 											img(src="./img/news/2016-02-27/img_01.jpg")
 										p В РЦНК в Бресте прошло заседание киноклуба, посвященное советскому хоккею
 
-							.col-sm-6.col-xs-12
+							.col-sm-6.col-xs-12.grid-item
 								article
 									time 15 марта
 									.news
@@ -340,7 +339,7 @@ block content
 											img(src="./img/news/2016-02-27/img_01.jpg")
 										p Творческий вечер Владимира Хотиненко открыл Год российского кино в австрийском РЦНК
 
-							.col-sm-6.col-xs-12
+							.col-sm-6.col-xs-12.grid-item
 								article
 									time 14 марта
 									.news
@@ -348,7 +347,7 @@ block content
 											img(src="./img/news/2016-02-27/img_01.jpg")
 										p В РЦНК в Астане стартовал цикл демонстрации фильмов о Великой Отечественной войне
 
-							.col-sm-6.col-xs-12
+							.col-sm-6.col-xs-12.grid-item
 								article
 									time 11 марта
 									.news
@@ -356,7 +355,7 @@ block content
 											img(src="./img/news/2016-02-27/img_01.jpg")
 										p В РЦНК в Вене прошла встреча с народной артисткой России Валентиной Талызиной
 
-							.col-sm-6.col-xs-12
+							.col-sm-6.col-xs-12.grid-item
 								article
 									time 5 марта
 									.news
@@ -364,7 +363,7 @@ block content
 											img(src="./img/news/2016-02-27/img_01.jpg")
 										p В Лондоне прошла презентация детского кинолагеря «Максатикс»
 
-							.col-sm-6.col-xs-12
+							.col-sm-6.col-xs-12.grid-item
 								article
 									time 2 марта
 									.news
@@ -372,7 +371,7 @@ block content
 											img(src="./img/news/2016-02-27/img_01.jpg")
 										p В столице Таджикистана открылся Год российского кино
 
-							.col-sm-6.col-xs-12
+							.col-sm-6.col-xs-12.grid-item
 								article
 									time 1 марта
 									.news
@@ -380,7 +379,7 @@ block content
 											img(src="./img/news/2016-02-27/img_01.jpg")
 										p В представительстве Россотрудничества в Каире прошел открытый урок по русскому языку
 
-							.col-sm-6.col-xs-12
+							.col-sm-6.col-xs-12.grid-item
 								article
 									time 27 февраля
 									.news
@@ -388,7 +387,7 @@ block content
 											img(src="./img/news/2016-02-27/img_01.jpg")
 										p В РЦНК в Киеве прошла творческая встреча с писателем и киносценаристом Андреем Дмитриевым
 
-							.col-sm-6.col-xs-12
+							.col-sm-6.col-xs-12.grid-item
 								article
 									time 26 февраля
 									.news
@@ -396,7 +395,7 @@ block content
 											img(src="./img/news/2016-02-27/img_01.jpg")
 										p В РЦНК в Киеве состоялась лекция «Космические первопроходцы и герои фильмов»
 
-							.col-sm-6.col-xs-12
+							.col-sm-6.col-xs-12.grid-item
 								article
 									time 20 февраля
 									.news

@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="18px" height="12px" viewBox="0 0 18 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: sketchtool 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
-    <title>BA2C0825-80CF-46AF-B8A6-6D7EA025D57D</title>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 3.8.2 (29753) - http://www.bohemiancoding.com/sketch -->
+    <title>DEE6BCD8-1D1F-4E9B-8180-6839581D8D5E</title>
     <desc>Created with sketchtool.</desc>
     <defs></defs>
-    <g id="1440" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.54">
-        <g id="1440_rsc_v2_000_main_page" transform="translate(-37.000000, -190.000000)">
-            <g id="main_menu" transform="translate(0.000000, 172.000000)">
-                <g id="ic_menu" transform="translate(34.000000, 12.000000)">
-                    <g id="Group">
-                        <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
-                        <path d="M3,18 L21,18 L21,16 L3,16 L3,18 L3,18 Z M3,13 L21,13 L21,11 L3,11 L3,13 L3,13 Z M3,6 L3,8 L21,8 L21,6 L3,6 L3,6 Z" id="Shape" fill="#000000"></path>
-                    </g>
+    <g id="320" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.54">
+        <g id="320_rsc_v2_000_main_page" transform="translate(-16.000000, -80.000000)" fill="#000000">
+            <g id="top_menu" transform="translate(0.000000, 64.000000)">
+                <g id="ic_menu" transform="translate(16.000000, 16.000000)">
+                    <path d="M3,18 L21,18 L21,16 L3,16 L3,18 L3,18 Z M3,13 L21,13 L21,11 L3,11 L3,13 L3,13 Z M3,6 L3,8 L21,8 L21,6 L3,6 L3,6 Z" id="Shape"></path>
                 </g>
             </g>
         </g>

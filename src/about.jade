@@ -20,7 +20,7 @@ block content
 					a(href="./").logo
 						img(src="./img/icons/rs-logo-white.svg", onerror="this.onerror=null; this.src='./img/icons/rs-logo-white.png'")
 
-					a(href="javascript:;").navbar-brand Россотрудничество
+					a(href="./").navbar-brand Россотрудничество
 
 					a(href="javascript:;").search
 						img(src="./img/icons/ic-search.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search.png'")
@@ -125,11 +125,11 @@ block content
 
 					.lang
 						p Язык
-						a.active: img(src="./img/icons/flag/flag_ru.png").flag
-						a: img(src="./img/icons/flag/flag_en.png").flag
-						a: img(src="./img/icons/flag/flag_de.png").flag
-						a: img(src="./img/icons/flag/flag_fr.png").flag
-						a: img(src="./img/icons/flag/flag_es.png").flag
+						a.active: img(src="./img/icons/flag/flag-ru.png").flag
+						a: img(src="./img/icons/flag/flag-en.png").flag
+						a: img(src="./img/icons/flag/flag-de.png").flag
+						a: img(src="./img/icons/flag/flag-fr.png").flag
+						a: img(src="./img/icons/flag/flag-es.png").flag
 
 		nav.navbar.navbar-desktop.hidden-xs
 			.navbarLine
@@ -153,7 +153,7 @@ block content
 								button(type="button").btn.btn-warning: img(src="./img/icons/ic-search-white.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search-white.png'")
 
 		.row
-			aside.col-sm-4.hidden-xs
+			aside.col-sm-3.hidden-xs
 				nav.navbar.navbar-default
 					ul.nav.navbar-nav
 						li.open.active
@@ -245,7 +245,7 @@ block content
 								li: a(href="contacts_callback.html") Написать обращение
 
 
-			.col-max-6.col-lg-7.col-sm-8.col-xs-12
+			.col-max-6.col-lg-7.col-sm-8.col-sm-offset-1.col-xs-12
 				ol.breadcrumb.hidden-xs
 					li: a(href="./") Главная страница
 

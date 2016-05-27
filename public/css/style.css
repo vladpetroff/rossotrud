@@ -3763,7 +3763,7 @@ tbody.collapse.in {
     line-height: 20px;
     height: 20px;
     width: 20px;
-    margin: 17px 10px; }
+    margin: 18px 10px; }
     .navbar a.logo img {
       width: 100%;
       height: auto;
@@ -3773,12 +3773,8 @@ tbody.collapse.in {
     display: inline-block;
     padding: 0px;
     line-height: 18px;
-    height: 18px;
-    width: 18px;
-    margin: 19px 16px auto; }
+    margin: 10px 13px auto; }
     .navbar a.search img {
-      width: 100%;
-      height: auto;
       display: block; }
   .navbar a.hamburger {
     height: 12px;
@@ -3897,7 +3893,7 @@ tbody.collapse.in {
   position: relative;
   float: left;
   margin-left: 10px;
-  padding: 9px 5px;
+  padding: 4px 0;
   margin-top: 11px;
   margin-bottom: 11px;
   background-color: transparent;
@@ -4103,9 +4099,10 @@ tbody.collapse.in {
       .navbar-default .lang a img {
         width: 40px;
         height: 24px;
+        float: left;
         box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.27); }
       .navbar-default .lang a + a {
-        margin-left: 8px; }
+        margin-left: 10px; }
       .navbar-default .lang a.active img {
         border-color: rgba(255, 109, 0, 0.3); }
   .navbar-default .navbar-nav {
@@ -4292,6 +4289,7 @@ tbody.collapse.in {
   border-radius: 0px;
   position: relative;
   min-height: 48px;
+  height: 48px;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   margin-bottom: 15px; }
@@ -4302,9 +4300,7 @@ tbody.collapse.in {
   .navbar-desktop .navbar-nav > li {
     border-bottom: 3px solid transparent; }
     .navbar-desktop .navbar-nav > li.active {
-      border-bottom-color: #ff6d00;
-      position: relative;
-      top: 1px; }
+      border-bottom-color: #ff6d00; }
       .navbar-desktop .navbar-nav > li.active > a {
         color: #ff6d00;
         font-weight: bold; }
@@ -4317,7 +4313,7 @@ tbody.collapse.in {
       padding-top: 12px;
       padding-bottom: 12px;
       font-size: 1.43em;
-      line-height: 27px;
+      line-height: 18px;
       color: rgba(0, 0, 0, 0.9); }
       .navbar-desktop .navbar-nav > li > a:hover {
         color: #ff6d00; }
@@ -4326,7 +4322,10 @@ tbody.collapse.in {
       .navbar-desktop .navbar-nav > li > a:active {
         color: #ed5900 !important; }
   .navbar-desktop .navbarLine.container {
-    position: relative; }
+    position: relative;
+    margin-top: 2px; }
+    .navbar-desktop .navbarLine.container .navbar-header .navbar-nav {
+      margin-left: 7px; }
   .navbar-desktop .navbarLine .col-xs-12 {
     padding: 0; }
   .navbar-desktop .searchField {
@@ -4339,7 +4338,7 @@ tbody.collapse.in {
     right: 0px; }
     .navbar-desktop .searchField .input-group {
       height: 36px;
-      margin: 9px 0;
+      margin: 3px 0;
       border: 1px solid #ff6d00;
       border-radius: 2px;
       margin-left: 2px; }
@@ -4349,9 +4348,14 @@ tbody.collapse.in {
         color: rgba(0, 0, 0, 0.9);
         border: none; }
       .navbar-desktop .searchField .input-group .input-group-btn .btn {
+        width: 48px;
         height: 36px;
         background-color: #ff6d00;
-        color: #fff; }
+        color: #fff;
+        margin: 0; }
+        .navbar-desktop .searchField .input-group .input-group-btn .btn:active {
+          border: none;
+          background-color: #ED5900; }
 
 aside {
   margin-bottom: 50px; }
@@ -4360,7 +4364,6 @@ aside {
     border: none; }
     aside .navbar-default .navbar-nav {
       margin: 16px;
-      margin-right: 60px;
       margin-top: 5px;
       border: none; }
       aside .navbar-default .navbar-nav li {
@@ -4373,7 +4376,11 @@ aside {
 
 @media (max-width: 768px) {
   .navbar a.search {
-    margin: 18px 7px auto; } }
+    margin: 17px 14px auto; }
+  .navbar .searchField {
+    top: 2px;
+    left: 10px;
+    right: 10px; } }
 
 .breadcrumb {
   padding: 8px 0px;
@@ -6226,7 +6233,7 @@ button.close {
       min-height: 12px;
       margin-left: 3px;
       margin-top: 5px;
-      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4); }
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.27); }
       .contacts .tab-content .media .media-left .media-object img {
         width: 100%;
         display: block; }
@@ -6935,7 +6942,7 @@ div.subscribe {
     line-height: 1.3em; }
 
 header {
-  min-height: 164px; }
+  height: 171px; }
   header .headerRegion > hr {
     border-color: rgba(0, 0, 0, 0.1);
     margin: 0; }
@@ -6981,7 +6988,8 @@ header {
     border-radius: 2px;
     background-color: #ffffff;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12);
-    border: solid 1px rgba(0, 0, 0, 0.12); }
+    border: solid 1px rgba(0, 0, 0, 0.12);
+    margin-top: 2px; }
     header .headerRegion .represBlock .represCloseBtn {
       position: absolute;
       top: 16px;
@@ -7026,8 +7034,9 @@ header {
         color: #000;
         cursor: default; }
   header .headerContent {
+    height: 140px;
     padding-top: 22px;
-    padding-bottom: 20px; }
+    padding-bottom: 16px; }
     header .headerContent p {
       color: rgba(0, 0, 0, 0.5);
       line-height: 1.1em;
@@ -7037,9 +7046,9 @@ header {
       margin-right: 16px; }
       header .headerContent .headerLogo a {
         display: inline-block; }
-        header .headerContent .headerLogo a img {
-          width: 63px;
-          height: 63px; }
+      header .headerContent .headerLogo img {
+        width: 63px;
+        height: 63px; }
     header .headerContent .headerText {
       width: 290px; }
       header .headerContent .headerText h1 {
@@ -7075,11 +7084,13 @@ header {
       margin-bottom: 5px; }
       header .headerContent .headerContact h2 a {
         color: rgba(0, 0, 0, 0.9); }
+    header .headerContent .headerContact p {
+      margin-bottom: 5px; }
     header .headerContent .headerContact a {
       font-size: 18px;
       line-height: 1.3; }
-    header .headerContent .headerMap a {
-      display: none !important; }
+    header .headerContent .headerMap p {
+      margin-bottom: 5px; }
 
 .social a {
   background-position-y: 0%; }
@@ -7100,8 +7111,10 @@ header {
 
 .bootstrap-select.btn-group {
   margin-right: 20px; }
-  .bootstrap-select.btn-group.lang .btn-default.dropdown-toggle .filter-option {
-    border: none; }
+  .bootstrap-select.btn-group.lang {
+    margin-top: -1px; }
+    .bootstrap-select.btn-group.lang .btn-default.dropdown-toggle .filter-option {
+      border: none; }
   .bootstrap-select.btn-group:focus {
     outline: none; }
   .bootstrap-select.btn-group.open .btn-default.dropdown-toggle {
@@ -7151,7 +7164,8 @@ header {
       .bootstrap-select.btn-group .btn-default.dropdown-toggle .filter-option img {
         display: inline-block;
         margin-top: -2px;
-        margin-right: 5px; }
+        margin-right: 5px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.27); }
     .bootstrap-select.btn-group .btn-default.dropdown-toggle ins {
       display: inline-block;
       text-decoration: none;
@@ -7216,7 +7230,10 @@ footer {
 
 @media (max-width: 768px) {
   body {
-    padding-top: 70px; }
+    padding-top: 58px; }
+  section h1 {
+    margin-top: 15px;
+    margin-bottom: 9px; }
   section.content {
     padding-bottom: 15px; }
     section.content form .form-group {
@@ -7233,6 +7250,12 @@ footer {
   section.projects article h2 {
     margin-top: 8px;
     margin-bottom: 7px; }
+  section.projects article a {
+    height: 180px;
+    background-color: #E0E0E0;
+    display: block; }
+    section.projects article a img {
+      height: 180px; }
   .newsBlock .newsPaging .prev a::before {
     left: 0px; }
   .newsBlock .newsPaging .next a::before {
@@ -7541,6 +7564,10 @@ footer {
     margin-bottom: 100px; }
     .newsBlock .col-sm-offset-1 {
       margin-left: 11.33333%; }
+    .newsBlock .col-sm-pull-3 {
+      right: 22%; }
+    .newsBlock .col-sm-push-9 {
+      left: 78%; }
     .newsBlock .col-sm-3 {
       width: 22%; }
     .newsBlock h1 {
@@ -7752,8 +7779,11 @@ footer {
     .pollBlock .poll {
       height: 255px;
       margin: 0; }
-    .pollBlock blockquote p {
-      margin-top: 85px; }
+    .pollBlock blockquote {
+      height: 300px;
+      margin-bottom: 0;
+      display: table-cell;
+      vertical-align: middle; }
     .pollBlock h2 {
       font-size: 16px; }
     .pollBlock p {
@@ -7876,7 +7906,9 @@ footer {
     line-height: 1.3; }
   section.anons.inner article .articleText h3 {
     font-size: 20px; }
-  section.content p {
+  section.content.contacts .col-sm-3 p {
+    line-height: 1.3; }
+  section.content.contacts p {
     line-height: 1.6; }
   .newsBlock .newsPaging a {
     width: 308px; }
