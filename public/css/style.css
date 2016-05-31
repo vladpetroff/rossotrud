@@ -4300,7 +4300,9 @@ tbody.collapse.in {
   .navbar-desktop .navbar-nav > li {
     border-bottom: 3px solid transparent; }
     .navbar-desktop .navbar-nav > li.active {
-      border-bottom-color: #ff6d00; }
+      border-bottom-color: #ff6d00;
+      position: relative;
+      top: 1px; }
       .navbar-desktop .navbar-nav > li.active > a {
         color: #ff6d00;
         font-weight: bold; }
