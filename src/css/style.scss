@@ -795,6 +795,10 @@ div.subscribe{
     margin-bottom: 10px;
     display: block;
   }
+  iframe{
+    width:100%;
+    min-height:169px;
+  }
   .newsPaging{
     a{
       font-size: $font-size-base;
@@ -2004,6 +2008,9 @@ footer{
     .col-sm-3{
       width:22%;
     }
+    iframe{
+      min-height: 326px;
+    }
     margin-bottom: 100px;
     h1{
       font-size:2.86em;
@@ -2507,6 +2514,9 @@ footer{
     }
   }
   .newsBlock{
+    iframe{
+     min-height: 383px;
+   }
     .newsPaging{
       a{
         width:308px;
