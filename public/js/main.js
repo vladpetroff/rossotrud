@@ -56,11 +56,9 @@
 	;$(function () {
 
 		// layout newsBlock
-		setTimeout(function () {
-			if (document.body.clientWidth > 330) {
-				$('.grid').masonry();
-			}
-		}, 200);
+		if (document.body.clientWidth > 767) {
+			$('.grid').masonry();
+		}
 
 		// clickable anons-block
 		$("section.anons").on("click", "article", function () {
@@ -151,7 +149,11 @@
 			var docHeight = document.documentElement.clientHeight;
 			var navLineHeight = document.querySelector('.navbar-default.visible-xs .navbar-header').offsetHeight;
 			var menuHeight = docHeight - navLineHeight;
+			$('body').addClass('overflow-hid');
 			$('.navbar-default #navbar-collapsed').height(menuHeight);
+		});
+		$('.navbar-default #navbar-collapsed').on('hidden.bs.collapse', function () {
+			$('body').removeClass('overflow-hid');
 		});
 
 		// search line
