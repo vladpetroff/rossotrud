@@ -12,7 +12,6 @@
     <list default="true" id="180f8dba-ce0c-47eb-810f-0b25527b4cfd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/manage/Zhivihina.png" afterPath="$PROJECT_DIR$/public/img/manage/Zhivihina.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/style.scss" afterPath="$PROJECT_DIR$/src/css/style.scss" />
     </list>
     <ignored path="rossotrud.iws" />
     <ignored path=".idea/workspace.xml" />
