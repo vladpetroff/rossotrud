@@ -1284,7 +1284,7 @@ header{
           display: inline-block;
           width:28px;
           height:28px;
-          margin-left:10px;
+          margin-left:8px;
           text-indent: -9999px;
           background-size: 100%;
           background-repeat:no-repeat;
@@ -1439,7 +1439,7 @@ header{
 
 footer{
   background-color:$gray-dark;
-  padding: 16px;
+  //padding: 16px;
   padding-bottom: 30px;
   line-height: 1.4;
   color: rgba(255, 255, 255, 0.7);
@@ -1462,10 +1462,12 @@ footer{
       display: inline-block;
       width:28px;
       height:28px;
-      margin:0 6px;
       text-indent: -9999px;
       background-size: 100%;
       background-repeat:no-repeat;
+      & + a{
+        margin-left: 12px;
+      }
       &.fb{
         background-image: url('../img/icons/social/fb-white.svg');
       }
@@ -2439,7 +2441,9 @@ footer{
     .footerSocial{
       .social{
         a{
-          margin: 0px 4px;
+          & + a{
+            margin-left: 8px;
+          }
         }
       }
     }
@@ -2487,7 +2491,7 @@ footer{
 }
 
 
-@media (min-width: 1400px) {
+@media (min-width: 1440px) {
   header{
     .headerContent{
       .headerText{

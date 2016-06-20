@@ -1510,10 +1510,10 @@ pre {
   @media (min-width: 992px) {
     .container {
       width: 960px; } }
-  @media (min-width: 1260px) {
+  @media (min-width: 1200px) {
     .container {
-      width: 1200px; } }
-  @media (min-width: 1400px) {
+      width: 1180px; } }
+  @media (min-width: 1440px) {
     .container {
       width: 1400px; } }
 
@@ -1911,7 +1911,7 @@ pre {
   .col-md-offset-12 {
     margin-left: 100%; } }
 
-@media (min-width: 1260px) {
+@media (min-width: 1200px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left; }
   .col-lg-1 {
@@ -6037,7 +6037,7 @@ button.close {
   .visible-sm-inline-block {
     display: inline-block !important; } }
 
-@media (min-width: 992px) and (max-width: 1259px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .visible-md {
     display: block !important; }
   table.visible-md {
@@ -6048,19 +6048,19 @@ button.close {
   td.visible-md {
     display: table-cell !important; } }
 
-@media (min-width: 992px) and (max-width: 1259px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .visible-md-block {
     display: block !important; } }
 
-@media (min-width: 992px) and (max-width: 1259px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .visible-md-inline {
     display: inline !important; } }
 
-@media (min-width: 992px) and (max-width: 1259px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .visible-md-inline-block {
     display: inline-block !important; } }
 
-@media (min-width: 1260px) {
+@media (min-width: 1200px) {
   .visible-lg {
     display: block !important; }
   table.visible-lg {
@@ -6071,15 +6071,15 @@ button.close {
   td.visible-lg {
     display: table-cell !important; } }
 
-@media (min-width: 1260px) {
+@media (min-width: 1200px) {
   .visible-lg-block {
     display: block !important; } }
 
-@media (min-width: 1260px) {
+@media (min-width: 1200px) {
   .visible-lg-inline {
     display: inline !important; } }
 
-@media (min-width: 1260px) {
+@media (min-width: 1200px) {
   .visible-lg-inline-block {
     display: inline-block !important; } }
 
@@ -6091,11 +6091,11 @@ button.close {
   .hidden-sm {
     display: none !important; } }
 
-@media (min-width: 992px) and (max-width: 1259px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .hidden-md {
     display: none !important; } }
 
-@media (min-width: 1260px) {
+@media (min-width: 1200px) {
   .hidden-lg {
     display: none !important; } }
 
@@ -7091,7 +7091,7 @@ header {
       display: inline-block;
       width: 28px;
       height: 28px;
-      margin-left: 10px;
+      margin-left: 8px;
       text-indent: -9999px;
       background-size: 100%;
       background-repeat: no-repeat; }
@@ -7194,7 +7194,6 @@ header {
 
 footer {
   background-color: #424242;
-  padding: 16px;
   padding-bottom: 30px;
   line-height: 1.4;
   color: rgba(255, 255, 255, 0.7); }
@@ -7213,10 +7212,11 @@ footer {
     display: inline-block;
     width: 28px;
     height: 28px;
-    margin: 0 6px;
     text-indent: -9999px;
     background-size: 100%;
     background-repeat: no-repeat; }
+    footer .social a + a {
+      margin-left: 12px; }
     footer .social a.fb {
       background-image: url("../img/icons/social/fb-white.svg"); }
     footer .social a.vk {
@@ -7310,7 +7310,7 @@ footer {
     width: 174px;
     height: 104px; } }
 
-@media (min-width: 1260px) {
+@media (min-width: 1200px) {
   .readmore {
     text-align: center; }
   .contacts {
@@ -7884,8 +7884,8 @@ footer {
           color: rgba(255, 255, 255, 0.3); }
         footer .footerSubscr .form-control:focus {
           color: rgba(0, 0, 0, 0.87); }
-    footer .footerSocial .social a {
-      margin: 0px 4px; }
+    footer .footerSocial .social a + a {
+      margin-left: 8px; }
     footer .footInfo {
       margin-top: 20px; }
       footer .footInfo .block {
@@ -7911,7 +7911,7 @@ footer {
     footer .footGov span {
       display: block; } }
 
-@media (min-width: 1400px) {
+@media (min-width: 1440px) {
   header .headerContent .headerText {
     width: 350px; }
     header .headerContent .headerText h1 {
