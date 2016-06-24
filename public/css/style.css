@@ -6407,7 +6407,8 @@ section.projects {
     color: rgba(0, 0, 0, 0.9);
     margin-bottom: 13px;
     line-height: 1.1em;
-    padding: 0 12px; }
+    padding: 0 12px;
+    margin-top: 10px; }
   section.projects article a {
     display: block;
     text-align: center; }
@@ -6975,13 +6976,10 @@ header {
     padding: 8px 0px 8px 30px;
     display: inline-block;
     line-height: 1.1;
-    color: rgba(0, 0, 0, 0.5);
-    background-image: url("../img/icons/ic-glasses.svg");
-    background-repeat: no-repeat;
-    background-position: left center; }
+    color: rgba(0, 0, 0, 0.5); }
     header .headerRegion .blindVersion span {
       display: inline-block;
-      border-bottom: 1px dotted rgba(0, 0, 0, 0.3); }
+      border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
   header .headerRegion .repres {
     padding: 8px 0;
     display: inline-block;
@@ -7412,12 +7410,12 @@ footer {
       padding: 16px 16px 0px;
       margin-top: 0; }
   section.projects article {
-    height: 300px; }
+    height: 282px; }
     section.projects article h2 {
       font-size: 14px;
       line-height: 1.1; }
     section.projects article p {
-      font-size: 16px;
+      font-size: 18px;
       line-height: 1.3; }
     section.projects article img {
       width: 100%;
