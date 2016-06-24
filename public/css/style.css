@@ -7558,7 +7558,8 @@ footer {
         margin-top: 56px; }
     section.manage.detail {
       padding: 0;
-      padding-top: 21px; }
+      padding-top: 21px;
+      margin-bottom: 60px; }
       section.manage.detail p {
         font-size: 18px;
         line-height: 1.6;

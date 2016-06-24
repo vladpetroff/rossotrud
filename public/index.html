@@ -1102,112 +1102,100 @@
       </section>
     </div>
   </div>
-  <div class="grayBlock">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8 col-xs-12">
-          <div class="bannerBlock"><a href="javascript:;"><img src="./img/main_banner_img.jpg" alt="Main banner">
-              <div class="bannerText">
-                <h2>Приемная кампания — 2016</h2>
-                <p>Получите высшее образование мирового уровня в России</p>
-              </div></a></div>
-        </div>
-        <div class="col-sm-4 col-xs-12">
-          <div class="pollBlock question">
-            <h2>Опрос</h2>
-            <p>Какую специальность Вы хотели бы получить?</p>
-            <form class="row">
-              <div class="col-xs-12 poll">
-                <div class="radio">
-                  <input type="radio" id="radio1" name="poll1" checked>
-                  <label for="radio1">Инженер</label>
-                </div>
-                <div class="radio">
-                  <input type="radio" id="radio2" name="poll1">
-                  <label for="radio2">Разработчик ПО</label>
-                </div>
-                <div class="radio">
-                  <input type="radio" id="radio3" name="poll1">
-                  <label for="radio3">Врач</label>
-                </div>
-                <div class="radio">
-                  <input type="radio" id="radio4" name="poll1">
-                  <label for="radio4">Педагог</label>
-                </div>
-                <div class="radio">
-                  <input type="radio" id="radio5" name="poll1">
-                  <label for="radio5">Юрист</label>
-                </div>
-                <div class="radio">
-                  <input type="radio" id="radio6" name="poll1">
-                  <label for="radio6">Маркетолог</label>
-                </div>
-                <div class="radio">
-                  <input type="radio" id="radio7" name="poll1">
-                  <label for="radio7">Проектировщик интерфейсов</label>
-                </div>
-              </div>
-              <div class="col-xs-12 seemore hidden-xs"><a href="javascript:;">Посмотреть все варианты</a></div>
-            </form>
-          </div>
-          <div class="pollBlock result hidden">
-            <h2>Результат опроса</h2>
-            <p>Какую специальность Вы хотели бы получить?</p>
-            <div class="poll">
-              <table class="table">
-                <tbody>
-                  <tr data-persent="6%">
-                    <th>6%</th>
-                    <td><span></span>
-                      <p>Инженер</p>
-                    </td>
-                  </tr>
-                  <tr data-persent="52%">
-                    <th></th>
-                    <td><span></span>
-                      <p>Разработчик ПО</p>
-                    </td>
-                  </tr>
-                  <tr data-persent="20%">
-                    <th></th>
-                    <td><span></span>
-                      <p>Врач</p>
-                    </td>
-                  </tr>
-                  <tr data-persent="12%">
-                    <th></th>
-                    <td><span></span>
-                      <p>Педагог</p>
-                    </td>
-                  </tr>
-                  <tr data-persent="10%">
-                    <th></th>
-                    <td><span></span>
-                      <p>Юрист</p>
-                    </td>
-                  </tr>
-                  <tr data-persent="4%">
-                    <th></th>
-                    <td><span></span>
-                      <p>Маркетолог</p>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="seemore"><a href="javascript:;">Все варианты</a></div>
-          </div>
-          <div class="pollBlock add hidden">
-            <h2>Цитата</h2>
-            <blockquote>
-              <p>В одном просвещении найдем мы спасительное противоядие для всех бедствий человечества!</p>
-              <footer>Николай Карамзин</footer>
-            </blockquote>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <!--.grayBlock
+  .container
+  	.row
+  		.col-sm-8.col-xs-12
+  			.bannerBlock
+  				a(href="javascript:;")
+  					img(src="./img/main_banner_img.jpg", alt="Main banner")
+  
+  					.bannerText
+  						h2 Приемная кампания — 2016
+  						p Получите высшее образование мирового уровня в России
+  
+  		.col-sm-4.col-xs-12
+  			.pollBlock.question
+  				h2 Опрос
+  				p Какую специальность Вы хотели бы получить?
+  				form.row
+  					.col-xs-12.poll
+  						.radio
+  							input(type="radio" id="radio1" name="poll1" checked)
+  							label(for="radio1") Инженер
+  						.radio
+  							input(type="radio" id="radio2" name="poll1")
+  							label(for="radio2") Разработчик ПО
+  						.radio
+  							input(type="radio" id="radio3" name="poll1")
+  							label(for="radio3") Врач
+  						.radio
+  							input(type="radio" id="radio4" name="poll1")
+  							label(for="radio4") Педагог
+  						.radio
+  							input(type="radio" id="radio5" name="poll1")
+  							label(for="radio5") Юрист
+  						.radio
+  							input(type="radio" id="radio6" name="poll1")
+  							label(for="radio6") Маркетолог
+  						.radio
+  							input(type="radio" id="radio7" name="poll1")
+  							label(for="radio7") Проектировщик интерфейсов
+  
+  					.col-xs-12.seemore.hidden-xs
+  						a(href="javascript:;") Посмотреть все варианты
+  
+  			.pollBlock.result.hidden
+  				h2 Результат опроса
+  				p Какую специальность Вы хотели бы получить?
+  				.poll
+  					table.table
+  						tbody
+  							tr(data-persent="6%")
+  								th 6%
+  								td
+  									span
+  									p Инженер
+  							tr(data-persent="52%")
+  								th
+  								td
+  									span
+  									p Разработчик ПО
+  							tr(data-persent="20%")
+  								th
+  								td
+  									span
+  									p Врач
+  							tr(data-persent="12%")
+  								th
+  								td
+  									span
+  									p Педагог
+  							tr(data-persent="10%")
+  								th
+  								td
+  									span
+  									p Юрист
+  							tr(data-persent="4%")
+  								th
+  								td
+  									span
+  									p Маркетолог
+  				.seemore
+  					a(href="javascript:;") Все варианты
+  
+  
+  			.pollBlock.add.hidden
+  				h2 Цитата
+  				blockquote
+  					p В одном просвещении найдем мы спасительное противоядие для всех бедствий человечества!
+  					footer Николай Карамзин
+  
+  
+  
+  
+  
+  -->
   <footer class="row visible-xs">
     <div class="col-xs-12">
       <h4>Присоединяйтесь к нам <br>в социальных сетях:</h4>
@@ -1227,7 +1215,7 @@
             <li><a href="about_programs.html">Государственные программы</a></li>
             <li><a href="about_structure.html">Структура</a></li>
             <li><a href="about_manage.html">Руководство</a></li>
-            <li><a href="javascript:;">История</a></li>
+            <!--li: a(href="javascript:;") История-->
           </ul>
         </div>
         <div class="col-sm-2">

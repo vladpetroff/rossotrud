@@ -220,10 +220,10 @@
 			$('.headerRegion .represBlock').removeClass('show');
 		});
 		$('.headerRegion .represBlock').on('click', '.media-body a', function (evt) {
-			var repTxt = evt.target.dataset.repres;
-			$('.headerRegion .represBlock .media-body a.selected').removeClass('selected');
-			$(this).addClass('selected');
-			$('.headerRegion .repres span.text')[0].innerText = repTxt;
+			//var repTxt = evt.target.dataset.repres;
+			//$('.headerRegion .represBlock .media-body a.selected').removeClass('selected');
+			//$(this).addClass('selected');
+			//$('.headerRegion .repres span.text')[0].innerText = repTxt;
 			$('.headerRegion .represBlock').removeClass('show');
 			$('.headerRegion .repres').removeClass('open');
 			//return false;

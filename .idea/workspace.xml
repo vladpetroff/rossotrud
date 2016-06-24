@@ -3,19 +3,58 @@
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/css/style.scss" line="189" />
     <bookmark url="file://$PROJECT_DIR$/src/css/style.scss" line="1655" />
-    <bookmark url="file://$PROJECT_DIR$/src/css/style.scss" line="2716" />
+    <bookmark url="file://$PROJECT_DIR$/src/css/style.scss" line="2717" />
     <bookmark url="file://$PROJECT_DIR$/src/css/style.scss" line="1517" />
-    <bookmark url="file://$PROJECT_DIR$/src/css/style.scss" line="2492" />
+    <bookmark url="file://$PROJECT_DIR$/src/css/style.scss" line="2493" />
     <bookmark url="file://$PROJECT_DIR$/src/css/style.scss" line="1640" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="180f8dba-ce0c-47eb-810f-0b25527b4cfd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/manage/Zhivihina.png" afterPath="$PROJECT_DIR$/public/img/manage/Zhivihina.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about.html" afterPath="$PROJECT_DIR$/public/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about_manage.html" afterPath="$PROJECT_DIR$/public/about_manage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about_manage_detail.html" afterPath="$PROJECT_DIR$/public/about_manage_detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about_programs.html" afterPath="$PROJECT_DIR$/public/about_programs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about_programs_rulang.html" afterPath="$PROJECT_DIR$/public/about_programs_rulang.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about_programs_strategy.html" afterPath="$PROJECT_DIR$/public/about_programs_strategy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about_structure.html" afterPath="$PROJECT_DIR$/public/about_structure.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/anonsDetail.html" afterPath="$PROJECT_DIR$/public/anonsDetail.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css.map" afterPath="$PROJECT_DIR$/public/css/style.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/main.js" afterPath="$PROJECT_DIR$/public/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/newsDetail.html" afterPath="$PROJECT_DIR$/public/newsDetail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/about.jade" afterPath="$PROJECT_DIR$/src/about.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/about_manage.jade" afterPath="$PROJECT_DIR$/src/about_manage.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/about_manage_detail.jade" afterPath="$PROJECT_DIR$/src/about_manage_detail.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/about_programs.jade" afterPath="$PROJECT_DIR$/src/about_programs.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/about_programs_rulang.jade" afterPath="$PROJECT_DIR$/src/about_programs_rulang.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/about_programs_strategy.jade" afterPath="$PROJECT_DIR$/src/about_programs_strategy.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/about_structure.jade" afterPath="$PROJECT_DIR$/src/about_structure.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/activity.jade" afterPath="$PROJECT_DIR$/src/activity.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/activity_cemetery.jade" afterPath="$PROJECT_DIR$/src/activity_cemetery.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/activity_diplomacy.jade" afterPath="$PROJECT_DIR$/src/activity_diplomacy.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/activity_edu.jade" afterPath="$PROJECT_DIR$/src/activity_edu.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/activity_integration.jade" afterPath="$PROJECT_DIR$/src/activity_integration.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/activity_international.jade" afterPath="$PROJECT_DIR$/src/activity_international.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/activity_rulang.jade" afterPath="$PROJECT_DIR$/src/activity_rulang.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/activity_russianCulture.jade" afterPath="$PROJECT_DIR$/src/activity_russianCulture.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/activity_russianCulture_ruCinema.jade" afterPath="$PROJECT_DIR$/src/activity_russianCulture_ruCinema.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/activity_smp.jade" afterPath="$PROJECT_DIR$/src/activity_smp.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/activity_soot.jade" afterPath="$PROJECT_DIR$/src/activity_soot.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/anons.jade" afterPath="$PROJECT_DIR$/src/anons.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/anonsDetail.jade" afterPath="$PROJECT_DIR$/src/anonsDetail.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/contacts.jade" afterPath="$PROJECT_DIR$/src/contacts.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/contacts_callback.jade" afterPath="$PROJECT_DIR$/src/contacts_callback.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/contacts_center.jade" afterPath="$PROJECT_DIR$/src/contacts_center.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/contacts_inworld.jade" afterPath="$PROJECT_DIR$/src/contacts_inworld.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/contacts_inworld_rome.jade" afterPath="$PROJECT_DIR$/src/contacts_inworld_rome.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/style.scss" afterPath="$PROJECT_DIR$/src/css/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.jade" afterPath="$PROJECT_DIR$/src/index.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/main.js" afterPath="$PROJECT_DIR$/src/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/news.jade" afterPath="$PROJECT_DIR$/src/news.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/newsDetail.jade" afterPath="$PROJECT_DIR$/src/newsDetail.jade" />
     </list>
     <ignored path="rossotrud.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,80 +76,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_header.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/includes/_header.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.5161295">
-              <caret line="689" column="32" selection-start-line="688" selection-start-column="6" selection-end-line="689" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.jade" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.5161295">
-              <caret line="700" column="36" selection-start-line="700" selection-start-column="36" selection-end-line="700" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.33333334">
+              <caret line="1233" column="48" selection-start-line="1233" selection-start-column="41" selection-end-line="1233" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/style.scss">
+      <file leaf-file-name="news.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/news.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.5666667">
-              <caret line="1652" column="0" selection-start-line="1652" selection-start-column="0" selection-end-line="1652" selection-end-column="0" />
-              <folding>
-                <element signature="e#1836#2050#0" expanded="false" />
-                <element signature="e#2061#3337#0" expanded="false" />
-                <element signature="e#3344#3449#0" expanded="false" />
-                <element signature="e#3458#13571#0" expanded="false" />
-                <element signature="e#3561#3682#0" expanded="false" />
-                <element signature="e#3692#5195#0" expanded="false" />
-                <element signature="e#5204#6323#0" expanded="false" />
-                <element signature="e#5308#6297#0" expanded="false" />
-                <element signature="e#6336#7275#0" expanded="false" />
-                <element signature="e#6436#6577#0" expanded="false" />
-                <element signature="e#13587#14316#0" expanded="false" />
-                <element signature="e#14329#20047#0" expanded="false" />
-                <element signature="e#20059#20136#0" expanded="false" />
-                <element signature="e#20150#20672#0" expanded="false" />
-                <element signature="e#20684#22561#0" expanded="false" />
-                <element signature="e#22569#26885#0" expanded="false" />
-                <element signature="e#26895#27463#0" expanded="false" />
-                <element signature="e#27493#29312#0" expanded="false" />
-                <element signature="e#29320#30891#0" expanded="false" />
-                <element signature="e#30964#32555#0" expanded="false" />
-                <element signature="e#31089#31439#0" expanded="false" />
-                <element signature="e#31465#31656#0" expanded="false" />
-                <element signature="e#31979#32171#0" expanded="false" />
-                <element signature="e#32609#32737#0" expanded="false" />
-                <element signature="e#32975#50593#0" expanded="false" />
-                <element signature="e#33030#33272#0" expanded="false" />
-                <element signature="e#33296#33386#0" expanded="false" />
-                <element signature="e#33496#34979#0" expanded="false" />
-                <element signature="e#35660#35983#0" expanded="false" />
-                <element signature="e#36281#39234#0" expanded="false" />
-                <element signature="e#39247#41630#0" expanded="false" />
-                <element signature="e#50623#54771#0" expanded="false" />
-                <element signature="e#50633#51269#0" expanded="false" />
-                <element signature="e#51292#51953#0" expanded="false" />
-                <element signature="e#51964#52064#0" expanded="false" />
-                <element signature="e#52087#52211#0" expanded="false" />
-                <element signature="e#52228#52335#0" expanded="false" />
-                <element signature="e#52344#52424#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="-7.2580647">
+              <caret line="426" column="48" selection-start-line="426" selection-start-column="41" selection-end-line="426" selection-end-column="48" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/js/main.js">
+      <file leaf-file-name="newsDetail.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/newsDetail.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.59490085">
-              <caret line="183" column="5" selection-start-line="183" selection-start-column="5" selection-end-line="183" selection-end-column="5" />
+            <state vertical-scroll-proportion="-7.2580647">
+              <caret line="390" column="48" selection-start-line="390" selection-start-column="41" selection-end-line="390" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -157,37 +147,37 @@
         <option value="$PROJECT_DIR$/src/includes/_footer.jade" />
         <option value="$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss" />
         <option value="$PROJECT_DIR$/public/about.html" />
-        <option value="$PROJECT_DIR$/src/news.jade" />
-        <option value="$PROJECT_DIR$/src/newsDetail.jade" />
-        <option value="$PROJECT_DIR$/src/contacts.jade" />
-        <option value="$PROJECT_DIR$/src/contacts_callback.jade" />
-        <option value="$PROJECT_DIR$/src/contacts_center.jade" />
-        <option value="$PROJECT_DIR$/src/contacts_inworld.jade" />
-        <option value="$PROJECT_DIR$/src/contacts_inworld_rome.jade" />
+        <option value="$PROJECT_DIR$/src/includes/_header.jade" />
+        <option value="$PROJECT_DIR$/src/js/main.js" />
+        <option value="$PROJECT_DIR$/src/css/style.scss" />
+        <option value="$PROJECT_DIR$/src/about_structure.jade" />
+        <option value="$PROJECT_DIR$/src/about_programs_strategy.jade" />
+        <option value="$PROJECT_DIR$/src/about_programs_rulang.jade" />
+        <option value="$PROJECT_DIR$/src/about_programs.jade" />
+        <option value="$PROJECT_DIR$/src/about_manage_detail.jade" />
+        <option value="$PROJECT_DIR$/src/about_manage.jade" />
+        <option value="$PROJECT_DIR$/src/about.jade" />
         <option value="$PROJECT_DIR$/src/activity_russianCulture.jade" />
-        <option value="$PROJECT_DIR$/src/activity_integration.jade" />
-        <option value="$PROJECT_DIR$/src/activity_rulang.jade" />
-        <option value="$PROJECT_DIR$/src/activity_international.jade" />
-        <option value="$PROJECT_DIR$/src/anons.jade" />
-        <option value="$PROJECT_DIR$/src/anonsDetail.jade" />
-        <option value="$PROJECT_DIR$/src/activity_soot.jade" />
-        <option value="$PROJECT_DIR$/src/activity_smp.jade" />
         <option value="$PROJECT_DIR$/src/activity_russianCulture_ruCinema.jade" />
         <option value="$PROJECT_DIR$/src/activity.jade" />
+        <option value="$PROJECT_DIR$/src/activity_integration.jade" />
+        <option value="$PROJECT_DIR$/src/activity_international.jade" />
+        <option value="$PROJECT_DIR$/src/activity_rulang.jade" />
         <option value="$PROJECT_DIR$/src/activity_cemetery.jade" />
         <option value="$PROJECT_DIR$/src/activity_diplomacy.jade" />
         <option value="$PROJECT_DIR$/src/activity_edu.jade" />
-        <option value="$PROJECT_DIR$/src/about.jade" />
-        <option value="$PROJECT_DIR$/src/about_manage.jade" />
-        <option value="$PROJECT_DIR$/src/about_manage_detail.jade" />
-        <option value="$PROJECT_DIR$/src/about_programs.jade" />
-        <option value="$PROJECT_DIR$/src/about_programs_rulang.jade" />
-        <option value="$PROJECT_DIR$/src/about_programs_strategy.jade" />
-        <option value="$PROJECT_DIR$/src/about_structure.jade" />
-        <option value="$PROJECT_DIR$/src/includes/_header.jade" />
+        <option value="$PROJECT_DIR$/src/contacts_inworld_rome.jade" />
+        <option value="$PROJECT_DIR$/src/contacts_inworld.jade" />
+        <option value="$PROJECT_DIR$/src/contacts_center.jade" />
+        <option value="$PROJECT_DIR$/src/contacts_callback.jade" />
+        <option value="$PROJECT_DIR$/src/contacts.jade" />
+        <option value="$PROJECT_DIR$/src/anonsDetail.jade" />
+        <option value="$PROJECT_DIR$/src/anons.jade" />
+        <option value="$PROJECT_DIR$/src/activity_soot.jade" />
+        <option value="$PROJECT_DIR$/src/activity_smp.jade" />
+        <option value="$PROJECT_DIR$/src/newsDetail.jade" />
+        <option value="$PROJECT_DIR$/src/news.jade" />
         <option value="$PROJECT_DIR$/src/index.jade" />
-        <option value="$PROJECT_DIR$/src/css/style.scss" />
-        <option value="$PROJECT_DIR$/src/js/main.js" />
       </list>
     </option>
   </component>
@@ -456,7 +446,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1159" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="1159" height="1047" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21292084" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -515,13 +505,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/anonsDetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.137931">
-          <caret line="39" column="64" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.137931">
@@ -658,279 +641,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/newsDetail.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48545176">
-          <caret line="419" column="40" selection-start-line="419" selection-start-column="40" selection-end-line="419" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/news.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48545176">
-          <caret line="455" column="33" selection-start-line="455" selection-start-column="33" selection-end-line="455" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contacts.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79532164">
-          <caret line="1016" column="44" selection-start-line="1016" selection-start-column="44" selection-end-line="1016" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contacts_callback.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.88304096">
-          <caret line="386" column="44" selection-start-line="386" selection-start-column="44" selection-end-line="386" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contacts_center.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79532164">
-          <caret line="460" column="44" selection-start-line="460" selection-start-column="44" selection-end-line="460" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contacts_inworld.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79532164">
-          <caret line="1000" column="44" selection-start-line="1000" selection-start-column="44" selection-end-line="1000" selection-end-column="44" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-            <element signature="n#div#9;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-            <element signature="n#div#10;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-            <element signature="n#div#11;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-            <element signature="n#div#12;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-            <element signature="n#div#13;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-            <element signature="n#div#14;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-            <element signature="n#div#15;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-            <element signature="n#div#16;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-            <element signature="n#div#17;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-            <element signature="n#div#18;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-            <element signature="n#div#19;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contacts_inworld_rome.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82163745">
-          <caret line="368" column="44" selection-start-line="368" selection-start-column="44" selection-end-line="368" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/activity_russianCulture.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="507" column="44" selection-start-line="507" selection-start-column="44" selection-end-line="507" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/activity_integration.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="326" column="44" selection-start-line="326" selection-start-column="44" selection-end-line="326" selection-end-column="44" />
-          <folding>
-            <element signature="n#ul#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/activity_rulang.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="333" column="44" selection-start-line="333" selection-start-column="44" selection-end-line="333" selection-end-column="44" />
-          <folding>
-            <element signature="n#ul#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/activity_international.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="330" column="44" selection-start-line="330" selection-start-column="44" selection-end-line="330" selection-end-column="44" />
-          <folding>
-            <element signature="n#ul#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/anons.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="453" column="41" selection-start-line="453" selection-start-column="41" selection-end-line="453" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/anonsDetail.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="350" column="41" selection-start-line="350" selection-start-column="41" selection-end-line="350" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/activity_soot.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="334" column="44" selection-start-line="334" selection-start-column="44" selection-end-line="334" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/activity_smp.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="325" column="44" selection-start-line="325" selection-start-column="44" selection-end-line="325" selection-end-column="44" />
-          <folding>
-            <element signature="n#ul#0;n#li#1;n#ul#0;n#nav#0;n#aside#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/activity_russianCulture_ruCinema.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7051114">
-          <caret line="475" column="44" selection-start-line="475" selection-start-column="44" selection-end-line="475" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/activity.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7378768">
-          <caret line="374" column="44" selection-start-line="374" selection-start-column="44" selection-end-line="374" selection-end-column="44" />
-          <folding>
-            <element signature="n#ul#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#nav#0;n#aside#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/activity_cemetery.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8165138">
-          <caret line="325" column="44" selection-start-line="325" selection-start-column="44" selection-end-line="325" selection-end-column="44" />
-          <folding>
-            <element signature="n#ul#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/activity_diplomacy.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7378768">
-          <caret line="324" column="44" selection-start-line="324" selection-start-column="44" selection-end-line="324" selection-end-column="44" />
-          <folding>
-            <element signature="n#ul#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/activity_edu.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8322412">
-          <caret line="333" column="44" selection-start-line="333" selection-start-column="44" selection-end-line="333" selection-end-column="44" />
-          <folding>
-            <element signature="n#ul#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/about.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7837484">
-          <caret line="336" column="44" selection-start-line="336" selection-start-column="44" selection-end-line="336" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/about_manage.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7837484">
-          <caret line="358" column="44" selection-start-line="358" selection-start-column="44" selection-end-line="358" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/about_manage_detail.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7837484">
-          <caret line="399" column="44" selection-start-line="399" selection-start-column="44" selection-end-line="399" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/about_programs.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7378768">
-          <caret line="362" column="44" selection-start-line="362" selection-start-column="44" selection-end-line="362" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/about_programs_rulang.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8951507">
-          <caret line="339" column="44" selection-start-line="339" selection-start-column="44" selection-end-line="339" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/about_programs_strategy.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76287264">
-          <caret line="328" column="44" selection-start-line="328" selection-start-column="44" selection-end-line="328" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/about_structure.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3184282">
-          <caret line="316" column="45" selection-start-line="316" selection-start-column="45" selection-end-line="316" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/includes/_header.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5161295">
+        <state vertical-scroll-proportion="-444.51614">
           <caret line="689" column="32" selection-start-line="688" selection-start-column="6" selection-end-line="689" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.jade">
+    <entry file="file://$PROJECT_DIR$/src/includes/template.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5161295">
-          <caret line="700" column="36" selection-start-line="700" selection-start-column="36" selection-end-line="700" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19830029">
+          <caret line="166" column="17" selection-start-line="166" selection-start-column="17" selection-end-line="166" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5666667">
-          <caret line="1652" column="0" selection-start-line="1652" selection-start-column="0" selection-end-line="1652" selection-end-column="0" />
+        <state vertical-scroll-proportion="-2.3666666">
+          <caret line="1956" column="9" selection-start-line="1956" selection-start-column="9" selection-end-line="1956" selection-end-column="9" />
           <folding>
             <element signature="e#1836#2050#0" expanded="false" />
             <element signature="e#2061#3337#0" expanded="false" />
@@ -956,28 +694,282 @@
             <element signature="e#31465#31656#0" expanded="false" />
             <element signature="e#31979#32171#0" expanded="false" />
             <element signature="e#32609#32737#0" expanded="false" />
-            <element signature="e#32975#50593#0" expanded="false" />
             <element signature="e#33030#33272#0" expanded="false" />
             <element signature="e#33296#33386#0" expanded="false" />
             <element signature="e#33496#34979#0" expanded="false" />
+            <element signature="e#34990#35630#0" expanded="false" />
+            <element signature="e#35645#36267#0" expanded="false" />
             <element signature="e#35660#35983#0" expanded="false" />
             <element signature="e#36281#39234#0" expanded="false" />
-            <element signature="e#39247#41630#0" expanded="false" />
-            <element signature="e#50623#54771#0" expanded="false" />
-            <element signature="e#50633#51269#0" expanded="false" />
-            <element signature="e#51292#51953#0" expanded="false" />
-            <element signature="e#51964#52064#0" expanded="false" />
-            <element signature="e#52087#52211#0" expanded="false" />
-            <element signature="e#52228#52335#0" expanded="false" />
-            <element signature="e#52344#52424#0" expanded="false" />
+            <element signature="e#39483#40356#0" expanded="false" />
+            <element signature="e#50652#54800#0" expanded="false" />
+            <element signature="e#50662#51298#0" expanded="false" />
+            <element signature="e#51321#51982#0" expanded="false" />
+            <element signature="e#51993#52093#0" expanded="false" />
+            <element signature="e#52116#52240#0" expanded="false" />
+            <element signature="e#52257#52364#0" expanded="false" />
+            <element signature="e#52373#52453#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/main.js">
+    <entry file="file://$PROJECT_DIR$/src/about_structure.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59490085">
-          <caret line="183" column="5" selection-start-line="183" selection-start-column="5" selection-end-line="183" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.32">
+          <caret line="292" column="48" selection-start-line="292" selection-start-column="41" selection-end-line="292" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/about_programs_strategy.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32">
+          <caret line="287" column="48" selection-start-line="287" selection-start-column="41" selection-end-line="287" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/about_programs_rulang.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32">
+          <caret line="298" column="14" selection-start-line="298" selection-start-column="14" selection-end-line="298" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/about_programs.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32">
+          <caret line="321" column="14" selection-start-line="321" selection-start-column="14" selection-end-line="321" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/about_manage_detail.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36307693">
+          <caret line="174" column="18" selection-start-line="174" selection-start-column="18" selection-end-line="174" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/about_manage.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323077">
+          <caret line="50" column="52" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/about.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323077">
+          <caret line="295" column="48" selection-start-line="295" selection-start-column="41" selection-end-line="295" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/activity_russianCulture.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.967742">
+          <caret line="466" column="48" selection-start-line="466" selection-start-column="41" selection-end-line="466" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/activity_russianCulture_ruCinema.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.967742">
+          <caret line="434" column="48" selection-start-line="434" selection-start-column="41" selection-end-line="434" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/activity.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.967742">
+          <caret line="333" column="48" selection-start-line="333" selection-start-column="41" selection-end-line="333" selection-end-column="48" />
+          <folding>
+            <element signature="n#ul#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#block#1;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#nav#0;n#aside#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/activity_integration.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.967742">
+          <caret line="285" column="48" selection-start-line="285" selection-start-column="41" selection-end-line="285" selection-end-column="48" />
+          <folding>
+            <element signature="n#ul#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#block#1;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/activity_international.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.967742">
+          <caret line="289" column="48" selection-start-line="289" selection-start-column="41" selection-end-line="289" selection-end-column="48" />
+          <folding>
+            <element signature="n#ul#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#block#1;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/activity_rulang.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.967742">
+          <caret line="292" column="48" selection-start-line="292" selection-start-column="41" selection-end-line="292" selection-end-column="48" />
+          <folding>
+            <element signature="n#ul#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#block#1;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/activity_cemetery.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.967742">
+          <caret line="284" column="48" selection-start-line="284" selection-start-column="41" selection-end-line="284" selection-end-column="48" />
+          <folding>
+            <element signature="n#ul#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#block#1;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/activity_diplomacy.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.967742">
+          <caret line="283" column="48" selection-start-line="283" selection-start-column="41" selection-end-line="283" selection-end-column="48" />
+          <folding>
+            <element signature="n#ul#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#block#1;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/activity_edu.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32">
+          <caret line="292" column="48" selection-start-line="292" selection-start-column="41" selection-end-line="292" selection-end-column="48" />
+          <folding>
+            <element signature="n#ul#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#block#1;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contacts_inworld_rome.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32">
+          <caret line="327" column="48" selection-start-line="327" selection-start-column="41" selection-end-line="327" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contacts_inworld.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32">
+          <caret line="959" column="14" selection-start-line="959" selection-start-column="14" selection-end-line="959" selection-end-column="14" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
+            <element signature="n#div#8;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
+            <element signature="n#div#9;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
+            <element signature="n#div#10;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
+            <element signature="n#div#11;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
+            <element signature="n#div#12;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
+            <element signature="n#div#13;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
+            <element signature="n#div#14;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
+            <element signature="n#div#15;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
+            <element signature="n#div#16;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
+            <element signature="n#div#17;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
+            <element signature="n#div#18;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
+            <element signature="n#div#19;n#div#0;n#div#2;n#section#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contacts_center.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32">
+          <caret line="419" column="48" selection-start-line="419" selection-start-column="41" selection-end-line="419" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contacts_callback.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32">
+          <caret line="345" column="48" selection-start-line="345" selection-start-column="41" selection-end-line="345" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contacts.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32">
+          <caret line="975" column="14" selection-start-line="975" selection-start-column="14" selection-end-line="975" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/anonsDetail.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323077">
+          <caret line="334" column="48" selection-start-line="334" selection-start-column="41" selection-end-line="334" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/anons.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323077">
+          <caret line="437" column="48" selection-start-line="437" selection-start-column="41" selection-end-line="437" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/activity_soot.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323077">
+          <caret line="293" column="14" selection-start-line="293" selection-start-column="14" selection-end-line="293" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/activity_smp.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323077">
+          <caret line="284" column="48" selection-start-line="284" selection-start-column="41" selection-end-line="284" selection-end-column="48" />
+          <folding>
+            <element signature="n#ul#0;n#li#1;n#ul#0;n#nav#0;n#aside#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/newsDetail.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.2580647">
+          <caret line="390" column="48" selection-start-line="390" selection-start-column="41" selection-end-line="390" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/news.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.2580647">
+          <caret line="426" column="48" selection-start-line="426" selection-start-column="41" selection-end-line="426" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="1233" column="48" selection-start-line="1233" selection-start-column="41" selection-end-line="1233" selection-end-column="48" />
           <folding />
         </state>
       </provider>
