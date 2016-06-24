@@ -66,7 +66,7 @@
 		});
 		// clickable news-block
 		$("section.news").on("click", ".news", function () {
-			window.location = $(this).find("a").attr('href');
+			window.location = $(this).find("a").attr('href') || 'news.html';
 		});
 		// clickable projects-block
 		$("section.projects").on("click", "article", function () {
