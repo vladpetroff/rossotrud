@@ -180,7 +180,7 @@
 		$('.headerRegion .repres span.text')[0].innerText = repTxt;
 		$('.headerRegion .represBlock').removeClass('show');
 		$('.headerRegion .repres').removeClass('open');
-		return false;
+		//return false;
 	});
 	$(document).click(function(event) {
 		if ($(event.target).closest(".headerRegion").length) return;

@@ -6204,7 +6204,7 @@ button.close {
   font-size: 16px;
   line-height: 1em;
   text-align: right;
-  margin: 10px 12px 20px; }
+  margin: 10px 12px 15px; }
   .readmore.dotted {
     margin-bottom: 35px; }
     .readmore.dotted a {
@@ -6339,50 +6339,51 @@ section.anons article {
       line-height: 1.0;
       color: #ff6d00; }
 
-section.news h2 {
-  font-size: 1.43em;
-  line-height: 1em;
-  margin: 15px 12px 12px; }
-
-section.news article {
-  padding: 6px;
-  padding-top: 15px; }
-  section.news article .news {
-    padding: 16px;
-    border-radius: 2px;
-    background-color: #fff; }
-    section.news article .news:hover {
-      cursor: pointer;
-      background-color: #fff3e0; }
-    section.news article .news:active {
-      background-color: #ffe0b2; }
-    section.news article .news + .news {
-      margin-top: 4px; }
-  section.news article time {
-    display: block;
-    padding: 0 16px;
-    margin-bottom: 5px;
-    color: #ff6d00;
-    font-size: 16px;
-    line-height: 1.3; }
-  section.news article h2 {
-    margin: 0px 0 6px;
-    font-size: 12px;
-    font-style: italic;
+section.news {
+  margin-bottom: 0; }
+  section.news h2 {
+    font-size: 1.43em;
     line-height: 1em;
-    color: rgba(0, 0, 0, 0.5); }
-  section.news article p {
-    color: rgba(0, 0, 0, 0.9);
-    margin: 0; }
-  section.news article a {
-    display: block; }
-  section.news article img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    display: inline-block;
-    margin-bottom: 10px;
-    width: 100%; }
+    margin: 15px 12px 12px; }
+  section.news article {
+    padding: 6px;
+    padding-top: 15px; }
+    section.news article .news {
+      padding: 16px;
+      border-radius: 2px;
+      background-color: #fff; }
+      section.news article .news:hover {
+        cursor: pointer;
+        background-color: #fff3e0; }
+      section.news article .news:active {
+        background-color: #ffe0b2; }
+      section.news article .news + .news {
+        margin-top: 4px; }
+    section.news article time {
+      display: block;
+      padding: 0 16px;
+      margin-bottom: 5px;
+      color: #ff6d00;
+      font-size: 16px;
+      line-height: 1.3; }
+    section.news article h2 {
+      margin: 0px 0 6px;
+      font-size: 12px;
+      font-style: italic;
+      line-height: 1em;
+      color: rgba(0, 0, 0, 0.5); }
+    section.news article p {
+      color: rgba(0, 0, 0, 0.9);
+      margin: 0; }
+    section.news article a {
+      display: block; }
+    section.news article img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      display: inline-block;
+      margin-bottom: 10px;
+      width: 100%; }
 
 section.projects {
   margin-bottom: 22px; }
@@ -7375,7 +7376,7 @@ footer {
       width: 212px;
       height: 224px; }
   section.news {
-    margin-bottom: 80px; }
+    margin-bottom: 0px; }
     section.news h2 {
       font-size: 2.57em;
       line-height: 1.1;
