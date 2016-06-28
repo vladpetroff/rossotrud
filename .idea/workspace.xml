@@ -12,12 +12,8 @@
     <list default="true" id="180f8dba-ce0c-47eb-810f-0b25527b4cfd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/manage/Zhivihina.png" afterPath="$PROJECT_DIR$/public/img/manage/Zhivihina.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/contacts_callback.html" afterPath="$PROJECT_DIR$/public/contacts_callback.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css.map" afterPath="$PROJECT_DIR$/public/css/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/main.js" afterPath="$PROJECT_DIR$/public/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/contacts_callback.jade" afterPath="$PROJECT_DIR$/src/contacts_callback.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/main.js" afterPath="$PROJECT_DIR$/src/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/awesome-bootstrap-checkbox.css" afterPath="$PROJECT_DIR$/assets/css/awesome-bootstrap-checkbox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/awesome-bootstrap-checkbox.css" afterPath="$PROJECT_DIR$/public/css/awesome-bootstrap-checkbox.css" />
     </list>
     <ignored path="rossotrud.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,21 +45,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contacts_callback.jade" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contacts_callback.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/contacts_callback.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33333334">
+            <state vertical-scroll-proportion="-7.2580647">
               <caret line="298" column="62" selection-start-line="298" selection-start-column="62" selection-end-line="298" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_forms.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss">
+      <file leaf-file-name="awesome-bootstrap-checkbox.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/css/awesome-bootstrap-checkbox.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5833333">
-              <caret line="630" column="32" selection-start-line="630" selection-start-column="32" selection-end-line="630" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.73619634">
+              <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -161,7 +157,6 @@
         <option value="$PROJECT_DIR$/public/newsDetail.html" />
         <option value="$PROJECT_DIR$/src/includes/_mainmenu.jade" />
         <option value="$PROJECT_DIR$/src/index_var2.jade" />
-        <option value="$PROJECT_DIR$/assets/css/awesome-bootstrap-checkbox.css" />
         <option value="$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss" />
         <option value="$PROJECT_DIR$/src/includes/_header_var2.jade" />
         <option value="$PROJECT_DIR$/src/includes/_footer.jade" />
@@ -200,6 +195,7 @@
         <option value="$PROJECT_DIR$/src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_forms.scss" />
         <option value="$PROJECT_DIR$/src/js/main.js" />
         <option value="$PROJECT_DIR$/src/contacts_callback.jade" />
+        <option value="$PROJECT_DIR$/assets/css/awesome-bootstrap-checkbox.css" />
       </list>
     </option>
   </component>
@@ -214,7 +210,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="801" />
+    <option name="width" value="688" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -468,10 +464,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="801" height="1047" extended-state="1" />
+    <frame x="-7" y="0" width="688" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23880596" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23726115" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15426695" sideWeight="0.503876" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -580,13 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6788321">
           <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/awesome-bootstrap-checkbox.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -927,8 +916,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/contacts_callback.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
+        <state vertical-scroll-proportion="-7.2580647">
           <caret line="298" column="62" selection-start-line="298" selection-start-column="62" selection-end-line="298" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/awesome-bootstrap-checkbox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73619634">
+          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
           <folding />
         </state>
       </provider>
