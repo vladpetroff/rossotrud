@@ -993,66 +993,66 @@
           <div class="col-sm-9 col-xs-12">
             <section class="content contacts">
               <h1>Написать обращение</h1>
-              <form class="form-horizontal">
+              <form name="feedbackForm" id="feedbackForm" class="form-horizontal">
                 <div class="form-group">
                   <label for="formGroupInputSurname" class="col-sm-3 control-label">Фамилия</label>
                   <div class="col-sm-9">
-                    <input id="formGroupInputSurname" type="text" placeholder="" class="form-control">
+                    <input id="formGroupInputSurname" type="text" placeholder="" maxlength="255" class="form-control required">
                   </div>
                 </div>
                 <div class="form-group">
                   <label for="formGroupInputName" class="col-sm-3 control-label">Имя</label>
                   <div class="col-sm-9">
-                    <input id="formGroupInputName" type="text" placeholder="" class="form-control">
+                    <input id="formGroupInputName" type="text" placeholder="" maxlength="255" class="form-control required">
                   </div>
                 </div>
                 <div class="form-group">
                   <label for="formGroupInputParentName" class="col-sm-3 control-label">Отчество</label>
                   <div class="col-sm-9">
-                    <input id="formGroupInputParentName" type="text" placeholder="" class="form-control">
+                    <input id="formGroupInputParentName" type="text" placeholder="" maxlength="255" class="form-control">
                   </div>
                 </div>
                 <div class="form-group">
                   <label for="formGroupInputEmail" class="col-sm-3 control-label">Электронная почта</label>
                   <div class="col-sm-9">
-                    <input id="formGroupInputEmail" type="text" placeholder="" class="form-control">
+                    <input id="formGroupInputEmail" type="text" placeholder="" maxlength="255" class="form-control required">
                   </div>
                 </div>
                 <div class="form-group">
                   <label for="formGroupInputPhone" class="col-sm-3 control-label">Контактный телефон</label>
                   <div class="col-sm-9">
-                    <input id="formGroupInputPhone" type="text" placeholder="" class="form-control">
+                    <input id="formGroupInputPhone" type="text" placeholder="" maxlength="255" class="form-control required">
                   </div>
                 </div>
                 <div class="form-group">
                   <label for="formGroupInputIndex" class="col-sm-3 control-label">Почтовый индекс</label>
                   <div class="col-sm-9">
-                    <input id="formGroupInputIndex" type="text" placeholder="" class="form-control">
+                    <input id="formGroupInputIndex" type="text" placeholder="" maxlength="255" class="form-control required">
                   </div>
                 </div>
                 <div class="form-group">
                   <label for="formGroupInputAddress" class="col-sm-3 control-label">Почтовый адрес</label>
                   <div class="col-sm-9">
-                    <input id="formGroupInputAddress" type="text" placeholder="Город, улица, квартира" class="form-control">
+                    <input id="formGroupInputAddress" type="text" placeholder="Город, улица, квартира" maxlength="255" class="form-control required">
                   </div>
                 </div>
                 <div class="form-group">
                   <label for="formGroupInputTheme" class="col-sm-3 control-label">Тема</label>
                   <div class="col-sm-9">
-                    <input id="formGroupInputTheme" type="text" placeholder="Тема Вашего обращения" class="form-control">
+                    <input id="formGroupInputTheme" type="text" placeholder="Тема Вашего обращения" maxlength="255" class="form-control required">
                   </div>
                 </div>
                 <div class="form-group">
                   <label for="formGroupInputTextarea" class="col-sm-3 control-label">Обращение</label>
                   <div class="col-sm-9">
-                    <textarea rows="5" placeholder="Может содержать не более 2000 знаков" id="formGroupInputTextarea" class="form-control"></textarea>
-                    <p class="help-block pull-right">0/2000</p>
+                    <textarea rows="5" placeholder="Может содержать не более 2000 знаков" maxlength="2000" id="formGroupInputTextarea" class="required form-control"></textarea>
+                    <p class="help-block pull-right"><span id="count">0</span>/2000</p>
                   </div>
                 </div>
                 <div class="form-group">
                   <label for="formGroupInputFile" class="col-sm-3 control-label">Документ</label>
                   <div class="col-sm-9">
-                    <button type="text" id="formGroupInputFile" class="btn btn-primary">Выбрать файл</button>
+                    <input type="file" value="Выбрать файл" accept="image/*,audio/*,video/*,application/msword,application/rtf,application/vnd.ms-excel,application/pdf,text/plain,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" id="formGroupInputFile" class="btn btn-primary">
                     <!--input#formGroupInputFile.form-control(type='file')-->
                     <p class="help-block">Вы можете прикрепить к обращению файл размером не более 5 Мб.</p>
                     <p class="help-block">Допустимы следующие форматы: avi, bmp, doc, docx, flw, gif, jpg, mkv, mov, mp3, mp4, pcx, pdf, png, pps, ppt, pptx, rtf, tif, txt, xls, xlsx, wma, wmv, wma.</p>
@@ -1062,15 +1062,15 @@
                   <label class="col-sm-3 control-label hidden-xs"></label>
                   <div class="col-sm-9">
                     <div class="checkbox checkbox-warning">
-                      <input type="checkbox" id="checkbox3">
-                      <label for="checkbox3" class="control-label">Я прочитал и <a href="javascript:;">принимаю правила рассмотрения электронных обращений граждан</a></label>
+                      <input type="checkbox" id="agreed" name="agreed">
+                      <label for="agreed" class="control-label">Я прочитал и <a href="javascript:;">принимаю правила рассмотрения электронных обращений граждан</a></label>
                     </div>
                   </div>
                 </div>
                 <div class="form-group">
                   <label class="col-sm-3 control-label"></label>
                   <div class="col-sm-9">
-                    <button type="submit" disabled class="btn btn-warning"><strong>Отправить</strong></button>
+                    <button type="submit" disabled name="submitFeedback" class="btn btn-warning"><strong>Отправить</strong></button>
                   </div>
                 </div>
               </form>

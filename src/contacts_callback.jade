@@ -259,48 +259,48 @@ block content
 						section.content.contacts
 							h1 Написать обращение
 
-							form.form-horizontal
+							form(name='feedbackForm')#feedbackForm.form-horizontal
 								.form-group
 									label.col-sm-3.control-label(for='formGroupInputSurname') Фамилия
 									.col-sm-9
-										input#formGroupInputSurname.form-control(type='text', placeholder='')
+										input#formGroupInputSurname.form-control(type='text', placeholder='', maxlength="255").required
 								.form-group
 									label.col-sm-3.control-label(for='formGroupInputName') Имя
 									.col-sm-9
-										input#formGroupInputName.form-control(type='text', placeholder='')
+										input#formGroupInputName.form-control(type='text', placeholder='', maxlength="255").required
 								.form-group
 									label.col-sm-3.control-label(for='formGroupInputParentName') Отчество
 									.col-sm-9
-										input#formGroupInputParentName.form-control(type='text', placeholder='')
+										input#formGroupInputParentName.form-control(type='text', placeholder='', maxlength="255")
 								.form-group
 									label.col-sm-3.control-label(for='formGroupInputEmail') Электронная почта
 									.col-sm-9
-										input#formGroupInputEmail.form-control(type='text', placeholder='')
+										input#formGroupInputEmail.form-control(type='text', placeholder='', maxlength="255").required
 								.form-group
 									label.col-sm-3.control-label(for='formGroupInputPhone') Контактный телефон
 									.col-sm-9
-										input#formGroupInputPhone.form-control(type='text', placeholder='')
+										input#formGroupInputPhone.form-control(type='text', placeholder='', maxlength="255").required
 								.form-group
 									label.col-sm-3.control-label(for='formGroupInputIndex') Почтовый индекс
 									.col-sm-9
-										input#formGroupInputIndex.form-control(type='text', placeholder='')
+										input#formGroupInputIndex.form-control(type='text', placeholder='', maxlength="255").required
 								.form-group
 									label.col-sm-3.control-label(for='formGroupInputAddress') Почтовый адрес
 									.col-sm-9
-										input#formGroupInputAddress.form-control(type='text', placeholder='Город, улица, квартира')
+										input#formGroupInputAddress.form-control(type='text', placeholder='Город, улица, квартира', maxlength="255").required
 								.form-group
 									label.col-sm-3.control-label(for='formGroupInputTheme') Тема
 									.col-sm-9
-										input#formGroupInputTheme.form-control(type='text', placeholder='Тема Вашего обращения')
+										input#formGroupInputTheme.form-control(type='text', placeholder='Тема Вашего обращения', maxlength="255").required
 								.form-group
 									label.col-sm-3.control-label(for='formGroupInputTextarea') Обращение
 									.col-sm-9
-										textarea(rows="5", placeholder="Может содержать не более 2000 знаков").form-control#formGroupInputTextarea
-										p.help-block.pull-right 0/2000
+										textarea(rows="5", placeholder="Может содержать не более 2000 знаков", maxlength="2000").required.form-control#formGroupInputTextarea
+										p.help-block.pull-right #[span#count 0]/2000
 								.form-group
 									label.col-sm-3.control-label(for='formGroupInputFile') Документ
 									.col-sm-9
-										button(type="text")#formGroupInputFile.btn.btn-primary Выбрать файл
+										input(type="file", value="Выбрать файл", accept="image/*,audio/*,video/*,application/msword,application/rtf,application/vnd.ms-excel,application/pdf,text/plain,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")#formGroupInputFile.btn.btn-primary
 										//input#formGroupInputFile.form-control(type='file')
 										p.help-block Вы можете прикрепить к обращению файл размером не более 5 Мб.
 										p.help-block Допустимы следующие форматы: avi, bmp, doc, docx, flw, gif, jpg, mkv, mov, mp3, mp4, pcx, pdf, png, pps, ppt, pptx, rtf, tif, txt, xls, xlsx, wma, wmv, wma.
@@ -308,12 +308,12 @@ block content
 									label.col-sm-3.control-label.hidden-xs
 									.col-sm-9
 										.checkbox.checkbox-warning
-											input(type="checkbox" id="checkbox3")
-											label(for="checkbox3").control-label Я прочитал и #[a(href="javascript:;") принимаю правила рассмотрения электронных обращений граждан]
+											input(type="checkbox" id="agreed" name='agreed')
+											label(for="agreed").control-label Я прочитал и #[a(href="javascript:;") принимаю правила рассмотрения электронных обращений граждан]
 								.form-group
 									label.col-sm-3.control-label
 									.col-sm-9
-										button(type="submit" disabled).btn.btn-warning: strong Отправить
+										button(type="submit" disabled name="submitFeedback").btn.btn-warning: strong Отправить
 
 
 

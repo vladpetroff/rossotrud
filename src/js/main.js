@@ -9,6 +9,71 @@
 	}
 
 
+	/* feedbackForm */
+	var requiredInputs = $('#feedbackForm .required');
+
+	var validRequireds = false;
+	$(requiredInputs).change(function() {
+		validRequireds = true;
+		$(requiredInputs).each(function(){
+			if($(this).val() == ''){
+				validRequireds = false;
+			}
+			if($(this).val() != '') {
+				$(this).closest('.form-group').removeClass('has-error');
+			}
+		});
+
+		if (agreed.classList.contains('checked') && validRequireds == true) {
+			$(feedbackForm.elements.submitFeedback).prop('disabled', false);
+		} else {
+			$(feedbackForm.elements.submitFeedback).prop('disabled', true);
+		}
+	});
+
+	var feedbackForm = document.forms.feedbackForm;
+	var agreed = feedbackForm.elements.agreed;
+	$(agreed).on('click', function(){
+		this.classList.toggle('checked');
+		if (agreed.classList.contains('checked')) {
+			$(requiredInputs).each(function(){
+				if($(this).val() == ''){
+					$(this).closest('.form-group').addClass('has-error');
+				}
+			});
+
+			if (validRequireds == true) {
+				$(feedbackForm.elements.submitFeedback).prop('disabled', false);
+			}
+		} else {
+			$(feedbackForm.elements.submitFeedback).prop('disabled', true);
+		}
+	});
+
+	/* counter textarea */
+	$('#feedbackForm textarea').keypress(function() {
+		counter(this);
+	});
+	$('#feedbackForm textarea').keyup(function() {
+		counter(this);
+	});
+	$('#feedbackForm textarea').change(function() {
+		counter(this);
+	});
+	function counter(el){
+		var wrapper = document.createElement('DIV');
+		wrapper.innerHTML = el.value;
+		var len = (wrapper.textContent || wrapper.innerText).length;
+		document.getElementById('count').innerHTML = len;
+		//document.getElementById('kb').innerHTML = (len/1024).toFixed(2);
+	}
+
+
+
+
+
+
+
 	// clickable anons-block
 	$("section.anons").on("click", "article", function(){
 		window.location = $(this).find("a").attr('href');
