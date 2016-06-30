@@ -1,0 +1,226 @@
+extends includes/template
+
+block title
+	title Поддержка соотечественников
+
+
+block content
+	.container.var2
+		include includes/_header_var2
+
+		// phone-menu
+		nav.navbar.navbar-default.navbar-fixed-top.visible-xs
+			.container
+				.navbar-header
+					button(type="button" data-toggle="collapse" data-target="#navbar-collapsed" aria-expanded="false").navbar-toggle.collapsed
+						img(src="./img/icons/ic-menu.svg", onerror="this.onerror=null; this.src='./img/icons/ic-menu.png'").menu
+						img(src="./img/icons/ic-close-black-24-px.svg", onerror="this.onerror=null; this.src='./img/icons/ic-close-black-24-px.png'").closeMenu
+						span.sr-only Toggle navigation
+
+					a(href="index_var2.html").logo
+						img(src="./img/icons/rs-logo-white.svg", onerror="this.onerror=null; this.src='./img/icons/rs-logo-white.png'")
+
+					a(href="index_var2.html").navbar-brand Россотрудничество
+
+					a(href="javascript:;").search
+						img(src="./img/icons/ic-search.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search.png'")
+
+					.searchField
+						.input-group
+							input(type="text").form-control
+							span.input-group-btn
+								button(type="button").btn.btn-warning: img(src="./img/icons/ic-search-white.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search-white.png'")
+
+				.collapse.navbar-collapse#navbar-collapsed
+					ul.nav.navbar-nav
+						li
+							a(href="about_var2.html") О представительстве
+							ul
+								li: a(href="javascript:;") Руководитель
+								li: a(href="contacts_var2.html") Контакты
+						li.open
+							a(href="activity_var2.html") Деятельность
+							ul
+								li.open.active
+									a(href="activity_soot_var2.html") Поддержка соотечественников
+									ul
+										li: a(href="javascript:;") Организации соотечественников
+										li: a(href="javascript:;") Программы поддержки
+										li: a(href="javascript:;") Библиотека
+								li: a(href="javascript:;") Содействие международному развитию
+								li: a(href="javascript:;") Общественная дипломатия
+								li: a(href="javascript:;") Продвижение русской культуры
+								li: a(href="javascript:;") Укрепление позиций русского языка
+								li: a(href="javascript:;") Образование и наука
+								li: a(href="javascript:;") Сохранение историко-мемориальных памятников и мест погребения
+								li: a(href="javascript:;") Международные связи субъектов РФ
+								li: a(href="javascript:;") Интеграция стран СНГ
+						li
+							a(href="anons_var2.html") Анонсы
+							ul
+								li: a(href="javascript:;") Кино
+								li: a(href="javascript:;") Выставки
+								li: a(href="javascript:;") Концерты
+								li: a(href="javascript:;") Спектакли
+								li: a(href="javascript:;") Конференции
+								li: a(href="javascript:;") Семинары
+								li: a(href="javascript:;") Конкурсы
+								li: a(href="javascript:;") Творческие встречи
+								li: a(href="javascript:;") Конференции
+						li
+							a(href="javascript:;") Новости
+							ul
+								li: a(href="javascript:;") Россия
+								li: a(href="javascript:;") СНГ
+								li: a(href="javascript:;") Мир
+								li: a(href="javascript:;") Образование
+								li: a(href="javascript:;") Наука и техника
+								li: a(href="javascript:;") Культура
+								li: a(href="javascript:;") Общество
+								li: a(href="javascript:;") Русский язык
+								li: a(href="javascript:;") Народная дипломатия
+								li: a(href="javascript:;") Перекрестные годы
+
+
+					p.represent: a(href="represent.html") Сайты представительств
+
+					.lang
+						p Язык
+						a.active: img(src="./img/icons/flag/flag-ru.png").flag
+						a: img(src="./img/icons/flag/flag-en.png").flag
+						a: img(src="./img/icons/flag/flag-de.png").flag
+						a: img(src="./img/icons/flag/flag-fr.png").flag
+						a: img(src="./img/icons/flag/flag-es.png").flag
+
+		nav.navbar.navbar-desktop.hidden-xs
+			.navbarLine
+				.col-xs-12
+					.navbar-header
+
+						ul.nav.navbar-nav
+							li: a(href="about_var2.html") О представительстве
+							li.open: a(href="activity_var2.html") Деятельность
+							li: a(href="anons_var2.html") Анонсы
+							li: a(href="news_var2.html") Новости
+							//li: a(href="contacts.html") Контакты
+
+					a(href="javascript:;").search
+						img(src="./img/icons/ic-search.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search.png'")
+
+					.searchField
+						.input-group
+							input(type="text").form-control
+							span.input-group-btn
+								button(type="button").btn.btn-warning: img(src="./img/icons/ic-search-white.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search-white.png'")
+
+		.row
+			aside.col-sm-3.hidden-xs
+				nav.navbar.navbar-default
+					ul.nav.navbar-nav
+						li
+							a(href="about_var2.html") О представительстве
+							ul
+								li: a(href="javascript:;") Руководитель
+								li: a(href="contacts_var2.html") Контакты
+						li.open
+							a(href="activity_var2.html") Деятельность
+							ul
+								li.open.active
+									a(href="activity_soot_var2.html") Поддержка соотечественников
+									ul
+										li: a(href="javascript:;") Организации соотечественников
+										li: a(href="javascript:;") Программы поддержки
+										li: a(href="javascript:;") Библиотека
+								li: a(href="javascript:;") Содействие международному развитию
+								li: a(href="javascript:;") Общественная дипломатия
+								li: a(href="javascript:;") Продвижение русской культуры
+								li: a(href="javascript:;") Укрепление позиций русского языка
+								li: a(href="javascript:;") Образование и наука
+								li: a(href="javascript:;") Сохранение историко-мемориальных памятников и мест погребения
+								li: a(href="javascript:;") Международные связи субъектов РФ
+								li: a(href="javascript:;") Интеграция стран СНГ
+						li
+							a(href="anons_var2.html") Анонсы
+							ul
+								li: a(href="javascript:;") Кино
+								li: a(href="javascript:;") Выставки
+								li: a(href="javascript:;") Концерты
+								li: a(href="javascript:;") Спектакли
+								li: a(href="javascript:;") Конференции
+								li: a(href="javascript:;") Семинары
+								li: a(href="javascript:;") Конкурсы
+								li: a(href="javascript:;") Творческие встречи
+								li: a(href="javascript:;") Конференции
+						li
+							a(href="javascript:;") Новости
+							ul
+								li: a(href="javascript:;") Россия
+								li: a(href="javascript:;") СНГ
+								li: a(href="javascript:;") Мир
+								li: a(href="javascript:;") Образование
+								li: a(href="javascript:;") Наука и техника
+								li: a(href="javascript:;") Культура
+								li: a(href="javascript:;") Общество
+								li: a(href="javascript:;") Русский язык
+								li: a(href="javascript:;") Народная дипломатия
+								li: a(href="javascript:;") Перекрестные годы
+
+
+			.col-max-6.col-lg-7.col-sm-8.col-sm-offset-1.col-xs-12
+				ol.breadcrumb.hidden-xs
+					li: a(href="index_var2.html") Главная страница
+					li: a(href="activity_var2.html") Направления деятельности
+
+				section.content
+					h1 Поддержка соотечественников за рубежом
+
+					img(src="./img/var2/var2_activity_soot.png")
+					//h5 Михаил Врубель. Царевна-Лебедь. 1900. Холст, масло. 142,5 × 93,5 см#[br]Государственная Третьяковская галерея, Москва
+
+					p В мире проживает около 30 миллионов российских соотечественников, оказавшихся за пределами России по тем или иным причинам. Это одна из самых больших по численности диаспор в мире. Проживая за рубежом, будучи включенными в другую систему ценностей, наши соотечественники не теряют связи с исторической родиной: не только они сами, но и их дети знают и любят русский язык, культуру и традиции.
+					p Российские соотечественники являются носителями русской культуры, ценностей, языка, своеобразными проводниками гуманитарных связей и отношений между Россией и зарубежными странами.
+					p Россотрудничество активно взаимодействует с организациями соотечественников, организуя различные совместные мероприятия для людей, которые продолжают ощущать свою причастность к России и делают все для развития дружеских связей между странами.
+					p В компетенцию Россотрудничества входит реализация #[a(href="http://rs.gov.ru/sites/default/files/programma_raboty_s_sootech_2015-2017_3.pdf", target="_blank") Программы работы с соотечественниками, проживающими за рубежом], в сфере поддержки общественных объединений соотечественников, удовлетворения культурных, языковых и духовных потребностей российских соотечественников за рубежом, поддержки молодежи российской диаспоры.
+					p Ежегодно в разных странах мира для соотечественников проводятся мероприятия, приуроченные ко #[a(href="http://rs.gov.ru/node/270", target="_blank") Дню народного единства] и Дню русского языка, творческие фестивали, спортивные турниры, тематические конкурсы, вечера, посвященные памятным датам российской истории и культуры.
+					p Россотрудничество поддерживает проведение мероприятий, проводимых субъектами Российской Федерации.
+					p Одним из самых масштабных мероприятий Программы является организация учебно-образовательных поездок по историческим местам Российской Федерации #[a(href="http://rs.gov.ru/press/news", target="_blank") «Здравствуй, Россия!»]. Каждый год около 1000 молодых соотечественников – победителей конкурсов на знание истории и культуры России, русского языка посещают Москву, Санкт-Петербург, а с 2015 года и город Казань.
+					p Россотрудничество совместно с МИД России оказывает содействие в области защиты прав и законных интересов наших соотечественников, в том числе через #[a(href="http://pravfond.ru/", target="_blank") Фонд поддержки и защиты прав соотечественников, проживающих за рубежом]. Также Агентство участвует в реализации деятельности #[a(href="http://archive.mid.ru/bdomp/sitemap.nsf/kartaflat/03.04.02", target="_blank") Правительственной комиссии по делам соотечественников за рубежом], в том числе обеспечивая всестороннюю информационную поддержку мероприятий, проводимых Комиссией.
+					p Деятельность Россотрудничества в области взаимодействия и консолидации соотечественников направлена на укрепление связей с исторической Родиной, сохранение отечественного культурного наследия, поддержку и сохранение этнокультурной самобытности, развитие и распространение за рубежом русской культуры и русского языка.
+					p: a(href="http://rs.gov.ru/sites/default/files/programma_raboty_s_sootech_2015-2017_3.pdf", target="_blank") Программа работы с соотечественниками, проживающими за рубежом, на 2015 – 2017 годы, утвержденная распоряжением Правительства Российской Федерации от 19 ноября 2014 года №2321-р
+					p: a(href="http://archive.mid.ru//bdomp/sitemap.nsf/kartaflat/03.04.02", target="_blank") Правительственная комиссия по делам соотечественников за рубежом
+					p: a(href="http://rs.gov.ru/node/265", target="_blank") Сохранение историко-мемориальных памятников и мест погребения
+					p: a(href="http://rs.gov.ru/node/357", target="_blank") Государственная программа по оказанию содействия добровольному переселению в Российскую Федерацию соотечественников, проживающих за рубежом
+					p: a(href="http://rs.gov.ru/node/263", target="_blank") Мероприятия по работе с соотечественниками, проводимые при информационно-организационной поддержке Россотрудничества
+
+					h3.visible-xs Проекты в области поддержки соотечественников
+						.list-group.visible-xs
+							a(href="javascript:;").list-group-item Организации соотечественников
+							a(href="javascript:;").list-group-item Программа поддержки
+							a(href="javascript:;").list-group-item Библиотека
+
+		.row.hidden-xs
+			.col-sm-9.col-sm-offset-3
+				section.projects.block
+					h2 Проекты в области поддержки соотечественников
+					.row
+						.col-sm-4.col-xs-12
+							article
+								a(href="javascript:;")
+									img(src="./img/russian_culture/rs-project-default.png", alt="Организации соотечественников")
+								p Организации соотечественников
+
+						.col-sm-4.col-xs-12
+							article
+								a(href="javascript:;")
+									img(src="./img/russian_culture/rs-project-default.png", alt="Программа поддержки")
+								p Программа поддержки
+
+						.col-sm-4.col-xs-12
+							article
+								a(href="javascript:;")
+									img(src="./img/russian_culture/rs-project-default.png", alt="Библиотека")
+								p Библиотека
+
+	include includes/_footer_var2
+
+

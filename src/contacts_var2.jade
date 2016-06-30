@@ -1,0 +1,221 @@
+extends includes/template
+
+block title
+	title О представительстве
+
+
+block content
+	.container.var2
+		include includes/_header_var2
+
+		// phone-menu
+		nav.navbar.navbar-default.navbar-fixed-top.visible-xs
+			.container
+				.navbar-header
+					button(type="button" data-toggle="collapse" data-target="#navbar-collapsed" aria-expanded="false").navbar-toggle.collapsed
+						img(src="./img/icons/ic-menu.svg", onerror="this.onerror=null; this.src='./img/icons/ic-menu.png'").menu
+						img(src="./img/icons/ic-close-black-24-px.svg", onerror="this.onerror=null; this.src='./img/icons/ic-close-black-24-px.png'").closeMenu
+						span.sr-only Toggle navigation
+
+					a(href="index_var2.html").logo
+						img(src="./img/icons/rs-logo-white.svg", onerror="this.onerror=null; this.src='./img/icons/rs-logo-white.png'")
+
+					a(href="index_var2.html").navbar-brand Россотрудничество
+
+					a(href="javascript:;").search
+						img(src="./img/icons/ic-search.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search.png'")
+
+					.searchField
+						.input-group
+							input(type="text").form-control
+							span.input-group-btn
+								button(type="button").btn.btn-warning: img(src="./img/icons/ic-search-white.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search-white.png'")
+
+				.collapse.navbar-collapse#navbar-collapsed
+					ul.nav.navbar-nav
+						li.open
+							a(href="about_var2.html") О представительстве
+							ul
+								li: a(href="javascript:;") Руководитель
+								li.active: a(href="contacts_var2.html") Контакты
+						li
+							a(href="activity_var2.html") Деятельность
+							ul
+								li
+									a(href="activity_soot_var2.html") Поддержка соотечественников
+									ul
+										li: a(href="javascript:;") Организации соотечественников
+										li: a(href="javascript:;") Программы поддержки
+										li: a(href="javascript:;") Библиотека
+								li: a(href="javascript:;") Содействие международному развитию
+								li: a(href="javascript:;") Общественная дипломатия
+								li: a(href="javascript:;") Продвижение русской культуры
+								li: a(href="javascript:;") Укрепление позиций русского языка
+								li: a(href="javascript:;") Образование и наука
+								li: a(href="javascript:;") Сохранение историко-мемориальных памятников и мест погребения
+								li: a(href="javascript:;") Международные связи субъектов РФ
+								li: a(href="javascript:;") Интеграция стран СНГ
+						li
+							a(href="anons_var2.html") Анонсы
+							ul
+								li: a(href="javascript:;") Кино
+								li: a(href="javascript:;") Выставки
+								li: a(href="javascript:;") Концерты
+								li: a(href="javascript:;") Спектакли
+								li: a(href="javascript:;") Конференции
+								li: a(href="javascript:;") Семинары
+								li: a(href="javascript:;") Конкурсы
+								li: a(href="javascript:;") Творческие встречи
+								li: a(href="javascript:;") Конференции
+						li
+							a(href="javascript:;") Новости
+							ul
+								li: a(href="javascript:;") Россия
+								li: a(href="javascript:;") СНГ
+								li: a(href="javascript:;") Мир
+								li: a(href="javascript:;") Образование
+								li: a(href="javascript:;") Наука и техника
+								li: a(href="javascript:;") Культура
+								li: a(href="javascript:;") Общество
+								li: a(href="javascript:;") Русский язык
+								li: a(href="javascript:;") Народная дипломатия
+								li: a(href="javascript:;") Перекрестные годы
+
+
+					p.represent: a(href="represent.html") Сайты представительств
+
+					.lang
+						p Язык
+						a.active: img(src="./img/icons/flag/flag-ru.png").flag
+						a: img(src="./img/icons/flag/flag-en.png").flag
+						a: img(src="./img/icons/flag/flag-de.png").flag
+						a: img(src="./img/icons/flag/flag-fr.png").flag
+						a: img(src="./img/icons/flag/flag-es.png").flag
+
+		nav.navbar.navbar-desktop.hidden-xs
+			.navbarLine
+				.col-xs-12
+					.navbar-header
+
+						ul.nav.navbar-nav
+							li.active: a(href="about_var2.html") О представительстве
+							li: a(href="activity_var2.html") Деятельность
+							li: a(href="anons_var2.html") Анонсы
+							li: a(href="news_var2.html") Новости
+							//li: a(href="contacts.html") Контакты
+
+					a(href="javascript:;").search
+						img(src="./img/icons/ic-search.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search.png'")
+
+					.searchField
+						.input-group
+							input(type="text").form-control
+							span.input-group-btn
+								button(type="button").btn.btn-warning: img(src="./img/icons/ic-search-white.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search-white.png'")
+
+		.row
+			aside.col-sm-3.hidden-xs
+				nav.navbar.navbar-default
+					ul.nav.navbar-nav
+						li.open
+							a(href="about_var2.html") О представительстве
+							ul
+								li: a(href="javascript:;") Руководитель
+								li.active: a(href="contacts_var2.html") Контакты
+						li
+							a(href="activity_var2.html") Деятельность
+							ul
+								li
+									a(href="activity_soot_var2.html") Поддержка соотечественников
+									ul
+										li: a(href="javascript:;") Организации соотечественников
+										li: a(href="javascript:;") Программы поддержки
+										li: a(href="javascript:;") Библиотека
+								li: a(href="javascript:;") Содействие международному развитию
+								li: a(href="javascript:;") Общественная дипломатия
+								li: a(href="javascript:;") Продвижение русской культуры
+								li: a(href="javascript:;") Укрепление позиций русского языка
+								li: a(href="javascript:;") Образование и наука
+								li: a(href="javascript:;") Сохранение историко-мемориальных памятников и мест погребения
+								li: a(href="javascript:;") Международные связи субъектов РФ
+								li: a(href="javascript:;") Интеграция стран СНГ
+						li
+							a(href="anons_var2.html") Анонсы
+							ul
+								li: a(href="javascript:;") Кино
+								li: a(href="javascript:;") Выставки
+								li: a(href="javascript:;") Концерты
+								li: a(href="javascript:;") Спектакли
+								li: a(href="javascript:;") Конференции
+								li: a(href="javascript:;") Семинары
+								li: a(href="javascript:;") Конкурсы
+								li: a(href="javascript:;") Творческие встречи
+								li: a(href="javascript:;") Конференции
+						li
+							a(href="javascript:;") Новости
+							ul
+								li: a(href="javascript:;") Россия
+								li: a(href="javascript:;") СНГ
+								li: a(href="javascript:;") Мир
+								li: a(href="javascript:;") Образование
+								li: a(href="javascript:;") Наука и техника
+								li: a(href="javascript:;") Культура
+								li: a(href="javascript:;") Общество
+								li: a(href="javascript:;") Русский язык
+								li: a(href="javascript:;") Народная дипломатия
+								li: a(href="javascript:;") Перекрестные годы
+
+
+			.col-sm-8.col-sm-offset-1.col-xs-12
+
+				ol.breadcrumb.hidden-xs
+					li: a(href="index_var2.html") Главная страница
+					li: a(href="about_var2.html") О представительстве
+					li: a(href="contacts_var2.html") Контакты
+
+				section.content.contacts
+					h1 Российский центр науки #[br] и культуры в Минске
+
+					.row.hidden-xs
+						.col-sm-9.col-xs-12
+							.map
+								script(type='text/javascript', charset='utf-8', async='', src='https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=3QB8SBCEBl1VHDRZ6fT9U88EUYYpWycA&width=100\%&height=452&lang=ru_RU&sourceType=constructor&scroll=false')
+
+							table.table.table-contacts.fullwidth
+								tr
+									td Руководитель
+									td: strong Мичурин Виктор Львович
+								tr
+									td Телефон
+									td +3(7517)328-49-58
+								tr
+									td Факс
+									td +3(7517)328-49-58
+								tr
+									td Электронная почта
+									td: a(href="mailto:belarus@rs.gov.ru") belarus@rs.gov.ru
+
+								tr
+									td Сайт
+									td: a(href="http://blr.rs.gov.ru/", target="_blank") blr.rs.gov.ru
+
+
+						.col-sm-3.col-xs-12
+							img(src="./img/var2/dom_moskvy_1.png" alt="Дом Москвы").img-responsive
+							p 220002, Белоруссия, Минск, ул.Коммунистическая, 86, #[br]в здании «Дома Москвы»
+
+					.visible-xs
+						img(src="./img/var2/dom_moskvy_1.png" alt="Дом Москвы").img-responsive
+						p 220002, Белоруссия, Минск, ул.Коммунистическая, 86, #[br]в здании «Дома Москвы»
+
+						p Руководитель #[br] #[strong Мичурин Виктор Львович]
+						p Телефон #[br]+3(7517)328-49-58
+						p Факс #[br]+3(7517)328-49-58
+						p Электронная почта #[br] #[a(href="mailto:belarus@rs.gov.ru") belarus@rs.gov.ru]
+						p Сайт #[br] #[a(href="http://blr.rs.gov.ru/") blr.rs.gov.ru]
+
+
+
+	include includes/_footer_var2
+
+

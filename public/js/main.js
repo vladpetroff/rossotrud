@@ -60,47 +60,6 @@
 			$('.grid').masonry();
 		}
 
-		/* feedbackForm */
-		var requiredInputs = $('#feedbackForm .required');
-
-		var validRequireds = false;
-		$(requiredInputs).change(function () {
-			validRequireds = true;
-			$(requiredInputs).each(function () {
-				if ($(this).val() == '') {
-					validRequireds = false;
-				}
-				if ($(this).val() != '') {
-					$(this).closest('.form-group').removeClass('has-error');
-				}
-			});
-
-			if (agreed.classList.contains('checked') && validRequireds == true) {
-				$(feedbackForm.elements.submitFeedback).prop('disabled', false);
-			} else {
-				$(feedbackForm.elements.submitFeedback).prop('disabled', true);
-			}
-		});
-
-		var feedbackForm = document.forms.feedbackForm;
-		var agreed = feedbackForm.elements.agreed;
-		$(agreed).on('click', function () {
-			this.classList.toggle('checked');
-			if (agreed.classList.contains('checked')) {
-				$(requiredInputs).each(function () {
-					if ($(this).val() == '') {
-						$(this).closest('.form-group').addClass('has-error');
-					}
-				});
-
-				if (validRequireds == true) {
-					$(feedbackForm.elements.submitFeedback).prop('disabled', false);
-				}
-			} else {
-				$(feedbackForm.elements.submitFeedback).prop('disabled', true);
-			}
-		});
-
 		/* counter textarea */
 		$('#feedbackForm textarea').keypress(function () {
 			counter(this);
@@ -117,6 +76,49 @@
 			var len = (wrapper.textContent || wrapper.innerText).length;
 			document.getElementById('count').innerHTML = len;
 			//document.getElementById('kb').innerHTML = (len/1024).toFixed(2);
+		}
+
+		/* feedbackForm */
+		var feedbackForm = document.forms.feedbackForm;
+
+		if (feedbackForm) {
+			var requiredInputs = $('#feedbackForm .required');
+			var agreed = feedbackForm.elements.agreed;
+			var validRequireds = false;
+			$(requiredInputs).change(function () {
+				validRequireds = true;
+				$(requiredInputs).each(function () {
+					if ($(this).val() == '') {
+						validRequireds = false;
+					}
+					if ($(this).val() != '') {
+						$(this).closest('.form-group').removeClass('has-error');
+					}
+				});
+
+				if (agreed.classList.contains('checked') && validRequireds == true) {
+					$(feedbackForm.elements.submitFeedback).prop('disabled', false);
+				} else {
+					$(feedbackForm.elements.submitFeedback).prop('disabled', true);
+				}
+			});
+
+			$(agreed).on('click', function () {
+				this.classList.toggle('checked');
+				if (agreed.classList.contains('checked')) {
+					$(requiredInputs).each(function () {
+						if ($(this).val() == '') {
+							$(this).closest('.form-group').addClass('has-error');
+						}
+					});
+
+					if (validRequireds == true) {
+						$(feedbackForm.elements.submitFeedback).prop('disabled', false);
+					}
+				} else {
+					$(feedbackForm.elements.submitFeedback).prop('disabled', true);
+				}
+			});
 		}
 
 		// clickable anons-block

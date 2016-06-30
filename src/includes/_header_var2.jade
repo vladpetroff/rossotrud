@@ -10,19 +10,19 @@ header.hidden-xs
 					.media
 						.media-left
 							p.media-object
-								img(src="./img/icons/flag/flag-ru.png")
+								img(src="./img/icons/flag/flag_rus.png")
 						.media-body
 							h4.media-heading Россия
-							a(href="contacts_center.html", data-repres="Россия, Москва") Центральный аппарат в Москве
+							a(href="contacts_center.html", data-repres="Россия, Москва", target="_blank") Центральный аппарат в Москве
 
 					.media
 						.media-left
 							p.media-object
+								img(src="./img/icons/flag/flag_belrus.png")
 						.media-body
 							h4.media-heading Белоруссия
-							a(href="contacts_inworld_rome.html", data-repres="Белоруссия, Брест") Отделение Российского центра науки и культуры в Бресте
-							a(href="contacts_inworld_rome.html", data-repres="Белоруссия, Минск").selected Российский центр науки и культуры в Минске
-
+							a(href="http://blr-brest.rs.gov.ru/", target="_blank", data-repres="Белоруссия, Брест") Отделение Российского центра науки и культуры в Бресте
+							a(href="http://blr.rs.gov.ru/", target="_blank", data-repres="Белоруссия, Минск").selected Российский центр науки и культуры в Минске
 
 
 			select(data-width="fit").selectpicker.lang
@@ -33,7 +33,7 @@ header.hidden-xs
 				option(data-content='<img src="./img/icons/flag/flag-es.png" class="flag"><ins>Espaniol</ins>')
 
 			a(href="javascript:;").blindVersion.pull-right
-				span Версия для слабовидящих
+				span Старая версия сайта
 
 			hr
 
@@ -42,7 +42,7 @@ header.hidden-xs
 			.row
 				.col-xs-4
 					.headerLogo.pull-left
-						a(href="./")
+						a(href="index_var2.html")
 							img(src="./img/icons/rs-logo.svg", onerror="this.onerror=null; this.src='./img/icons/rs-logo.png'")
 
 					.headerText.pull-left
@@ -55,14 +55,14 @@ header.hidden-xs
 					input(type="email", placeholder="Ваша эл.почта").form-control
 
 				.headerSocial.col-xs-2
-					p: em Присоединяйтесь
+					p: em Присоединяйтесь:
 					.social
 						a(href="javascript:;").fb
 						a(href="javascript:;").vk
 						a(href="javascript:;").inst
 
 				.headerContact.col-xs-2
-					p: em Обращайтесь
+					p: em Обращайтесь:
 					h2: a(href="tel:+375173284958") +375-17 328-49-58
 					a(href="mailto:rcnkminsk@mail.ru") rcnkminsk@mail.ru
 
@@ -70,5 +70,6 @@ header.hidden-xs
 					p: em Другие представительства:
 					a(href="javascript:;")
 						img(src="./img/icons/map.svg", onerror="this.onerror=null; this.src='./img/icons/map.png'")
+
 
 

@@ -1,7 +1,7 @@
 extends includes/template
 
 block title
-	title mainpage
+	title Представительство
 
 
 block prepend css
@@ -10,6 +10,7 @@ block prepend css
 block content
 	.container.var2
 		include includes/_header_var2
+
 		// phone-menu
 		nav.navbar.navbar-default.navbar-fixed-top.visible-xs
 			.container
@@ -19,10 +20,10 @@ block content
 						img(src="./img/icons/ic-close-black-24-px.svg", onerror="this.onerror=null; this.src='./img/icons/ic-close-black-24-px.png'").closeMenu
 						span.sr-only Toggle navigation
 
-					a(href="./").logo
+					a(href="index_var2.html").logo
 						img(src="./img/icons/rs-logo-white.svg", onerror="this.onerror=null; this.src='./img/icons/rs-logo-white.png'")
 
-					a(href="javascript:;").navbar-brand Россотрудничество
+					a(href="index_var2.html").navbar-brand Представительство
 
 					a(href="javascript:;").search
 						img(src="./img/icons/ic-search.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search.png'")
@@ -36,92 +37,53 @@ block content
 				.collapse.navbar-collapse#navbar-collapsed
 					ul.nav.navbar-nav
 						li
-							a(href="about.html") О представительстве
+							a(href="about_var2.html") О представительстве
+							ul
+								li: a(href="javascript:;") Руководитель
+								li: a(href="contacts_var2.html") Контакты
+						li
+							a(href="activity_var2.html") Деятельность
 							ul
 								li
-									a(href="about_programs.html") Государственные программы
+									a(href="activity_soot_var2.html") Поддержка соотечественников
 									ul
-										li: a(href="about_programs_strategy.html") Стратегические коммуникации российского содействия международному развитию
-										li: a(href="about_programs_sng.html") Межгосударственная программа инновационного сотрудничества государств-участников СНГ
-										li: a(href="about_programs_newGen.html") «Новое поколение»: ознакомительные поездки в Россию для молодых представителей политических, общественных, научных и деловых кругов иностранных государств
-										li: a(href="about_programs_settlers.html") Содействие добровольному переселению в Российскую Федерацию соотечественников, проживающих за рубежом
-										li: a(href="about_programs_extpol.html") Внешнеполитическая деятельность
-										li: a(href="about_programs_rulang.html") Русский язык
+										li: a(href="javascript:;") Организации соотечественников
+										li: a(href="javascript:;") Программы поддержки
+										li: a(href="javascript:;") Библиотека
+								li: a(href="javascript:;") Содействие международному развитию
+								li: a(href="javascript:;") Общественная дипломатия
+								li: a(href="javascript:;") Продвижение русской культуры
+								li: a(href="javascript:;") Укрепление позиций русского языка
+								li: a(href="javascript:;") Образование и наука
+								li: a(href="javascript:;") Сохранение историко-мемориальных памятников и мест погребения
+								li: a(href="javascript:;") Международные связи субъектов РФ
+								li: a(href="javascript:;") Интеграция стран СНГ
+						li
+							a(href="anons_var2.html") Анонсы
+							ul
+								li: a(href="javascript:;") Кино
+								li: a(href="javascript:;") Выставки
+								li: a(href="javascript:;") Концерты
+								li: a(href="javascript:;") Спектакли
+								li: a(href="javascript:;") Конференции
+								li: a(href="javascript:;") Семинары
+								li: a(href="javascript:;") Конкурсы
+								li: a(href="javascript:;") Творческие встречи
+								li: a(href="javascript:;") Конференции
+						li
+							a(href="javascript:;") Новости
+							ul
+								li: a(href="javascript:;") Россия
+								li: a(href="javascript:;") СНГ
+								li: a(href="javascript:;") Мир
+								li: a(href="javascript:;") Образование
+								li: a(href="javascript:;") Наука и техника
+								li: a(href="javascript:;") Культура
+								li: a(href="javascript:;") Общество
+								li: a(href="javascript:;") Русский язык
+								li: a(href="javascript:;") Народная дипломатия
+								li: a(href="javascript:;") Перекрестные годы
 
-								li: a(href="about_structure.html") Структура
-								li: a(href="about_manage.html") Руководство
-								li: a(href="javascript:;") История
-								li: a(href="javascript:;") Партнеры
-						li
-							a(href="activity.html") Деятельность
-							ul
-								li: a(href="activity_worldSupport.html") Содействие международному развитию
-								li: a(href="activity_diplomacy.html") Общественная дипломатия
-								li
-									a(href="activity_russianCulture.html") Продвижение русской культуры
-									ul
-										li: a(href="activity_russianCulture_.html") 25 лет Содружеству Независимых Государств
-										li: a(href="activity_russianCulture_.html") 25 лет Содружеству Независимых Государств
-										li: a(href="activity_russianCulture_ruCinema.html") Год российского кино
-										li: a(href="activity_russianCulture_.html") 90 лет народной дипломатии
-										li: a(href="activity_russianCulture_.html") 50-летие первого выхода человека в открытый космос
-										li: a(href="activity_russianCulture_.html") Посольство мастерства
-										li: a(href="activity_russianCulture_.html") Год литературы
-										li: a(href="activity_russianCulture_.html") Год России в Монако
-										li: a(href="activity_russianCulture_.html") 70-летие Победы в Великой Отечественной войне
-										li: a(href="activity_russianCulture_.html") 175-летие со дня рождения П. И. Чайковского
-										li: a(href="activity_russianCulture_.html") 1000-летие преставления святого равноапостольного князя Владимира — Крестителя Руси
-										li: a(href="activity_russianCulture_.html") День семьи, любви и верности
-										li: a(href="activity_russianCulture_.html") 700-летие со дня рождения преподобного Сергия Радонежского
-										li: a(href="activity_russianCulture_.html") 200-летие со дня рождения М. Ю. Лермонтова
-										li: a(href="activity_russianCulture_.html") Дружба Народов
-										li: a(href="activity_russianCulture_.html") 100-летие начала Первой мировой войны
-										li: a(href="activity_russianCulture_.html") Фотовыставка «Гран-при по-русски»
-										li: a(href="activity_russianCulture_.html") Год России в Нидерландах и Нидерландов в России
-										li: a(href="activity_russianCulture_.html") Год Германии в России и России в Германии
-										li: a(href="activity_russianCulture_.html") Год Испании в России и России в Испании
-										li: a(href="activity_russianCulture_.html") Год России в Италии
-										li: a(href="activity_russianCulture_.html") Год китайского языка в России
-										li: a(href="activity_russianCulture_.html") Год России во Франции и Год Франции в России
-										li: a(href="activity_russianCulture_.html") Год Болгарии в России
-
-								li: a(href="activity_comrades.html") Поддержка соотечественников
-								li: a(href="activity_rulangSupport.html") Укрепление позиций русского языка
-								li: a(href="activity_education.html") Образование и наука
-								li: a(href="activity_cemetery.html") Сохранение историко-мемориальных памятников и мест погребения
-								li: a(href="activity_relations.html") Международные связи субъектов РФ
-								li: a(href="activity_sng.html") Интеграция стран СНГ
-						li
-							a(href="anons.html") Анонсы
-							ul
-								li: a(href="anons_detail.html") Кино
-								li: a(href="anons_detail.html") Выставки
-								li: a(href="anons_detail.html") Концерты
-								li: a(href="anons_detail.html") Спектакли
-								li: a(href="anons_detail.html") Конференции
-								li: a(href="anons_detail.html") Семинары
-								li: a(href="anons_detail.html") Конкурсы
-								li: a(href="anons_detail.html") Творческие встречи
-								li: a(href="anons_detail.html") Конференции
-						li
-							a(href="news.html") Новости
-							ul
-								li: a(href="news_russia.html") Россия
-								li: a(href="news_sng.html") СНГ
-								li: a(href="news_world.html") Мир
-								li: a(href="news_edu.html") Образование
-								li: a(href="news_tech.html") Наука и техника
-								li: a(href="news_culture.html") Культура
-								li: a(href="news_social.html") Общество
-								li: a(href="news_rulang.html") Русский язык
-								li: a(href="news_diplomacy.html") Народная дипломатия
-								li: a(href="news_years.html") Перекрестные годы
-						li
-							a(href="contacts.html") Контакты
-							ul
-								li: a(href="contacts_center.html") Центральный аппарат
-								li: a(href="contacts_inworld.html") Представительства в мире
-								li: a(href="contacts_callback.html") Написать обращение
 
 					p.represent: a(href="represent.html") Сайты представительств
 
@@ -140,14 +102,14 @@ block content
 
 						ul.nav.navbar-nav
 							li
-								a(href="about.html") О представительстве
+								a(href="about_var2.html") О представительстве
 							li
-								a(href="activity.html") Деятельность
+								a(href="activity_var2.html") Деятельность
 							li
-								a(href="anons.html") Анонсы
+								a(href="anons_var2.html") Анонсы
 							li
-								a(href="news.html") Новости
-							li
+								a(href="news_var2.html") Новости
+							//li
 								a(href="contacts.html") Контакты
 
 					a(href="javascript:;").search
@@ -172,7 +134,7 @@ block content
 								a(href="anonsDetail.html")
 									img(src="./img/announcements/img_01.jpg", alt="")
 							.articleText
-								h2 Таджикистан, РЦНК в Душанбе
+								//h2 Таджикистан, РЦНК в Душанбе
 								time 28 января 18:00
 								h3 Писатель горечи и гнева
 								h4 К 190-летию М. Е. Салтыкова-Щедрина
@@ -183,7 +145,7 @@ block content
 								a(href="anonsDetail.html")
 									img(src="./img/announcements/img_02.jpg", alt="")
 							.articleText
-								h2 Дания, РЦНК в Копенгагене #[br] На русском языке
+								//h2 Дания, РЦНК в Копенгагене #[br] На русском языке
 								time 30 января 12:00
 								h3 «Азбука хорошего поведения». Спектакль Ульяновского театра им. И. А. Гончарова
 
@@ -193,7 +155,7 @@ block content
 								a(href="anonsDetail.html")
 									img(src="./img/announcements/img_03.jpg", alt="")
 							.articleText
-								h2 Дания, РЦНК в Копенгагене #[br] На русском языке
+								//h2 Дания, РЦНК в Копенгагене #[br] На русском языке
 								time 30 января 19:00
 								h3 «Другой человек». Спектакль Ульяновского театра им. И. А. Гончарова
 
@@ -203,7 +165,7 @@ block content
 								a(href="anonsDetail.html")
 									img(src="./img/announcements/img_04.jpg", alt="")
 							.articleText
-								h2 Таджикистан, РЦНК в Душанбе #[br]На русском языке
+								//h2 Таджикистан, РЦНК в Душанбе #[br]На русском языке
 								time 1 февраля 19:00
 								h3 Концерт классической музыки в исполнении учащихся РССШИИ имени М. Атоева
 								h4 К 5-летию подписания Соглашения об учреждении культурно-информационных центров России и Таджикистана
@@ -214,7 +176,7 @@ block content
 								a(href="anonsDetail.html")
 									img(src="./img/announcements/img_05.jpg", alt="")
 							.articleText
-								h2 Дания, РЦНК в Копенгагене
+								//h2 Дания, РЦНК в Копенгагене
 								time 3–12 февраля
 								h3 Выставка картин Николая Дулько, художника из Твери
 								h4 К 190-летию М. Е. Салтыкова-Щедрина
@@ -225,7 +187,7 @@ block content
 								a(href="anonsDetail.html")
 									img(src="./img/announcements/img_06.jpg", alt="")
 							.articleText
-								h2 Южная Осетия, РЦНК в Цхинвале
+								//h2 Южная Осетия, РЦНК в Цхинвале
 								time 5–9 февраля
 								h3 Выставка «Россия — мировая научная держава»
 								h4 Ко Дню Российской науки
@@ -313,7 +275,7 @@ block content
 		.row.subscribe.visible-xs
 			.col-xs-12
 				form
-					h2 Подписывайтесь #[br.visible-xs]на анонсы и новости:
+					//h2 Подписывайтесь #[br.visible-xs]на анонсы и новости:
 					input(type="email", placeholder="Ваша эл. почта").form-control
 					input(type="submit", value="Подписаться").btn.btn-orange
 
@@ -324,63 +286,65 @@ block content
 				.row
 					.col-sm-3.col-xs-12
 						article
-							a(href="projectDetail.html")
-								img(src="./img/projects/img_01.jpg", alt="")
-							h2 Год российского кино
-							p Culture.ru подготовили каталог киноклассики, выложенной на YouTube в открытом доступе
+							a(href="javascript:;")
+								img(src="./img/activity/img_03.png", alt="Продвижение русской культуры")
+							p Продвижение русской культуры
 
 					.col-sm-3.col-xs-12
 						article
-							a(href="projectDetail.html")
-								img(src="./img/projects/img_02.jpg", alt="")
-							h2 Русский язык
-							p День русского языка
+							a(href="javascript:;")
+								img(src="./img/activity/img_01.png", alt="Содействие международному развитию")
+							p Содействие международному развитию
 
 					.col-sm-3.col-xs-12
 						article
-							a(href="projectDetail.html")
-								img(src="./img/projects/img_03.jpg", alt="")
-							h2 Содружество Независимых Государств
-							p 25 лет Содружеству Независимых Государств
+							a(href="javascript:;")
+								img(src="./img/activity/img_02.png", alt="Общественная дипломатия")
+							p Общественная дипломатия
+
 
 					.col-sm-3.col-xs-12
 						article
-							a(href="projectDetail.html")
-								img(src="./img/projects/img_04.jpg", alt="")
-							h2 Год российского кино
-							p Culture.ru подготовили каталог киноклассики, выложенной на YouTube в открытом доступе
+							a(href="javascript:;")
+								img(src="./img/activity/img_04.png", alt="Поддержка соотечественников")
+							p Поддержка соотечественников
 
 					.col-sm-3.col-xs-12
 						article
-							a(href="projectDetail.html")
-								img(src="./img/projects/img_05.jpg", alt="")
-							h2 Год российского кино
-							p Culture.ru подготовили каталог киноклассики, выложенной на YouTube в открытом доступе
+							a(href="javascript:;")
+								img(src="./img/activity/img_05.png", alt="Укрепление позиций русского языка")
+							p Укрепление позиций русского языка
 
 					.col-sm-3.col-xs-12
 						article
-							a(href="projectDetail.html")
-								img(src="./img/projects/img_06.jpg", alt="")
-							h2 Год российского кино
-							p Culture.ru подготовили каталог киноклассики, выложенной на YouTube в открытом доступе
+							a(href="javascript:;")
+								img(src="./img/activity/img_06.png", alt="Образование и наука")
+							p Образование и наука
 
 					.col-sm-3.col-xs-12
 						article
-							a(href="projectDetail.html")
-								img(src="./img/projects/img_07.jpg", alt="")
-							h2 Год российского кино
-							p Culture.ru подготовили каталог киноклассики, выложенной на YouTube в открытом доступе
+							a(href="javascript:;")
+								img(src="./img/activity/img_07.png", alt="Сохранение историко-мемориальных памятников и мест погребения")
+							p Сохранение историко-мемориальных памятников и мест погребения
 
 					.col-sm-3.col-xs-12
 						article
-							a(href="projectDetail.html")
-								img(src="./img/projects/img_08.jpg", alt="")
-							h2 Год российского кино
-							p Culture.ru подготовили каталог киноклассики, выложенной на YouTube в открытом доступе
+							a(href="javascript:;")
+								img(src="./img/activity/img_08.png", alt="Развитие международных связей субъектов РФ")
+							p Развитие международных связей субъектов РФ
+
+					.col-sm-3.col-xs-12.hidden
+						article
+							a(href="javascript:;")
+								img(src="./img/activity/img_09.png", alt="Интеграция стран СНГ")
+							p Интеграция стран СНГ
+
+
 
 				.row
 					.col-xs-12
-						p.readmore: a(href="projects.html") Все направления деятельности и проекты
+						p.readmore: a(href="javascript:;") Все направления деятельности и проекты
+
 
 
 	.grayBlock

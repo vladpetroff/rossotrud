@@ -1796,11 +1796,15 @@ footer{
           line-height: 1.1;
         }
         article{
+          height: 235px;
           p{
             font-size:1.43em;
             line-height: 1.2;
             padding: 16px 16px 0px;
             margin-top: 0;
+          }
+          img{
+            height: 156px;
           }
         }
       }
@@ -2588,6 +2592,16 @@ footer{
         line-height: 1.6;
       }
     }
+    &.projects{
+      &.block{
+        article{
+          height:282px;
+          img{
+            height:188px;
+          }
+        }
+      }
+    }
   }
   .newsBlock{
     iframe{
@@ -2719,7 +2733,7 @@ footer{
   header {
     .headerRegion{
       .represBlock{
-        width:25%;
+        width:360px;
         padding-top: 17px;
         padding-bottom: 19px;
       }
@@ -2743,6 +2757,17 @@ footer{
     }
   }
   @media (min-width: $screen-lg-min) {
+    section{
+      &.anons{
+        article{
+          .articleText{
+            h3{
+              margin-top: 0;
+            }
+          }
+        }
+      }
+    }
   }
   @media (min-width: 1400px) {
   }

@@ -1,0 +1,234 @@
+extends includes/template
+
+block title
+	title Деятельность
+
+
+block content
+	.container.var2
+		include includes/_header_var2
+
+		// phone-menu
+		nav.navbar.navbar-default.navbar-fixed-top.visible-xs
+			.container
+				.navbar-header
+					button(type="button" data-toggle="collapse" data-target="#navbar-collapsed" aria-expanded="false").navbar-toggle.collapsed
+						img(src="./img/icons/ic-menu.svg", onerror="this.onerror=null; this.src='./img/icons/ic-menu.png'").menu
+						img(src="./img/icons/ic-close-black-24-px.svg", onerror="this.onerror=null; this.src='./img/icons/ic-close-black-24-px.png'").closeMenu
+						span.sr-only Toggle navigation
+
+					a(href="index_var2.html").logo
+						img(src="./img/icons/rs-logo-white.svg", onerror="this.onerror=null; this.src='./img/icons/rs-logo-white.png'")
+
+					a(href="index_var2.html").navbar-brand Россотрудничество
+
+					a(href="javascript:;").search
+						img(src="./img/icons/ic-search.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search.png'")
+
+					.searchField
+						.input-group
+							input(type="text").form-control
+							span.input-group-btn
+								button(type="button").btn.btn-warning: img(src="./img/icons/ic-search-white.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search-white.png'")
+
+				.collapse.navbar-collapse#navbar-collapsed
+					ul.nav.navbar-nav
+						li
+							a(href="about_var2.html") О представительстве
+							ul
+								li: a(href="javascript:;") Руководитель
+								li: a(href="contacts_var2.html") Контакты
+						li.open.active
+							a(href="activity_var2.html") Деятельность
+							ul
+								li
+									a(href="activity_soot_var2.html") Поддержка соотечественников
+									ul
+										li: a(href="javascript:;") Организации соотечественников
+										li: a(href="javascript:;") Программы поддержки
+										li: a(href="javascript:;") Библиотека
+								li: a(href="javascript:;") Содействие международному развитию
+								li: a(href="javascript:;") Общественная дипломатия
+								li: a(href="javascript:;") Продвижение русской культуры
+								li: a(href="javascript:;") Укрепление позиций русского языка
+								li: a(href="javascript:;") Образование и наука
+								li: a(href="javascript:;") Сохранение историко-мемориальных памятников и мест погребения
+								li: a(href="javascript:;") Международные связи субъектов РФ
+								li: a(href="javascript:;") Интеграция стран СНГ
+						li
+							a(href="anons_var2.html") Анонсы
+							ul
+								li: a(href="javascript:;") Кино
+								li: a(href="javascript:;") Выставки
+								li: a(href="javascript:;") Концерты
+								li: a(href="javascript:;") Спектакли
+								li: a(href="javascript:;") Конференции
+								li: a(href="javascript:;") Семинары
+								li: a(href="javascript:;") Конкурсы
+								li: a(href="javascript:;") Творческие встречи
+								li: a(href="javascript:;") Конференции
+						li
+							a(href="javascript:;") Новости
+							ul
+								li: a(href="javascript:;") Россия
+								li: a(href="javascript:;") СНГ
+								li: a(href="javascript:;") Мир
+								li: a(href="javascript:;") Образование
+								li: a(href="javascript:;") Наука и техника
+								li: a(href="javascript:;") Культура
+								li: a(href="javascript:;") Общество
+								li: a(href="javascript:;") Русский язык
+								li: a(href="javascript:;") Народная дипломатия
+								li: a(href="javascript:;") Перекрестные годы
+
+
+					p.represent: a(href="represent.html") Сайты представительств
+
+					.lang
+						p Язык
+						a.active: img(src="./img/icons/flag/flag-ru.png").flag
+						a: img(src="./img/icons/flag/flag-en.png").flag
+						a: img(src="./img/icons/flag/flag-de.png").flag
+						a: img(src="./img/icons/flag/flag-fr.png").flag
+						a: img(src="./img/icons/flag/flag-es.png").flag
+
+		nav.navbar.navbar-desktop.hidden-xs
+			.navbarLine
+				.col-xs-12
+					.navbar-header
+
+						ul.nav.navbar-nav
+							li: a(href="about_var2.html") О представительстве
+							li.active: a(href="activity_var2.html") Деятельность
+							li: a(href="anons_var2.html") Анонсы
+							li: a(href="news_var2.html") Новости
+							//li: a(href="contacts.html") Контакты
+
+					a(href="javascript:;").search
+						img(src="./img/icons/ic-search.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search.png'")
+
+					.searchField
+						.input-group
+							input(type="text").form-control
+							span.input-group-btn
+								button(type="button").btn.btn-warning: img(src="./img/icons/ic-search-white.svg", onerror="this.onerror=null; this.src='./img/icons/ic-search-white.png'")
+
+		.row
+			aside.col-sm-3.hidden-xs
+				nav.navbar.navbar-default
+					ul.nav.navbar-nav
+						li
+							a(href="about_var2.html") О представительстве
+							ul
+								li: a(href="javascript:;") Руководитель
+								li: a(href="contacts_var2.html") Контакты
+						li.open.active
+							a(href="activity_var2.html") Деятельность
+							ul
+								li.open.active
+									a(href="activity_soot_var2.html") Поддержка соотечественников
+									ul
+										li: a(href="javascript:;") Организации соотечественников
+										li: a(href="javascript:;") Программы поддержки
+										li: a(href="javascript:;") Библиотека
+								li: a(href="javascript:;") Содействие международному развитию
+								li: a(href="javascript:;") Общественная дипломатия
+								li: a(href="javascript:;") Продвижение русской культуры
+								li: a(href="javascript:;") Укрепление позиций русского языка
+								li: a(href="javascript:;") Образование и наука
+								li: a(href="javascript:;") Сохранение историко-мемориальных памятников и мест погребения
+								li: a(href="javascript:;") Международные связи субъектов РФ
+								li: a(href="javascript:;") Интеграция стран СНГ
+						li
+							a(href="anons_var2.html") Анонсы
+							ul
+								li: a(href="javascript:;") Кино
+								li: a(href="javascript:;") Выставки
+								li: a(href="javascript:;") Концерты
+								li: a(href="javascript:;") Спектакли
+								li: a(href="javascript:;") Конференции
+								li: a(href="javascript:;") Семинары
+								li: a(href="javascript:;") Конкурсы
+								li: a(href="javascript:;") Творческие встречи
+								li: a(href="javascript:;") Конференции
+						li
+							a(href="javascript:;") Новости
+							ul
+								li: a(href="javascript:;") Россия
+								li: a(href="javascript:;") СНГ
+								li: a(href="javascript:;") Мир
+								li: a(href="javascript:;") Образование
+								li: a(href="javascript:;") Наука и техника
+								li: a(href="javascript:;") Культура
+								li: a(href="javascript:;") Общество
+								li: a(href="javascript:;") Русский язык
+								li: a(href="javascript:;") Народная дипломатия
+								li: a(href="javascript:;") Перекрестные годы
+
+
+			.col-max-6.col-sm-7.col-sm-offset-1.col-xs-12
+				ol.breadcrumb.hidden-xs
+					li: a(href="index_var2.html") Главная страница
+
+				section.projects.block
+					h1 Деятельность
+					.row
+						.col-sm-6.col-xs-12
+							article
+								a(href="activity_soot_var2.html")
+									img(src="./img/activity/img_04.png", alt="Поддержка соотечественников")
+								p Поддержка соотечественников
+								
+						.col-sm-6.col-xs-12
+							article
+								a(href="javascript:;")
+									img(src="./img/activity/img_03.png", alt="Продвижение русской культуры")
+								p Продвижение русской культуры
+
+						.col-sm-6.col-xs-12
+							article
+								a(href="javascript:;")
+									img(src="./img/activity/img_01.png", alt="Содействие международному развитию")
+								p Содействие международному развитию
+
+						.col-sm-6.col-xs-12
+							article
+								a(href="javascript:;")
+									img(src="./img/activity/img_02.png", alt="Общественная дипломатия")
+								p Общественная дипломатия
+
+						.col-sm-6.col-xs-12
+							article
+								a(href="javascript:;")
+									img(src="./img/activity/img_05.png", alt="Укрепление позиций русского языка")
+								p Укрепление позиций русского языка
+
+						.col-sm-6.col-xs-12
+							article
+								a(href="javascript:;")
+									img(src="./img/activity/img_06.png", alt="Образование и наука")
+								p Образование и наука
+
+						.col-sm-6.col-xs-12
+							article
+								a(href="javascript:;")
+									img(src="./img/activity/img_07.png", alt="Сохранение историко-мемориальных памятников и мест погребения")
+								p Сохранение историко-мемориальных памятников и мест погребения
+
+						.col-sm-6.col-xs-12
+							article
+								a(href="javascript:;")
+									img(src="./img/activity/img_08.png", alt="Развитие международных связей субъектов РФ")
+								p Развитие международных связей субъектов РФ
+
+						.col-sm-6.col-xs-12
+							article
+								a(href="javascript:;")
+									img(src="./img/activity/img_09.png", alt="Интеграция стран СНГ")
+								p Интеграция стран СНГ
+
+
+
+	include includes/_footer_var2
+
+
