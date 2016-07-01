@@ -1,7 +1,7 @@
 extends includes/template
 
 block title
-	title О представительстве
+	title Анонсы
 
 
 block content
@@ -33,7 +33,7 @@ block content
 
 				.collapse.navbar-collapse#navbar-collapsed
 					ul.nav.navbar-nav
-						li.open.active
+						li
 							a(href="about_var2.html") О представительстве
 							ul
 								li: a(href="javascript:;") Руководитель
@@ -55,7 +55,7 @@ block content
 								li: a(href="javascript:;") Сохранение историко-мемориальных памятников и мест погребения
 								li: a(href="javascript:;") Международные связи субъектов РФ
 								li: a(href="javascript:;") Интеграция стран СНГ
-						li
+						li.open.active
 							a(href="anons_var2.html") Анонсы
 							ul
 								li: a(href="javascript:;") Кино
@@ -98,9 +98,9 @@ block content
 					.navbar-header
 
 						ul.nav.navbar-nav
-							li.active: a(href="about_var2.html") О представительстве
+							li: a(href="about_var2.html") О представительстве
 							li: a(href="activity_var2.html") Деятельность
-							li: a(href="anons_var2.html") Анонсы
+							li.active: a(href="anons_var2.html") Анонсы
 							li: a(href="news_var2.html") Новости
 							//li: a(href="contacts.html") Контакты
 
@@ -117,7 +117,7 @@ block content
 			aside.col-sm-3.hidden-xs
 				nav.navbar.navbar-default
 					ul.nav.navbar-nav
-						li.open.active
+						li
 							a(href="about_var2.html") О представительстве
 							ul
 								li: a(href="javascript:;") Руководитель
@@ -125,7 +125,7 @@ block content
 						li
 							a(href="activity_var2.html") Деятельность
 							ul
-								li
+								li.open.active
 									a(href="activity_soot_var2.html") Поддержка соотечественников
 									ul
 										li: a(href="javascript:;") Организации соотечественников
@@ -139,7 +139,7 @@ block content
 								li: a(href="javascript:;") Сохранение историко-мемориальных памятников и мест погребения
 								li: a(href="javascript:;") Международные связи субъектов РФ
 								li: a(href="javascript:;") Интеграция стран СНГ
-						li
+						li.open.active
 							a(href="anons_var2.html") Анонсы
 							ul
 								li: a(href="javascript:;") Кино
@@ -166,24 +166,172 @@ block content
 								li: a(href="javascript:;") Перекрестные годы
 
 
-			.col-max-6.col-lg-7.col-sm-8.col-sm-offset-1.col-xs-12
+			.col-sm-6.col-sm-offset-1.col-xs-12
 				ol.breadcrumb.hidden-xs
 					li: a(href="index_var2.html") Главная страница
 
-				section.content
-					h1 О представительстве
-					p Представительство в Республике Беларусь осуществляет свою деятельность с июня 2004 года. Представительство проводит информационно-разъяснительную работу по обеспечению внутренней и внешней политики Российской Федерации и распространению позитивной информации о стране, а также содействует формированию общего социокультурного и образовательного пространства в рамках Союзного государства.
-					p Деятельность представительства тесным образом связана с организациями российских соотечественников и, в первую очередь, направлена на консолидацию и координацию их действий, создание механизма эффективного использования ресурсов общественной дипломатии. Другой важной стороной деятельности представительства является продвижение и укрепление позиций русского языка, культуры и образования.
-					p В ходе работы проводятся различные мероприятия с участием как приглашенных из России, так и местных политических и общественных деятелей, представителей науки и культуры, ансамблей и фольклорных коллективов, которые собирают большое количество зрителей. Представительство тесно сотрудничает с местными СМИ. Установлены и успешно развиваются партнерские отношения с министерствами и ведомствами, НПО, детскими, молодежными и ветеранскими организациями Белоруссии.
-					p С 2011 года в Российском центре науки и культуры работает Арт-студия «Солнце». В студии занимаются ребята из самых различных школ  Минска, а также молодёжь и взрослые. Образовательная программа студии выстроена на лучших русских и белорусских художественных традициях. В студии проводятся различные городские художественные проекты, выставки, выездные программы, пленеры. У арт-студии «Солнце» много друзей из самых различных творческих коллективов города, что порой способствует созданию актуальных совместных мероприятий. Вся работа студии способствует формированию общего социокультурного и образовательного художественного пространства.
+				section.anons.inner
+					h1 Анонсы
 
-					.list-group.visible-xs
-						a(href="javascript:;").list-group-item Руководство
-						a(href="contacts_var2.html").list-group-item Контакты
+					.row
+						.col-xs-12
+							article
+								.articleImg
+									a(href="anonsDetail_var2.html")
+										img(src="./img/announcements/img_01.jpg", alt="")
+								.articleText
+									//h2 Таджикистан, РЦНК в Душанбе
+									time 28 января 18:00
+									h3 Писатель горечи и гнева
+									h4 К 190-летию М. Е. Салтыкова-Щедрина
 
-					.hidden-xs
-						img(src="./img/var2/dom_moskvy_1.png")
-						h5 «Дом Москвы»
+						.col-xs-12
+							article
+								.articleImg
+									a(href="anonsDetail_var2.html")
+										img(src="./img/announcements/img_02.jpg", alt="")
+								.articleText
+									//h2 Дания, РЦНК в Копенгагене #[br] На русском языке
+									time 30 января 12:00
+									h3 «Азбука хорошего поведения». Спектакль Ульяновского театра им. И. А. Гончарова
+
+						.col-xs-12
+							article
+								.articleImg
+									a(href="anonsDetail_var2.html")
+										img(src="./img/announcements/img_03.jpg", alt="")
+								.articleText
+									//h2 Дания, РЦНК в Копенгагене #[br] На русском языке
+									time 30 января 19:00
+									h3 «Другой человек». Спектакль Ульяновского театра им. И. А. Гончарова
+
+						.col-xs-12
+							article
+								.articleImg
+									a(href="anonsDetail_var2.html")
+										img(src="./img/announcements/img_04.jpg", alt="")
+								.articleText
+									//h2 Таджикистан, РЦНК в Душанбе #[br]На русском языке
+									time 1 февраля 19:00
+									h3 Концерт классической музыки в исполнении учащихся РССШИИ имени М. Атоева
+									h4 К 5-летию подписания Соглашения об учреждении культурно-информационных центров России и Таджикистана в три строки
+
+						.col-xs-12
+							article
+								.articleImg
+									a(href="anonsDetail_var2.html")
+										img(src="./img/announcements/img_01.jpg", alt="")
+								.articleText
+									//h2 Таджикистан, РЦНК в Душанбе
+									time 28 января 18:00
+									h3 Писатель горечи и гнева
+									h4 К 190-летию М. Е. Салтыкова-Щедрина
+
+						.col-xs-12
+							article
+								.articleImg
+									a(href="anonsDetail_var2.html")
+										img(src="./img/announcements/img_02.jpg", alt="")
+								.articleText
+									//h2 Дания, РЦНК в Копенгагене #[br] На русском языке
+									time 30 января 12:00
+									h3 «Азбука хорошего поведения». Спектакль Ульяновского театра им. И. А. Гончарова
+
+						.col-xs-12
+							article
+								.articleImg
+									a(href="anonsDetail_var2.html")
+										img(src="./img/announcements/img_03.jpg", alt="")
+								.articleText
+									//h2 Дания, РЦНК в Копенгагене #[br] На русском языке
+									time 30 января 19:00
+									h3 «Другой человек». Спектакль Ульяновского театра им. И. А. Гончарова
+
+						.col-xs-12
+							article
+								.articleImg
+									a(href="anonsDetail_var2.html")
+										img(src="./img/announcements/img_04.jpg", alt="")
+								.articleText
+									//h2 Таджикистан, РЦНК в Душанбе #[br]На русском языке
+									time 1 февраля 19:00
+									h3 Концерт классической музыки в исполнении учащихся РССШИИ имени М. Атоева
+									h4 К 5-летию подписания Соглашения об учреждении культурно-информационных центров России и Таджикистана
+
+						.col-xs-12
+							article
+								.articleImg
+									a(href="anonsDetail_var2.html")
+										img(src="./img/announcements/img_01.jpg", alt="")
+								.articleText
+									//h2 Таджикистан, РЦНК в Душанбе
+									time 28 января 18:00
+									h3 Писатель горечи и гнева
+									h4 К 190-летию М. Е. Салтыкова-Щедрина
+
+						.col-xs-12
+							article
+								.articleImg
+									a(href="anonsDetail_var2.html")
+										img(src="./img/announcements/img_02.jpg", alt="")
+								.articleText
+									//h2 Дания, РЦНК в Копенгагене #[br] На русском языке
+									time 30 января 12:00
+									h3 «Азбука хорошего поведения». Спектакль Ульяновского театра им. И. А. Гончарова
+
+						.col-xs-12.subscribe
+							form
+								//h2 Подписывайтесь #[br.visible-xs]на анонсы и новости:
+								input(type="email", placeholder="Ваша эл. почта").form-control
+								input(type="submit", value="Подписаться").btn.btn-orange
+
+
+						.col-xs-12
+							article
+								.articleImg
+									a(href="anonsDetail_var2.html")
+										img(src="./img/announcements/img_03.jpg", alt="")
+								.articleText
+									//h2 Дания, РЦНК в Копенгагене #[br] На русском языке
+									time 30 января 19:00
+									h3 «Другой человек». Спектакль Ульяновского театра им. И. А. Гончарова
+
+						.col-xs-12
+							article
+								.articleImg
+									a(href="anonsDetail_var2.html")
+										img(src="./img/announcements/img_04.jpg", alt="")
+								.articleText
+									//h2 Таджикистан, РЦНК в Душанбе #[br]На русском языке
+									time 1 февраля 19:00
+									h3 Концерт классической музыки в исполнении учащихся РССШИИ имени М. Атоева
+									h4 К 5-летию подписания Соглашения об учреждении культурно-информационных центров России и Таджикистана
+
+						.col-xs-12
+							article
+								.articleImg
+									a(href="anonsDetail_var2.html")
+										img(src="./img/announcements/img_03.jpg", alt="")
+								.articleText
+									//h2 Дания, РЦНК в Копенгагене #[br] На русском языке
+									time 30 января 19:00
+									h3 «Другой человек». Спектакль Ульяновского театра им. И. А. Гончарова
+
+						.col-xs-12
+							article
+								.articleImg
+									a(href="anonsDetail_var2.html")
+										img(src="./img/announcements/img_04.jpg", alt="")
+								.articleText
+									//h2 Таджикистан, РЦНК в Душанбе #[br]На русском языке
+									time 1 февраля 19:00
+									h3 Концерт классической музыки в исполнении учащихся РССШИИ имени М. Атоева
+									h4 К 5-летию подписания Соглашения об учреждении культурно-информационных центров России и Таджикистана
+
+
+					.row
+						.col-xs-12
+							p.readmore.dotted: a(href="anons_var2.html") Другие анонсы
 
 
 	include includes/_footer_var2
