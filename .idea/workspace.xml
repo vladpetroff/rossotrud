@@ -10,23 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="180f8dba-ce0c-47eb-810f-0b25527b4cfd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/anonsDetail_var2.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/anons_var2.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/newsDetail_var2.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/news_var2.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/manage/Zhivihina.png" afterPath="$PROJECT_DIR$/public/img/manage/Zhivihina.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about_var2.html" afterPath="$PROJECT_DIR$/public/about_var2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/activity_soot_var2.html" afterPath="$PROJECT_DIR$/public/activity_soot_var2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/activity_var2.html" afterPath="$PROJECT_DIR$/public/activity_var2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/contacts_var2.html" afterPath="$PROJECT_DIR$/public/contacts_var2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index_var2.html" afterPath="$PROJECT_DIR$/public/index_var2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/about_var2.jade" afterPath="$PROJECT_DIR$/src/about_var2.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/activity_soot_var2.jade" afterPath="$PROJECT_DIR$/src/activity_soot_var2.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/activity_var2.jade" afterPath="$PROJECT_DIR$/src/activity_var2.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/contacts_var2.jade" afterPath="$PROJECT_DIR$/src/contacts_var2.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/includes/_footer_var2.jade" afterPath="$PROJECT_DIR$/src/includes/_footer_var2.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index_var2.jade" afterPath="$PROJECT_DIR$/src/index_var2.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/activity_integration.html" afterPath="$PROJECT_DIR$/public/activity_integration.html" />
     </list>
     <ignored path="rossotrud.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,7 +37,7 @@
       <file leaf-file-name="about_var2.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/about_var2.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.5081968">
+            <state vertical-scroll-proportion="0.0">
               <caret line="154" column="36" selection-start-line="154" selection-start-column="36" selection-end-line="154" selection-end-column="36" />
               <folding />
             </state>
@@ -61,7 +47,7 @@
       <file leaf-file-name="activity_var2.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/activity_var2.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.612903">
+            <state vertical-scroll-proportion="0.0">
               <caret line="170" column="37" selection-start-line="170" selection-start-column="22" selection-end-line="170" selection-end-column="37" />
               <folding />
             </state>
@@ -71,7 +57,7 @@
       <file leaf-file-name="anons_var2.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/anons_var2.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.354839">
+            <state vertical-scroll-proportion="0.0">
               <caret line="170" column="37" selection-start-line="170" selection-start-column="22" selection-end-line="170" selection-end-column="37" />
               <folding />
             </state>
@@ -81,7 +67,7 @@
       <file leaf-file-name="news_var2.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/news_var2.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.709677">
+            <state vertical-scroll-proportion="0.0">
               <caret line="169" column="16" selection-start-line="169" selection-start-column="11" selection-end-line="169" selection-end-column="16" />
               <folding />
             </state>
@@ -91,7 +77,7 @@
       <file leaf-file-name="anonsDetail_var2.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/anonsDetail_var2.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.290322">
+            <state vertical-scroll-proportion="0.0">
               <caret line="178" column="14" selection-start-line="178" selection-start-column="14" selection-end-line="178" selection-end-column="14" />
               <folding />
             </state>
@@ -101,7 +87,7 @@
       <file leaf-file-name="newsDetail_var2.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/newsDetail_var2.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.483871">
+            <state vertical-scroll-proportion="0.0">
               <caret line="97" column="19" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
               <folding />
             </state>
@@ -121,28 +107,28 @@
       <file leaf-file-name="activity_soot_var2.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/activity_soot_var2.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.5081968">
+            <state vertical-scroll-proportion="0.0">
               <caret line="154" column="36" selection-start-line="154" selection-start-column="36" selection-end-line="154" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contacts_var2.jade" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contacts_var2.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/contacts_var2.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26923078">
+            <state vertical-scroll-proportion="0.0">
               <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index_var2.jade" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index_var2.jade" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index_var2.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.5081968">
-              <caret line="270" column="46" selection-start-line="270" selection-start-column="46" selection-end-line="270" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.36868685">
+              <caret line="283" column="43" selection-start-line="283" selection-start-column="43" selection-end-line="283" selection-end-column="43" />
               <folding>
                 <element signature="n#div#1;n#block#2;n#!!top" expanded="false" />
               </folding>
@@ -497,7 +483,6 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15426695" sideWeight="0.503876" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33150986" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19912472" sideWeight="0.49612403" order="2" side_tool="false" content_ui="tabs" />
@@ -509,6 +494,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33150986" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
@@ -694,7 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="209" column="1" selection-start-line="209" selection-start-column="1" selection-end-line="209" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -709,7 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.73855245">
           <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -717,7 +701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.5833333">
           <caret line="630" column="32" selection-start-line="630" selection-start-column="32" selection-end-line="630" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -725,7 +708,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.93205315">
           <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -830,7 +812,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/about_var2.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.5081968">
+        <state vertical-scroll-proportion="0.0">
           <caret line="154" column="36" selection-start-line="154" selection-start-column="36" selection-end-line="154" selection-end-column="36" />
           <folding />
         </state>
@@ -838,19 +820,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/activity_soot_var2.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.5081968">
+        <state vertical-scroll-proportion="0.0">
           <caret line="154" column="36" selection-start-line="154" selection-start-column="36" selection-end-line="154" selection-end-column="36" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index_var2.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.5081968">
-          <caret line="270" column="46" selection-start-line="270" selection-start-column="46" selection-end-line="270" selection-end-column="46" />
-          <folding>
-            <element signature="n#div#1;n#block#2;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -858,12 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="411" column="0" selection-start-line="244" selection-start-column="6" selection-end-line="411" selection-end-column="0" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-            <element signature="n#nav#1;n#div#0;n#block#1;n#!!top" expanded="false" />
-            <element signature="n#aside#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -871,10 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="308" column="0" selection-start-line="245" selection-start-column="6" selection-end-line="308" selection-end-column="0" />
-          <folding>
-            <element signature="n#aside#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -882,18 +844,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="400" column="0" selection-start-line="247" selection-start-column="6" selection-end-line="400" selection-end-column="0" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-            <element signature="n#nav#1;n#div#0;n#block#1;n#!!top" expanded="false" />
-            <element signature="n#aside#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/anons_var2.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.354839">
+        <state vertical-scroll-proportion="0.0">
           <caret line="170" column="37" selection-start-line="170" selection-start-column="22" selection-end-line="170" selection-end-column="37" />
           <folding />
         </state>
@@ -903,18 +859,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="364" column="0" selection-start-line="273" selection-start-column="6" selection-end-line="364" selection-end-column="0" />
-          <folding>
-            <element signature="n#nav#1;n#div#0;n#block#1;n#!!top" expanded="false" />
-            <element signature="n#aside#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-            <element signature="n#section#0;n#aside#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/anonsDetail_var2.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.290322">
+        <state vertical-scroll-proportion="0.0">
           <caret line="178" column="14" selection-start-line="178" selection-start-column="14" selection-end-line="178" selection-end-column="14" />
           <folding />
         </state>
@@ -922,7 +872,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/activity_var2.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.612903">
+        <state vertical-scroll-proportion="0.0">
           <caret line="170" column="37" selection-start-line="170" selection-start-column="22" selection-end-line="170" selection-end-column="37" />
           <folding />
         </state>
@@ -930,7 +880,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/news_var2.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.709677">
+        <state vertical-scroll-proportion="0.0">
           <caret line="169" column="16" selection-start-line="169" selection-start-column="11" selection-end-line="169" selection-end-column="16" />
           <folding />
         </state>
@@ -938,7 +888,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/newsDetail_var2.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.483871">
+        <state vertical-scroll-proportion="0.0">
           <caret line="97" column="19" selection-start-line="97" selection-start-column="19" selection-end-line="97" selection-end-column="19" />
           <folding />
         </state>
@@ -954,9 +904,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/contacts_var2.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26923078">
+        <state vertical-scroll-proportion="0.0">
           <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index_var2.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36868685">
+          <caret line="283" column="43" selection-start-line="283" selection-start-column="43" selection-end-line="283" selection-end-column="43" />
+          <folding>
+            <element signature="n#div#1;n#block#2;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
