@@ -9,51 +9,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="180f8dba-ce0c-47eb-810f-0b25527b4cfd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jquery.autocomplete.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/jquery.autocomplete.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jquery.autocomplete.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/jquery.autocomplete.min.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/manage/Zhivihina.png" afterPath="$PROJECT_DIR$/public/img/manage/Zhivihina.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about.html" afterPath="$PROJECT_DIR$/public/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about_manage.html" afterPath="$PROJECT_DIR$/public/about_manage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about_manage_detail.html" afterPath="$PROJECT_DIR$/public/about_manage_detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about_programs.html" afterPath="$PROJECT_DIR$/public/about_programs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about_programs_rulang.html" afterPath="$PROJECT_DIR$/public/about_programs_rulang.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about_programs_strategy.html" afterPath="$PROJECT_DIR$/public/about_programs_strategy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about_structure.html" afterPath="$PROJECT_DIR$/public/about_structure.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about_var2.html" afterPath="$PROJECT_DIR$/public/about_var2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/activity.html" afterPath="$PROJECT_DIR$/public/activity.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/activity_cemetery.html" afterPath="$PROJECT_DIR$/public/activity_cemetery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/activity_diplomacy.html" afterPath="$PROJECT_DIR$/public/activity_diplomacy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/activity_edu.html" afterPath="$PROJECT_DIR$/public/activity_edu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/activity_integration.html" afterPath="$PROJECT_DIR$/public/activity_integration.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/activity_international.html" afterPath="$PROJECT_DIR$/public/activity_international.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/activity_rulang.html" afterPath="$PROJECT_DIR$/public/activity_rulang.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/activity_russianCulture.html" afterPath="$PROJECT_DIR$/public/activity_russianCulture.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/activity_russianCulture_ruCinema.html" afterPath="$PROJECT_DIR$/public/activity_russianCulture_ruCinema.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/activity_smp.html" afterPath="$PROJECT_DIR$/public/activity_smp.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/activity_soot.html" afterPath="$PROJECT_DIR$/public/activity_soot.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/activity_soot_var2.html" afterPath="$PROJECT_DIR$/public/activity_soot_var2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/activity_var2.html" afterPath="$PROJECT_DIR$/public/activity_var2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/anons.html" afterPath="$PROJECT_DIR$/public/anons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/anonsDetail.html" afterPath="$PROJECT_DIR$/public/anonsDetail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/anonsDetail_var2.html" afterPath="$PROJECT_DIR$/public/anonsDetail_var2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/anons_var2.html" afterPath="$PROJECT_DIR$/public/anons_var2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/contacts.html" afterPath="$PROJECT_DIR$/public/contacts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/contacts_callback.html" afterPath="$PROJECT_DIR$/public/contacts_callback.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/contacts_center.html" afterPath="$PROJECT_DIR$/public/contacts_center.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/contacts_inworld.html" afterPath="$PROJECT_DIR$/public/contacts_inworld.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/contacts_inworld_rome.html" afterPath="$PROJECT_DIR$/public/contacts_inworld_rome.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/contacts_var2.html" afterPath="$PROJECT_DIR$/public/contacts_var2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index_var2.html" afterPath="$PROJECT_DIR$/public/index_var2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/main.js" afterPath="$PROJECT_DIR$/public/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/news.html" afterPath="$PROJECT_DIR$/public/news.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/newsDetail.html" afterPath="$PROJECT_DIR$/public/newsDetail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/newsDetail_var2.html" afterPath="$PROJECT_DIR$/public/newsDetail_var2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/news_var2.html" afterPath="$PROJECT_DIR$/public/news_var2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/searchResult.html" afterPath="$PROJECT_DIR$/public/searchResult.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/includes/template.jade" afterPath="$PROJECT_DIR$/src/includes/template.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/main.js" afterPath="$PROJECT_DIR$/src/js/main.js" />
     </list>
     <ignored path="rossotrud.iws" />
@@ -86,21 +45,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.621118">
-              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+            <state vertical-scroll-proportion="-16.129032">
+              <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.806452">
-              <caret line="171" column="0" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.33229813">
+              <caret line="43" column="17" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="17" />
               <folding>
                 <element signature="e#3442#3833#0" expanded="false" />
                 <element signature="e#3870#4129#0" expanded="false" />
@@ -510,7 +469,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="0" width="1105" height="1047" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15119617" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -518,7 +477,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23194748" sideWeight="0.49612403" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23194748" sideWeight="0.49612403" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -962,10 +921,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.129032">
+          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.806452">
-          <caret line="171" column="0" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.33229813">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="17" />
           <folding>
             <element signature="e#3442#3833#0" expanded="false" />
             <element signature="e#3870#4129#0" expanded="false" />
@@ -973,14 +940,6 @@
             <element signature="e#4464#5028#0" expanded="false" />
             <element signature="e#5071#5306#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.621118">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
