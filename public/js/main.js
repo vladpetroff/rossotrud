@@ -71,7 +71,7 @@
 			autoSelectFirst: true,
 			lookup: searchQuery,
 			onSelect: function onSelect() {
-				window.location.href = './searchResult.html';
+				window.location.assign('./searchResult.html');
 			}
 		});
 

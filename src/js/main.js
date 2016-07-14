@@ -23,7 +23,7 @@
 		autoSelectFirst: true,
 		lookup: searchQuery,
 		onSelect: function () {
-			window.location.href = './searchResult.html';
+			window.location.assign('./searchResult.html');
 		}
 	});
 
