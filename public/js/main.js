@@ -70,8 +70,8 @@
 		$('.searchField input').autocomplete({
 			autoSelectFirst: true,
 			lookup: searchQuery,
-			onSelect: function onSelect(suggestion) {
-				alert('You selected: ' + suggestion.value + ', ' + suggestion.data);
+			onSelect: function onSelect() {
+				window.open('./searchResult.html');
 			}
 		});
 

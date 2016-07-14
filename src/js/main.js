@@ -22,8 +22,8 @@
 	$('.searchField input').autocomplete({
 		autoSelectFirst: true,
 		lookup: searchQuery,
-		onSelect: function (suggestion) {
-			alert('You selected: ' + suggestion.value + ', ' + suggestion.data);
+		onSelect: function () {
+			window.open('./searchResult.html');
 		}
 	});
 
