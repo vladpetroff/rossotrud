@@ -55,6 +55,26 @@
 
 	;$(function () {
 
+		/* autocomplete */
+
+		// Ajax lookup:
+		//$('.searchField input').autocomplete({
+		//	serviceUrl: '/autocomplete/countries',
+		//	onSelect: function (suggestion) {
+		//		alert('You selected: ' + suggestion.value + ', ' + suggestion.data);
+		//	}
+		//});
+
+		// Local lookup (no ajax):
+		var searchQuery = [{ value: 'образование в россии', data: 'a' }, { value: 'обратная связь', data: 'b' }, { value: 'обращение в россотрудничество', data: 'c' }, { value: 'образ', data: 'd' }];
+		$('.searchField input').autocomplete({
+			autoSelectFirst: true,
+			lookup: searchQuery,
+			onSelect: function onSelect(suggestion) {
+				alert('You selected: ' + suggestion.value + ', ' + suggestion.data);
+			}
+		});
+
 		// layout newsBlock
 		if (document.body.clientWidth > 767) {
 			$('.grid').masonry();
@@ -209,7 +229,11 @@
 		$('.navbar-default #navbar-collapsed').on('shown.bs.collapse', function () {
 			var docHeight = document.documentElement.clientHeight;
 			var navLineHeight = document.querySelector('.navbar-default.visible-xs .navbar-header').offsetHeight;
-			var menuHeight = docHeight - navLineHeight;
+			var visibleSearchLine = 0;
+			if (document.querySelector('.navbar.navbar-desktop .navbarLine .searchField.visibleSearch')) {
+				visibleSearchLine = document.querySelector('.navbar-default.visible-xs .searchField.visibleSearch').offsetHeight;
+			}
+			var menuHeight = docHeight - navLineHeight - visibleSearchLine;
 			$('body').addClass('overflow-hid');
 			$('.navbar-default #navbar-collapsed').height(menuHeight);
 		});
@@ -229,14 +253,16 @@
 			return false;
 		});
 		$('body').click(function (evt) {
-			if ($('.navbar.navbar-desktop .searchField').css('display') !== 'none') {
-				if (evt.target.nodeName !== document.querySelector('.navbar.navbar-desktop .searchField input.form-control').nodeName) {
-					$('.navbar.navbar-desktop .searchField').toggle();
+			if (!document.querySelector('.navbar.navbar-desktop .navbarLine .searchField.visibleSearch')) {
+				if ($('.navbar.navbar-desktop .navbarLine .searchField').css('display') !== 'none') {
+					if (evt.target.nodeName !== document.querySelector('.navbar.navbar-desktop .searchField input.form-control').nodeName) {
+						$('.navbar.navbar-desktop .navbarLine .searchField').toggle();
+					}
 				}
-			}
-			if ($('.navbar.navbar-default .searchField').css('display') !== 'none') {
-				if (evt.target.nodeName !== document.querySelector('.navbar.navbar-default .searchField input.form-control').nodeName) {
-					$('.navbar.navbar-default .searchField').toggle();
+				if ($('.navbar.navbar-default .navbar-header .searchField:not(.visibleSearch)').css('display') !== 'none') {
+					if (evt.target.nodeName !== document.querySelector('.navbar.navbar-default .searchField input.form-control').nodeName) {
+						$('.navbar.navbar-default .navbar-header .searchField').toggle();
+					}
 				}
 			}
 		});
