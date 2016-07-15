@@ -58,7 +58,10 @@ const path = {
 			'src/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/**/*.scss',
 			'src/css/*.scss'
 		],
-		//assets: 'assets/**/*.*',
+		assets: [
+			'assets/css/*.*',
+			'assets/fonts/*.*'
+		],
 		style: 'src/css/*.css',
 		img: 'src/img/**/*.*',
 		imgcomponents: 'public/js/img/**/*.*'

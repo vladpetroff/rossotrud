@@ -3,7 +3,6 @@ extends includes/template
 block title
 	title mainpage
 
-
 block content
 	.container
 		include includes/_header
@@ -155,12 +154,40 @@ block content
 						option Россия
 						option Белоруссия
 						option Казахстан
+						option Все страны
+						option Россия
+						option Белоруссия
+						option Казахстан
+						option Все страны
+						option Россия
+						option Белоруссия
+						option Казахстан
+						option Все страны
+						option Россия
+						option Белоруссия
+						option Казахстан
+						option Все страны
+						option Россия
+						option Белоруссия
+						option Казахстан
+						option Все страны
+						option Россия
+						option Белоруссия
+						option Казахстан
+						option Все страны
+						option Россия
+						option Белоруссия
+						option Казахстан
+
 
 					select(data-width="fit").selectpicker
-						option За всё время
-						option За неделю
-						option За месяц
-						option За год
+						option.dateAlltime За всё время
+						option.datePeriod За период
+
+					#datepicker.input-daterange.input-group
+						input.input-sm.form-control(type='text', name='start')
+						span.input-group-addon &mdash;
+						input.input-sm.form-control(type='text', name='end')
 
 					span.resultLine	Найдено примерно 12 000 страниц
 

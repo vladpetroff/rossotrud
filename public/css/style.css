@@ -6208,8 +6208,11 @@ button.close {
 .checkbox.checkbox-warning input[type="checkbox"]:disabled + label::before {
   opacity: 0.7; }
 
-.bootstrap-select {
-  width: 100% !important; }
+#datepicker {
+  width: 300px;
+  margin-right: 30px;
+  float: left;
+  display: none; }
 
 .readmore {
   display: block;
@@ -7262,7 +7265,7 @@ header {
       font-weight: bold; }
     .bootstrap-select.btn-group .dropdown-menu li a {
       line-height: 28px;
-      padding: 0px 5px;
+      padding: 0px 20px 0px 5px;
       background-color: #fff; }
       .bootstrap-select.btn-group .dropdown-menu li a:focus {
         outline: none; }

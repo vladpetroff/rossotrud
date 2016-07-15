@@ -9,6 +9,8 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- Элементы форм  http://silviomoreto.github.io/bootstrap-select/-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/css/bootstrap-select.min.css" rel="stylesheet">
+    <!-- Календарь-->
+    <link href="./css/bootstrap-datepicker.css" rel="stylesheet"/>
     <!-- Чекбоксы и радио https://github.com/flatlogic/awesome-bootstrap-checkbox-->
     <link href="./css/awesome-bootstrap-checkbox.css" rel="stylesheet"/>
     <link href="./css/style.css" rel="stylesheet"/>
@@ -19,11 +21,13 @@
     <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/2014.01.31/classList.min.js"></script>
     <!-- Элементы форм  http://silviomoreto.github.io/bootstrap-select/-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/js/bootstrap-select.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/js/bootstrap-select.min.js"></script>
     <!-- http://masonry.desandro.com/-->
     <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
     <!-- https://www.devbridge.com/sourcery/components/jquery-autocomplete/-->
     <script src="./js/jquery.autocomplete.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/js/bootstrap-datepicker.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/locales/bootstrap-datepicker.ru.min.js" defer></script>
     <script src="./js/main.js" defer></script>
   </head>
 </html>
@@ -897,13 +901,39 @@
             <option>Россия</option>
             <option>Белоруссия</option>
             <option>Казахстан</option>
+            <option>Все страны</option>
+            <option>Россия</option>
+            <option>Белоруссия</option>
+            <option>Казахстан</option>
+            <option>Все страны</option>
+            <option>Россия</option>
+            <option>Белоруссия</option>
+            <option>Казахстан</option>
+            <option>Все страны</option>
+            <option>Россия</option>
+            <option>Белоруссия</option>
+            <option>Казахстан</option>
+            <option>Все страны</option>
+            <option>Россия</option>
+            <option>Белоруссия</option>
+            <option>Казахстан</option>
+            <option>Все страны</option>
+            <option>Россия</option>
+            <option>Белоруссия</option>
+            <option>Казахстан</option>
+            <option>Все страны</option>
+            <option>Россия</option>
+            <option>Белоруссия</option>
+            <option>Казахстан</option>
           </select>
           <select data-width="fit" class="selectpicker">
-            <option>За всё время</option>
-            <option>За неделю</option>
-            <option>За месяц</option>
-            <option>За год</option>
-          </select><span class="resultLine">	Найдено примерно 12 000 страниц</span>
+            <option class="dateAlltime">За всё время</option>
+            <option class="datePeriod">За период</option>
+          </select>
+          <div id="datepicker" class="input-daterange input-group">
+            <input type="text" name="start" class="input-sm form-control"><span class="input-group-addon">&mdash;</span>
+            <input type="text" name="end" class="input-sm form-control">
+          </div><span class="resultLine">	Найдено примерно 12 000 страниц</span>
         </div>
       </div>
     </div>

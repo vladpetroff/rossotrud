@@ -15,6 +15,8 @@ html(lang="en")
 
 			// Элементы форм  http://silviomoreto.github.io/bootstrap-select/
 			link(href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/css/bootstrap-select.min.css", rel="stylesheet")
+			// Календарь
+			+styles('bootstrap-datepicker.css')
 			// Чекбоксы и радио https://github.com/flatlogic/awesome-bootstrap-checkbox
 			+styles('awesome-bootstrap-checkbox.css')
 			+styles('style.css')
@@ -27,11 +29,13 @@ html(lang="en")
 
 		block scripts
 			// Элементы форм  http://silviomoreto.github.io/bootstrap-select/
-			script(src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.3/js/bootstrap-select.min.js")
+			script(src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/js/bootstrap-select.min.js")
 			// http://masonry.desandro.com/
 			script(src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js")
 			// https://www.devbridge.com/sourcery/components/jquery-autocomplete/
 			script(src="./js/jquery.autocomplete.min.js" defer)
+			script(src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/js/bootstrap-datepicker.min.js" defer)
+			script(src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/locales/bootstrap-datepicker.ru.min.js" defer)
 
 			script(src="./js/main.js" defer)
 

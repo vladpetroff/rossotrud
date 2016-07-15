@@ -6,7 +6,6 @@
 
 	// Ajax lookup:
 	$('.searchField input').autocomplete({
-		suggestion: { value: 'string' },
 		serviceUrl: 'http://rossot.vmb.co:14180/api/suggestions/search?query='
 	});
 
@@ -26,7 +25,24 @@
 	//});
 
 
-	// layout newsBlock
+
+	/* show/hide date interval for search result */
+	$('#datepicker').datepicker({
+		language: "ru",
+		multidate: false,
+		daysOfWeekHighlighted: "0,6",
+		todayHighlight: true
+	});
+
+	$('.searchResult .selectResult').on('click', 'a.datePeriod', function() {
+	 	$('#datepicker').css('display', 'table');
+	});
+	$('.searchResult .selectResult').on('click', 'a.dateAlltime', function() {
+	 	$('#datepicker').css('display', 'none');
+	});
+
+
+	/* layout newsBlock */
 	if(document.body.clientWidth > 767) {
 		$('.grid').masonry();
 	}
