@@ -6,6 +6,7 @@
 
 	// Ajax lookup:
 	$('.searchField input').autocomplete({
+		suggestion: { value: 'string' },
 		serviceUrl: 'http://rossot.vmb.co:14180/api/suggestions/search?query='
 	});
 
