@@ -58,22 +58,24 @@
 		/* autocomplete */
 
 		// Ajax lookup:
-		//$('.searchField input').autocomplete({
-		//	serviceUrl: '/autocomplete/countries',
-		//	onSelect: function (suggestion) {
-		//		alert('You selected: ' + suggestion.value + ', ' + suggestion.data);
-		//	}
-		//});
+		$('.searchField input').autocomplete({
+			serviceUrl: 'http://rossot.vmb.co:14180/api/suggestions/search?query='
+		});
 
 		// Local lookup (no ajax):
-		var searchQuery = [{ value: 'образование в россии', data: 'a' }, { value: 'обратная связь', data: 'b' }, { value: 'обращение в россотрудничество', data: 'c' }, { value: 'образ', data: 'd' }];
-		$('.searchField input').autocomplete({
-			autoSelectFirst: true,
-			lookup: searchQuery,
-			onSelect: function onSelect() {
-				window.location.assign('./searchResult.html');
-			}
-		});
+		//var searchQuery = [
+		//	{ value: 'образование в россии', data: 'a' },
+		//	{ value: 'обратная связь', data: 'b' },
+		//	{ value: 'обращение в россотрудничество', data: 'c' },
+		//	{ value: 'образ', data: 'd' }
+		//];
+		//$('.searchField input').autocomplete({
+		//	autoSelectFirst: true,
+		//	lookup: searchQuery,
+		//	onSelect: function () {
+		//		window.location.assign('./searchResult.html');
+		//	}
+		//});
 
 		// layout newsBlock
 		if (document.body.clientWidth > 767) {
