@@ -9,7 +9,7 @@ block content
 		include includes/_header
 
 		// phone-menu
-		nav.navbar.navbar-default.navbar-fixed-top.visible-xs
+		nav.navbar.navbar-default.navbar-fixed-top.visible-sm.visible-xs
 			.container
 				.navbar-header
 					button(type="button" data-toggle="collapse" data-target="#navbar-collapsed" aria-expanded="false").navbar-toggle.collapsed
@@ -130,7 +130,7 @@ block content
 						a: img(src="./img/icons/flag/flag-fr.png").flag
 						a: img(src="./img/icons/flag/flag-es.png").flag
 
-		nav.navbar.navbar-desktop.hidden-xs
+		nav.navbar.navbar-desktop.hidden-sm.hidden-xs
 			.navbarLine
 				.col-xs-12
 					.navbar-header
@@ -410,23 +410,25 @@ block content
 							p.readmore.dotted: a(href="anons.html") Другие анонсы
 
 
-	footer.row.visible-xs
-		.col-xs-12
-			h4 Присоединяйтесь к нам #[br]в социальных сетях:
-			.social
-				a(href="javascript:;").fb
-				a(href="javascript:;").vk
-				a(href="javascript:;").inst
-				a(href="javascript:;").yt
-				a(href="javascript:;").tw
+	footer.row.visible-sm.visible-xs
+		.container
+			.row
+				.col-xs-12
+					h4 Присоединяйтесь к нам #[br.visible-xs]в социальных сетях:
+					.social
+						a(href="javascript:;").fb
+						a(href="javascript:;").vk
+						a(href="javascript:;").inst
+						a(href="javascript:;").yt
+						a(href="javascript:;").tw
 
-				hr
-			p: img(src="./img/icons/ic-copyright-black-24-px.svg", alt="facebook" onerror="this.onerror=null; this.src='./img/icons/ic-copyright-black-24-px.png'")
+						hr
+					p: img(src="./img/icons/ic-copyright-black-24-px.svg", alt="facebook" onerror="this.onerror=null; this.src='./img/icons/ic-copyright-black-24-px.png'")
 
-			p Федеральное агентство по делам Содружества Независимых государств, соотечественников, проживающих за рубежом, и по международному гуманитарному сотрудничеству, 2016
+					p Федеральное агентство по делам Содружества Независимых государств, соотечественников, проживающих за рубежом, и по международному гуманитарному сотрудничеству, 2016
 
 
-	footer.hidden-xs
+	footer.hidden-sm.hidden-xs
 		.container
 			.row.links
 				.col-sm-2

@@ -146,6 +146,12 @@
 		$(this).addClass('active');
 	});
 
+	/* Correcting jumping navbar on collapsing */
+	document.querySelector('.navbar-default.visible-xs .navbar-toggle').addEventListener('click', function() {
+		this.classList.toggle('open-nav');
+		document.body.classList.toggle('overflow-hid');
+	});
+
 	// menu
 	//$('.navbar-default .navbar-nav li').on('click', '> a', function(){
 	//	//$(this).closest('li:not(".active")').addClass('active');
@@ -213,11 +219,11 @@
 			visibleSearchLine = document.querySelector('.navbar-default.visible-xs .searchField.visibleSearch').offsetHeight;
 		}
 		var menuHeight = docHeight - navLineHeight - visibleSearchLine;
-		$('body').addClass('overflow-hid');
+		//$('body').addClass('overflow-hid');
 		$('.navbar-default #navbar-collapsed').height(menuHeight);
 	});
 	$('.navbar-default #navbar-collapsed').on('hidden.bs.collapse', function () {
-		$('body').removeClass('overflow-hid');
+		//$('body').removeClass('overflow-hid');
 	});
 
 

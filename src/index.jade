@@ -12,7 +12,7 @@ block content
 		include includes/_header
 
 		// phone-menu
-		nav.navbar.navbar-default.navbar-fixed-top.visible-xs
+		nav.navbar.navbar-default.navbar-fixed-top.visible-sm.visible-xs
 			.container
 				.navbar-header
 					button(type="button" data-toggle="collapse" data-target="#navbar-collapsed" aria-expanded="false").navbar-toggle.collapsed
@@ -134,7 +134,7 @@ block content
 						a: img(src="./img/icons/flag/flag-fr.png").flag
 						a: img(src="./img/icons/flag/flag-es.png").flag
 
-		nav.navbar.navbar-desktop.hidden-xs
+		nav.navbar.navbar-desktop.hidden-sm.hidden-xs
 			.navbarLine
 				.navbar-header
 					ul.nav.navbar-nav
@@ -161,7 +161,7 @@ block content
 
 
 		.row
-			section.anons.col-sm-6.col-xs-12
+			section.anons.col-md-6.col-xs-12
 				h1 Анонсы
 
 				.row
@@ -233,7 +233,7 @@ block content
 					.col-xs-12
 						p.readmore: a(href="anons.html") Все анонсы
 
-			section.news.col-sm-6.col-xs-12
+			section.news.col-md-6.col-xs-12
 				h1 Новости
 
 				.row.grid
@@ -308,7 +308,7 @@ block content
 						p.readmore: a(href="news.html") Все новости
 
 
-
+	.container-fluid.visible-sm.visible-xs
 		.row.subscribe
 			.col-xs-12
 				form
@@ -316,61 +316,63 @@ block content
 					input(type="email", placeholder="Ваша эл. почта").form-control
 					input(type="submit", value="Подписаться").btn.btn-orange
 
+	.container
 		.row
 			section.projects.col-xs-12
-				h1 Направления деятельности и проекты
+				h1.visible-sm.visible-xs Деятельность и проекты
+				h1.hidden-sm.hidden-xs Направления деятельности и проекты
 
 				.row
-					.col-sm-3.col-xs-12
+					.col-md-3.col-sm-6.col-xs-12
 						article
 							a(href="activity_russianCulture.html")
 								img(src="./img/activity/img_03.png", alt="Продвижение русской культуры")
 							p Продвижение русской культуры
 
-					.col-sm-3.col-xs-12
+					.col-md-3.col-sm-6.col-xs-12
 						article
 							a(href="activity_smp.html")
 								img(src="./img/activity/img_01.png", alt="Содействие международному развитию")
 							p Содействие международному развитию
 
-					.col-sm-3.col-xs-12
+					.col-md-3.col-sm-6.col-xs-12
 						article
 							a(href="activity_diplomacy.html")
 								img(src="./img/activity/img_02.png", alt="Общественная дипломатия")
 							p Общественная дипломатия
 
 
-					.col-sm-3.col-xs-12
+					.col-md-3.col-sm-6.col-xs-12
 						article
 							a(href="activity_soot.html")
 								img(src="./img/activity/img_04.png", alt="Поддержка соотечественников")
 							p Поддержка соотечественников
 
-					.col-sm-3.col-xs-12
+					.col-md-3.col-sm-6.col-xs-12
 						article
 							a(href="activity_rulang.html")
 								img(src="./img/activity/img_05.png", alt="Укрепление позиций русского языка")
 							p Укрепление позиций русского языка
 
-					.col-sm-3.col-xs-12
+					.col-md-3.col-sm-6.col-xs-12
 						article
 							a(href="activity_edu.html")
 								img(src="./img/activity/img_06.png", alt="Образование и наука")
 							p Образование и наука
 
-					.col-sm-3.col-xs-12
+					.col-md-3.col-sm-6.col-xs-12
 						article
 							a(href="activity_cemetery.html")
 								img(src="./img/activity/img_07.png", alt="Сохранение историко-мемориальных памятников и мест погребения")
 							p Сохранение историко-мемориальных памятников и мест погребения
 
-					.col-sm-3.col-xs-12
+					.col-md-3.col-sm-6.col-xs-12
 						article
 							a(href="activity_international.html")
 								img(src="./img/activity/img_08.png", alt="Развитие международных связей субъектов РФ")
 							p Развитие международных связей субъектов РФ
 
-					.col-sm-3.col-xs-12.hidden
+					.col-md-3.col-sm-6.col-xs-12
 						article
 							a(href="activity_integration.html")
 								img(src="./img/activity/img_09.png", alt="Интеграция стран СНГ")
@@ -380,13 +382,16 @@ block content
 
 				.row
 					.col-xs-12
-						p.readmore: a(href="activity.html") Все направления деятельности и проекты
+						p.readmore.visible-sm.visible-xs: a(href="activity.html") Вся деятельность и проекты
+						p.readmore.hidden-sm.hidden-xs: a(href="activity.html") Все направления деятельности и проекты
 
 
-	//.grayBlock
+
+
+	.grayBlock
 		.container
 			.row
-				.col-sm-8.col-xs-12
+				.col-md-8.col-xs-12
 					.bannerBlock
 						a(href="javascript:;")
 							img(src="./img/main_banner_img.jpg", alt="Main banner")
@@ -395,7 +400,7 @@ block content
 								h2 Приемная кампания — 2016
 								p Получите высшее образование мирового уровня в России
 
-				.col-sm-4.col-xs-12
+				.col-md-4.col-xs-12
 					.pollBlock.question
 						h2 Опрос
 						p Какую специальность Вы хотели бы получить?
@@ -424,7 +429,8 @@ block content
 									label(for="radio7") Проектировщик интерфейсов
 
 							.col-xs-12.seemore.hidden-xs
-								a(href="javascript:;") Посмотреть все варианты
+								a(href="javascript:;").visible-sm.visible-xs Все варианты
+								a(href="javascript:;").hidden-sm.hidden-xs Посмотреть все варианты
 
 					.pollBlock.result.hidden
 						h2 Результат опроса
@@ -476,23 +482,25 @@ block content
 
 
 
-	footer.row.visible-xs
-		.col-xs-12
-			h4 Присоединяйтесь к нам #[br]в социальных сетях:
-			.social
-				a(href="javascript:;").fb
-				a(href="javascript:;").vk
-				a(href="javascript:;").inst
-				a(href="javascript:;").yt
-				a(href="javascript:;").tw
+	footer.row.visible-sm.visible-xs
+		.container
+			.row
+				.col-xs-12
+					h4 Присоединяйтесь к нам #[br.visible-xs]в социальных сетях:
+					.social
+						a(href="javascript:;").fb
+						a(href="javascript:;").vk
+						a(href="javascript:;").inst
+						a(href="javascript:;").yt
+						a(href="javascript:;").tw
 
-				hr
-			p: img(src="./img/icons/ic-copyright-black-24-px.svg", alt="facebook" onerror="this.onerror=null; this.src='./img/icons/ic-copyright-black-24-px.png'")
+						hr
+					p: img(src="./img/icons/ic-copyright-black-24-px.svg", alt="facebook" onerror="this.onerror=null; this.src='./img/icons/ic-copyright-black-24-px.png'")
 
-			p Федеральное агентство по делам Содружества Независимых государств, соотечественников, проживающих за рубежом, и по международному гуманитарному сотрудничеству, 2016
+					p Федеральное агентство по делам Содружества Независимых государств, соотечественников, проживающих за рубежом, и по международному гуманитарному сотрудничеству, 2016
 
 
-	footer.hidden-xs
+	footer.hidden-sm.hidden-xs
 		.container
 			.row.links
 				.col-sm-2
