@@ -6,7 +6,7 @@
 
 	// Ajax lookup:
 	$('.searchField input').autocomplete({
-		serviceUrl: 'http://rossot.vmb.co:14180/api/suggestions/search?query='
+		serviceUrl: 'http://rossot.vmb.co:14180/api/suggestions/search?'
 	});
 
 	// Local lookup (no ajax):
