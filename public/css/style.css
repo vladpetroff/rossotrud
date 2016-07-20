@@ -2314,6 +2314,15 @@ output {
   line-height: 1.14;
   color: rgba(0, 0, 0, 0.87); }
 
+input[type="email"]:focus::-moz-placeholder {
+  color: transparent; }
+
+input[type="email"]:focus:-ms-input-placeholder {
+  color: transparent; }
+
+input[type="email"]:focus::-webkit-input-placeholder {
+  color: transparent; }
+
 .form-control {
   -webkit-appearance: none;
   display: block;
@@ -6187,8 +6196,7 @@ button.close {
 .overflow-hid {
   overflow: hidden;
   position: fixed;
-  width: 100%;
-  padding-right: 15px; }
+  width: 100%; }
 
 .fixed-nav {
   position: fixed;
@@ -6954,7 +6962,11 @@ div.subscribe {
     height: auto; }
   .bannerBlock a {
     position: relative;
-    display: inline-block; }
+    display: inline-block;
+    height: 200px;
+    width: 100%;
+    background-position: center;
+    background-size: auto 100%; }
   .bannerBlock .bannerText {
     position: absolute;
     bottom: 14px;
@@ -7440,6 +7452,8 @@ footer {
 @media (min-width: 768px) and (max-width: 992px) {
   body {
     padding-top: 58px; }
+  .bannerBlock a {
+    height: 395px; }
   .searchResult {
     margin-top: 60px; }
     .searchResult .navbarResult .navbar-nav {
@@ -7571,6 +7585,8 @@ footer {
       width: 288px; } }
 
 @media (min-width: 992px) {
+  .bannerBlock a {
+    height: 385px; }
   section.news article img {
     width: 174px;
     height: 104px; } }
@@ -7578,6 +7594,8 @@ footer {
 @media (min-width: 1200px) {
   .readmore {
     text-align: center; }
+  .bannerBlock a {
+    height: 400px; }
   .contacts {
     margin-bottom: 150px; }
     .contacts .tab-content h3 {

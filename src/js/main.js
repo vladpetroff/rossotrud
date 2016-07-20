@@ -11,17 +11,14 @@
 
 	// Local lookup (no ajax):
 	//var searchQuery = [
-	//	{ value: 'образование в россии', data: 'a' },
-	//	{ value: 'обратная связь', data: 'b' },
-	//	{ value: 'обращение в россотрудничество', data: 'c' },
-	//	{ value: 'образ', data: 'd' }
+	//	{ value: 'образование в россии' },
+	//	{ value: 'обратная связь' },
+	//	{ value: 'обращение в россотрудничество' },
+	//	{ value: 'образ' }
 	//];
 	//$('.searchField input').autocomplete({
 	//	autoSelectFirst: true,
-	//	lookup: searchQuery,
-	//	onSelect: function () {
-	//		window.location.assign('./searchResult.html');
-	//	}
+	//	lookup: searchQuery
 	//});
 
 
@@ -146,10 +143,18 @@
 		$(this).addClass('active');
 	});
 
+
 	/* Correcting jumping navbar on collapsing */
+	var htmlWidth = document.documentElement.clientWidth;
+	$(window).resize(function() {
+		htmlWidth = document.documentElement.clientWidth;
+	});
 	document.querySelector('.navbar-default.visible-xs .navbar-toggle').addEventListener('click', function() {
 		this.classList.toggle('open-nav');
 		document.body.classList.toggle('overflow-hid');
+		var scrollbarWidth =  document.documentElement.clientWidth - htmlWidth;
+		document.body.style.paddingRight = scrollbarWidth + 'px';
+		document.querySelector('.navbar.navbar-default.visible-xs').style.paddingRight = scrollbarWidth + 'px';
 	});
 
 	// menu
