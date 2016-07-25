@@ -5,21 +5,21 @@
 	/* autocomplete */
 
 	// Ajax lookup:
-	$('.searchField input').autocomplete({
-		serviceUrl: 'http://rossot.vmb.co:14180/api/suggestions/search?'
-	});
+	//$('.searchField input').autocomplete({
+	//	serviceUrl: 'http://rossot.vmb.co:14180/api/suggestions/search?'
+	//});
 
 	// Local lookup (no ajax):
-	//var searchQuery = [
-	//	{ value: 'образование в россии' },
-	//	{ value: 'обратная связь' },
-	//	{ value: 'обращение в россотрудничество' },
-	//	{ value: 'образ' }
-	//];
-	//$('.searchField input').autocomplete({
-	//	autoSelectFirst: true,
-	//	lookup: searchQuery
-	//});
+	var searchQuery = [
+		{ value: 'образование в россии' },
+		{ value: 'обратная связь' },
+		{ value: 'обращение в россотрудничество' },
+		{ value: 'образ' }
+	];
+	$('.searchField input').autocomplete({
+		autoSelectFirst: true,
+		lookup: searchQuery
+	});
 
 
 
